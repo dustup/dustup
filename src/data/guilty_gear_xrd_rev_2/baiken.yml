@@ -32,7 +32,7 @@ moves:
             - j.6H
         - name: Dead Angle
           inputs: 6P+K
-          condition: while in blockstun
+          conditions: blockstunned
         - name: Blitz
           inputs:
             - P+H
@@ -48,45 +48,64 @@ moves:
           inputs: j.4S+H
         - name: Kuchinashi
           inputs: P
-          condition: after successful Azami catch or Suzuran
+          follow_up_to:
+            - Azami
+            - Suzuran
         - name: Mawarikomi
           inputs: K
-          condition: after successful Azami catch or Suzuran
+          follow_up_to:
+            - Azami
+            - Suzuran
         - name: Sakura
           inputs: S
-          condition: after successful Azami catch or Suzuran
+          follow_up_to:
+            - Azami
+            - Suzuran
         - name: Rokkonsogi
           inputs: H
-          condition: after successful Azami catch or Suzuran
+          follow_up_to:
+            - Azami
+            - Suzuran
         - name: Yashagatana
           inputs: D
-          condition: after successful Azami catch or Suzuran
+          follow_up_to:
+            - Azami
+            - Suzuran
         - name: Tsubaki
           inputs:
             - P
             - K
-          condition: after successful Air Azami catch
+          follow_up_to:
+            - Air Azami
         - name: Kikyou
           inputs:
             - S
             - H
-          condition: after successful Air Azami catch
+          follow_up_to:
+            - Air Azami
         - name: Kabari (anti-air)
           inputs: 41236S
         - name: Kabari (ground)
           inputs: 41236H
         - name: Himarawi
           inputs: P
-          condition: after Kabari
+          follow_up_to:
+            - Kabari (anti-air)
+            - Kabari (ground)
         - name: Tetsuzansen
           inputs: S
-          condition: after Kabari
+          follow_up_to:
+            - Kabari (anti-air)
+            - Kabari (ground)
         - name: Rokkonsogi
           inputs: H
-          condition: after Kabari
+          follow_up_to:
+            - Kabari (anti-air)
+            - Kabari (ground)
         - name: Tatami Gaeshi
-          inputs: 236K
-          air_ok: true
+          inputs:
+            - 236K
+            - j.236K
         - name: Youzan Sen
           inputs: j.623S
         - name: Suzuran
@@ -98,4 +117,6 @@ moves:
             - 236236D
         - name: Metsudo Kushoudou
           inputs: 236236H
-          condition: after successful Azami catch or Suzuran
+          follow_up_to:
+            - Azami
+            - Suzuran
