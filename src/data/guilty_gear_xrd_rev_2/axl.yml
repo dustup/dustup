@@ -1,0 +1,106 @@
+---
+name: Axl Low
+moves:
+  normals:
+    - 5P
+    - 5K
+    - c.S
+    - f.S
+    - 5H
+    - 5D
+    - 6P
+    - 6K
+    - 6H
+    - 2P
+    - 2K
+    - 2S
+    - 2H
+    - 2D
+    - 3P
+    - j.P
+    - j.K
+    - j.S
+    - j.H
+    - j.D
+    - j.6P
+    - j.6K
+    - j.2S
+  universals:
+    - name: Ground Throw
+      inputs:
+        - 4H
+        - 6H
+    - name: Air Throw
+      inputs:
+        - j.4H
+        - j.6H
+    - name: Dead Angle
+      inputs:
+        - 6P+K
+      conditions: blockstunned
+    - name: Blitz
+      inputs:
+        - P+H
+        - K+H
+  specials:
+    - name: Sickle Flash
+      inputs:
+        - '[4]6S'
+        - '[1]6S'
+    - name: Melody Chain
+      inputs:
+        - '8'
+        - '9'
+      follow_up_to: Sickle Flash
+    - name: Spinning Chain Strike
+      inputs:
+        - '2'
+        - '3'
+      follow_up_to: Sickle Flash
+    - name: Artemis Hunter
+      inputs:
+        - 623S
+    - name: Thunder Shadow Chain
+      inputs:
+        - 623K
+    - name: Spindle Spinner # lol
+      inputs:
+        - 41236H
+    - name: Heaven Can Wait
+      inputs:
+        - 214P
+        - 214K
+    - name: Axl Bomber
+      inputs:
+        - j.623H
+    - name: Sparrowhawk Stance
+      inputs:
+        - 214H
+    - name: High
+      inputs:
+        - P
+      follow_up_to: Sparrowhawk Stance
+    - name: Mid
+      inputs:
+        - K
+      follow_up_to: Sparrowhawk Stance
+    - name: Low
+      inputs:
+        - S
+      follow_up_to: Sparrowhawk Stance
+    - name: End Stance
+      inputs:
+        - H
+      follow_up_to: Sparrowhawk Stance
+  overdrives:
+    - name: Sickle Storm
+      inputs:
+        - 2363214H
+        - 2363214D
+    - name: Shark Strike
+      inputs:
+        - 214214S
+  instant_kills:
+    - name: Amphora Conflagration
+      inputs:
+        - 236236H
