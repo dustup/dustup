@@ -23,17 +23,27 @@ moves:
         - j.D
     universal:
         - name: Ground Throw
-          inputs: 4/6H
+          inputs:
+            - 4H
+            - 6H
         - name: Air Throw
-          inputs: j.4/6H
+          inputs:
+            - j.4H
+            - j.6H
         - name: Dead Angle
-          inputs: 6+PK
+          inputs: 6P+K
           condition: while in blockstun
         - name: Blitz
-          inputs: P/K+H
+          inputs:
+            - P+H
+            - K+H
     special:
         - name: Azami
-          inputs: S+H / 4S+H / 2S+H / 1S+H
+          inputs:
+            - S+H
+            - 4S+H
+            - 2S+H
+            - 1S+H
         - name: Air Azami
           inputs: j.4S+H
         - name: Kuchinashi
@@ -52,10 +62,14 @@ moves:
           inputs: D
           condition: after successful Azami catch or Suzuran
         - name: Tsubaki
-          inputs: P/K
+          inputs:
+            - P
+            - K
           condition: after successful Air Azami catch
         - name: Kikyou
-          inputs: S/H
+          inputs:
+            - S
+            - H
           condition: after successful Air Azami catch
         - name: Kabari (anti-air)
           inputs: 41236S
@@ -71,14 +85,17 @@ moves:
           inputs: H
           condition: after Kabari
         - name: Tatami Gaeshi
-          inputs: 236K (Air OK)
+          inputs: 236K
+          air_ok: true
         - name: Youzan Sen
           inputs: j.623S
         - name: Suzuran
           inputs: 63214K
     overdrives:
         - name: Tsurane Zanzuwatashi
-          inputs: 236236S/D
+          inputs:
+            - 236236S
+            - 236236D
         - name: Metsudo Kushoudou
           inputs: 236236H
           condition: after successful Azami catch or Suzuran
