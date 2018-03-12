@@ -27,7 +27,7 @@ moves:
         - name: Air Throw
           inputs: j.4/6H
         - name: Dead Angle
-          inputs: 6+PK
+          inputs: 6P+K
           condition: while in blockstun
         - name: Blitz
           inputs: P/K+H
