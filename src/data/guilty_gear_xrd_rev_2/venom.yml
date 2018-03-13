@@ -1,0 +1,109 @@
+---
+name: Venom
+moves:
+  normals:
+    - 5P
+    - 5K
+    - c.S
+    - f.S
+    - 5H
+    - 5D
+    - 2P
+    - 2K
+    - 2S
+    - 2H
+    - 2D
+    - 6P
+    - 6H
+    - j.P
+    - j.K
+    - j.S
+    - j.H
+    - j.D
+  universals:
+    - name: Ground Throw
+      inputs:
+        - 4H
+        - 6H
+    - name: Air Throw
+      inputs:
+        - j.4H
+        - j.6H
+    - name: Dead Angle
+      inputs:
+        - 6P+K
+      conditions: blockstunned
+    - name: Blitz
+      inputs:
+        - P+H
+        - K+H
+  specials:
+    - name: Ball Set # so. many. options.
+      inputs:
+        - '214P'
+        - '214[P]'
+        - '214K'
+        - '214[K]'
+        - '214S'
+        - '214[S]'
+        - '214H'
+        - '214[H]'
+        - 'j.214P'
+        - 'j.214[P]'
+        - 'j.214K'
+        - 'j.214[K]'
+        - 'j.214S'
+        - 'j.214[S]'
+        - 'j.214H'
+        - 'j.214[H]'
+    - name: QV
+      inputs:
+        - 41236P
+        - 41236K
+        - 41236S
+        - 41236H
+    - name: Teleport
+      inputs:
+        - 623K
+    - name: Stinger Aim
+      inputs:
+        - '[4]6S'
+        - '[4]6[S]'
+        - '[4]6H'
+        - '[4]6[H]'
+        - '[1]6S'
+        - '[1]6[S]'
+        - '[1]6H'
+        - '[1]6[H]'
+    - name: Carcass Raid
+      inputs:
+        - '[2]8S'
+        - '[2]8[S]'
+        - '[2]8H'
+        - '[2]8[H]'
+        - '[1]8S'
+        - '[1]8[S]'
+        - '[1]8H'
+          '[1]8[H]'
+    - name: Double Head Morbid
+      inputs:
+        - 623S
+        - 623H
+    - name: Mad Struggle
+      inputs:
+        - j.236S
+        - j.236H
+  overdrives:
+    - name: Dark Angel
+      inputs:
+        - 2363214S
+    - name: Red Hail
+      inputs:
+        - j.236236HS
+    - name: Bishop Runout
+      inputs:
+        - 2363214H
+  instant_kills:
+    - name: Giga Machine System
+      inputs:
+        - 236236H
