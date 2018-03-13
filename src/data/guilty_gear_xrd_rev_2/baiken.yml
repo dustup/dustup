@@ -120,3 +120,7 @@ moves:
       follow_up_to:
         - Azami
         - Suzuran
+  instant_kills:
+    - name: Garyo Tensei
+      inputs:
+        - 236236H
