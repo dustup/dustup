@@ -25,23 +25,6 @@ moves:
     - j.6P
     - j.6K
     - j.2S
-  universals:
-    - name: Ground Throw
-      inputs:
-        - 4H
-        - 6H
-    - name: Air Throw
-      inputs:
-        - j.4H
-        - j.6H
-    - name: Dead Angle
-      inputs:
-        - 6P+K
-      conditions: blockstunned
-    - name: Blitz
-      inputs:
-        - P+H
-        - K+H
   specials:
     - name: Sickle Flash
       inputs:
