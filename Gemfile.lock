@@ -10,6 +10,7 @@ GEM
     haml (5.0.4)
       temple (>= 0.8.0)
       tilt
+    rake (12.3.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -27,6 +28,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-script
   haml
+  rake
   sass
 
 BUNDLED WITH
