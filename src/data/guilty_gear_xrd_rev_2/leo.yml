@@ -23,23 +23,6 @@ moves:
     - j.S
     - j.H
     - j.D
-  universals:
-    - name: Ground Throw
-      inputs:
-        - 4H
-        - 6H
-    - name: Air Throw
-      inputs:
-        - j.4H
-        - j.6H
-    - name: Dead Angle
-      inputs: 6P+K
-      conditions: blockstunned
-    - name: Blitz
-      inputs:
-        - P+H
-        - K+H
-        - S+H
   specials:
     - name: Graviert Wurde
       inputs:
