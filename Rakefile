@@ -18,7 +18,7 @@ task :compile do
       character_name = File.basename(character, '.yml')
 
       # generate the page
-      @data = YAML.load(File.read(character))
+      @data = YAML.load_file(character)
       page = engine.render(Object.new, data: @data)
 
       # write the page out
