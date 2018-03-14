@@ -1,0 +1,91 @@
+---
+name: Potemkin
+moves:
+  normals:
+    - 5P
+    - 5K
+    - c.S
+    - f.S
+    - 5H
+    - 5D
+    - 6P
+    - 6K
+    - 6H
+    - 2P
+    - 2K
+    - 2S
+    - 2H
+    - 2D
+    - j.P
+    - j.K
+    - j.S
+    - j.H
+    - j.D
+  universals:
+    - name: Ground Throw
+      inputs:
+        - 4H
+        - 6H
+    - name: Air Throw
+      inputs:
+        - j.4H
+        - j.6H
+    - name: Dead Angle
+      inputs: 6P+K
+      conditions: blockstunned
+    - name: Blitz
+      inputs:
+        - P+H
+        - K+H
+        - S+H
+  specials:
+    - name: Heat Knuckle
+      inputs:
+        - 623H
+    - name: Heat Extend
+      inputs:
+        - 63214H
+      follow_up_to: Heat Knuckle
+    - name: Megafist
+      inputs:
+        - 236P
+        - 214P
+    - name: Slide Head
+      inputs:
+        - 236S
+    - name: Hammer Fall
+      inputs:
+        - [4]6H
+    - name: Brake
+      inputs:
+        - P
+      follow_up_to: Hammer Fall
+      conditions: Hammer Fall hasn't hit
+    - name: F.D.B.
+      inputs:
+        - 63214S
+        - 63214[S]
+    - name: Potemkin Buster
+      inputs:
+        - 632146P
+    - name: Trishula
+      inputs:
+        - 214K
+    - name: ICPM
+      inputs:
+        - j.41236H
+  overdrives:
+    - name: Heavenly Potemkin Buster
+      inputs:
+        - 236236S
+    - name: Giganter EX
+      inputs:
+        - 632146H
+    - name: Gigantic Blid EX
+      inputs:
+        - 4123641236P
+      follow_up_to: Giganter EX
+  instant_kills:
+    - name: Infernal Tour
+      inputs:
+        - 236236H
