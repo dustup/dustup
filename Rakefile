@@ -4,22 +4,26 @@ require 'haml'
 task default: %w[compile]
 
 task :compile do
-  engine = engine = Haml::Engine.new(File.read('src/character.html.haml'))
+  character_haml_path = File.join('src', 'character.html.haml')
+  engine = Haml::Engine.new(File.read(character_haml_path))
 
-Dir.glob('src/data/*') do |game_data_path|
-  game = File.basename(game_data_path)
-  game_path = "./www/#{game}"
+  Dir.glob(File.join('src', 'data', '*')) do |game_data_path|
+    game_name = File.basename(game_data_path)
+    game_path = File.join('.', 'www', game_name)
 
-  # ensure directories for the games exist
-  Dir.mkdir(game_path) unless Dir.exist?(game_path)
+    # ensure directories for the games exist
+    Dir.mkdir(game_path) unless Dir.exist?(game_path)
 
-  Dir.glob("src/data/#{game}/*") do |character|
-    @data = YAML.load(File.read(character))
-    # generate the page
-    page = engine.render(Object.new, data: @data)
+    Dir.glob(File.join(game_data_path, '*')) do |character|
+      character_name = File.basename(character, '.yml')
 
-    # write the page out
-    File.write("#{game_path}/#{File.basename(character, '.yml')}.html", page)
+      # generate the page
+      @data = YAML.load(File.read(character))
+      page = engine.render(Object.new, data: @data)
+
+      # write the page out
+      compiled_character_page_path = File.join(game_path, "#{character_name}.html")
+      File.write(compiled_character_page_path, page)
+    end
   end
-end
 end
