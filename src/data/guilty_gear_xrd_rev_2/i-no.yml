@@ -63,7 +63,7 @@ moves:
         - 'Chemical Love (Horizontal)'
     - name: 'Chemical Love (Vertical)'
       inputs:
-        - 214S      
+        - 214S
     - name: Sterilization Method
       inputs:
         - 214H
@@ -74,3 +74,7 @@ moves:
         - 632146H
     - name:  Ultimate Fortissimo
       inputs: j.2363214S
+  instant_kills:
+    - name: Megalomania
+      inputs:
+        - 236236H
