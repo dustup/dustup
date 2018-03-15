@@ -1,12 +1,14 @@
 require 'yaml'
 require 'haml'
+require 'rake/clean'
 
 @src = File.join(File.dirname(__FILE__), 'src')
 @dest = File.join(File.dirname(@src), 'www')
 
 task default: %w[compile]
 
-task compile: [:clean] do
+desc "compile source files into the app"
+task compile: [:clobber] do
   character_haml_path = File.join(@src, 'character.html.haml')
   engine = Haml::Engine.new(File.read(character_haml_path))
 
@@ -17,6 +19,7 @@ task compile: [:clean] do
     # ensure directories for the games exist
     Dir.mkdir(game_path) unless Dir.exist?(game_path)
 
+    # generate character pages
     Dir.glob(File.join(game_data_path, '*')) do |character|
       character_name = File.basename(character, '.yml')
 
@@ -31,8 +34,4 @@ task compile: [:clean] do
   end
 end
 
-task :clean do
-  Dir.glob(File.join(@dest, '*')) do |d|
-    FileUtils.rm_rf(d)
-  end
-end
+CLOBBER.include(Dir.glob(File.join(@dest, '*')))
