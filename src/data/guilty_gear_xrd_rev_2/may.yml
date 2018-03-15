@@ -27,12 +27,12 @@ moves:
   specials:
     - name: Mr. Dolphin Horizontal
       inputs:
-        - [4]6S
-        - [4]6H
+        - '[4]6S'
+        - '[4]6H'
     - name: Mr. Dolphin Vertical
       inputs:
-        - [2]8S
-        - [2]8H
+        - '[2]8S'
+        - '[2]8H'
     - name: Applause for the Victim
       inputs:
         - 41236P

@@ -26,12 +26,12 @@ moves:
   specials:
     - name: Graviert Wurde
       inputs:
-        - [4]6S
-        - [4]6H
+        - '[4]6S'
+        - '[4]6H'
     - name: Eisen Sturm
       inputs:
-        - [2]8S
-        - [2]8H
+        - '[2]8S'
+        - '[2]8H'
     - name: Kaltes Gestöber Erst
       inputs:
         - 236S

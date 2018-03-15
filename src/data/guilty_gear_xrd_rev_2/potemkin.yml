@@ -38,7 +38,7 @@ moves:
         - 236S
     - name: Hammer Fall
       inputs:
-        - [4]6H
+        - '[4]6H'
     - name: Brake
       inputs:
         - P
