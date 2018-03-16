@@ -24,21 +24,13 @@ moves:
     - name: Ball Set # so. many. options.
       inputs:
         - '214P'
-        - '214[P]'
         - '214K'
-        - '214[K]'
         - '214S'
-        - '214[S]'
         - '214H'
-        - '214[H]'
         - 'j.214P'
-        - 'j.214[P]'
         - 'j.214K'
-        - 'j.214[K]'
         - 'j.214S'
-        - 'j.214[S]'
         - 'j.214H'
-        - 'j.214[H]'
     - name: QV
       inputs:
         - 41236P
@@ -51,23 +43,11 @@ moves:
     - name: Stinger Aim
       inputs:
         - '[4]6S'
-        - '[4]6[S]'
         - '[4]6H'
-        - '[4]6[H]'
-        - '[1]6S'
-        - '[1]6[S]'
-        - '[1]6H'
-        - '[1]6[H]'
     - name: Carcass Raid
       inputs:
         - '[2]8S'
-        - '[2]8[S]'
         - '[2]8H'
-        - '[2]8[H]'
-        - '[1]8S'
-        - '[1]8[S]'
-        - '[1]8H'
-        - '[1]8[H]'
     - name: Double Head Morbid
       inputs:
         - 623S
