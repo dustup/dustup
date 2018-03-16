@@ -1,0 +1,3 @@
+%select.character_select
+  - characters.each do |c|
+    %option.character{value: "#{game_path}/#{c}.html"} #{c}
