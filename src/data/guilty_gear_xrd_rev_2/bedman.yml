@@ -49,6 +49,17 @@ moves:
         - j.214S
         - 214H
         - j.214H
+    - name: Air Hang
+      inputs: 88
+      follow_ups:
+        - name: Air Movement
+          inputs: any direction
+    - name: Crouch Walk
+      inputs:
+        - 1
+        - 3
+    - name: Dash
+      inputs: 66
   overdrives:
     - name: Sinusoidal Helios
       inputs:
