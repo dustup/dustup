@@ -1,18 +1,37 @@
+require 'coffee-script'
 require 'yaml'
 require 'haml'
 require 'rake/clean'
 
-@src = File.join(File.dirname(__FILE__), 'src')
-@dest = File.join(File.dirname(@src), 'www')
+@src = File.join('.', 'src')
+@dest = File.join('.', 'www')
 
 task default: %w[compile]
 
 desc "compile source files into the app"
 task compile: [:clobber] do
+  js_src = File.join(@src, 'js')
+  js_dest = File.join(@dest, 'js')
+
+  Dir.glob(File.join(js_src, '*')) do |js_path|
+    # ensure the destination js directory exists
+    Dir.mkdir(js_dest) unless Dir.exist?(js_dest)
+
+    # compile the javascript if necessary
+    if File.extname(js_path) == '.coffee'
+      js = CoffeeScript.compile File.read(js_path)
+
+      compiled_js_path = File.join(js_dest, File.basename(js_path, '.coffee'))
+      File.write(compiled_js_path, js)
+    else
+      FileUtils.cp(js_path, js_dest)
+    end
+  end
+
   Dir.glob(File.join(@src, 'data', '*')) do |game_data_path|
     game_name = File.basename(game_data_path)
     game_path = File.join(@dest, game_name)
-    @characters = []
+    characters = []
 
     # ensure directories for the games exist
     Dir.mkdir(game_path) unless Dir.exist?(game_path)
@@ -23,7 +42,7 @@ task compile: [:clobber] do
 
     Dir.glob(File.join(game_data_path, '*')) do |character|
       character_name = File.basename(character, '.yml')
-      @characters << character_name
+      characters << character_name
 
       # generate the page
       @data = YAML.load_file(character)
@@ -38,7 +57,7 @@ task compile: [:clobber] do
     haml_path = File.join(@src, 'game', 'index.html.haml')
     engine = Haml::Engine.new(File.read(haml_path))
     # generate the page
-    page = engine.render(Object.new, game_path: game_path, characters: @characters)
+    page = engine.render(Object.new, game_path: game_path, characters: characters)
     # write the page out
     game_index_page_path = File.join(game_path, 'index.html')
     File.write(game_index_page_path, page)

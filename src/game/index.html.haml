@@ -1,3 +1,6 @@
-%select.character_select
+%script{type: 'text/javascript', src: '../../www/js/jquery-3.3.1.min.js'}
+%script{type: 'text/javascript', src: '../../www/js/controls.js'}
+%select.character_select{remote: 'true'}
+  %option Character
   - characters.each do |c|
-    %option.character{value: "#{game_path}/#{c}.html"} #{c}
+    %option.character{path: "#{c}.html"} #{c.capitalize}
