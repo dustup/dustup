@@ -39,15 +39,14 @@ moves:
     - name: Hammer Fall
       inputs:
         - '[4]6H'
-    - name: Brake
-      inputs:
-        - P
-      follow_up_to: Hammer Fall
-      conditions: Hammer Fall hasn't hit
+      follow_ups:
+        - name: Brake
+          inputs: P
+          conditions: Hammer Fall hasn't hit
     - name: F.D.B.
       inputs:
-        - 63214S
-        - 63214[S]
+        - '63214S'
+        - '63214[S]'
     - name: Potemkin Buster
       inputs:
         - 632146P
