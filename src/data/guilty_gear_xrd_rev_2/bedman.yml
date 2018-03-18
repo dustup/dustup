@@ -71,3 +71,4 @@ moves:
     - name: Theatre of Pain
       inputs:
         - 236236H
+      conditions: in instant kill mode

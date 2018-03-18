@@ -108,3 +108,4 @@ moves:
     - name: Garyo Tensei
       inputs:
         - 236236H
+      conditions: in instant kill mode

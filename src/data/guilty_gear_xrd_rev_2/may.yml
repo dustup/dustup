@@ -72,3 +72,4 @@ moves:
     - name: And Then She Said... Farewell
       inputs:
         - 236236H
+      conditions: in instant kill mode

@@ -102,3 +102,4 @@ moves:
     - name: Raisetsudan
       inputs:
         - 236236H
+      conditions: in instant kill mode
