@@ -1,0 +1,92 @@
+---
+name: Elphelt
+moves:
+  normals:
+    - 5P
+    - 5K
+    - c.S
+    - f.S
+    - 5H
+    - 5D
+    - 6P
+    - 6K
+    - 6H
+    - 2P
+    - 2K
+    - 2S
+    - 2H
+    - 2D
+    - j.P
+    - j.K
+    - j.S
+    - j.H
+    - j.D
+  specials:
+    - name: Pineberry
+      inputs:
+        - 236P
+        - j.236P
+      follow_ups:
+        - name: Overhand Throw
+          inputs:
+            - 4P
+        - name: Underhand Throw
+          inputs:
+            - 2P
+    - name: Bridal Express
+      inputs:
+        - 214K
+        - j.214K
+    - name: Miss Confire
+      inputs:
+        - 236S
+      follow_ups:
+        - name: Fire
+          inputs:
+            - P
+            - K
+            - S
+            - H
+        - name: Reload
+          inputs:
+            - 46S
+          conditions: after Fire
+        - name: Cancel
+          inputs:
+            - D
+    - name: Miss Travailler
+      inputs:
+        - 236H
+      follow_ups:
+        - name: Fire
+          inputs:
+            - H
+        - name: Reload
+          inputs:
+            - 46H
+          conditions: after Fire
+        - name: Thrust
+          inputs:
+            - P
+        - name: Roll
+          inputs:
+            - K
+        - name: Launch
+          inputs:
+            - S
+        - name: Demolish
+          inputs:
+            - D
+  overdrives:
+    - name: Judge Better Half
+      inputs:
+        - 236236K
+        - 236236D
+    - name: Genoverse
+      inputs:
+        - 632146H
+  instant_kills:
+    - name: Magnum Wedding
+      inputs:
+        - 236236H
+      conditions: in instant kill mode
