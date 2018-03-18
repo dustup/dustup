@@ -70,3 +70,4 @@ moves:
     - name: Giga Machine System
       inputs:
         - 236236H
+      conditions: in instant kill mode

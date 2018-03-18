@@ -87,3 +87,4 @@ moves:
     - name: Amphora Conflagration
       inputs:
         - 236236H
+      conditions: in instant kill mode

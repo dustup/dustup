@@ -93,3 +93,4 @@ moves:
     - name: Windrad des Weltraum
       inputs:
         - 236236H
+      conditions: in instant kill mode
