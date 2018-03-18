@@ -57,7 +57,11 @@ task compile: [:clobber] do
     haml_path = File.join(@src, 'game', 'index.html.haml')
     engine = Haml::Engine.new(File.read(haml_path))
     # generate the page
-    page = engine.render(Object.new, game_path: game_path, characters: characters)
+    page = engine.render(Object.new,
+      game_display_name: game_name.split('_').map(&:capitalize).join(' '),
+      game_path: game_path,
+      characters: characters
+    )
     # write the page out
     game_index_page_path = File.join(game_path, 'index.html')
     File.write(game_index_page_path, page)
