@@ -25,7 +25,11 @@ task compile: [:clobber] do
 
       # generate the page
       @data = YAML.load_file(character)
-      page = engine.render(Object.new, data: @data)
+      begin
+        page = engine.render(Object.new, data: @data)
+      rescue
+        puts "There was something wrong with the caracter data for #{character_name} from #{game_name}"
+      end
 
       # write the page out
       compiled_character_page_path = File.join(game_path, "#{character_name}.html")
