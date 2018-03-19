@@ -43,3 +43,17 @@
             - [m['follow_up_to']].flatten.each do |f|
               %li.move.special_move.special_move_follow_up_to
                 = f
+
+- if data['moves']['instant_kills']
+  %h3.moves Instant Kills
+  %ul.moves.instant_kills
+  - data['moves']['instant_kills'].each do |k|
+    %li.move.instant_kill.instant_kill_name
+      Name:
+      = k['name']
+    %li.move.instant_kill.instant_kill_inputs
+      Inputs:
+      %ul.move.instant_kill.instant_kill_inputs.inputs
+        - k['inputs'].each do |i|
+          %li.move.instant_kill.instant_kill_input
+            = i
