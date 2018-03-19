@@ -12,10 +12,14 @@
 - data['moves']['specials'].each do |m|
   %li.move.special_move
     -# TODO add image link here
-    %ul.move.special_move
-      %li.move.special_move.special_move_name
-        Name:
-        = m['name']
+    .move.special_move_name
+      Name:
+      = m['name']
+    %ul.move.special_move.special_move_details
+      - if m['conditions']
+        %li.move.special_move.special_move_condition
+          Conditions
+          = m['conditions']
       %li.move.special_move.special_move_inputs
         Inputs:
         %ul.move.special_move.special_move_inputs.inputs
@@ -30,6 +34,10 @@
               %li.move.special_move.special_move_name.special_move_follow_up
                 Name
                 = f['name']
+              - if f['conditions']
+                %li.move.special_move.special_move_follow_up.special_move_condition
+                  Conditions
+                  = f['conditions']
               %li.move.special_move.special_move_input.special_move_follow_up
                 Inputs:
                 %ul.move.special_move.special_move_inputs.inputs
