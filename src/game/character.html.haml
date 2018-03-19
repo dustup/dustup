@@ -32,21 +32,57 @@
           %ul.move.special_move.special_move_follow_ups_list
             - m['follow_ups'].each do |f|
               %li.move.special_move.special_move_name.special_move_follow_up
-                Name
+                Name:
                 = f['name']
-              - if f['conditions']
-                %li.move.special_move.special_move_follow_up.special_move_condition
-                  Conditions
-                  = f['conditions']
-              %li.move.special_move.special_move_input.special_move_follow_up
-                Inputs:
-                %ul.move.special_move.special_move_inputs.inputs
-                  - [m['inputs']].flatten.each do |i|
-                    %li.move.special_move.special_move_input
-                      = i
-              %li.move.special_move.special_move_follow_up.special_move_condition
-                Conditions
-                = f['conditions']
+                %ul.move.special_move.special_move_follow_up
+                  - if f['conditions']
+                    %li.move.special_move.special_move_follow_up.special_move_condition
+                      Conditions
+                      = f['conditions']
+                  %li.move.special_move.special_move_input.special_move_follow_up
+                    Inputs:
+                    %ul.move.special_move.special_move_inputs.inputs
+                      - [f['inputs']].flatten.each do |i|
+                        %li.move.special_move.special_move_input
+                          = i
+                  - if f['follow_ups']
+                    %li.move.special_move.special_move_follow_ups
+                      Follow-Ups:
+                      %ul.move.special_move.special_move_follow_ups_list
+                        - f['follow_ups'].each do |f2|
+                          %li.move.special_move.special_move_name.special_move_follow_up
+                            Name:
+                            = f2['name']
+                            %ul.move.special_move.special_move_follow_up
+                              - if f2['conditions']
+                                %li.move.special_move.special_move_follow_up.special_move_condition
+                                  Conditions
+                                  = f2['conditions']
+                              %li.move.special_move.special_move_input.special_move_follow_up
+                                Inputs:
+                                %ul.move.special_move.special_move_inputs.inputs
+                                  - [f2['inputs']].flatten.each do |i2|
+                                    %li.move.special_move.special_move_input
+                                      = i2
+                              - if f2['follow_ups']
+                                %li.move.special_move.special_move_follow_ups
+                                  Follow-Ups:
+                                  %ul.move.special_move.special_move_follow_ups_list
+                                    - f2['follow_ups'].each do |f3|
+                                      %li.move.special_move.special_move_name.special_move_follow_up
+                                        Name:
+                                        = f3['name']
+                                        %ul.move.special_move.special_move_follow_up
+                                          - if f3['conditions']
+                                            %li.move.special_move.special_move_follow_up.special_move_condition
+                                              Conditions
+                                              = f3['conditions']
+                                          %li.move.special_move.special_move_input.special_move_follow_up
+                                            Inputs:
+                                            %ul.move.special_move.special_move_inputs.inputs
+                                              - [f3['inputs']].flatten.each do |i3|
+                                                %li.move.special_move.special_move_input
+                                                  = i3
       - if m['follow_up_to']
         %li.move.special_move.special_move_follow_up_to
           Follow-up to:
