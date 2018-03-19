@@ -1,0 +1,10 @@
+%script{type: 'text/javascript', src: '../../www/js/jquery-3.3.1.min.js'}
+%script{type: 'text/javascript', src: '../../www/js/controls.js'}
+
+%h3.game_name
+  = game_display_name
+
+%select.character_select{remote: 'true'}
+  %option Character
+  - characters.each do |c|
+    %option.character{path: "#{c}.html"} #{c.capitalize}
