@@ -51,8 +51,8 @@ moves:
         - j.236H
     - name: Brynhildr Stance
       inputs:
-        - [H]
-        - 6[H]
+        - '[H]'
+        - '6[H]'
     - name: bt.P
       inputs:
         - P
