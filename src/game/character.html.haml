@@ -36,6 +36,9 @@
                   - [m['inputs']].flatten.each do |i|
                     %li.move.special_move.special_move_input
                       = i
+              %li.move.special_move.special_move_follow_up.special_move_condition
+                Conditions
+                = f['conditions']
       - if m['follow_up_to']
         %li.move.special_move.special_move_follow_up_to
           Follow-up to:
