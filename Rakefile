@@ -28,7 +28,7 @@ task compile: [:clobber] do
       begin
         page = engine.render(Object.new, data: @data)
       rescue
-        puts "There was something wrong with the caracter data for #{character_name} from #{game_name}"
+        puts "There was something wrong with the character data for #{character_name} from #{game_name}"
       end
 
       # write the page out
