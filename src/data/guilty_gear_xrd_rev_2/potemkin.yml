@@ -25,10 +25,10 @@ moves:
     - name: Heat Knuckle
       inputs:
         - 623H
-    - name: Heat Extend
-      inputs:
-        - 63214H
-      follow_up_to: Heat Knuckle
+      follow_ups:
+        - name: Heat Extend
+          inputs:
+            - 63214H
     - name: Megafist
       inputs:
         - 236P
