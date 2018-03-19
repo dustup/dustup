@@ -4,6 +4,7 @@ require 'haml'
 require 'rake/clean'
 
 @src = File.join('.', 'src')
+@templates = File.join(@src, 'templates')
 @dest = File.join('.', 'www')
 
 task default: %w[compile]
@@ -28,6 +29,13 @@ task compile: [:clobber] do
     end
   end
 
+  character_haml_path = File.join(@templates, 'game', 'character.html.haml')
+  @character_engine = Haml::Engine.new(File.read(character_haml_path))
+  special_move_haml_path = File.join(@templates, 'game', 'special_move.html.haml')
+  @special_move_engine = Haml::Engine.new(File.read(special_move_haml_path))
+  game_index_haml_path = File.join(@templates, 'game', 'index.html.haml')
+  @game_index_engine = Haml::Engine.new(File.read(game_index_haml_path))
+
   Dir.glob(File.join(@src, 'data', '*')) do |game_data_path|
     game_name = File.basename(game_data_path)
     game_path = File.join(@dest, game_name)
@@ -37,17 +45,18 @@ task compile: [:clobber] do
     Dir.mkdir(game_path) unless Dir.exist?(game_path)
 
     # generate character pages
-    haml_path = File.join(@src, 'game', 'character.html.haml')
-    engine = Haml::Engine.new(File.read(haml_path))
-
     Dir.glob(File.join(game_data_path, '*')) do |character|
       character_name = File.basename(character, '.yml')
       characters << character_name
 
-      # generate the page
+      # generate the character page
       @data = YAML.load_file(character)
       begin
-        page = engine.render(Object.new, data: @data)
+        page = @character_engine.render(
+          Object.new,
+          engine: @special_move_engine,
+          data: @data
+        )
       rescue
         puts "There was something wrong with the character data for #{character_name} from #{game_name}"
       end
@@ -57,11 +66,9 @@ task compile: [:clobber] do
       File.write(compiled_character_page_path, page)
     end
 
-    # generate game index page
-    haml_path = File.join(@src, 'game', 'index.html.haml')
-    engine = Haml::Engine.new(File.read(haml_path))
-    # generate the page
-    page = engine.render(Object.new,
+    # generate the game index page
+    page = @game_index_engine.render(
+      Object.new,
       game_display_name: game_name.split('_').map(&:capitalize).join(' '),
       game_path: game_path,
       characters: characters
@@ -73,3 +80,13 @@ task compile: [:clobber] do
 end
 
 CLOBBER.include(Dir.glob(File.join(@dest, '*')))
+
+private
+
+def render_special_move(engine, move)
+  engine.render(
+    Object.new,
+    engine: engine,
+    move: move
+  )
+end

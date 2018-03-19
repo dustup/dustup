@@ -1,0 +1,29 @@
+%li.move.special_move
+  -# TODO add image link here
+  .move.special_move.special_move_name
+    Name:
+    = move['name']
+  %ul.move.special_move.special_move_details
+    - if move['conditions']
+      %li.move.special_move.special_move_condition
+        Conditions
+        = move['conditions']
+    %li.move.special_move.special_move_inputs
+      Inputs:
+      %ul.move.special_move.special_move_inputs.inputs
+        - [move['inputs']].flatten.each do |i|
+          %li.move.special_move.special_move_input
+            = i
+    - if move['follow_ups']
+      %li.move.special_move.special_move_follow_ups
+        Follow-Ups:
+        %ul.move.special_move.special_move_follow_ups_list
+          - move['follow_ups'].each do |f|
+            = render_special_move(engine, f)
+    - if move['follow_up_to']
+      %li.move.special_move.special_move_follow_up_to
+        Follow-up to:
+        %ul.move.special_move.special_move_follow_up_to_list
+          - [move['follow_up_to']].flatten.each do |f|
+            %li.move.special_move.special_move_follow_up_to
+              = f
