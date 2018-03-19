@@ -40,43 +40,49 @@ moves:
     - name: Miss Confire
       inputs:
         - 236S
+    - name: Miss Confire Fire
+      inputs:
+        - P
+        - K
+        - S
+        - H
+      conditions: Miss Confire ready
       follow_ups:
-        - name: Fire
-          inputs:
-            - P
-            - K
-            - S
-            - H
-        - name: Reload
+        - name: Miss Confire Reload
           inputs:
             - 46S
-          conditions: after Fire
-        - name: Cancel
-          inputs:
-            - D
+    - name: Miss Confire Cancel
+      inputs:
+        - D
+      conditions: Miss Confire ready
     - name: Miss Travailler
       inputs:
         - 236H
+    - name: Miss Travailler Fire
+      inputs:
+        - H
+      conditions: Miss Travailler ready
       follow_ups:
-        - name: Fire
-          inputs:
-            - H
-        - name: Reload
+        - name: Miss Travailler Reload
           inputs:
             - 46H
           conditions: after Fire
-        - name: Thrust
-          inputs:
-            - P
-        - name: Roll
-          inputs:
-            - K
-        - name: Launch
-          inputs:
-            - S
-        - name: Demolish
-          inputs:
-            - D
+    - name: Miss Travailler Thrust
+      inputs:
+        - P
+      conditions: Miss Travailler ready
+    - name: Miss Travailler Roll
+      inputs:
+        - K
+      conditions: Miss Travailler ready
+    - name: Miss Travailler Launch
+      inputs:
+        - S
+      conditions: Miss Travailler ready
+    - name: Miss Travailler Demolish
+      inputs:
+        - D
+      conditions: Miss Travailler ready
   overdrives:
     - name: Judge Better Half
       inputs:
