@@ -12,6 +12,26 @@
   - data['moves']['specials'].each do |m|
     = render_special_move(engine, m)
 
+- if data['moves']['overdrives']
+  %h3.moves Overdrives
+  %ul.moves.overdrives
+    - data['moves']['overdrives'].each do |o|
+      %li.move.overdrive
+        .move.overdrive.overdrive_name
+          Name:
+          = o['name']
+        %ul.move.overdrive.overdrive_details
+          - if o['conditions']
+            %li.move.overdrive.overdrive_condition
+              Conditions:
+              = o['conditions']
+          %li.move.overdrive.overdrive_inputs
+            Inputs:
+            %ul.move.overdrive.overdrive_inputs.inputs
+              - [o['inputs']].flatten.each do |i|
+                %li.move.overdrive.overdrive_input
+                  = i
+
 - if data['moves']['instant_kills']
   %h3.moves Instant Kills
   %ul.moves.instant_kills
