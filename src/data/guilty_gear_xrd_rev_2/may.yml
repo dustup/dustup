@@ -35,14 +35,14 @@ moves:
         - '[2]8H'
     - name: Applause for the Victim
       inputs:
-        - 41236P
-        - 41236[P]
-        - 41236K
-        - 41236[K]
-        - 41236S
-        - 41236[S]
-        - 41236H
-        - 41236[H]
+        - '41236P'
+        - '41236[P]'
+        - '41236K'
+        - '41236[K]'
+        - '41236S'
+        - '41236[S]'
+        - '41236H'
+        - '41236[H]'
     - name: Don't Miss It!
       inputs:
         - 214P
@@ -64,10 +64,9 @@ moves:
     - name: Ultimate Spinning Whirlwind
       inputs:
         - 63214S
-    - name: Deluxe Goshogawara Bomber
-      inputs:
-        - P
-      follow_up_to: Ultimate Spinning Whirlwind
+      follow_ups:
+        - name: Deluxe Goshogawara Bomber
+          inputs: P
   instant_kills:
     - name: And Then She Said... Farewell
       inputs:

@@ -29,17 +29,15 @@ moves:
     - name: Sickle Flash
       inputs:
         - '[4]6S'
-        - '[1]6S'
-    - name: Melody Chain
-      inputs:
-        - '8'
-        - '9'
-      follow_up_to: Sickle Flash
-    - name: Spinning Chain Strike
-      inputs:
-        - '2'
-        - '3'
-      follow_up_to: Sickle Flash
+      follow_ups:
+        - name: Melody Chain
+          inputs:
+            - '8'
+            - '9'
+        - name: Spinning Chain Strike
+          inputs:
+            - '2'
+            - '3'
     - name: Artemis Hunter
       inputs:
         - 623S
@@ -59,22 +57,19 @@ moves:
     - name: Sparrowhawk Stance
       inputs:
         - 214H
-    - name: High
-      inputs:
-        - P
-      follow_up_to: Sparrowhawk Stance
-    - name: Mid
-      inputs:
-        - K
-      follow_up_to: Sparrowhawk Stance
-    - name: Low
-      inputs:
-        - S
-      follow_up_to: Sparrowhawk Stance
-    - name: End Stance
-      inputs:
-        - H
-      follow_up_to: Sparrowhawk Stance
+      follow_ups:
+        - name: High
+          inputs:
+            - P
+        - name: Mid
+          inputs:
+            - K
+        - name: Low
+          inputs:
+            - S
+        - name: End Stance
+          inputs:
+            - H
   overdrives:
     - name: Sickle Storm
       inputs:

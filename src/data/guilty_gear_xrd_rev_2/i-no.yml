@@ -21,29 +21,12 @@ moves:
     - j.S
     - j.H
     - j.D
-  universals:
-    - name: Ground Throw
-      inputs:
-        - 4H
-        - 6H
-    - name: Air Throw
-      inputs:
-        - j.4H
-        - j.6H
-    - name: Dead Angle
-      inputs: 6P+K
-      conditions: blockstunned
-    - name: Blitz
-      inputs:
-        - P+H
-        - K+H
-        - S+H
   specials:
     - name: Antidepressant Scale
       inputs:
         - 214P
         - j.214P
-    - name: Stroke the Big Tree
+    - name: Stroke the Big Tree # hue hue
       inputs:
         - 41236S
         - 41236H
@@ -56,11 +39,9 @@ moves:
     - name: 'Chemical Love (Horizontal)'
       inputs:
         - 214K
-    - name: 'Chemical Love (Followup)'
-      inputs:
-        - 214S
-      follow_up_to:
-        - 'Chemical Love (Horizontal)'
+      follow_ups:
+        - name: 'Chemical Love (Followup)'
+          inputs: 214S
     - name: 'Chemical Love (Vertical)'
       inputs:
         - 214S
