@@ -36,7 +36,7 @@ moves:
         - 'j.214[P]'
         - 'j.214[K]'
         - 'j.214[S]'
-    - name: Cancel
+    - name: Cancel Stance
       inputs: H
       conditions: Mist Stance
     - name: Mist Step
@@ -45,17 +45,23 @@ moves:
       - 44
       conditions: Ground Mist Stance
     - name: High Mist Finer
-      inputs: 214P
+      inputs: ']P['
+      conditions: Mist Stance
     - name: Mid Mist Finer
-      inputs: 214K
+      inputs: ']K['
+      conditions: Mist Stance
     - name: Low Mist Finer
-      inputs: 214S
+      inputs: ']S['
+      conditions: Mist Stance
     - name: Air High Mist Finer
-      inputs: j.214P
+      inputs: 'j.]P['
+      conditions: Air Mist Stance
     - name: Air Mid Mist Finer
-      inputs: j.214K
+      inputs: 'j.]K['
+      conditions: Air Mist Stance
     - name: Air Low Mist Finer
-      inputs: j.214S
+      inputs: 'j.]S['
+      conditions: Air Mist Stance
     - name: Zweihander
       inputs: 623K
       follow_ups:
