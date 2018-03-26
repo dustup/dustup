@@ -22,19 +22,19 @@ moves:
     - j.H
     - j.D
   specials:
-    - name: Business Ninpo: Caltrops
+    - name: 'Business Ninpo: Caltrops'
       inputs:
         - 236S
         - 236H
-    - name: Business Ninpo: Under the Rug
+    - name: 'Business Ninpo: Under the Rug'
       inputs:
         - 22S
         - 22H
-    - name: Business Ninpo: Under the Bus
+    - name: 'Business Ninpo: Under the Bus'
       inputs:
         - 421S
         - 421H
-    - name: Savvy Ninpo: Request for Approval
+    - name: 'Savvy Ninpo: Request for Approval'
       inputs:
         - 214P
         - 214K
@@ -44,34 +44,34 @@ moves:
         - j.214K
         - j.214S
         - j.214H
-    - name: Savvy Ninpo: Seal of Approval
+    - name: 'Savvy Ninpo: Seal of Approval'
       inputs: 5
       conditions: Near Seal
       follow_ups:
         - name: Cancel Stance
           inputs:
             - 22
-        - name: Savvy Ninpo: Data Logging
+        - name: 'Savvy Ninpo: Data Logging'
           inputs:
             - P
-        - name: Savvy Ninpo: Down the Ladder
+        - name: 'Savvy Ninpo: Down the Ladder'
           inputs:
             - K
-        - name: Savvy Ninpo: Stepping Down
+        - name: 'Savvy Ninpo: Stepping Down'
           inputs:
             - S
-        - name: Savvy Ninpo: Into My Office
+        - name: 'Savvy Ninpo: Into My Office'
           inputs:
             - H
-        - name: Savvy Ninpo: Safety Net
+        - name: 'Savvy Ninpo: Safety Net'
           inputs:
             - direction + D
             - D
-    - name: Savvy Ninpo: Tax Write-Off
+    - name: 'Savvy Ninpo: Tax Write-Off'
       inputs:
         - 623K
         - j.623K
-    - name: Savvy Ninpo: Data Logging
+    - name: 'Savvy Ninpo: Data Logging'
       inputs:
         - 22P
         - j.22P
@@ -79,7 +79,7 @@ moves:
       inputs:
         - 46P
   overdrives:
-    - name: Dead Stock Ninpo: Firesale
+    - name: 'Dead Stock Ninpo: Firesale'
       inputs:
         - 632146S
         - 632146D
@@ -95,11 +95,11 @@ moves:
         - name: Air
           inputs:
             - j.236236S
-    - name: Business Ultimate Ninpo: All Hands
+    - name: 'Business Ultimate Ninpo: All Hands'
       inputs:
         - 236236K
   instant_kills:
-    - name: Summoner: The Basilisk
+    - name: 'Summoner: The Basilisk'
       inputs:
         - 236236H
       conditions: in instant kill mode
