@@ -27,7 +27,6 @@ moves:
     - name: Zest
       inputs:
         - 2D
-        - j.2D
     - j.P
     - j.K
     - j.S
