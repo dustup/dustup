@@ -1,0 +1,33 @@
+- if move.class == String
+  %li{class: "moves #{type}"}
+    = move
+- else
+  %li{class: "move #{type}"}
+    -# TODO add image link here
+    %div{class: "move #{type} #{type}_name"}
+      Name:
+      = move['name']
+    %ul{class: "move #{type} #{type}_details"}
+      - if move['conditions']
+        %li{class: "move #{type} #{type}_conditions"}
+          Conditions:
+          = move['conditions']
+      %li{class: "move #{type} #{type}_inputs"}
+        Inputs:
+        %ul{class: "move #{type} #{type}_inputs inputs"}
+          - [move['inputs']].flatten.each do |i|
+            %li{class: "move #{type} #{type}_input"}
+              = i
+      - if move['follow_ups']
+        %li{class: "move #{type} #{type}_follow_ups"}
+          Follow-Ups:
+          %ul{class: "move #{type} #{type}_follow_ups_list"}
+            - move['follow_ups'].each do |f|
+              = render_move(engine, type, f)
+      - if move['follow_up_to']
+        %li{class: "move #{type} #{type}_follow_up_to"}
+          Follow-up to:
+          %ul{class: "move #{type} #{type}_follow_up_to_list"}
+            - [move['follow_up_to']].flatten.each do |f|
+              %li{class: "move #{type} #{type}_follow_up_to"}
+                = f

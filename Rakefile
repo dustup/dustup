@@ -31,8 +31,8 @@ task compile: [:clobber] do
 
   character_haml_path = File.join(@templates, 'game', 'character.html.haml')
   @character_engine = Haml::Engine.new(File.read(character_haml_path))
-  special_move_haml_path = File.join(@templates, 'game', 'special_move.html.haml')
-  @special_move_engine = Haml::Engine.new(File.read(special_move_haml_path))
+  move_haml_path = File.join(@templates, 'game', 'character', 'move.html.haml')
+  @move_engine = Haml::Engine.new(File.read(move_haml_path))
   game_index_haml_path = File.join(@templates, 'game', 'index.html.haml')
   @game_index_engine = Haml::Engine.new(File.read(game_index_haml_path))
 
@@ -54,7 +54,7 @@ task compile: [:clobber] do
       begin
         page = @character_engine.render(
           Object.new,
-          engine: @special_move_engine,
+          engine: @move_engine,
           data: @data
         )
       rescue
@@ -83,10 +83,11 @@ CLOBBER.include(Dir.glob(File.join(@dest, '*')))
 
 private
 
-def render_special_move(engine, move)
+def render_move(engine, type, move)
   engine.render(
     Object.new,
     engine: engine,
+    type: type,
     move: move
   )
 end

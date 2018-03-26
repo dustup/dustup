@@ -3,51 +3,22 @@
 %h3.moves Normals
 %ul.moves.normal_moves
   - data['moves']['normals'].each do |m|
-    %li.moves.normal_move
-      -# TODO add image link here
-      = m
+    -# TODO add image link here
+    = render_move(engine, 'normal_move', m)
 
 %h3.moves Specials
 %ul.moves.special_moves
   - data['moves']['specials'].each do |m|
-    = render_special_move(engine, m)
+    = render_move(engine, 'special_move', m)
 
 - if data['moves']['overdrives']
   %h3.moves Overdrives
   %ul.moves.overdrives
     - data['moves']['overdrives'].each do |o|
-      %li.move.overdrive
-        .move.overdrive.overdrive_name
-          Name:
-          = o['name']
-        %ul.move.overdrive.overdrive_details
-          - if o['conditions']
-            %li.move.overdrive.overdrive_condition
-              Conditions:
-              = o['conditions']
-          %li.move.overdrive.overdrive_inputs
-            Inputs:
-            %ul.move.overdrive.overdrive_inputs.inputs
-              - [o['inputs']].flatten.each do |i|
-                %li.move.overdrive.overdrive_input
-                  = i
+      = render_move(engine, 'overdrive', o)
 
 - if data['moves']['instant_kills']
   %h3.moves Instant Kills
   %ul.moves.instant_kills
     - data['moves']['instant_kills'].each do |k|
-      %li.move.instant_kill
-        .move.instant_kill.instant_kill_name
-          Name:
-          = k['name']
-        %ul.move.instant_kill.instant_kill_details
-          - if k['conditions']
-            %li.move.instant_kill.instant_kill_condition
-              Conditions:
-              = k['conditions']
-          %li.move.instant_kill.instant_kill_inputs
-            Inputs:
-            %ul.move.instant_kill.instant_kill_inputs.inputs
-              - [k['inputs']].flatten.each do |i|
-                %li.move.instant_kill.instant_kill_input
-                  = i
+      = render_move(engine, 'normal_move', k)
