@@ -30,8 +30,8 @@ moves:
           follow_ups:
             - name: Goushao
               inputs: P
-        - name: Dowanga
-          inputs: K
+            - name: Dowanga
+              inputs: K
     - name: Youeikyaku
       inputs: j.2K
     - name: Bakushuu
