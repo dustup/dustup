@@ -1,0 +1,75 @@
+---
+name: Slayer
+moves:
+  normals:
+    - 5P
+    - 5K
+    - c.S
+    - f.S
+    - 5H
+    - 6P
+    - 6K
+    - '6[K]'
+    - 6H
+    - 5D
+    - 2P
+    - 2K
+    - 2S
+    - 2H
+    - 2D
+    - j.P
+    - j.K
+    - j.S
+    - j.H
+    - j.D
+    - j.2K
+  specials:
+    - name: Mappa Hunch
+      inputs:
+        - 236P
+        - 236K
+    - name: Bloodsucking Universe
+      inputs:
+        - 63214H
+    - name: Dandy Step
+      inputs:
+        - 214P
+        - 214K
+      follow_ups:
+        - name: Pilebunker
+          inputs:
+            - P
+        - name: Crosswise Heel
+          inputs:
+            - K
+        - name: Under Pressure
+          inputs:
+            - S
+          follow_ups:
+            - name: It's Late
+              inputs:
+                - S
+                - H
+        - name: Helter Skelter
+          inputs:
+            - H
+    - name: Footloose Journey
+      inputs:
+        - j.214K
+    - name: Undertow
+      inputs:
+        - 632146P
+  overdrives:
+    - name: Dead on Time
+      inputs:
+        - 632146S
+    - name: Eternal Wings
+      inputs:
+        - 236236H
+    - name: Up Close and Dandy
+      inputs:
+        - j.214214S
+  instant_kills:
+    - name: All Dead
+      inputs: 236236H
+      conditions: in instant kill mode
