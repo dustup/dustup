@@ -73,7 +73,7 @@ moves:
         - j.41236S
     - name: Flight
       inputs:
-        - 'double jump'
+        - 88
   overdrives:
     - name: Amorphous
       inputs:
