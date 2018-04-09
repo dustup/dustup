@@ -37,16 +37,16 @@ moves:
     - c.S
     - name: f.S
       inputs: f.S
-      conditions: 'no sword'
+      conditions: without S sword
     - name: f.S
       inputs: f.S
-      conditions: 'with sword'
+      conditions: with S sword
     - name: 5H
       inputs: 5H
-      conditions: 'no sword'
+      conditions: without H sword
     - name: 5H
       inputs: 5H
-      conditions: 'with sword'
+      conditions: with H sword
     - 5D
     - name: 2P
       inputs: 2P
@@ -72,10 +72,10 @@ moves:
               inputs: 2K
     - name: 2S
       inputs: 2S
-      conditions: with sword
+      conditions: with S sword
     - name: 2H
       inputs: 2H
-      conditions: with sword
+      conditions: with H sword
     - 2D
     - 3K
     - 6P
@@ -84,16 +84,16 @@ moves:
     - j.K
     - name: j.S
       inputs: j.S
-      conditions: no sword
+      conditions: without S sword
     - name: j.S
       inputs: j.S
-      conditions: with sword
+      conditions: with S sword
     - name: j.H
       inputs: j.H
-      conditions: no sword
+      conditions: without H sword
     - name: j.H
       inputs: j.H
-      conditions: with sword
+      conditions: with H sword
     - j.D
   specials:
     - name: Deploy Giant Sword
@@ -127,11 +127,9 @@ moves:
       inputs:
         - 214S
         - j.214S
-      conditions: with S sword
     - name: Forpeli
       inputs:
         - 214H
-      conditions: with H sword
   overdrives:
     - name: Calvados
       inputs:
