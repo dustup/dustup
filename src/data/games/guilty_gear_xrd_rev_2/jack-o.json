@@ -1,0 +1,157 @@
+{
+  "name": "Jack-O",
+  "moves": {
+    "normals": [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "6P",
+      "6K",
+      "6H",
+      "3H",
+      "5D",
+      {
+        "name": "Hunger of Dopoulos",
+        "inputs": [
+          "4D",
+          "j.4D"
+        ]
+      },
+      {
+        "name": "Elysion Driver",
+        "inputs": [
+          "6D",
+          "j.6D"
+        ]
+      },
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      {
+        "name": "Zest",
+        "inputs": [
+          "2D"
+        ]
+      },
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      {
+        "name": "Remove the Chain of Chiron",
+        "inputs": [
+          "j.D"
+        ]
+      },
+      {
+        "name": "Air Zest",
+        "inputs": [
+          "j.2D"
+        ]
+      }
+    ],
+    "specials": [
+      {
+        "name": "Ghost Set",
+        "inputs": [
+          "22P",
+          "22K",
+          "22S"
+        ]
+      },
+      {
+        "name": "Ghost Pick Up",
+        "inputs": [
+          "2P"
+        ],
+        "conditions": "Near a Ghost"
+      },
+      {
+        "name": "Ghost Place",
+        "inputs": [
+          "2P",
+          "2K",
+          "2S"
+        ],
+        "conditions": "Ghost Pick Up"
+      },
+      {
+        "name": "Ghost Put Away",
+        "inputs": [
+          "4P",
+          "4K",
+          "4S"
+        ],
+        "conditions": "Ghost Pick Up"
+      },
+      {
+        "name": "Ghost Throw",
+        "inputs": [
+          "5P",
+          "5K",
+          "5S",
+          "j.5P",
+          "j.5K",
+          "j.5S"
+        ],
+        "conditions": "Ghost Pick Up"
+      },
+      {
+        "name": "Organ Deployment",
+        "inputs": [
+          "22H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Recover All",
+            "inputs": "P"
+          },
+          {
+            "name": "Clock Up",
+            "inputs": "K"
+          },
+          {
+            "name": "Explode",
+            "inputs": "S"
+          },
+          {
+            "name": "Aegis Field",
+            "inputs": "H"
+          },
+          {
+            "name": "Release",
+            "inputs": "D"
+          }
+        ]
+      }
+    ],
+    "overdrives": [
+      {
+        "name": "Calvados",
+        "inputs": [
+          "214S",
+          "j.214S"
+        ]
+      },
+      {
+        "name": "Forever Elysion Driver",
+        "inputs": [
+          "360P",
+          "j.360P"
+        ]
+      }
+    ],
+    "instant_kills": [
+      {
+        "name": "I Want Out",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "in instant kill mode"
+      }
+    ]
+  }
+}

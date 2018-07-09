@@ -1,0 +1,85 @@
+{
+  "name": "Ky Kiske",
+  "moves": {
+    "normals": [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "6P",
+      "6K",
+      "6H",
+      "3H",
+      "5D",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    "specials": [
+      {
+        "name": "Stun Edge",
+        "inputs": "236S"
+      },
+      {
+        "name": "Charged Stun Edge",
+        "inputs": "236H"
+      },
+      {
+        "name": "Air Stun Edge",
+        "inputs": [
+          "j.236S",
+          "j.236H"
+        ]
+      },
+      {
+        "name": "Vapor Thrust",
+        "inputs": [
+          "623S",
+          "623H",
+          "j.623S",
+          "j.623H"
+        ]
+      },
+      {
+        "name": "Stun Dipper",
+        "inputs": "236K"
+      },
+      {
+        "name": "Greed Sever",
+        "inputs": "214K"
+      },
+      {
+        "name": "Split Ciel",
+        "inputs": "236D"
+      }
+    ],
+    "overdrives": [
+      {
+        "name": "Ride The Lightning",
+        "inputs": [
+          "632146H",
+          "j.632146H"
+        ]
+      },
+      {
+        "name": "Sacred Edge",
+        "inputs": "236236P"
+      }
+    ],
+    "instant_kills": [
+      {
+        "name": "Rising Force",
+        "inputs": "236236H",
+        "conditions": "in instant Kill mode"
+      }
+    ]
+  }
+}

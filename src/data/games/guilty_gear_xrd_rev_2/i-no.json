@@ -1,0 +1,97 @@
+{
+  "name": "I-No",
+  "moves": {
+    "normals": [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    "specials": [
+      {
+        "name": "Antidepressant Scale",
+        "inputs": [
+          "214P",
+          "j.214P"
+        ]
+      },
+      {
+        "name": "Stroke the Big Tree",
+        "inputs": [
+          "41236S",
+          "41236H"
+        ]
+      },
+      {
+        "name": "Sultry Performance",
+        "inputs": [
+          "j.236P",
+          "j.236K",
+          "j.236S",
+          "j.236H"
+        ]
+      },
+      {
+        "name": "Chemical Love (Horizontal)",
+        "inputs": [
+          "214K"
+        ],
+        "follow_ups": [
+          {
+            "name": "Chemical Love (Followup)",
+            "inputs": "214S"
+          }
+        ]
+      },
+      {
+        "name": "Chemical Love (Vertical)",
+        "inputs": [
+          "214S"
+        ]
+      },
+      {
+        "name": "Sterilization Method",
+        "inputs": [
+          "214H",
+          "j.214H"
+        ]
+      }
+    ],
+    "overdrives": [
+      {
+        "name": "Longing Desperation",
+        "inputs": [
+          "632146H"
+        ]
+      },
+      {
+        "name": "Ultimate Fortissimo",
+        "inputs": "j.2363214S"
+      }
+    ],
+    "instant_kills": [
+      {
+        "name": "Megalomania",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "in instant kill mode"
+      }
+    ]
+  }
+}
