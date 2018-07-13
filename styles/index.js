@@ -7,7 +7,7 @@ export const styles = StyleSheet.create({
    flex: 1,
    paddingTop: 22
   },
-  item: {
+  gameListItem: {
     padding: 10,
     fontSize: 18,
     height: 44
