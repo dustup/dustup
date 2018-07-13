@@ -1,13 +1,35 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import {
+  Alert,
+  FlatList,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
 import { ggxrd } from './src/data/games';
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { games: [ ggxrd ] };
+  }
+
   render() {
     return (
       <View style={ styles.container }>
-        <Text>{ ggxrd.name }</Text>
+        <FlatList
+          data={ this.state.games }
+          renderItem={ ({ item }) => (
+            <Text
+              style={ styles.item }
+              onPress={ () => Alert.alert(`You tapped [ ${item.name} ]`) }
+            >
+              { item.name }
+            </Text>
+          )}
+          keyExtractor={ (item) => item.name }
+        />
       </View>
     );
   }
@@ -15,9 +37,12 @@ export default class App extends React.Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+   flex: 1,
+   paddingTop: 22
+  },
+  item: {
+    padding: 10,
+    fontSize: 18,
+    height: 44
   },
 });
