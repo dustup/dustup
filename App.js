@@ -1,9 +1,10 @@
 import React from 'react';
 import {
+  Alert,
+  FlatList,
   StyleSheet,
   Text,
-  View,
-  FlatList
+  View
 } from 'react-native';
 
 import { ggxrd } from './src/data/games';
@@ -11,15 +12,22 @@ import { ggxrd } from './src/data/games';
 export default class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { chars: ggxrd.characters };
+    this.state = { games: [ ggxrd ] };
   }
 
   render() {
     return (
       <View style={ styles.container }>
         <FlatList
-          data={ this.state.chars }
-          renderItem={ ({ item }) => <Text style={ styles.item }>{ item.name }</Text> }
+          data={ this.state.games }
+          renderItem={ ({ item }) => (
+            <Text
+              style={ styles.item }
+              onPress={ () => Alert.alert(`You tapped [ ${item.name} ]`) }
+            >
+              { item.name }
+            </Text>
+          )}
           keyExtractor={ (item) => item.name }
         />
       </View>
@@ -35,6 +43,6 @@ const styles = StyleSheet.create({
   item: {
     padding: 10,
     fontSize: 18,
-    height: 44,
+    height: 44
   },
 });
