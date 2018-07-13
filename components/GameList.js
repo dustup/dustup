@@ -6,6 +6,7 @@ import {
   ScrollView
 } from 'react-native';
 
+import { GameListItem } from 'dustup/components/GameListItem';
 import { ggxrd } from 'dustup/data/games';
 import { styles } from 'dustup/styles';
 
@@ -22,14 +23,7 @@ export class GameList extends React.Component {
       <ScrollView styles={ styles.container }>
         <FlatList
           data={ this.state.games }
-          renderItem={ ({ item }) => (
-            <Text
-              style={ styles.item }
-              onPress={ () => Alert.alert(`You tapped [ ${item.name} ]`) }
-            >
-              { item.name }
-            </Text>
-          )}
+          renderItem={ ({ item }) => <GameListItem game={ item }/> }
           keyExtractor={ (item) => item.name }
         />
       </ScrollView>
