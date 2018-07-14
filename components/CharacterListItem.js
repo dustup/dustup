@@ -5,7 +5,7 @@ import {
 
 import { styles } from 'dustup/styles';
 
-export class CharacterListItem extends React.Component {
+export default class CharacterListItem extends React.Component {
   render() {
     return (
       <Text

@@ -4,9 +4,9 @@ import {
   List,
 } from 'native-base';
 
-import { GameListItem } from 'dustup/components/GameListItem'
+import { GameListItem } from 'dustup/components'
 
-export class GameList extends React.Component {
+export default class GameList extends React.Component {
   render() {
     return (
       <List

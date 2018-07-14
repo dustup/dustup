@@ -3,7 +3,7 @@ import {
   Text
 } from 'react-native';
 
-export class MoveListScreen extends React.Component {
+export default class MoveListScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       title: navigation.getParam('title', 'CHARACTER')

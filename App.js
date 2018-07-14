@@ -8,9 +8,11 @@ import { StyleProvider } from 'native-base';
 import getTheme from 'dustup/native-base-theme/components';
 import platform from 'dustup/native-base-theme/variables/platform';
 
-import { GameListScreen } from 'dustup/components/GameListScreen';
-import { CharacterListScreen } from 'dustup/components/CharacterListScreen';
-import { MoveListScreen } from 'dustup/components/MoveListScreen';
+import {
+  GameListScreen,
+  CharacterListScreen,
+  MoveListScreen,
+} from 'dustup/components';
 
 const RootStack = createStackNavigator(
   {

@@ -5,7 +5,7 @@ import {
 
 import { styles } from 'dustup/styles';
 
-export class GameListItem extends React.Component {
+export default class GameListItem extends React.Component {
   render() {
     return (
       <Text

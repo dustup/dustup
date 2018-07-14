@@ -6,9 +6,9 @@ import {
 } from 'react-native';
 
 import { styles } from 'dustup/styles';
-import { CharacterListItem } from 'dustup/components/CharacterListItem';
+import { CharacterListItem } from 'dustup/components';
 
-export class CharacterListScreen extends React.Component {
+export default class CharacterListScreen extends React.Component {
   static navigationOptions = ({ navigation }) => {
     return {
       title: navigation.getParam('title', "GAME")
