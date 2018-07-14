@@ -24,13 +24,13 @@ export default class CharacterListScreen extends React.Component {
       <Container>
         <Header>
           <Left>
-            <Button transparent>
+            <Button transparent onPress={() => navigation.goBack()}>
               <Icon name='arrow-back'/>
               <Text>Back</Text>
             </Button>
           </Left>
           <Body>
-            <Title>{game.shortName}</Title>
+            <Title>{game.shortName || game.name}</Title>
           </Body>
           <Right/>
         </Header>

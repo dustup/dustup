@@ -1,4 +1,4 @@
-const gg = {
+export default {
   name: 'Guilty Gear Xrd REV 2',
   shortName: 'GGXrdR2',
   characters: [
@@ -26,8 +26,6 @@ const gg = {
     require('./slayer'),
     require('./sol'),
     require('./venom'),
-    require('./zato')
+    require('./zato'),
   ]
 };
-
-export default gg;

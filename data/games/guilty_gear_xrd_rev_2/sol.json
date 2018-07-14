@@ -1,5 +1,6 @@
 {
   "name": "Sol Badguy",
+  "shortName": "Sol",
   "moves": {
     "normals": [
       "5P",
