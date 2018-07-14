@@ -18,7 +18,9 @@ export class GameListScreen extends React.Component {
         <FlatList
           style={ styles.container }
           data={ [ ggxrd ] }
-          renderItem={ ({ item }) => <GameListItem game={ item } navigation={ this.props.navigation }/> }
+          renderItem={ ({ item }) => (
+            <GameListItem game={ item } navigation={ this.props.navigation }/>
+          )}
           keyExtractor={ (item) => item.name }
         />
     )

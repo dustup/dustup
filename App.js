@@ -5,11 +5,13 @@ import {
 
 import { GameListScreen } from 'dustup/components/GameListScreen';
 import { CharacterListScreen } from 'dustup/components/CharacterListScreen';
+import { MoveListScreen } from 'dustup/components/MoveListScreen';
 
 const RootStack = createStackNavigator(
   {
     GameList: { screen: GameListScreen },
-    CharacterList: { screen: CharacterListScreen }
+    CharacterList: { screen: CharacterListScreen },
+    MoveList: { screen: MoveListScreen }
   },
   { initialRouteName: 'GameList' }
 );
