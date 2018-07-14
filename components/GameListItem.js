@@ -10,7 +10,7 @@ export class GameListItem extends React.Component {
     return (
       <Text
         style={ styles.listItem }
-        onPress={ () => this.props.navigation.navigate('CharacterList', { game: this.props.game }) }
+        onPress={ () => this.props.navigation.navigate('CharacterList', { game: this.props.game, title: this.props.game.name }) }
       >
         { this.props.game.name }
       </Text>

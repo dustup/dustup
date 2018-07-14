@@ -6,17 +6,23 @@ import {
 } from 'react-native';
 
 import { styles } from 'dustup/styles';
+import { CharacterListItem } from 'dustup/components/CharacterListItem';
 
 export class CharacterListScreen extends React.Component {
+  static navigationOptions = ({ navigation }) => {
+    return {
+      title: navigation.getParam('title', "GAME")
+    };
+  };
+
   render() {
-    const { navigation } = this.props;
-    const game = navigation.getParam('game', 'NO GAME');
+    const game = this.props.navigation.getParam('game', 'NO GAME');
 
     return (
         <FlatList
           style={ styles.container }
           data={ game.characters }
-          renderItem={ ({ item }) => <Text style={ styles.listItem }>{ item.name }</Text> }
+          renderItem={ ({ item }) => <CharacterListItem character={ item } navigation={ this.props.navigation } /> }
           keyExtractor={ (item) => item.name }
         />
     );
