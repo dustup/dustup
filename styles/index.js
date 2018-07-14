@@ -5,9 +5,9 @@ import {
 export const styles = StyleSheet.create({
   container: {
    flex: 1,
-   paddingTop: 22
+   padding: 10
   },
-  gameListItem: {
+  listItem: {
     padding: 10,
     fontSize: 18,
     height: 44
