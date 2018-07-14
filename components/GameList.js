@@ -1,18 +1,20 @@
 import React from 'react';
+import {FlatList} from 'react-native';
 
-import { FlatList } from 'react-native';
-
-import { GameListItem } from 'dustup/components'
+import {GameListItem} from 'dustup/components'
 
 export default class GameList extends React.Component {
   render() {
+    const {
+      games,
+      navigation
+    } = this.props;
+
     return (
       <FlatList
-        button='true'
-        data={ this.props.games }
-        renderItem={ ({ item }) => <GameListItem game={ item } navigation={ this.props.navigation } /> }
-        keyExtractor={ (item) => item.name }
-      />
+        data={games}
+        renderItem={({item}) => <GameListItem game={item} navigation={navigation}/>}
+        keyExtractor={(game) => game.name}/>
     );
   }
 }

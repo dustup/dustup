@@ -1,18 +1,40 @@
 import React from 'react';
 import {
-  Text
-} from 'react-native';
+  Body,
+  Button,
+  Container,
+  Content,
+  Header,
+  Icon,
+  Left,
+  Right,
+  Text,
+  Title,
+} from 'native-base';
 
 export default class MoveListScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.getParam('title', 'CHARACTER')
-    };
-  };
-
   render() {
+    const {navigation} = this.props;
+    const character = navigation.getParam('character', 'NO CHARACTER');
+
     return (
-      <Text>stuff goes here</Text>
+      <Container>
+        <Header>
+          <Left>
+            <Button transparent>
+              <Icon name="arrow-back"/>
+              <Text>Back</Text>
+            </Button>
+          </Left>
+          <Body>
+            <Title>{character.name}</Title>
+          </Body>
+          <Right/>
+        </Header>
+        <Content>
+          <Text>MOVE LIST</Text>
+        </Content>
+      </Container>
     );
   }
 }

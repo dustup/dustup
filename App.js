@@ -1,13 +1,9 @@
 import React from 'react';
-import {
-  Font,
-  AppLoading,
-} from 'expo';
-import { createStackNavigator } from 'react-navigation';
-import { StyleProvider } from 'native-base';
+import {createStackNavigator} from 'react-navigation';
+import {StyleProvider} from 'native-base';
+
 import getTheme from 'dustup/native-base-theme/components';
 import platform from 'dustup/native-base-theme/variables/platform';
-
 import {
   GameListScreen,
   CharacterListScreen,
@@ -16,9 +12,9 @@ import {
 
 const RootStack = createStackNavigator(
   {
-    GameList: { screen: GameListScreen },
-    CharacterList: { screen: CharacterListScreen },
-    MoveList: { screen: MoveListScreen },
+    GameList: {screen: GameListScreen},
+    CharacterList: {screen: CharacterListScreen},
+    MoveList: {screen: MoveListScreen},
   },
   {
     initialRouteName: 'GameList',
@@ -29,8 +25,8 @@ const RootStack = createStackNavigator(
 export default class App extends React.Component {
   render() {
     return (
-      <StyleProvider style={ getTheme(platform) }>
-        <RootStack />
+      <StyleProvider style={getTheme(platform)}>
+        <RootStack/>
       </StyleProvider>
     );
   }

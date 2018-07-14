@@ -7,10 +7,15 @@ import {
 
 export default class GameListItem extends React.Component {
   render() {
+    const {
+      game,
+      navigation
+    } = this.props;
+
     return (
-      <ListItem onPress={ () => this.props.navigation.navigate('CharacterList', { game: this.props.game, title: this.props.game.name }) }>
+      <ListItem onPress={() => navigation.navigate('CharacterList', {game: game, title: game.name})}>
         <Text>
-          { this.props.game.name }
+          {game.name}
         </Text>
       </ListItem>
     );

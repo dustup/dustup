@@ -1,5 +1,4 @@
 import React from 'react';
-
 import {
   Body,
   Container,
@@ -10,33 +9,34 @@ import {
   Title,
 } from 'native-base';
 
-import { GameList } from 'dustup/components';
-import { ggxrd } from 'dustup/data/games';
+import {GameList} from 'dustup/components';
+import {ggxrd} from 'dustup/data/games';
 
 export default class GameListScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      games: [
-        ggxrd,
-      ]
-    }
+      games: [ggxrd]
+    };
   }
 
   render() {
+    const {games} = this.state;
+    const {navigation} = this.props;
+
     return (
       <Container>
         <Header>
-          <Left />
+          <Left/>
           <Body>
             <Title>Games</Title>
           </Body>
-          <Right />
+          <Right/>
         </Header>
         <Content>
-          <GameList games={ this.state.games } navigation={ this.props.navigation } />
+          <GameList games={games} navigation={navigation}/>
         </Content>
       </Container>
-    )
+    );
   }
 }

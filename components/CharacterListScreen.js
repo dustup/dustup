@@ -1,30 +1,46 @@
 import React from 'react';
+import {FlatList} from 'react-native';
 import {
-  FlatList,
-  ScrollView,
-  Text
-} from 'react-native';
+  Body,
+  Button,
+  Container,
+  Content,
+  Header,
+  Icon,
+  Left,
+  Right,
+  Text,
+  Title,
+} from 'native-base';
 
-import { styles } from 'dustup/styles';
-import { CharacterListItem } from 'dustup/components';
+import {CharacterListItem} from 'dustup/components';
 
 export default class CharacterListScreen extends React.Component {
-  static navigationOptions = ({ navigation }) => {
-    return {
-      title: navigation.getParam('title', "GAME")
-    };
-  };
-
   render() {
-    const game = this.props.navigation.getParam('game', 'NO GAME');
+    const {navigation} = this.props;
+    const game = navigation.getParam('game', 'NO GAME');
 
     return (
-        <FlatList
-          style={ styles.container }
-          data={ game.characters }
-          renderItem={ ({ item }) => <CharacterListItem character={ item } navigation={ this.props.navigation } /> }
-          keyExtractor={ (item) => item.name }
-        />
+      <Container>
+        <Header>
+          <Left>
+            <Button transparent>
+              <Icon name='arrow-back'/>
+              <Text>Back</Text>
+            </Button>
+          </Left>
+          <Body>
+            <Title>{game.shortName}</Title>
+          </Body>
+          <Right/>
+        </Header>
+        <Content>
+          <FlatList
+            data={ game.characters }
+            renderItem={({item}) => <CharacterListItem character={item} navigation={navigation}/>}
+            keyExtractor={(game) => game.name}/>
+        </Content>
+      </Container>
     );
   }
 }

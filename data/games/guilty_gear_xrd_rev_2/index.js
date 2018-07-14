@@ -1,5 +1,6 @@
 const gg = {
   name: 'Guilty Gear Xrd REV 2',
+  shortName: 'GGXrdR2',
   characters: [
     require('./answer'),
     require('./axl'),
