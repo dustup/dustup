@@ -27,9 +27,7 @@ export default class GameListScreen extends React.Component {
     return (
       <Container>
         <Header>
-          <Left>
-            // back navigation
-          </Left>
+          <Left />
           <Body>
             <Title>Games</Title>
           </Body>

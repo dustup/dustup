@@ -1,17 +1,17 @@
 import React from 'react';
 
-import {
-  List,
-} from 'native-base';
+import { FlatList } from 'react-native';
 
 import { GameListItem } from 'dustup/components'
 
 export default class GameList extends React.Component {
   render() {
     return (
-      <List
-        dataArray={ this.props.games }
-        renderRow={ (item) => ( <GameListItem game={ item } navigation={ this.props.navigation } /> )}
+      <FlatList
+        button='true'
+        data={ this.props.games }
+        renderItem={ ({ item }) => <GameListItem game={ item } navigation={ this.props.navigation } /> }
+        keyExtractor={ (item) => item.name }
       />
     );
   }
