@@ -32,7 +32,9 @@ export default class MoveListScreen extends React.Component {
           <Right/>
         </Header>
         <Content>
-          <Text>MOVE LIST</Text>
+          <Text>
+            {JSON.stringify(character.moves, null, 2)} // placeholder
+          </Text>
         </Content>
       </Container>
     );
