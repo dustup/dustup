@@ -1,0 +1,113 @@
+{
+  "name": "May",
+  "moves": {
+    "normals": [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6[P]",
+      "6K",
+      "6H",
+      "6[H]",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.2H",
+      "j.D"
+    ],
+    "specials": [
+      {
+        "name": "Mr. Dolphin Horizontal",
+        "inputs": [
+          "[4]6S",
+          "[4]6H"
+        ]
+      },
+      {
+        "name": "Mr. Dolphin Vertical",
+        "inputs": [
+          "[2]8S",
+          "[2]8H"
+        ]
+      },
+      {
+        "name": "Applause for the Victim",
+        "inputs": [
+          "41236P",
+          "41236[P]",
+          "41236K",
+          "41236[K]",
+          "41236S",
+          "41236[S]",
+          "41236H",
+          "41236[H]"
+        ]
+      },
+      {
+        "name": "Don't Miss It!",
+        "inputs": [
+          "214P",
+          "214K"
+        ]
+      },
+      {
+        "name": "Ensenga?",
+        "inputs": [
+          "j.41236H"
+        ]
+      },
+      {
+        "name": "Overhead Kiss",
+        "inputs": [
+          "623K"
+        ]
+      }
+    ],
+    "overdrives": [
+      {
+        "name": "Ultimate Whiner",
+        "inputs": [
+          "63214H"
+        ]
+      },
+      {
+        "name": "Great Yamada Attack",
+        "inputs": [
+          "236236S",
+          "236236D"
+        ]
+      },
+      {
+        "name": "Ultimate Spinning Whirlwind",
+        "inputs": [
+          "63214S"
+        ],
+        "follow_ups": [
+          {
+            "name": "Deluxe Goshogawara Bomber",
+            "inputs": "P"
+          }
+        ]
+      }
+    ],
+    "instant_kills": [
+      {
+        "name": "And Then She Said... Farewell",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "in instant kill mode"
+      }
+    ]
+  }
+}

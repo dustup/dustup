@@ -1,0 +1,174 @@
+{
+  "name": "Baiken",
+  "moves": {
+    "normals": [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    "specials": [
+      {
+        "name": "Azami",
+        "inputs": [
+          "S+H",
+          "4S+H",
+          "2S+H",
+          "1S+H"
+        ]
+      },
+      {
+        "name": "Air Azami",
+        "inputs": "j.4S+H"
+      },
+      {
+        "name": "Kuchinashi",
+        "inputs": "P",
+        "follow_up_to": [
+          "Azami",
+          "Suzuran"
+        ]
+      },
+      {
+        "name": "Mawarikomi",
+        "inputs": "K",
+        "follow_up_to": [
+          "Azami",
+          "Suzuran"
+        ]
+      },
+      {
+        "name": "Sakura",
+        "inputs": "S",
+        "follow_up_to": [
+          "Azami",
+          "Suzuran"
+        ]
+      },
+      {
+        "name": "Rokkonsogi",
+        "inputs": "H",
+        "follow_up_to": [
+          "Azami",
+          "Suzuran"
+        ]
+      },
+      {
+        "name": "Yashagatana",
+        "inputs": "D",
+        "follow_up_to": [
+          "Azami",
+          "Suzuran"
+        ]
+      },
+      {
+        "name": "Tsubaki",
+        "inputs": [
+          "P",
+          "K"
+        ],
+        "follow_up_to": [
+          "Air Azami"
+        ]
+      },
+      {
+        "name": "Kikyou",
+        "inputs": [
+          "S",
+          "H"
+        ],
+        "follow_up_to": [
+          "Air Azami"
+        ]
+      },
+      {
+        "name": "Kabari (anti-air)",
+        "inputs": "41236S"
+      },
+      {
+        "name": "Kabari (ground)",
+        "inputs": "41236H"
+      },
+      {
+        "name": "Himarawi",
+        "inputs": "P",
+        "follow_up_to": [
+          "Kabari (anti-air)",
+          "Kabari (ground)"
+        ]
+      },
+      {
+        "name": "Tetsuzansen",
+        "inputs": "S",
+        "follow_up_to": [
+          "Kabari (anti-air)",
+          "Kabari (ground)"
+        ]
+      },
+      {
+        "name": "Rokkonsogi",
+        "inputs": "H",
+        "follow_up_to": [
+          "Kabari (anti-air)",
+          "Kabari (ground)"
+        ]
+      },
+      {
+        "name": "Tatami Gaeshi",
+        "inputs": [
+          "236K",
+          "j.236K"
+        ]
+      },
+      {
+        "name": "Youzan Sen",
+        "inputs": "j.623S"
+      },
+      {
+        "name": "Suzuran",
+        "inputs": "63214K"
+      }
+    ],
+    "overdrives": [
+      {
+        "name": "Tsurane Zanzuwatashi",
+        "inputs": [
+          "236236S",
+          "236236D"
+        ]
+      },
+      {
+        "name": "Metsudo Kushoudou",
+        "inputs": "236236H",
+        "follow_up_to": [
+          "Azami",
+          "Suzuran"
+        ]
+      }
+    ],
+    "instant_kills": [
+      {
+        "name": "Garyo Tensei",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "in instant kill mode"
+      }
+    ]
+  }
+}

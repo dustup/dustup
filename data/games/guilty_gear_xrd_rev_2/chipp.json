@@ -1,0 +1,176 @@
+{
+  "name": "Chipp Zanuff",
+  "moves": {
+    "normals": [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D",
+      "6P",
+      "6K",
+      "6H",
+      "j.2K",
+      "2D",
+      "5D"
+    ],
+    "specials": [
+      {
+        "name": "Alpha Blade",
+        "inputs": [
+          "236P",
+          "j.236P"
+        ]
+      },
+      {
+        "name": "Beta Blade",
+        "inputs": [
+          "623S",
+          "j.623S"
+        ]
+      },
+      {
+        "name": "Gamma Blade",
+        "inputs": [
+          "41236H"
+        ]
+      },
+      {
+        "name": "Tsuyoshishiki Meisei",
+        "inputs": [
+          "214K"
+        ]
+      },
+      {
+        "name": "Tsuyoshishiki Ten'i",
+        "inputs": [
+          "22P",
+          "22K",
+          "22S",
+          "22H"
+        ]
+      },
+      {
+        "name": "Genrouzan",
+        "inputs": [
+          "63214S"
+        ]
+      },
+      {
+        "name": "Resshou",
+        "inputs": [
+          "236S"
+        ]
+      },
+      {
+        "name": "Rokusai",
+        "inputs": [
+          "236S"
+        ],
+        "follow_up_to": "Resshou"
+      },
+      {
+        "name": "Senshuu",
+        "inputs": [
+          "236K"
+        ],
+        "follow_up_to": [
+          "Resshou",
+          "Rokusai"
+        ]
+      },
+      {
+        "name": "Shinkirou",
+        "inputs": [
+          "623H"
+        ]
+      },
+      {
+        "name": "Shuriken",
+        "inputs": [
+          "j.214P"
+        ]
+      },
+      {
+        "name": "Wall Cling",
+        "inputs": 64,
+        "conditions": "near wall",
+        "follow_ups": [
+          {
+            "name": "Up and Down Movement",
+            "inputs": [
+              8,
+              2
+            ]
+          },
+          {
+            "name": "Horizontal Movement",
+            "inputs": [
+              6,
+              3,
+              9
+            ]
+          },
+          {
+            "name": "Jump Down",
+            "inputs": 4
+          },
+          {
+            "name": "Alpha Blade",
+            "inputs": "P"
+          },
+          {
+            "name": "Kunai",
+            "inputs": "K"
+          },
+          {
+            "name": "Ground Genrouzan",
+            "inputs": "S"
+          },
+          {
+            "name": "Air Genouzan",
+            "inputs": "H"
+          }
+        ]
+      }
+    ],
+    "overdrives": [
+      {
+        "name": "Zansei Rouga",
+        "inputs": [
+          "632146H"
+        ]
+      },
+      {
+        "name": "Ryuu Yanagi",
+        "inputs": [
+          "j.214214K"
+        ]
+      },
+      {
+        "name": "Banki Mesai",
+        "inputs": [
+          "236236K"
+        ]
+      }
+    ],
+    "instant_kills": [
+      {
+        "name": "Raisetsudan",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "in instant kill mode"
+      }
+    ]
+  }
+}
