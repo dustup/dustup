@@ -1,4 +1,5 @@
 import React from 'react';
+import {StyleSheet} from 'react-native';
 import {createStackNavigator} from 'react-navigation';
 import {
   Container,
@@ -28,6 +29,14 @@ const RootStack = createStackNavigator(
   },
 );
 
+const spinnerStyle = StyleSheet.create({
+  spinnerStyle: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  }
+});
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -54,8 +63,8 @@ export default class App extends React.Component {
     if (!this.state.isReady) {
       return (
         <Container>
-          <Content>
-            <Spinner/>
+          <Content contentContainerStyle={spinnerStyle.spinnerStyle}>
+            <Spinner color='blue'/>
           </Content>
         </Container>
       );
