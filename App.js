@@ -1,21 +1,16 @@
 import React from 'react';
 import {createStackNavigator} from 'react-navigation';
-import {
-  Container,
-  Content,
-  Spinner,
-  StyleProvider,
-} from 'native-base';
+import {StyleProvider} from 'native-base';
 import {Font} from 'expo';
 
 import getTheme from 'dustup/native-base-theme/components';
 import platform from 'dustup/native-base-theme/variables/platform';
 import {
+  FullScreenSpinner,
   GameListScreen,
   CharacterListScreen,
   MoveListScreen,
 } from 'dustup/components';
-import dustupStyle from 'dustup/styles';
 
 const RootStack = createStackNavigator(
   {
@@ -54,11 +49,7 @@ export default class App extends React.Component {
   render() {
     if (!this.state.isReady) {
       return (
-        <Container>
-          <Content contentContainerStyle={dustupStyle.spinner}>
-            <Spinner color='blue'/>
-          </Content>
-        </Container>
+        <FullScreenSpinner/>
       );
     }
     return (
