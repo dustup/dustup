@@ -32,8 +32,8 @@ export default class MoveListScreen extends React.Component {
           <Right/>
         </Header>
         <Content>
-          <Text>
-            {JSON.stringify(character.moves, null, 2)} // placeholder
+          <Text style={{fontFamily: 'SourceCodePro'}}>
+            {JSON.stringify(character.moves, null, 2)}
           </Text>
         </Content>
       </Container>
