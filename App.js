@@ -1,28 +1,8 @@
 import React from 'react';
-import {createStackNavigator} from 'react-navigation';
-import {StyleProvider} from 'native-base';
 import {Font} from 'expo';
 
-import getTheme from 'dustup/native-base-theme/components';
-import platform from 'dustup/native-base-theme/variables/platform';
-import {
-  FullScreenSpinner,
-  GameListScreen,
-  CharacterListScreen,
-  MoveListScreen,
-} from 'dustup/components';
-
-const RootStack = createStackNavigator(
-  {
-    GameList: {screen: GameListScreen},
-    CharacterList: {screen: CharacterListScreen},
-    MoveList: {screen: MoveListScreen},
-  },
-  {
-    initialRouteName: 'GameList',
-    headerMode: 'none',
-  },
-);
+import {RootStackNavigator} from 'dustup/navigators';
+import {FullScreenSpinner} from 'dustup/components';
 
 export default class App extends React.Component {
   constructor(props) {
@@ -43,7 +23,7 @@ export default class App extends React.Component {
       Ionicons: require('@expo/vector-icons/fonts/Ionicons.ttf'),
       SourceCodePro: require('dustup/fonts/SourceCodePro-Regular.ttf'),
     });
-    this.setState({isReady:true});
+    this.setState({isReady: true});
   }
 
   render() {
@@ -53,9 +33,7 @@ export default class App extends React.Component {
       );
     }
     return (
-      <StyleProvider style={getTheme(platform)}>
-        <RootStack/>
-      </StyleProvider>
+      <RootStackNavigator/>
     );
   }
 }
