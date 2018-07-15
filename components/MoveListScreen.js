@@ -12,6 +12,8 @@ import {
   Title,
 } from 'native-base';
 
+import {MoveList} from 'dustup/components';
+
 export default class MoveListScreen extends React.Component {
   render() {
     const {navigation} = this.props;
@@ -32,9 +34,7 @@ export default class MoveListScreen extends React.Component {
           <Right/>
         </Header>
         <Content>
-          <Text style={{fontFamily: 'SourceCodePro'}}>
-            {JSON.stringify(character.moves, null, 2)}
-          </Text>
+          <MoveList moves={character.moves} navigation={navigation}/>
         </Content>
       </Container>
     );
