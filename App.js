@@ -1,5 +1,4 @@
 import React from 'react';
-import {StyleSheet} from 'react-native';
 import {createStackNavigator} from 'react-navigation';
 import {
   Container,
@@ -16,6 +15,7 @@ import {
   CharacterListScreen,
   MoveListScreen,
 } from 'dustup/components';
+import dustupStyle from 'dustup/styles';
 
 const RootStack = createStackNavigator(
   {
@@ -28,14 +28,6 @@ const RootStack = createStackNavigator(
     headerMode: 'none',
   },
 );
-
-const spinnerStyle = StyleSheet.create({
-  spinnerStyle: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-  }
-});
 
 export default class App extends React.Component {
   constructor(props) {
@@ -63,7 +55,7 @@ export default class App extends React.Component {
     if (!this.state.isReady) {
       return (
         <Container>
-          <Content contentContainerStyle={spinnerStyle.spinnerStyle}>
+          <Content contentContainerStyle={dustupStyle.spinner}>
             <Spinner color='blue'/>
           </Content>
         </Container>
