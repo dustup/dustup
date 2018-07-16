@@ -16,9 +16,9 @@ export default class MoveList extends React.Component {
     } = this.props;
 
     const normals = moves.normals.map((move) => (
-      <ListItem key={move.toString()}>
-        <Text>{move}</Text>
-      </ListItem>
+      <MoveSectionItem
+        move={move}
+        key={JSON.stringify(move)}/>
     ));
 
     const specials = moves.specials.map((move) => (

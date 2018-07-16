@@ -8,9 +8,15 @@ import {
   Text,
 } from 'native-base';
 
+import {SimpleMoveListItem} from 'dustup/components';
+
 export default class MoveSectionItem extends React.Component {
   render() {
     const {move} = this.props;
+
+    if (!move.hasOwnProperty('name')) {
+      return <SimpleMoveListItem move={move}/>;
+    }
 
     return (
       <ListItem key={move.name}>
