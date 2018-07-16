@@ -1,13 +1,12 @@
 import React from 'react';
 import {
-  Body,
-  Card,
-  CardItem,
   List,
   ListItem,
   Separator,
   Text,
 } from 'native-base';
+
+import {MoveSectionItem} from 'dustup/components';
 
 export default class MoveList extends React.Component {
   render() {
@@ -23,51 +22,21 @@ export default class MoveList extends React.Component {
     ));
 
     const specials = moves.specials.map((move) => (
-      <ListItem key={move.name}>
-        <Card transparent>
-          <CardItem header>
-            <Text>{move.name}</Text>
-          </CardItem>
-          <CardItem>
-            <Body>
-              // TODO: don't forget about follow-ups
-              <Text style={{fontFamily: 'SourceCodePro'}}>{JSON.stringify(move.inputs, null, 2)}</Text>
-            </Body>
-          </CardItem>
-        </Card>
-      </ListItem>
+      <MoveSectionItem
+        move={move}
+        key={JSON.stringify(move)}/>
     ));
 
     const overdrives = moves.overdrives.map((move) => (
-      <ListItem key={move.name}>
-        <Card transparent>
-          <CardItem header>
-            <Text>{move.name}</Text>
-          </CardItem>
-          <CardItem>
-            <Body>
-              // TODO: don't forget about follow-ups
-              <Text style={{fontFamily: 'SourceCodePro'}}>{JSON.stringify(move.inputs, null, 2)}</Text>
-            </Body>
-          </CardItem>
-        </Card>
-      </ListItem>
+      <MoveSectionItem
+        move={move}
+        key={JSON.stringify(move)}/>
     ));
 
     const instantKills = moves.instant_kills.map((move) => (
-      <ListItem key={move.name}>
-        <Card transparent>
-          <CardItem header>
-            <Text>{move.name}</Text>
-          </CardItem>
-          <CardItem>
-            <Body>
-              // TODO: don't forget about follow-ups
-              <Text style={{fontFamily: 'SourceCodePro'}}>{JSON.stringify(move.inputs, null, 2)}</Text>
-            </Body>
-          </CardItem>
-        </Card>
-      </ListItem>
+      <MoveSectionItem
+        move={move}
+        key={JSON.stringify(move)}/>
     ));
 
     return (
