@@ -13,7 +13,6 @@
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
     "start": "./scripts/startup_reqs.sh && react-native-scripts start",
-    "eject": "./scripts/startup_reqs.sh && react-native-scripts eject",
     "test": "jest",
     "exp": "$(npm bin)/exp"
   },
