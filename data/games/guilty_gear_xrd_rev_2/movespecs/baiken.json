@@ -141,12 +141,49 @@
         ]
       },
       {
-        "name": "Metsudo Kushoudou",
-        "inputs": "236236H",
-        "follow_up_to": [
-          "Ground Azami",
-          "Air Azami",
-          "Suzuran"
+        "name": "Ground Azami",
+        "inputs": [
+          "S+H",
+          "4S+H",
+          "2S+H",
+          "1S+H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Metsudo Kushoudou",
+            "inputs": [
+              "236236H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Air Azami",
+        "inputs": [
+          "j.S+H",
+          "j.4S+H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Metsudo Kushoudou",
+            "inputs": [
+              "236236H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Suzuran",
+        "inputs": [
+          "63214K"
+        ],
+        "follow_ups": [
+          {
+            "name": "Metsudo Kushoudou",
+            "inputs": [
+              "236236H"
+            ]
+          }
         ]
       }
     ],
