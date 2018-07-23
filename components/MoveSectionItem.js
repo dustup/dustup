@@ -49,7 +49,7 @@ export default class MoveSectionItem extends React.Component {
           <Text>{move.name}</Text>
         </CardItem>
         {inputs}
-        {move.hasOwnProperty('follow_ups') ? this.renderFollowUps(move) : ''}
+        {move.hasOwnProperty('follow_ups') ? this.renderFollowUps(move) : null}
       </Card>
     );
   }
