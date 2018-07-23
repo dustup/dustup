@@ -137,7 +137,6 @@
         "name": "Growing Flower",
         "conditions": "Pogo stance",
         "inputs": [
-          "K",
           "[K]"
         ]
       },
@@ -145,7 +144,6 @@
         "name": "See? I'm a Flower!",
         "conditions": "Pogo stance",
         "inputs": [
-          "S",
           "[S]"
         ]
       },
