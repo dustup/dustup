@@ -117,6 +117,13 @@
         "conditions": "Brynhildr Stance"
       },
       {
+        "name": "Kaltes Gestöber Zweit",
+        "inputs": [
+          "236H"
+        ],
+        "conditions": "Brynhildr Stance"
+      },
+      {
         "name": "Kaltes Gestöber Dritt",
         "inputs": [
           "214S"
