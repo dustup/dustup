@@ -122,7 +122,9 @@
     "instant_kills": [
       {
         "name": "Branding Breach",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

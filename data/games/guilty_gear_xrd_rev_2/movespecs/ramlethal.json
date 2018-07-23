@@ -5,25 +5,35 @@
     "normals": [
       {
         "name": "5P",
-        "inputs": "5P",
+        "inputs": [
+          "5P"
+        ],
         "follow_ups": [
           {
             "name": "5P",
-            "inputs": "5P",
+            "inputs": [
+              "5P"
+            ],
             "follow_ups": [
               {
                 "name": "5P",
-                "inputs": "5P"
+                "inputs": [
+                  "5P"
+                ]
               }
             ]
           },
           {
             "name": "5K",
-            "inputs": "5K",
+            "inputs": [
+              "5K"
+            ],
             "follow_ups": [
               {
                 "name": "4K",
-                "inputs": "4K"
+                "inputs": [
+                  "4K"
+                ]
               }
             ]
           }
@@ -31,37 +41,53 @@
       },
       {
         "name": "5K",
-        "inputs": "5K",
+        "inputs": [
+          "5K"
+        ],
         "follow_ups": [
           {
             "name": "5K",
-            "inputs": "5K",
+            "inputs": [
+              "5K"
+            ],
             "follow_ups": [
               {
                 "name": "5K",
-                "inputs": "5K"
+                "inputs": [
+                  "5K"
+                ]
               },
               {
                 "name": "4K",
-                "inputs": "4K"
+                "inputs": [
+                  "4K"
+                ]
               }
             ]
           },
           {
             "name": "4K",
-            "inputs": "4K"
+            "inputs": [
+              "4K"
+            ]
           },
           {
             "name": "5P",
-            "inputs": "5P",
+            "inputs": [
+              "5P"
+            ],
             "follow_ups": [
               {
                 "name": "5P",
-                "inputs": "5P"
+                "inputs": [
+                  "5P"
+                ]
               },
               {
                 "name": "5K",
-                "inputs": "5K"
+                "inputs": [
+                  "5K"
+                ]
               }
             ]
           }
@@ -70,64 +96,90 @@
       "c.S",
       {
         "name": "f.S",
-        "inputs": "f.S",
+        "inputs": [
+          "f.S"
+        ],
         "conditions": "without S sword"
       },
       {
         "name": "f.S",
-        "inputs": "f.S",
+        "inputs": [
+          "f.S"
+        ],
         "conditions": "with S sword"
       },
       {
         "name": "5H",
-        "inputs": "5H",
+        "inputs": [
+          "5H"
+        ],
         "conditions": "without H sword"
       },
       {
         "name": "5H",
-        "inputs": "5H",
+        "inputs": [
+          "5H"
+        ],
         "conditions": "with H sword"
       },
       "5D",
       {
         "name": "2P",
-        "inputs": "2P",
+        "inputs": [
+          "2P"
+        ],
         "follow_ups": [
           {
             "name": "2P",
-            "inputs": "2P",
+            "inputs": [
+              "2P"
+            ],
             "follow_ups": [
               {
                 "name": "2K",
-                "inputs": "2K"
+                "inputs": [
+                  "2K"
+                ]
               }
             ]
           },
           {
             "name": "2K",
-            "inputs": "2K"
+            "inputs": [
+              "2K"
+            ]
           }
         ]
       },
       {
         "name": "2K",
-        "inputs": "2K",
+        "inputs": [
+          "2K"
+        ],
         "follow_ups": [
           {
             "name": "2K",
-            "inputs": "2K"
+            "inputs": [
+              "2K"
+            ]
           },
           {
             "name": "2P",
-            "inputs": "2P",
+            "inputs": [
+              "2P"
+            ],
             "follow_ups": [
               {
                 "name": "2P",
-                "inputs": "2P"
+                "inputs": [
+                  "2P"
+                ]
               },
               {
                 "name": "2K",
-                "inputs": "2K"
+                "inputs": [
+                  "2K"
+                ]
               }
             ]
           }
@@ -135,12 +187,16 @@
       },
       {
         "name": "2S",
-        "inputs": "2S",
+        "inputs": [
+          "2S"
+        ],
         "conditions": "with S sword"
       },
       {
         "name": "2H",
-        "inputs": "2H",
+        "inputs": [
+          "2H"
+        ],
         "conditions": "with H sword"
       },
       "2D",
@@ -151,22 +207,30 @@
       "j.K",
       {
         "name": "j.S",
-        "inputs": "j.S",
+        "inputs": [
+          "j.S"
+        ],
         "conditions": "without S sword"
       },
       {
         "name": "j.S",
-        "inputs": "j.S",
+        "inputs": [
+          "j.S"
+        ],
         "conditions": "with S sword"
       },
       {
         "name": "j.H",
-        "inputs": "j.H",
+        "inputs": [
+          "j.H"
+        ],
         "conditions": "without H sword"
       },
       {
         "name": "j.H",
-        "inputs": "j.H",
+        "inputs": [
+          "j.H"
+        ],
         "conditions": "with H sword"
       },
       "j.D"

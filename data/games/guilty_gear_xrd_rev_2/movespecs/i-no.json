@@ -54,7 +54,9 @@
         "follow_ups": [
           {
             "name": "Chemical Love (Followup)",
-            "inputs": "214S"
+            "inputs": [
+              "214S"
+            ]
           }
         ]
       },
@@ -81,7 +83,9 @@
       },
       {
         "name": "Ultimate Fortissimo",
-        "inputs": "j.2363214S"
+        "inputs": [
+          "j.2363214S"
+        ]
       }
     ],
     "instant_kills": [

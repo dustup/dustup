@@ -143,7 +143,9 @@
     "instant_kills": [
       {
         "name": "Guatemala Magnifica",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

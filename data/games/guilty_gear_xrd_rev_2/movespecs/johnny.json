@@ -48,7 +48,9 @@
       },
       {
         "name": "Cancel Stance",
-        "inputs": "H",
+        "inputs": [
+          "H"
+        ],
         "conditions": "Mist Stance"
       },
       {
@@ -61,47 +63,65 @@
       },
       {
         "name": "High Mist Finer",
-        "inputs": "]P[",
+        "inputs": [
+          "]P["
+          ],
         "conditions": "Mist Stance"
       },
       {
         "name": "Mid Mist Finer",
-        "inputs": "]K[",
+        "inputs": [
+          "]K["
+          ],
         "conditions": "Mist Stance"
       },
       {
         "name": "Low Mist Finer",
-        "inputs": "]S[",
+        "inputs": [
+          "]S["
+          ],
         "conditions": "Mist Stance"
       },
       {
         "name": "Air High Mist Finer",
-        "inputs": "j.]P[",
+        "inputs": [
+          "j.]P["
+          ],
         "conditions": "Air Mist Stance"
       },
       {
         "name": "Air Mid Mist Finer",
-        "inputs": "j.]K[",
+        "inputs": [
+          "j.]K["
+          ],
         "conditions": "Air Mist Stance"
       },
       {
         "name": "Air Low Mist Finer",
-        "inputs": "j.]S[",
+        "inputs": [
+          "j.]S["
+          ],
         "conditions": "Air Mist Stance"
       },
       {
         "name": "Zweihander",
-        "inputs": "623K",
+        "inputs": [
+          "623K"
+        ],
         "follow_ups": [
           {
             "name": "Attack",
-            "inputs": "K"
+            "inputs": [
+              "K"
+            ]
           }
         ]
       },
       {
         "name": "Air Zweihander",
-        "inputs": "j.623K"
+        "inputs": [
+          "j.623K"
+        ]
       }
     ],
     "overdrives": [
@@ -114,13 +134,17 @@
       },
       {
         "name": "Treasure Hunt",
-        "inputs": "632146S"
+        "inputs": [
+          "632146S"
+        ]
       }
     ],
     "instant_kills": [
       {
         "name": "Joker Trick",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

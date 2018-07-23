@@ -68,11 +68,15 @@
       },
       {
         "name": "Air Hang",
-        "inputs": 88,
+        "inputs": [
+          88
+        ],
         "follow_ups": [
           {
             "name": "Air Movement",
-            "inputs": "any direction"
+            "inputs": [
+              "any direction"
+            ]
           }
         ]
       },
@@ -85,7 +89,9 @@
       },
       {
         "name": "Dash",
-        "inputs": 66
+        "inputs": [
+          66
+        ]
       }
     ],
     "overdrives": [

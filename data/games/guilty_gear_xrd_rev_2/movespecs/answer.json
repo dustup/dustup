@@ -60,7 +60,9 @@
       },
       {
         "name": "Savvy Ninpo: Seal of Approval",
-        "inputs": 5,
+        "inputs": [
+          5
+        ],
         "conditions": "Near Seal",
         "follow_ups": [
           {

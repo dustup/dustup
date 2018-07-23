@@ -26,19 +26,27 @@
     "specials": [
       {
         "name": "Hochifu",
-        "inputs": 546,
+        "inputs": [
+          546
+        ],
         "follow_ups": [
           {
             "name": "Zekkei",
-            "inputs": "P",
+            "inputs": [
+              "P"
+            ],
             "follow_ups": [
               {
                 "name": "Goushao",
-                "inputs": "P"
+                "inputs": [
+                  "P"
+                ]
               },
               {
                 "name": "Dowanga",
-                "inputs": "K"
+                "inputs": [
+                  "K"
+                ]
               }
             ]
           }
@@ -46,27 +54,39 @@
       },
       {
         "name": "Youeikyaku",
-        "inputs": "j.2K"
+        "inputs": [
+          "j.2K"
+        ]
       },
       {
         "name": "Bakushuu",
-        "inputs": "236S",
+        "inputs": [
+          "236S"
+        ],
         "follow_ups": [
           {
             "name": "Mawarikomi",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           },
           {
             "name": "Ashibarai",
-            "inputs": "K"
+            "inputs": [
+              "K"
+            ]
           },
           {
             "name": "Hyappo Shinshou",
-            "inputs": "S"
+            "inputs": [
+              "S"
+            ]
           },
           {
             "name": "Senri Shinshou",
-            "inputs": "H"
+            "inputs": [
+              "H"
+            ]
           }
         ]
       },
@@ -80,27 +100,39 @@
       },
       {
         "name": "Ryuujin",
-        "inputs": "263K"
+        "inputs": [
+          "263K"
+        ]
       },
       {
         "name": "Gekirin",
-        "inputs": "214K"
+        "inputs": [
+          "214K"
+        ]
       },
       {
         "name": "Kenroukaku",
-        "inputs": "623K"
+        "inputs": [
+          "623K"
+        ]
       },
       {
         "name": "Air Ryuujin",
-        "inputs": "j.236K"
+        "inputs": [
+          "j.236K"
+        ]
       },
       {
         "name": "Air Gekirin",
-        "inputs": "j.214K"
+        "inputs": [
+          "j.214K"
+        ]
       },
       {
         "name": "Air Kenroukaku",
-        "inputs": "j.623K"
+        "inputs": [
+          "j.623K"
+        ]
       }
     ],
     "overdrives": [
@@ -113,23 +145,31 @@
       },
       {
         "name": "Bao Saishinshou",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "follow_ups": [
           {
             "name": "Kaorinkuen",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           }
         ]
       },
       {
         "name": "Renhoukyaku",
-        "inputs": "632146H"
+        "inputs": [
+          "632146H"
+        ]
       }
     ],
     "instant_kills": [
       {
         "name": "Gasenkotsu",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

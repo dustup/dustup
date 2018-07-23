@@ -116,7 +116,9 @@
     "instant_kills": [
       {
         "name": "All Dead",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

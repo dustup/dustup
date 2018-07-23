@@ -27,7 +27,9 @@
     "specials": [
       {
         "name": "Hawk Baker",
-        "inputs": "623S"
+        "inputs": [
+          "623S"
+        ]
       },
       {
         "name": "Beak Driver",
@@ -38,17 +40,23 @@
         "follow_ups": [
           {
             "name": "I'm Sure I'll Hit Something",
-            "inputs": "HHH..."
+            "inputs": [
+              "HHH..."
+            ]
           }
         ]
       },
       {
         "name": "Bull Bash",
-        "inputs": "214S"
+        "inputs": [
+          "214S"
+        ]
       },
       {
         "name": "Elk Hunt",
-        "inputs": "236K"
+        "inputs": [
+          "236K"
+        ]
       },
       {
         "name": "Leap",
@@ -59,11 +67,15 @@
       },
       {
         "name": "Still Growing",
-        "inputs": "214H"
+        "inputs": [
+          "214H"
+        ]
       },
       {
         "name": "Vulture Seize",
-        "inputs": "j.214S"
+        "inputs": [
+          "j.214S"
+        ]
       }
     ],
     "overdrives": [
@@ -76,11 +88,15 @@
         "follow_ups": [
           {
             "name": "Ground Followups",
-            "inputs": "direction + H"
+            "inputs": [
+              "direction + H"
+            ]
           },
           {
             "name": "Air Followups",
-            "inputs": "j.(direction + H)"
+            "inputs": [
+              "j.(direction + H)"
+            ]
           }
         ]
       },
@@ -95,7 +111,9 @@
     "instant_kills": [
       {
         "name": "Raiden",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

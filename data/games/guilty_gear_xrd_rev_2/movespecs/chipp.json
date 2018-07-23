@@ -114,7 +114,9 @@
       },
       {
         "name": "Wall Cling",
-        "inputs": 64,
+        "inputs": [
+          64
+        ],
         "conditions": "near wall",
         "follow_ups": [
           {
@@ -134,23 +136,33 @@
           },
           {
             "name": "Jump Down",
-            "inputs": 4
+            "inputs": [
+              4
+            ]
           },
           {
             "name": "Alpha Blade",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           },
           {
             "name": "Kunai",
-            "inputs": "K"
+            "inputs": [
+              "K"
+            ]
           },
           {
             "name": "Ground Genrouzan",
-            "inputs": "S"
+            "inputs": [
+              "S"
+            ]
           },
           {
             "name": "Air Genouzan",
-            "inputs": "H"
+            "inputs": [
+              "H"
+            ]
           }
         ]
       }

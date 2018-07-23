@@ -107,23 +107,33 @@
         "follow_ups": [
           {
             "name": "Recover All",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           },
           {
             "name": "Clock Up",
-            "inputs": "K"
+            "inputs": [
+              "K"
+            ]
           },
           {
             "name": "Explode",
-            "inputs": "S"
+            "inputs": [
+              "S"
+            ]
           },
           {
             "name": "Aegis Field",
-            "inputs": "H"
+            "inputs": [
+              "H"
+            ]
           },
           {
             "name": "Release",
-            "inputs": "D"
+            "inputs": [
+              "D"
+            ]
           }
         ]
       }

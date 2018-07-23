@@ -26,11 +26,15 @@
     "specials": [
       {
         "name": "Glide",
-        "inputs": "j.66"
+        "inputs": [
+          "j.66"
+        ]
       },
       {
         "name": "Schmerz Berg",
-        "inputs": "236P"
+        "inputs": [
+          "236P"
+        ]
       },
       {
         "name": "Gebrechlich Licht",
@@ -86,7 +90,9 @@
     "instant_kills": [
       {
         "name": "Sehnsucht",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

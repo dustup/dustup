@@ -26,11 +26,15 @@
     "specials": [
       {
         "name": "Bad Moon",
-        "inputs": "j.236P"
+        "inputs": [
+          "j.236P"
+        ]
       },
       {
         "name": "Turbo Fall",
-        "inputs": "j.236K"
+        "inputs": [
+          "j.236K"
+        ]
       },
       {
         "name": "Tandem Top",
@@ -41,27 +45,39 @@
       },
       {
         "name": "Iron Savior",
-        "inputs": "214P"
+        "inputs": [
+          "214P"
+        ]
       },
       {
         "name": "Forward Roll",
-        "inputs": "214K",
+        "inputs": [
+          "214K"
+        ],
         "follow_ups": [
           {
             "name": "Roll Again",
-            "inputs": "K"
+            "inputs": [
+              "K"
+            ]
           },
           {
             "name": "Lust Shaker",
-            "inputs": "S"
+            "inputs": [
+              "S"
+            ]
           },
           {
             "name": "Digitalis",
-            "inputs": "H"
+            "inputs": [
+              "H"
+            ]
           },
           {
             "name": "Dust",
-            "inputs": "D"
+            "inputs": [
+              "D"
+            ]
           }
         ]
       },
@@ -81,27 +97,37 @@
       },
       {
         "name": "Secret Garden",
-        "inputs": "214H > direction + H"
+        "inputs": [
+          "214H > direction + H"
+        ]
       }
     ],
     "overdrives": [
       {
         "name": "Emerald Rain",
-        "inputs": "236236S"
+        "inputs": [
+          "236236S"
+        ]
       },
       {
         "name": "Winger",
-        "inputs": "2141236H"
+        "inputs": [
+          "2141236H"
+        ]
       },
       {
         "name": "Chroming Rose",
-        "inputs": "214214S"
+        "inputs": [
+          "214214S"
+        ]
       }
     ],
     "instant_kills": [
       {
         "name": "Iron Maiden",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]

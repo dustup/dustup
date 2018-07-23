@@ -27,11 +27,15 @@
     "specials": [
       {
         "name": "Stun Edge",
-        "inputs": "236S"
+        "inputs": [
+          "236S"
+        ]
       },
       {
         "name": "Charged Stun Edge",
-        "inputs": "236H"
+        "inputs": [
+          "236H"
+        ]
       },
       {
         "name": "Air Stun Edge",
@@ -51,15 +55,21 @@
       },
       {
         "name": "Stun Dipper",
-        "inputs": "236K"
+        "inputs": [
+          "236K"
+        ]
       },
       {
         "name": "Greed Sever",
-        "inputs": "214K"
+        "inputs": [
+          "214K"
+        ]
       },
       {
         "name": "Split Ciel",
-        "inputs": "236D"
+        "inputs": [
+          "236D"
+        ]
       }
     ],
     "overdrives": [
@@ -72,13 +82,17 @@
       },
       {
         "name": "Sacred Edge",
-        "inputs": "236236P"
+        "inputs": [
+          "236236P"
+        ]
       }
     ],
     "instant_kills": [
       {
         "name": "Rising Force",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant Kill mode"
       }
     ]

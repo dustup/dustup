@@ -58,7 +58,9 @@
         "follow_ups": [
           {
             "name": "Brake",
-            "inputs": "P",
+            "inputs": [
+              "P"
+            ],
             "conditions": "Hammer Fall hasn't hit"
           }
         ]

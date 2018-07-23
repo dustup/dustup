@@ -41,23 +41,33 @@
         "follow_ups": [
           {
             "name": "Kuchinashi",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           },
           {
             "name": "Mawarikomi",
-            "inputs": "K"
+            "inputs": [
+              "K"
+            ]
           },
           {
             "name": "Sakura",
-            "inputs": "S"
+            "inputs": [
+              "S"
+            ]
           },
           {
             "name": "Rokkonsogi",
-            "inputs": "H"
+            "inputs": [
+              "H"
+            ]
           },
           {
             "name": "Yashagatana",
-            "inputs": "D"
+            "inputs": [
+              "D"
+            ]
           }
         ]
       },
@@ -86,23 +96,33 @@
       },
       {
         "name": "Suzuran",
-        "inputs": "63214K",
+        "inputs": [
+          "63214K"
+        ],
         "follow_ups": [
           {
             "name": "Kuchinashi",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           },
           {
             "name": "Mawarikomi",
-            "inputs": "K"
+            "inputs": [
+              "K"
+            ]
           },
           {
             "name": "Sakura",
-            "inputs": "S"
+            "inputs": [
+              "S"
+            ]
           },
           {
             "name": "Rokkonsogi",
-            "inputs": "H"
+            "inputs": [
+              "H"
+            ]
           }
         ]
       },
@@ -115,21 +135,29 @@
         "follow_ups": [
           {
             "name": "Himarawi",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           },
           {
             "name": "Tetsuzansen",
-            "inputs": "S"
+            "inputs": [
+              "S"
+            ]
           },
           {
             "name": "Rokkonsogi",
-            "inputs": "H"
+            "inputs": [
+              "H"
+            ]
           }
         ]
       },
       {
         "name": "Youzansen",
-        "inputs": "j.623S"
+        "inputs": [
+          "j.623S"
+        ]
       }
     ],
     "overdrives": [

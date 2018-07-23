@@ -64,7 +64,9 @@
       },
       {
         "name": "Air Falcon Dive",
-        "inputs": "j.214K"
+        "inputs": [
+          "j.214K"
+        ]
       }
     ],
     "overdrives": [
@@ -77,13 +79,17 @@
       },
       {
         "name": "Celestial Tuning Ball",
-        "inputs": "236236S"
+        "inputs": [
+          "236236S"
+        ]
       }
     ],
     "instant_kills": [
       {
         "name": "Sundering Chord",
-        "inputs": "236236H",
+        "inputs": [
+          "236236H"
+        ],
         "conditions": "in instant kill mode"
       }
     ]
