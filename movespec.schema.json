@@ -1,0 +1,27 @@
+{
+  "$scheme": "http://json-schema.org/draft-07/schema",
+  "$id": "https://raw.githubusercontent.com/dustup/dustup/master/dustup.schema.json",
+  "title": "dustup movespec schema",
+  "description": "this schema exists to ensure dustup's movespecs all adhere to the same structure",
+
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "character name",
+      "type": "string"
+    },
+    "shortName": {
+      "description": "short character name for small spaces (optional)",
+      "type": "string"
+    },
+    "moves": {
+      "description": "container for move categories",
+      "type": "object"
+    }
+  },
+
+  "required": [
+    "name",
+    "moves"
+  ]
+}
