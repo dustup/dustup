@@ -11,6 +11,21 @@ import {
 import {SimpleMoveListItem} from 'dustup/components';
 
 export default class MoveSectionItem extends React.Component {
+  renderFollowUps(move) {
+    const renderedFollowUps = move.follow_ups.map((followUp) => {
+      followUp.inputs = followUp.inputs.map((input) => `${move.name} > ${input}`);
+
+      return (
+        <CardItem bordered
+          key={JSON.stringify(followUp)}>
+          <MoveSectionItem move={followUp}/>
+        </CardItem>
+      );
+    });
+
+    return renderedFollowUps;
+  }
+
   render() {
     const {move} = this.props;
 
@@ -22,11 +37,11 @@ export default class MoveSectionItem extends React.Component {
       <CardItem bordered
         key={input}>
         <Body>
-          // TODO: don't forget about follow-ups
           <Text style={{fontFamily: 'SourceCodePro'}}>{input}</Text>
         </Body>
       </CardItem>
     ));
+
 
     return (
       <Card>
@@ -34,6 +49,7 @@ export default class MoveSectionItem extends React.Component {
           <Text>{move.name}</Text>
         </CardItem>
         {inputs}
+        {move.hasOwnProperty('follow_ups') ? this.renderFollowUps(move) : ''}
       </Card>
     );
   }
