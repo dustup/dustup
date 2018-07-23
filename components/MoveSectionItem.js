@@ -18,20 +18,23 @@ export default class MoveSectionItem extends React.Component {
       return <SimpleMoveListItem move={move}/>;
     }
 
+    const inputs = move.inputs.map((input) => (
+      <CardItem bordered
+        key={input}>
+        <Body>
+          // TODO: don't forget about follow-ups
+          <Text style={{fontFamily: 'SourceCodePro'}}>{input}</Text>
+        </Body>
+      </CardItem>
+    ));
+
     return (
-      <ListItem key={move.name}>
-        <Card transparent>
-          <CardItem header>
-            <Text>{move.name}</Text>
-          </CardItem>
-          <CardItem>
-            <Body>
-              // TODO: don't forget about follow-ups
-              <Text style={{fontFamily: 'SourceCodePro'}}>{JSON.stringify(move.inputs, null, 2)}</Text>
-            </Body>
-          </CardItem>
-        </Card>
-      </ListItem>
+      <Card>
+        <CardItem header bordered>
+          <Text>{move.name}</Text>
+        </CardItem>
+        {inputs}
+      </Card>
     );
   }
 }
