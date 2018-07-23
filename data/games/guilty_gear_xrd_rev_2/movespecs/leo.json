@@ -44,21 +44,23 @@
         "name": "Kaltes Gestöber Erst",
         "inputs": [
           "236S"
+        ],
+        "follow_ups": [
+          {
+            "name": "Zweit",
+            "inputs": [
+              "236H"
+            ],
+            "follow_ups": [
+              {
+                "name": "Dritt",
+                "inputs": [
+                  "214S"
+                ]
+              }
+            ]
+          }
         ]
-      },
-      {
-        "name": "Zweit",
-        "inputs": [
-          "236H"
-        ],
-        "follow_up_to": "Kaltes Gestöber Erst"
-      },
-      {
-        "name": "Dritt",
-        "inputs": [
-          "214S"
-        ],
-        "follow_up_to": "Zweit"
       },
       {
         "name": "Kaltes Gestöber Zweit",
