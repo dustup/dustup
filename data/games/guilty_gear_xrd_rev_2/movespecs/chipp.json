@@ -30,6 +30,14 @@
         "inputs": [
           "236P",
           "j.236P"
+        ],
+        "follow_ups": [
+          {
+            "name": "Followup",
+            "inputs": [
+              "H"
+            ]
+          }
         ]
       },
       {
@@ -68,25 +76,28 @@
       },
       {
         "name": "Resshou",
-        "inputs": [
-          "236S"
-        ]
-      },
-      {
-        "name": "Rokusai",
-        "inputs": [
-          "236S"
-        ],
-        "follow_up_to": "Resshou"
-      },
-      {
-        "name": "Senshuu",
-        "inputs": [
-          "236K"
-        ],
-        "follow_up_to": [
-          "Resshou",
-          "Rokusai"
+        "inputs": "236S",
+        "follow_ups": [
+          {
+            "name": "Senshuu",
+            "inputs": [
+              "236K"
+            ]
+          },
+          {
+            "name": "Rokusai",
+            "inputs": [
+              "236S"
+            ],
+            "follow_ups": [
+              {
+                "name": "Senshuu",
+                "inputs": [
+                  "236K"
+                ]
+              }
+            ]
+          }
         ]
       },
       {
