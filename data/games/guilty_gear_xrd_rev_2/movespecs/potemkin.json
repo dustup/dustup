@@ -99,14 +99,15 @@
         "name": "Giganter EX",
         "inputs": [
           "632146H"
-        ]
-      },
-      {
-        "name": "Gigantic Blid EX",
-        "inputs": [
-          "4123641236P"
         ],
-        "follow_up_to": "Giganter EX"
+        "follow_ups": [
+          {
+            "name": "Gigantic Blid EX",
+            "inputs": [
+              "4123641236P"
+            ]
+          }
+        ]
       }
     ],
     "instant_kills": [
