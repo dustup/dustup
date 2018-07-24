@@ -13,12 +13,12 @@ import {
 
 const RootStack = createStackNavigator(
   {
-    GameList: {screen: GameListScreen},
-    CharacterList: {screen: CharacterListScreen},
-    MoveList: {screen: MoveListScreen},
+    GameListScreen: {screen: GameListScreen},
+    CharacterListScreen: {screen: CharacterListScreen},
+    MoveListScreen: {screen: MoveListScreen},
   },
   {
-    initialRouteName: 'GameList',
+    initialRouteName: 'GameListScreen',
     headerMode: 'none',
   },
 );

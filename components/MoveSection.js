@@ -10,11 +10,11 @@ import {MoveSectionItem} from 'dustup/components';
 export default class MoveSection extends React.Component {
   render() {
     const {
-      moves,
+      movelist,
       sectionTitle,
     } = this.props;
 
-    const renderedMoves = moves.map((move) => (
+    const renderedMoves = movelist.map((move) => (
       <MoveSectionItem
         move={move}
         key={JSON.stringify(move)}/>

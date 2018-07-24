@@ -1,7 +1,7 @@
 {
   "name": "Answer",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -23,7 +23,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Business Ninpo: Caltrops",
         "inputs": [
@@ -125,7 +125,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Dead Stock Ninpo: Firesale",
         "inputs": [
@@ -162,7 +162,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Summoner: The Basilisk",
         "inputs": [
@@ -171,5 +171,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

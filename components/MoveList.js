@@ -6,15 +6,16 @@ import {MoveSection} from 'dustup/components';
 export default class MoveList extends React.Component {
   render() {
     const {
-      moves,
+      movelists,
+      inputCategories,
       navigation,
     } = this.props;
 
-    const renderedSections = Object.keys(moves).map((section) => (
+    const renderedSections = movelists.map((movelist, index) => (
       <MoveSection
-        moves={moves[section]}
-        sectionTitle={section}
-        key={section}/>
+        movelist={movelist}
+        sectionTitle={inputCategories[index]}
+        key={JSON.stringify(movelist)}/>
     ));
 
     return (

@@ -15,7 +15,7 @@ export default class GameListItem extends React.Component {
     } = this.props;
 
     return (
-      <ListItem onPress={() => navigation.navigate('CharacterList', {game: game})}>
+      <ListItem onPress={() => navigation.navigate('CharacterListScreen', {game: game})}>
         <Card transparent>
           <CardItem cardBody>
             <Image source={game.images.logo} style={{flex: 1, resizeMode: 'contain', height: 150}}/>
