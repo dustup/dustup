@@ -17,7 +17,7 @@ export default class MoveSectionItem extends React.Component {
       followUp.inputs = followUp.inputs.map((input) => `${parentName} > ${input}`);
 
       return (
-        <CardItem bordered
+        <CardItem
           key={JSON.stringify(followUp)}>
           <MoveSectionItem move={followUp}/>
         </CardItem>
@@ -43,7 +43,7 @@ export default class MoveSectionItem extends React.Component {
     }
 
     const inputs = move.inputs.map((input) => (
-      <CardItem bordered
+      <CardItem
         key={input}>
         <Body>
           <Text style={{fontFamily: 'SourceCodePro'}}>{input}</Text>
