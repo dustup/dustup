@@ -16,7 +16,6 @@ npm install
 Optionally you'll need to open your firewall if you desire to use [Expo](https://expo.io/) to live demo Dustup on a mobile device during development.
 
 ```
-# on a system with firewalld
 sudo firewall-cmd --add-port 19000-19001/tcp
 sudo firewall-cmd --add-port 19000-19001/tcp --permanent
 ```
@@ -24,5 +23,11 @@ sudo firewall-cmd --add-port 19000-19001/tcp --permanent
 Then crank it up:
 
 ```
-npm start
+npm run exp
 ```
+
+## Tests
+
+Run Dustup tests via `npm test`.
+
+This runs `jest` as well as validating our move data against a schema (using `ajv` and `ajv-cli`).
