@@ -1,7 +1,7 @@
 {
   "name": "Potemkin",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -22,7 +22,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Heat Knuckle",
         "inputs": [
@@ -90,7 +90,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Heavenly Potemkin Buster",
         "inputs": [
@@ -112,7 +112,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Infernal Tour",
         "inputs": [
@@ -121,5 +121,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

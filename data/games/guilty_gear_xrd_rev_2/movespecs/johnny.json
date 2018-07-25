@@ -1,7 +1,7 @@
 {
   "name": "Johnny",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -22,7 +22,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Glitter is Gold",
         "inputs": [
@@ -56,8 +56,8 @@
       {
         "name": "Mist Step",
         "inputs": [
-          66,
-          44
+          "66",
+          "44"
         ],
         "conditions": "Ground Mist Stance"
       },
@@ -124,7 +124,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "That's My Name",
         "inputs": [
@@ -139,7 +139,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Joker Trick",
         "inputs": [
@@ -148,5 +148,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

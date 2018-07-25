@@ -1,8 +1,8 @@
 {
   "name": "Sin Kiske",
   "shortName": "Sin",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -24,7 +24,7 @@
       "j.6H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Hawk Baker",
         "inputs": [
@@ -78,7 +78,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "R.T.L",
         "inputs": [
@@ -108,7 +108,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Raiden",
         "inputs": [
@@ -117,5 +117,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

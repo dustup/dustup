@@ -1,8 +1,8 @@
 {
   "name": "Jam Kuradoberi",
   "shortName": "Jam",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -23,11 +23,11 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Hochifu",
         "inputs": [
-          546
+          "546"
         ],
         "follow_ups": [
           {
@@ -135,7 +135,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Choukyaku Hou'Oushou",
         "inputs": [
@@ -164,7 +164,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Gasenkotsu",
         "inputs": [
@@ -173,5 +173,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

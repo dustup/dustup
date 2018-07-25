@@ -1,8 +1,8 @@
 {
   "name": "Ky Kiske",
   "shortName": "Ky",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -24,7 +24,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Stun Edge",
         "inputs": [
@@ -72,7 +72,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Ride The Lightning",
         "inputs": [
@@ -87,7 +87,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Rising Force",
         "inputs": [
@@ -96,5 +96,5 @@
         "conditions": "in instant Kill mode"
       }
     ]
-  }
+  ]
 }

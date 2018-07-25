@@ -1,7 +1,7 @@
 {
   "name": "Slayer",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -24,7 +24,7 @@
       "j.D",
       "j.2K"
     ],
-    "specials": [
+    [
       {
         "name": "Mappa Hunch",
         "inputs": [
@@ -93,7 +93,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Dead on Time",
         "inputs": [
@@ -113,7 +113,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "All Dead",
         "inputs": [
@@ -122,5 +122,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

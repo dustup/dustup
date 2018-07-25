@@ -1,7 +1,7 @@
 {
   "name": "Dizzy",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -22,7 +22,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "I used this to catch fish",
         "inputs": [
@@ -87,7 +87,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Imperial Ray",
         "inputs": [
@@ -108,7 +108,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Emotional Gamma Ray",
         "inputs": [
@@ -117,5 +117,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

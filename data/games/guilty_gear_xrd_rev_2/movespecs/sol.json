@@ -1,8 +1,8 @@
 {
   "name": "Sol Badguy",
   "shortName": "Sol",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -23,7 +23,7 @@
       "j.D",
       "j.2K"
     ],
-    "specials": [
+    [
       {
         "name": "Gunflame",
         "inputs": [
@@ -103,7 +103,7 @@
         "conditions": "during Dragon Install"
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Tyrant Rave ver.β",
         "inputs": [
@@ -119,7 +119,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Branding Breach",
         "inputs": [
@@ -128,5 +128,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

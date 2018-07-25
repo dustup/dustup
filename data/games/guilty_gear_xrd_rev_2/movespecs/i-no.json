@@ -1,7 +1,7 @@
 {
   "name": "I-No",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -22,7 +22,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Antidepressant Scale",
         "inputs": [
@@ -74,7 +74,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Longing Desperation",
         "inputs": [
@@ -88,7 +88,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Megalomania",
         "inputs": [
@@ -97,5 +97,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

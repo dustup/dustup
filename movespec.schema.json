@@ -4,6 +4,44 @@
   "title": "dustup movespec schema",
   "description": "this schema exists to ensure dustup's movespecs all adhere to the same structure",
 
+  "definitions": {
+    "simpleMoveDef": {
+      "description": "numpad notation describing how to trigger the move",
+      "type": "string"
+    },
+    "complexMoveDef": {
+      "type": "object",
+      "properties": {
+        "name":{
+          "description": "name of the given move",
+          "type": "string"
+        },
+        "inputs": {
+          "description": "array of inputs in numpad notation describing how to trigger the move",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/simpleMoveDef"
+          },
+          "minItems": 1
+        },
+        "conditions": {
+          "description": "sentence or phrase describing any conditions necessary for the move to trigger",
+          "type": "string"
+        },
+        "follow_ups": {
+          "description": "array of follow up moves for this move",
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/complexMoveDef"
+          }
+        }
+      },
+      "required": [
+        "inputs"
+      ]
+    }
+  },
+
   "type": "object",
   "properties": {
     "name": {
@@ -14,14 +52,28 @@
       "description": "short character name for small spaces (optional)",
       "type": "string"
     },
-    "moves": {
+    "movelists": {
       "description": "container for move categories",
-      "type": "object"
+      "type": "array",
+      "items": {
+        "type": "array",
+        "items": {
+          "oneOf": [
+            {
+              "$ref": "#/definitions/complexMoveDef"
+            },
+            {
+              "$ref": "#/definitions/simpleMoveDef"
+            }
+          ]
+        }
+      },
+      "minItems": 1,
+      "uniqueItems": true
     }
   },
-
   "required": [
     "name",
-    "moves"
+    "movelists"
   ]
 }

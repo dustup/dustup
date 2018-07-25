@@ -1,7 +1,7 @@
 {
   "name": "Bedman",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -24,7 +24,7 @@
       "2D",
       "5D"
     ],
-    "specials": [
+    [
       {
         "name": "Task A",
         "inputs": [
@@ -69,7 +69,7 @@
       {
         "name": "Air Hang",
         "inputs": [
-          88
+          "88"
         ],
         "follow_ups": [
           {
@@ -83,18 +83,18 @@
       {
         "name": "Crouch Walk",
         "inputs": [
-          1,
-          3
+          "1",
+          "3"
         ]
       },
       {
         "name": "Dash",
         "inputs": [
-          66
+          "66"
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Sinusoidal Helios",
         "inputs": [
@@ -108,7 +108,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Theatre of Pain",
         "inputs": [
@@ -117,5 +117,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

@@ -1,8 +1,8 @@
 {
   "name": "Chipp Zanuff",
   "shortName": "Chipp",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -24,7 +24,7 @@
       "2D",
       "5D"
     ],
-    "specials": [
+    [
       {
         "name": "Alpha Blade",
         "inputs": [
@@ -76,7 +76,9 @@
       },
       {
         "name": "Resshou",
-        "inputs": "236S",
+        "inputs": [
+          "236S"
+        ],
         "follow_ups": [
           {
             "name": "Senshuu",
@@ -115,29 +117,29 @@
       {
         "name": "Wall Cling",
         "inputs": [
-          64
+          "64"
         ],
         "conditions": "near wall",
         "follow_ups": [
           {
             "name": "Up and Down Movement",
             "inputs": [
-              8,
-              2
+              "8",
+              "2"
             ]
           },
           {
             "name": "Horizontal Movement",
             "inputs": [
-              6,
-              3,
-              9
+              "6",
+              "3",
+              "9"
             ]
           },
           {
             "name": "Jump Down",
             "inputs": [
-              4
+              "4"
             ]
           },
           {
@@ -167,7 +169,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Zansei Rouga",
         "inputs": [
@@ -187,7 +189,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Raisetsudan",
         "inputs": [
@@ -196,5 +198,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

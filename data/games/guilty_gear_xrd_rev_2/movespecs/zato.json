@@ -1,7 +1,7 @@
 {
   "name": "Zato-1",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -22,7 +22,7 @@
       "j.D",
       "j.2K"
     ],
-    "specials": [
+    [
       {
         "name": "Invite Hell",
         "inputs": [
@@ -114,11 +114,11 @@
       {
         "name": "Flight",
         "inputs": [
-          88
+          "88"
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Amorphous",
         "inputs": [
@@ -140,7 +140,7 @@
         "conditions": "with shadow"
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Guatemala Magnifica",
         "inputs": [
@@ -149,5 +149,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

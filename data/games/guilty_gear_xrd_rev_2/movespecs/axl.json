@@ -1,8 +1,8 @@
 {
   "name": "Axl Low",
   "shortName": "Axl",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -27,7 +27,7 @@
       "j.6K",
       "j.2S"
     ],
-    "specials": [
+    [
       {
         "name": "Sickle Flash",
         "inputs": [
@@ -114,7 +114,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Sickle Storm",
         "inputs": [
@@ -129,7 +129,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Amphora Conflagration",
         "inputs": [
@@ -138,5 +138,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

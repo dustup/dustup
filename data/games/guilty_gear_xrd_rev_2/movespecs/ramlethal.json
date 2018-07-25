@@ -1,8 +1,8 @@
 {
   "name": "Ramlethal Valentine",
   "shortName": "Ramlethal",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       {
         "name": "5P",
         "inputs": [
@@ -235,7 +235,7 @@
       },
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Deploy Giant Sword",
         "inputs": [
@@ -295,7 +295,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Calvados",
         "inputs": [
@@ -317,7 +317,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Animo Estingi",
         "inputs": [
@@ -326,5 +326,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

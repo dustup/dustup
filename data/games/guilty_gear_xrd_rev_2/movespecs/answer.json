@@ -61,14 +61,14 @@
       {
         "name": "Savvy Ninpo: Seal of Approval",
         "inputs": [
-          5
+          "5"
         ],
         "conditions": "Near Seal",
         "follow_ups": [
           {
             "name": "Cancel Stance",
             "inputs": [
-              22
+              "22"
             ]
           },
           {

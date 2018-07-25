@@ -1,7 +1,7 @@
 {
   "name": "Venom",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -21,7 +21,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Ball Set",
         "inputs": [
@@ -79,7 +79,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Dark Angel",
         "inputs": [
@@ -99,7 +99,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Giga Machine System",
         "inputs": [
@@ -108,5 +108,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

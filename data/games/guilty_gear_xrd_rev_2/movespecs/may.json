@@ -1,7 +1,7 @@
 {
   "name": "May",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -25,7 +25,7 @@
       "j.2H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Mr. Dolphin Horizontal",
         "inputs": [
@@ -73,7 +73,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Ultimate Whiner",
         "inputs": [
@@ -95,12 +95,14 @@
         "follow_ups": [
           {
             "name": "Deluxe Goshogawara Bomber",
-            "inputs": "P"
+            "inputs": [
+              "P"
+            ]
           }
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "And Then She Said... Farewell",
         "inputs": [
@@ -109,5 +111,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "name": "Faust",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -26,7 +26,7 @@
       "j.6K",
       "j.2S"
     ],
-    "specials": [
+    [
       {
         "name": "Rerere Thrust",
         "inputs": [
@@ -36,7 +36,7 @@
           {
             "name": "Pull Back",
             "inputs": [
-              4
+              "4"
             ],
             "follow_ups": [
               {
@@ -95,35 +95,35 @@
         "name": "Pogo Forward",
         "conditions": "Pogo stance",
         "inputs": [
-          66
+          "66"
         ]
       },
       {
         "name": "Pogo Backward",
         "conditions": "Pogo stance",
         "inputs": [
-          44
+          "44"
         ]
       },
       {
         "name": "Pogo Small Jump",
         "conditions": "Pogo stance",
         "inputs": [
-          9
+          "9"
         ]
       },
       {
         "name": "Doctor-Coptor",
         "conditions": "Pogo stance",
         "inputs": [
-          8
+          "8"
         ]
       },
       {
         "name": "Pogo Cancel",
         "conditions": "Pogo stance",
         "inputs": [
-          2
+          "2"
         ]
       },
       {
@@ -174,7 +174,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Stimulating Fists of Annihilation",
         "inputs": [
@@ -190,7 +190,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "This is... Me?",
         "inputs": [
@@ -199,5 +199,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

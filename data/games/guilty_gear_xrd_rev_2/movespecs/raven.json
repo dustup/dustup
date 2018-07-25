@@ -1,7 +1,7 @@
 {
   "name": "Raven",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -23,7 +23,7 @@
       "6H",
       "j.2K"
     ],
-    "specials": [
+    [
       {
         "name": "Glide",
         "inputs": [
@@ -71,7 +71,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Getreuer",
         "inputs": [
@@ -87,7 +87,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Sehnsucht",
         "inputs": [
@@ -96,5 +96,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

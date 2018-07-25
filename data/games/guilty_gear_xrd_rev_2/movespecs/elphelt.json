@@ -1,7 +1,7 @@
 {
   "name": "Elphelt",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -22,7 +22,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Pineberry",
         "inputs": [
@@ -133,7 +133,7 @@
         "conditions": "Miss Travailler ready"
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Judge Better Half",
         "inputs": [
@@ -148,7 +148,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Magnum Wedding",
         "inputs": [
@@ -157,5 +157,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

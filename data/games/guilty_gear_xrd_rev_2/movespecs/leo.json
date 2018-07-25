@@ -1,8 +1,8 @@
 {
   "name": "Leo Whitefang",
   "shortName": "Leo",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -25,7 +25,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Graviert Wurde",
         "inputs": [
@@ -138,7 +138,7 @@
         "conditions": "Brynhildr Stance"
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Stahl Wirbel",
         "inputs": [
@@ -153,7 +153,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Windrad des Weltraum",
         "inputs": [
@@ -162,5 +162,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

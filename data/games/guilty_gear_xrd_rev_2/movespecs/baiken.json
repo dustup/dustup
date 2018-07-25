@@ -1,7 +1,7 @@
 {
   "name": "Baiken",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -22,7 +22,7 @@
       "j.H",
       "j.D"
     ],
-    "specials": [
+    [
       {
         "name": "Tatami Gaeshi",
         "inputs": [
@@ -160,7 +160,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Tsurane Zanzuwatashi",
         "inputs": [
@@ -215,7 +215,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Garyo Tensei",
         "inputs": [
@@ -224,5 +224,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

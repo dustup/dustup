@@ -1,8 +1,8 @@
 {
   "name": "Kum Haehyun",
   "shortName": "Kum",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -24,7 +24,7 @@
       "6H",
       "j.2K"
     ],
-    "specials": [
+    [
       {
         "name": "Tuning Ball",
         "inputs": [
@@ -69,7 +69,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Enlightened 3000 Palm Strike",
         "inputs": [
@@ -84,7 +84,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "Sundering Chord",
         "inputs": [
@@ -93,5 +93,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }

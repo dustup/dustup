@@ -1,7 +1,7 @@
 {
   "name": "Jack-O",
-  "moves": {
-    "normals": [
+  "movelists": [
+    [
       "5P",
       "5K",
       "c.S",
@@ -53,7 +53,7 @@
         ]
       }
     ],
-    "specials": [
+    [
       {
         "name": "Ghost Set",
         "inputs": [
@@ -138,7 +138,7 @@
         ]
       }
     ],
-    "overdrives": [
+    [
       {
         "name": "Calvados",
         "inputs": [
@@ -154,7 +154,7 @@
         ]
       }
     ],
-    "instant_kills": [
+    [
       {
         "name": "I Want Out",
         "inputs": [
@@ -163,5 +163,5 @@
         "conditions": "in instant kill mode"
       }
     ]
-  }
+  ]
 }
