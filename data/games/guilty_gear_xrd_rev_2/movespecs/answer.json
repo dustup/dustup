@@ -52,7 +52,7 @@
           "214K",
           "214S",
           "214H",
-          "j.214p",
+          "j.214P",
           "j.214K",
           "j.214S",
           "j.214H"
@@ -60,6 +60,7 @@
       },
       {
         "name": "Savvy Ninpo: Seal of Approval",
+        "shortName": "Seal",
         "inputs": [
           "5"
         ],

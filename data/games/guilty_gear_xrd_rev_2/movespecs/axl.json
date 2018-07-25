@@ -83,6 +83,7 @@
       },
       {
         "name": "Sparrowhawk Stance",
+        "shortName": "Sparrowhawk",
         "inputs": [
           "214H"
         ],

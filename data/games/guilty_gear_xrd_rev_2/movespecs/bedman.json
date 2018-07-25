@@ -75,7 +75,7 @@
           {
             "name": "Air Movement",
             "inputs": [
-              "any direction"
+              "direction"
             ]
           }
         ]
