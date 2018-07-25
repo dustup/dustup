@@ -13,7 +13,8 @@ import {SimpleMoveListItem} from 'dustup/components';
 export default class MoveSectionItem extends React.Component {
   renderFollowUps(move) {
     const renderedFollowUps = move.follow_ups.map((followUp) => {
-      followUp.inputs = followUp.inputs.map((input) => `${move.name} > ${input}`);
+      const parentName = move.shortName || move.name;
+      followUp.inputs = followUp.inputs.map((input) => `${parentName} > ${input}`);
 
       return (
         <CardItem bordered

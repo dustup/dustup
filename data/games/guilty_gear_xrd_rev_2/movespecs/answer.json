@@ -129,6 +129,7 @@
     [
       {
         "name": "Dead Stock Ninpo: Firesale",
+        "shortName": "Firesale",
         "inputs": [
           "632146S",
           "632146D",
