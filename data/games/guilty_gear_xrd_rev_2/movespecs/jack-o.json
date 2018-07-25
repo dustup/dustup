@@ -67,7 +67,7 @@
         "inputs": [
           "2P"
         ],
-        "conditions": "Near a Ghost"
+        "conditions": "near a Ghost"
       },
       {
         "name": "Ghost Place",
@@ -76,7 +76,7 @@
           "2K",
           "2S"
         ],
-        "conditions": "Ghost Pick Up"
+        "conditions": "after Ghost Pick Up"
       },
       {
         "name": "Ghost Put Away",
@@ -85,7 +85,7 @@
           "4K",
           "4S"
         ],
-        "conditions": "Ghost Pick Up"
+        "conditions": "after Ghost Pick Up"
       },
       {
         "name": "Ghost Throw",
@@ -97,7 +97,7 @@
           "j.5K",
           "j.5S"
         ],
-        "conditions": "Ghost Pick Up"
+        "conditions": "after Ghost Pick Up"
       },
       {
         "name": "Organ Deployment",
@@ -160,7 +160,7 @@
         "inputs": [
           "236236H"
         ],
-        "conditions": "in instant kill mode"
+        "conditions": "during Instant Kill"
       }
     ]
   ]

@@ -146,7 +146,7 @@
         "inputs": [
           "236236H"
         ],
-        "conditions": "in instant kill mode"
+        "conditions": "during Instant Kill"
       }
     ]
   ]

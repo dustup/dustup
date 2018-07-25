@@ -52,7 +52,7 @@
         ]
       },
       {
-        "name": "Miss Confire",
+        "name": "Miss Confire Ready",
         "inputs": [
           "236S"
         ]
@@ -65,25 +65,24 @@
           "S",
           "H"
         ],
-        "conditions": "Miss Confire ready",
-        "follow_ups": [
-          {
-            "name": "Miss Confire Reload",
-            "inputs": [
-              "46S"
-            ]
-          }
-        ]
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Confire Reload",
+        "inputs": [
+          "46S"
+        ],
+        "conditions": "during Fire"
       },
       {
         "name": "Miss Confire Cancel",
         "inputs": [
           "D"
         ],
-        "conditions": "Miss Confire ready"
+        "conditions": "after Ready"
       },
       {
-        "name": "Miss Travailler",
+        "name": "Miss Travailler Ready",
         "inputs": [
           "236H"
         ]
@@ -93,44 +92,42 @@
         "inputs": [
           "H"
         ],
-        "conditions": "Miss Travailler ready",
-        "follow_ups": [
-          {
-            "name": "Miss Travailler Reload",
-            "inputs": [
-              "46H"
-            ],
-            "conditions": "after Fire"
-          }
-        ]
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Travailler Reload",
+        "inputs": [
+          "46H"
+        ],
+        "conditions": "during Fire"
       },
       {
         "name": "Miss Travailler Thrust",
         "inputs": [
           "P"
         ],
-        "conditions": "Miss Travailler ready"
+        "conditions": "after Ready"
       },
       {
         "name": "Miss Travailler Roll",
         "inputs": [
           "K"
         ],
-        "conditions": "Miss Travailler ready"
+        "conditions": "after Ready"
       },
       {
         "name": "Miss Travailler Launch",
         "inputs": [
           "S"
         ],
-        "conditions": "Miss Travailler ready"
+        "conditions": "after Ready"
       },
       {
         "name": "Miss Travailler Demolish",
         "inputs": [
           "D"
         ],
-        "conditions": "Miss Travailler ready"
+        "conditions": "after Ready"
       }
     ],
     [
@@ -154,7 +151,7 @@
         "inputs": [
           "236236H"
         ],
-        "conditions": "in instant kill mode"
+        "conditions": "during Instant Kill"
       }
     ]
   ]

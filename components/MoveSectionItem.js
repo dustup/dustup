@@ -27,6 +27,14 @@ export default class MoveSectionItem extends React.Component {
     return renderedFollowUps;
   }
 
+  renderConditions(move) {
+    return(
+      <CardItem bordered>
+        <Text>conditions: {move.conditions}</Text>
+      </CardItem>
+    );
+  }
+
   render() {
     const {move} = this.props;
 
@@ -43,13 +51,13 @@ export default class MoveSectionItem extends React.Component {
       </CardItem>
     ));
 
-
     return (
       <Card>
         <CardItem header bordered>
           <Text>{move.name}</Text>
         </CardItem>
         {inputs}
+        {move.hasOwnProperty('conditions') ? this.renderConditions(move) : null}
         {move.hasOwnProperty('follow_ups') ? this.renderFollowUps(move) : null}
       </Card>
     );

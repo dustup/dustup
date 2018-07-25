@@ -51,7 +51,7 @@
         "inputs": [
           "H"
         ],
-        "conditions": "Mist Stance"
+        "conditions": "during Mist Stance"
       },
       {
         "name": "Mist Step",
@@ -59,49 +59,49 @@
           "66",
           "44"
         ],
-        "conditions": "Ground Mist Stance"
+        "conditions": "during Ground Mist Stance"
       },
       {
         "name": "High Mist Finer",
         "inputs": [
           "]P["
           ],
-        "conditions": "Mist Stance"
+        "conditions": "during Mist Stance"
       },
       {
         "name": "Mid Mist Finer",
         "inputs": [
           "]K["
           ],
-        "conditions": "Mist Stance"
+        "conditions": "during Mist Stance"
       },
       {
         "name": "Low Mist Finer",
         "inputs": [
           "]S["
           ],
-        "conditions": "Mist Stance"
+        "conditions": "during Mist Stance"
       },
       {
         "name": "Air High Mist Finer",
         "inputs": [
           "j.]P["
           ],
-        "conditions": "Air Mist Stance"
+        "conditions": "during Air Mist Stance"
       },
       {
         "name": "Air Mid Mist Finer",
         "inputs": [
           "j.]K["
           ],
-        "conditions": "Air Mist Stance"
+        "conditions": "during Air Mist Stance"
       },
       {
         "name": "Air Low Mist Finer",
         "inputs": [
           "j.]S["
           ],
-        "conditions": "Air Mist Stance"
+        "conditions": "during Air Mist Stance"
       },
       {
         "name": "Zweihander",
@@ -145,7 +145,7 @@
         "inputs": [
           "236236H"
         ],
-        "conditions": "in instant kill mode"
+        "conditions": "during Instant Kill"
       }
     ]
   ]

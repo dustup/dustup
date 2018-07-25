@@ -61,7 +61,7 @@
             "inputs": [
               "P"
             ],
-            "conditions": "Hammer Fall hasn't hit"
+            "conditions": "before Hammer Fall hits"
           }
         ]
       },
@@ -118,7 +118,7 @@
         "inputs": [
           "236236H"
         ],
-        "conditions": "in instant kill mode"
+        "conditions": "during Instant Kill"
       }
     ]
   ]

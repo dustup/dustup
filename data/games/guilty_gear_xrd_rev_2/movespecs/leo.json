@@ -86,56 +86,56 @@
         "inputs": [
           "P"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "bt.K",
         "inputs": [
           "K"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "bt.S",
         "inputs": [
           "S"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "bt.H",
         "inputs": [
           "H"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "Kahn Schild",
         "inputs": [
           "D"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "Kaltes Gestöber Zweit",
         "inputs": [
           "236H"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "Kaltes Gestöber Dritt",
         "inputs": [
           "214S"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "Blitzschlag",
         "inputs": [
           "214H"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       }
     ],
     [
@@ -144,7 +144,7 @@
         "inputs": [
           "643216S"
         ],
-        "conditions": "Brynhildr Stance"
+        "conditions": "during Brynhildr Stance"
       },
       {
         "name": "Leidenschaft Dirigen",
@@ -159,7 +159,7 @@
         "inputs": [
           "236236H"
         ],
-        "conditions": "in instant kill mode"
+        "conditions": "during Instant Kill"
       }
     ]
   ]

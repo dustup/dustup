@@ -93,70 +93,70 @@
       },
       {
         "name": "Pogo Forward",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "66"
         ]
       },
       {
         "name": "Pogo Backward",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "44"
         ]
       },
       {
         "name": "Pogo Small Jump",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "9"
         ]
       },
       {
         "name": "Doctor-Coptor",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "8"
         ]
       },
       {
         "name": "Pogo Cancel",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "2"
         ]
       },
       {
         "name": "Just a Taste!",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "P"
         ]
       },
       {
         "name": "Growing Flower",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "[K]"
         ]
       },
       {
         "name": "See? I'm a Flower!",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "[S]"
         ]
       },
       {
         "name": "Going My Way",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "H"
         ]
       },
       {
         "name": "What Could This Be?",
-        "conditions": "Pogo stance",
+        "conditions": "in Pogo stance",
         "inputs": [
           "D"
         ]
@@ -196,7 +196,7 @@
         "inputs": [
           "236236H"
         ],
-        "conditions": "in instant kill mode"
+        "conditions": "during Instant Kill"
       }
     ]
   ]
