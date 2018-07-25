@@ -16,6 +16,10 @@
           "description": "name of the given move",
           "type": "string"
         },
+        "shortName": {
+          "description": "short name of the move for small spaces (optional)",
+          "type": "string"
+        },
         "inputs": {
           "description": "array of inputs in numpad notation describing how to trigger the move",
           "type": "array",
@@ -38,7 +42,8 @@
       },
       "required": [
         "inputs"
-      ]
+      ],
+      "additionalProperties": false
     }
   },
 
@@ -75,5 +80,6 @@
   "required": [
     "name",
     "movelists"
-  ]
+  ],
+  "additionalProperties": false
 }
