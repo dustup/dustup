@@ -2,10 +2,10 @@ export default {
   name: 'Guilty Gear Xrd REV 2',
   shortName: 'GGXrd-R2',
   inputCategories: [
-    'normals',
-    'specials',
-    'overdrives',
-    'instant kills'
+    'Normal Moves',
+    'Special Moves',
+    'Overdrives',
+    'Instant Kills'
   ],
   characters: [
     require('./movespecs/answer'),
