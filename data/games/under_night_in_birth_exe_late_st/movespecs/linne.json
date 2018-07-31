@@ -1,0 +1,131 @@
+{
+  "name": "Linne",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C"
+    ],
+    [
+      "2AA",
+      "6B",
+      "5CC",
+      "5C[C]",
+      "j.6B",
+      "j.6[B]",
+      "j.2B",
+      {
+        "name": "6C",
+        "inputs": [
+          "6C"
+        ],
+        "follow_ups": [
+          {
+            "name": "6C",
+            "inputs": [
+              "6C"
+            ],
+            "follow_ups": [
+              {
+                "name": "6C",
+                "inputs": [
+                  "6C"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Elusive Flash",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Sky Fangs",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C",
+          "j.236A",
+          "j.236B",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Moon Gyre",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "Tenacious Mist",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ]
+      },
+      {
+        "name": "Flying Swallow",
+        "inputs": [
+          "63214A",
+          "63214B",
+          "63214[B]",
+          "63214C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "The Diviner",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Divine Blaze",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}

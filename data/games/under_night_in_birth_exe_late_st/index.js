@@ -20,7 +20,7 @@ export default {
     // require('./movespecs/gordeau'),
     // require('./movespecs/hilda'),
     require('./movespecs/hyde'),
-    // require('./movespecs/linne'),
+    require('./movespecs/linne'),
     // require('./movespecs/merkava'),
     // require('./movespecs/mika'),
     // require('./movespecs/nanase'),
