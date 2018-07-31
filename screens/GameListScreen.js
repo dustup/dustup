@@ -10,13 +10,19 @@ import {
 } from 'native-base';
 
 import {GameList} from 'dustup/components';
-import {ggxrd} from 'dustup/data/games';
+import {
+  ggxrd,
+  unist,
+} from 'dustup/data/games';
 
 export default class GameListScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      games: [ggxrd]
+      games: [
+        ggxrd,
+        unist,
+      ]
     };
   }
 
