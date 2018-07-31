@@ -29,7 +29,7 @@ export default {
     // require('./movespecs/seth'),
     // require('./movespecs/vatista'),
     // require('./movespecs/wagner'),
-    // require('./movespecs/waldstein'),
+    require('./movespecs/waldstein'),
     // require('./movespecs/yuzuriha'),
   ],
   images: {

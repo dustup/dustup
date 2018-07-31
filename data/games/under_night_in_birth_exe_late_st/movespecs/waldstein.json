@@ -1,0 +1,116 @@
+{
+  "name": "Waldstein",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C",
+      "j.[C]"
+    ],
+    [
+      "1A",
+      "4B",
+      "6C",
+      "3C",
+      "j.6C",
+      "j.2C"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Ferzen Volf",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Eisen Nagel",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Wirbelwind",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "Durchbohren",
+        "inputs": [
+          "360A",
+          "360B",
+          "360C"
+        ]
+      },
+      {
+        "name": "Verderben",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C",
+          "j.214A",
+          "j.214B",
+          "j.214C"
+        ]
+      },
+      {
+        "name": "Sturmangriff",
+        "inputs": [
+          "[4]6A",
+          "[4]6B",
+          "[4]6C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Werfen Erschlagen",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Katastrophe",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
