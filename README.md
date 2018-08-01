@@ -7,6 +7,8 @@ Reference fighting game moves from your phone!
 Dustup is powered by [React Native](https://facebook.github.io/react-native/).
 To get a development environment running you'll need `npm`.
 
+This project requires `node ^10.6.0` and  `npm ^6.1.0`.
+
 ```
 git clone https://github.com/dustup/dustup
 cd dustup
