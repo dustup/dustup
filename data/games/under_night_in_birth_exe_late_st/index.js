@@ -24,7 +24,7 @@ export default {
     // require('./movespecs/merkava'),
     // require('./movespecs/mika'),
     // require('./movespecs/nanase'),
-    // require('./movespecs/orie'),
+    require('./movespecs/orie'),
     // require('./movespecs/phonon'),
     // require('./movespecs/seth'),
     // require('./movespecs/vatista'),
