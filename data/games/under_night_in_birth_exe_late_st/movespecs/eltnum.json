@@ -1,0 +1,147 @@
+{
+  "name": "Eltnum",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "5[C]",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C",
+      "j.[C]"
+    ],
+    [
+      "6B",
+      "6[B]",
+      "5CC",
+      "3C",
+      "3[C]",
+      "j.2B",
+      "j.2[B]"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Force Function",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Force Function (charged)",
+        "inputs": [
+          "[B+C]"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Air Throw",
+        "inputs": [
+          "j.A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Hollow Point",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Hollow Point (charged)",
+        "inputs": [
+          "236[A]",
+          "236[B]"
+        ]
+      },
+      {
+        "name": "Warning Shot",
+        "inputs": [
+          "22A",
+          "22B"
+        ]
+      },
+      {
+        "name": "Reload",
+        "inputs": [
+          "22C"
+        ]
+      },
+      {
+        "name": "Etherlite Air",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "Etherlite Ground",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ]
+      },
+      {
+        "name": "Cutting Sync",
+        "inputs": [
+          "421A",
+          "421B",
+          "421C"
+        ]
+      },
+      {
+        "name": "Slide Air",
+        "inputs": [
+          "j.214A",
+          "j.214B",
+          "j.214C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Barrel Replica",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Tri Hermes Blackland",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
