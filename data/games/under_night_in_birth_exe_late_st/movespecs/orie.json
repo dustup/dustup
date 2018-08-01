@@ -1,0 +1,132 @@
+{
+  "name": "Orie",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C"
+    ],
+    [
+      "6B",
+      "3B",
+      "3C",
+      "4C",
+      "j.2C"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Aerial Leap",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Divine Thrust",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Sacred Arrow",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "Command Order",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ],
+        "follow_ups": [
+          {
+            "name": "Thick and Quick",
+            "inputs": [
+              "4A"
+            ]
+          },
+          {
+            "name": "Succession",
+            "inputs": [
+              "4B",
+              "4C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Command Order (air)",
+        "inputs": [
+          "j.214A",
+          "j.214B",
+          "j.214C"
+        ]
+      },
+      {
+        "name": "Sealing Hoplon",
+        "inputs": [
+          "22A",
+          "22B",
+          "22C"
+        ]
+      },
+      {
+        "name": "Sacred Spire",
+        "inputs": [
+          "41236C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Luminous Embrace",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Rest In Peace",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
