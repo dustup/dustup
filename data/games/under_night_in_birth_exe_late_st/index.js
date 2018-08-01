@@ -16,7 +16,7 @@ export default {
     require('./movespecs/carmine'),
     // require('./movespecs/chaos'),
     require('./movespecs/eltnum'),
-    // require('./movespecs/enkidu'),
+     require('./movespecs/enkidu'),
     // require('./movespecs/gordeau'),
     // require('./movespecs/hilda'),
     require('./movespecs/hyde'),
