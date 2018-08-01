@@ -1,0 +1,228 @@
+{
+  "name": "Baiken",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Tatami Gaeshi",
+        "inputs": [
+          "236K",
+          "j.236K"
+        ]
+      },
+      {
+        "name": "Ground Azami",
+        "inputs": [
+          "S+H",
+          "4S+H",
+          "2S+H",
+          "1S+H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Kuchinashi",
+            "inputs": [
+              "P"
+            ]
+          },
+          {
+            "name": "Mawarikomi",
+            "inputs": [
+              "K"
+            ]
+          },
+          {
+            "name": "Sakura",
+            "inputs": [
+              "S"
+            ]
+          },
+          {
+            "name": "Rokkonsogi",
+            "inputs": [
+              "H"
+            ]
+          },
+          {
+            "name": "Yashagatana",
+            "inputs": [
+              "D"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Air Azami",
+        "inputs": [
+          "j.S+H",
+          "j.4S+H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Tsubaki",
+            "inputs": [
+              "P",
+              "K"
+            ]
+          },
+          {
+            "name": "Kikyou",
+            "inputs": [
+              "S",
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Suzuran",
+        "inputs": [
+          "63214K"
+        ],
+        "follow_ups": [
+          {
+            "name": "Kuchinashi",
+            "inputs": [
+              "P"
+            ]
+          },
+          {
+            "name": "Mawarikomi",
+            "inputs": [
+              "K"
+            ]
+          },
+          {
+            "name": "Sakura",
+            "inputs": [
+              "S"
+            ]
+          },
+          {
+            "name": "Rokkonsogi",
+            "inputs": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kabari",
+        "inputs": [
+          "41236S",
+          "41236H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Himarawi",
+            "inputs": [
+              "P"
+            ]
+          },
+          {
+            "name": "Tetsuzansen",
+            "inputs": [
+              "S"
+            ]
+          },
+          {
+            "name": "Rokkonsogi",
+            "inputs": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Youzansen",
+        "inputs": [
+          "j.623S"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Tsurane Zanzuwatashi",
+        "inputs": [
+          "236236S",
+          "236236D"
+        ]
+      },
+      {
+        "name": "Ground Azami",
+        "inputs": [
+          "S+H",
+          "4S+H",
+          "2S+H",
+          "1S+H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Metsudo Kushoudou",
+            "inputs": [
+              "236236H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Air Azami",
+        "inputs": [
+          "j.S+H",
+          "j.4S+H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Metsudo Kushoudou",
+            "inputs": [
+              "236236H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Suzuran",
+        "inputs": [
+          "63214K"
+        ],
+        "follow_ups": [
+          {
+            "name": "Metsudo Kushoudou",
+            "inputs": [
+              "236236H"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Garyo Tensei",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

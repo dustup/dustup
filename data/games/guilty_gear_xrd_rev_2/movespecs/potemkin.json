@@ -1,0 +1,125 @@
+{
+  "name": "Potemkin",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Heat Knuckle",
+        "inputs": [
+          "623H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Heat Extend",
+            "inputs": [
+              "63214H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Megafist",
+        "inputs": [
+          "236P",
+          "214P"
+        ]
+      },
+      {
+        "name": "Slide Head",
+        "inputs": [
+          "236S"
+        ]
+      },
+      {
+        "name": "Hammer Fall",
+        "inputs": [
+          "[4]6H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Brake",
+            "inputs": [
+              "P"
+            ],
+            "conditions": "before Hammer Fall hits"
+          }
+        ]
+      },
+      {
+        "name": "F.D.B.",
+        "inputs": [
+          "63214[S]"
+        ]
+      },
+      {
+        "name": "Potemkin Buster",
+        "inputs": [
+          "632146P"
+        ]
+      },
+      {
+        "name": "Trishula",
+        "inputs": [
+          "214K"
+        ]
+      },
+      {
+        "name": "I.C.P.M",
+        "inputs": [
+          "j.41236H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Heavenly Potemkin Buster",
+        "inputs": [
+          "236236S"
+        ]
+      },
+      {
+        "name": "Giganter EX",
+        "inputs": [
+          "632146H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Gigantic Blid EX",
+            "inputs": [
+              "4123641236P"
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Infernal Tour",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

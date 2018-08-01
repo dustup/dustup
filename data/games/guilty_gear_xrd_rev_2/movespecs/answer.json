@@ -1,0 +1,177 @@
+{
+  "name": "Answer",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6[K]",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Business Ninpo: Caltrops",
+        "inputs": [
+          "236S",
+          "236H"
+        ]
+      },
+      {
+        "name": "Business Ninpo: Under the Rug",
+        "inputs": [
+          "22S",
+          "22H"
+        ]
+      },
+      {
+        "name": "Business Ninpo: Under the Bus",
+        "inputs": [
+          "421S",
+          "421H"
+        ]
+      },
+      {
+        "name": "Savvy Ninpo: Request for Approval",
+        "inputs": [
+          "214P",
+          "214K",
+          "214S",
+          "214H",
+          "j.214P",
+          "j.214K",
+          "j.214S",
+          "j.214H"
+        ]
+      },
+      {
+        "name": "Savvy Ninpo: Seal of Approval",
+        "shortName": "Seal",
+        "inputs": [
+          "5"
+        ],
+        "conditions": "Near Seal",
+        "follow_ups": [
+          {
+            "name": "Cancel Stance",
+            "inputs": [
+              "22"
+            ]
+          },
+          {
+            "name": "Savvy Ninpo: Data Logging",
+            "inputs": [
+              "P"
+            ]
+          },
+          {
+            "name": "Savvy Ninpo: Down the Ladder",
+            "inputs": [
+              "K"
+            ]
+          },
+          {
+            "name": "Savvy Ninpo: Stepping Down",
+            "inputs": [
+              "S"
+            ]
+          },
+          {
+            "name": "Savvy Ninpo: Into My Office",
+            "inputs": [
+              "H"
+            ]
+          },
+          {
+            "name": "Savvy Ninpo: Safety Net",
+            "inputs": [
+              "direction + D",
+              "D"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Savvy Ninpo: Tax Write-Off",
+        "inputs": [
+          "623K",
+          "j.623K"
+        ]
+      },
+      {
+        "name": "Savvy Ninpo: Data Logging",
+        "inputs": [
+          "22P",
+          "j.22P"
+        ]
+      },
+      {
+        "name": "Resshou",
+        "inputs": [
+          "46P"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Dead Stock Ninpo: Firesale",
+        "shortName": "Firesale",
+        "inputs": [
+          "632146S",
+          "632146D",
+          "j.632146S",
+          "j.632146D"
+        ],
+        "follow_ups": [
+          {
+            "name": "Ground Normal",
+            "inputs": [
+              "236236S"
+            ]
+          },
+          {
+            "name": "Ground Burst",
+            "inputs": [
+              "236236D"
+            ]
+          },
+          {
+            "name": "Air",
+            "inputs": [
+              "j.236236S"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Business Ultimate Ninpo: All Hands",
+        "inputs": [
+          "236236K"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Summoner: The Basilisk",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

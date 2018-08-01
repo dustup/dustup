@@ -1,0 +1,132 @@
+{
+  "name": "Sol Badguy",
+  "shortName": "Sol",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "6P",
+      "6H",
+      "5D",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D",
+      "j.2K"
+    ],
+    [
+      {
+        "name": "Gunflame",
+        "inputs": [
+          "236P"
+        ]
+      },
+      {
+        "name": "Gunflame (Feint)",
+        "inputs": [
+          "214P"
+        ]
+      },
+      {
+        "name": "Volcanic Viper",
+        "inputs": [
+          "623S",
+          "623H",
+          "j.623S",
+          "j.623H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Knockdown",
+            "inputs": [
+              "214K"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bandit Revolver",
+        "inputs": [
+          "236K"
+        ]
+      },
+      {
+        "name": "Bandit Bringer",
+        "inputs": [
+          "236[K]"
+        ]
+      },
+      {
+        "name": "Break",
+        "inputs": [
+          "j.214K"
+        ]
+      },
+      {
+        "name": "Wild Throw",
+        "inputs": [
+          "623K"
+        ]
+      },
+      {
+        "name": "Riot Stamp",
+        "inputs": [
+          "214K"
+        ]
+      },
+      {
+        "name": "Ground Viper",
+        "inputs": [
+          "214S"
+        ]
+      },
+      {
+        "name": "Fafnir",
+        "inputs": [
+          "41236H"
+        ]
+      },
+      {
+        "name": "P.B.B.",
+        "inputs": [
+          "j.623K"
+        ],
+        "conditions": "during Dragon Install"
+      }
+    ],
+    [
+      {
+        "name": "Tyrant Rave ver.β",
+        "inputs": [
+          "632146H",
+          "632146D"
+        ]
+      },
+      {
+        "name": "Dragon Install",
+        "inputs": [
+          "214214H",
+          "j.214214H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Branding Breach",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

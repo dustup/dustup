@@ -1,0 +1,121 @@
+{
+  "name": "Dizzy",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5S",
+      "5D",
+      "4S",
+      "6P",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "I used this to catch fish",
+        "inputs": [
+          "236S"
+        ]
+      },
+      {
+        "name": "For searing cod...",
+        "inputs": [
+          "236H"
+        ]
+      },
+      {
+        "name": "I used this to pick fruit",
+        "inputs": [
+          "421S"
+        ]
+      },
+      {
+        "name": "For roasting chestnuts...",
+        "inputs": [
+          "421H"
+        ]
+      },
+      {
+        "name": "We talked a lot together",
+        "inputs": [
+          "214P",
+          "214K"
+        ]
+      },
+      {
+        "name": "We fought a lot together",
+        "inputs": [
+          "214S",
+          "214H",
+          "214D"
+        ]
+      },
+      {
+        "name": "For putting out the light...",
+        "inputs": [
+          "236P"
+        ]
+      },
+      {
+        "name": "The light was so small in the beginning",
+        "inputs": [
+          "236K"
+        ]
+      },
+      {
+        "name": "Please, leave me alone",
+        "inputs": [
+          "j.236P"
+        ]
+      },
+      {
+        "name": "What happens when I'm TOO alone",
+        "inputs": [
+          "j.236K"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Imperial Ray",
+        "inputs": [
+          "63214S",
+          "63214D"
+        ]
+      },
+      {
+        "name": "Don't be overprotective",
+        "inputs": [
+          "63214P"
+        ]
+      },
+      {
+        "name": "Gamma Ray",
+        "inputs": [
+          "64641236H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Emotional Gamma Ray",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

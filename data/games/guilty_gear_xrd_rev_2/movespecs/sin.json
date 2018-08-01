@@ -1,0 +1,121 @@
+{
+  "name": "Sin Kiske",
+  "shortName": "Sin",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "6P",
+      "6H",
+      "5D",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "3K",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.6H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Hawk Baker",
+        "inputs": [
+          "623S"
+        ]
+      },
+      {
+        "name": "Beak Driver",
+        "inputs": [
+          "236H",
+          "j.236H"
+        ],
+        "follow_ups": [
+          {
+            "name": "I'm Sure I'll Hit Something",
+            "inputs": [
+              "HHH..."
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bull Bash",
+        "inputs": [
+          "214S"
+        ]
+      },
+      {
+        "name": "Elk Hunt",
+        "inputs": [
+          "236K"
+        ]
+      },
+      {
+        "name": "Leap",
+        "inputs": [
+          "214P",
+          "214K"
+        ]
+      },
+      {
+        "name": "Still Growing",
+        "inputs": [
+          "214H"
+        ]
+      },
+      {
+        "name": "Vulture Seize",
+        "inputs": [
+          "j.214S"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "R.T.L",
+        "inputs": [
+          "632146H",
+          "j.632146H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Ground Followups",
+            "inputs": [
+              "direction + H"
+            ]
+          },
+          {
+            "name": "Air Followups",
+            "inputs": [
+              "j.(direction + H)"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Voltic Deign",
+        "inputs": [
+          "236236P",
+          "j.236236P"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Raiden",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

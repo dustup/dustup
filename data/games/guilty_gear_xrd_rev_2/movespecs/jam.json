@@ -1,0 +1,177 @@
+{
+  "name": "Jam Kuradoberi",
+  "shortName": "Jam",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Hochifu",
+        "inputs": [
+          "546"
+        ],
+        "follow_ups": [
+          {
+            "name": "Zekkei",
+            "inputs": [
+              "P"
+            ],
+            "follow_ups": [
+              {
+                "name": "Goushao",
+                "inputs": [
+                  "P"
+                ]
+              },
+              {
+                "name": "Dowanga",
+                "inputs": [
+                  "K"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Youeikyaku",
+        "inputs": [
+          "j.2K"
+        ]
+      },
+      {
+        "name": "Bakushuu",
+        "inputs": [
+          "236S"
+        ],
+        "follow_ups": [
+          {
+            "name": "Mawarikomi",
+            "inputs": [
+              "P"
+            ]
+          },
+          {
+            "name": "Ashibarai",
+            "inputs": [
+              "K"
+            ]
+          },
+          {
+            "name": "Hyappo Shinshou",
+            "inputs": [
+              "S"
+            ]
+          },
+          {
+            "name": "Senri Shinshou",
+            "inputs": [
+              "H"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Asanagi no Kokyuu",
+        "inputs": [
+          "22K",
+          "22S",
+          "22H"
+        ]
+      },
+      {
+        "name": "Ryuujin",
+        "inputs": [
+          "263K"
+        ]
+      },
+      {
+        "name": "Gekirin",
+        "inputs": [
+          "214K"
+        ]
+      },
+      {
+        "name": "Kenroukaku",
+        "inputs": [
+          "623K"
+        ]
+      },
+      {
+        "name": "Air Ryuujin",
+        "inputs": [
+          "j.236K"
+        ]
+      },
+      {
+        "name": "Air Gekirin",
+        "inputs": [
+          "j.214K"
+        ]
+      },
+      {
+        "name": "Air Kenroukaku",
+        "inputs": [
+          "j.623K"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Choukyaku Hou'Oushou",
+        "inputs": [
+          "632146S",
+          "632146D"
+        ]
+      },
+      {
+        "name": "Bao Saishinshou",
+        "inputs": [
+          "236236H"
+        ],
+        "follow_ups": [
+          {
+            "name": "Kaorinkuen",
+            "inputs": [
+              "P"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Renhoukyaku",
+        "inputs": [
+          "632146H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Gasenkotsu",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

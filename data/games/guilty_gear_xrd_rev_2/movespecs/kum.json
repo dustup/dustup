@@ -1,0 +1,97 @@
+{
+  "name": "Kum Haehyun",
+  "shortName": "Kum",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D",
+      "6P",
+      "6K",
+      "6H",
+      "j.2K"
+    ],
+    [
+      {
+        "name": "Tuning Ball",
+        "inputs": [
+          "236S",
+          "236H"
+        ]
+      },
+      {
+        "name": "Four Tigers Sword",
+        "inputs": [
+          "623K",
+          "623[K]"
+        ]
+      },
+      {
+        "name": "Four Tigers Sword (Reverse)",
+        "inputs": [
+          "623[K]~1",
+          "623[K]~4",
+          "623[K]~7"
+        ]
+      },
+      {
+        "name": "Falcon Dive",
+        "inputs": [
+          "214K",
+          "214[K]"
+        ]
+      },
+      {
+        "name": "Falcon Dive (Reverse)",
+        "inputs": [
+          "214[K]~1",
+          "214[K]~4",
+          "214[K]~7"
+        ]
+      },
+      {
+        "name": "Air Falcon Dive",
+        "inputs": [
+          "j.214K"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Enlightened 3000 Palm Strike",
+        "inputs": [
+          "236236H",
+          "236236D"
+        ]
+      },
+      {
+        "name": "Celestial Tuning Ball",
+        "inputs": [
+          "236236S"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Sundering Chord",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "name": "Carmine",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C",
+      "j.[C]"
+    ],
+    [
+      "5BB",
+      "6B",
+      "6BB",
+      "j.6B",
+      "j.6BB",
+      "3B",
+      "6C",
+      "6[C]",
+      "3C",
+      "3[C]"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Twist!",
+        "inputs": [
+          "B+C",
+          "4B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Spin!",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Spin! (air)",
+        "inputs": [
+          "j.236A",
+          "j.236B",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Pulverize!",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ],
+        "follow_ups": [
+          {
+            "name": "]A[",
+            "inputs": [
+              "]A["
+            ]
+          },
+          {
+            "name": "]B[",
+            "inputs": [
+              "]B["
+              ]
+          }
+        ]
+      },
+      {
+        "name": "Launch!",
+        "inputs": [
+          "22A",
+          "22B",
+          "22C"
+        ]
+      },
+      {
+        "name": "Give Me That!",
+        "inputs": [
+          "63214C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Hahahaha! Be Devoured!",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "You Shit! This is the END!",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}

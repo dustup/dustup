@@ -1,0 +1,158 @@
+{
+  "name": "Elphelt",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Pineberry",
+        "inputs": [
+          "236P",
+          "j.236P"
+        ],
+        "follow_ups": [
+          {
+            "name": "Overhand Throw",
+            "inputs": [
+              "4P"
+            ]
+          },
+          {
+            "name": "Underhand Throw",
+            "inputs": [
+              "2P"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Bridal Express",
+        "inputs": [
+          "214K",
+          "j.214K"
+        ]
+      },
+      {
+        "name": "Miss Confire Ready",
+        "inputs": [
+          "236S"
+        ]
+      },
+      {
+        "name": "Miss Confire Fire",
+        "inputs": [
+          "P",
+          "K",
+          "S",
+          "H"
+        ],
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Confire Reload",
+        "inputs": [
+          "46S"
+        ],
+        "conditions": "during Fire"
+      },
+      {
+        "name": "Miss Confire Cancel",
+        "inputs": [
+          "D"
+        ],
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Travailler Ready",
+        "inputs": [
+          "236H"
+        ]
+      },
+      {
+        "name": "Miss Travailler Fire",
+        "inputs": [
+          "H"
+        ],
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Travailler Reload",
+        "inputs": [
+          "46H"
+        ],
+        "conditions": "during Fire"
+      },
+      {
+        "name": "Miss Travailler Thrust",
+        "inputs": [
+          "P"
+        ],
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Travailler Roll",
+        "inputs": [
+          "K"
+        ],
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Travailler Launch",
+        "inputs": [
+          "S"
+        ],
+        "conditions": "after Ready"
+      },
+      {
+        "name": "Miss Travailler Demolish",
+        "inputs": [
+          "D"
+        ],
+        "conditions": "after Ready"
+      }
+    ],
+    [
+      {
+        "name": "Judge Better Half",
+        "inputs": [
+          "236236K",
+          "236236D"
+        ]
+      },
+      {
+        "name": "Genoverse",
+        "inputs": [
+          "632146H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Magnum Wedding",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

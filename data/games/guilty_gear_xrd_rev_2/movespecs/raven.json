@@ -1,0 +1,100 @@
+{
+  "name": "Raven",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D",
+      "6P",
+      "4P",
+      "6H",
+      "j.2K"
+    ],
+    [
+      {
+        "name": "Glide",
+        "inputs": [
+          "j.66"
+        ]
+      },
+      {
+        "name": "Schmerz Berg",
+        "inputs": [
+          "236P"
+        ]
+      },
+      {
+        "name": "Gebrechlich Licht",
+        "inputs": [
+          "j.236P",
+          "j.236K"
+        ]
+      },
+      {
+        "name": "Grausam Impuls",
+        "inputs": [
+          "236S",
+          "j.236S"
+        ]
+      },
+      {
+        "name": "Scharf Kugel",
+        "inputs": [
+          "236H",
+          "j.236H"
+        ]
+      },
+      {
+        "name": "Give it to me HERE",
+        "inputs": [
+          "214[K]"
+        ]
+      },
+      {
+        "name": "Wachen Zweig",
+        "inputs": [
+          "63214S",
+          "63214H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Getreuer",
+        "inputs": [
+          "214214H",
+          "214214D"
+        ]
+      },
+      {
+        "name": "Verzweifelt",
+        "inputs": [
+          "632146S",
+          "j.632146S"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Sehnsucht",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

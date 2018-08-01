@@ -1,0 +1,330 @@
+{
+  "name": "Ramlethal Valentine",
+  "shortName": "Ramlethal",
+  "movelists": [
+    [
+      {
+        "name": "5P",
+        "inputs": [
+          "5P"
+        ],
+        "follow_ups": [
+          {
+            "name": "5P",
+            "inputs": [
+              "5P"
+            ],
+            "follow_ups": [
+              {
+                "name": "5P",
+                "inputs": [
+                  "5P"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "5K",
+            "inputs": [
+              "5K"
+            ],
+            "follow_ups": [
+              {
+                "name": "4K",
+                "inputs": [
+                  "4K"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "5K",
+        "inputs": [
+          "5K"
+        ],
+        "follow_ups": [
+          {
+            "name": "5K",
+            "inputs": [
+              "5K"
+            ],
+            "follow_ups": [
+              {
+                "name": "5K",
+                "inputs": [
+                  "5K"
+                ]
+              },
+              {
+                "name": "4K",
+                "inputs": [
+                  "4K"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "4K",
+            "inputs": [
+              "4K"
+            ]
+          },
+          {
+            "name": "5P",
+            "inputs": [
+              "5P"
+            ],
+            "follow_ups": [
+              {
+                "name": "5P",
+                "inputs": [
+                  "5P"
+                ]
+              },
+              {
+                "name": "5K",
+                "inputs": [
+                  "5K"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "c.S",
+      {
+        "name": "f.S",
+        "inputs": [
+          "f.S"
+        ],
+        "conditions": "without S sword"
+      },
+      {
+        "name": "f.S",
+        "inputs": [
+          "f.S"
+        ],
+        "conditions": "with S sword"
+      },
+      {
+        "name": "5H",
+        "inputs": [
+          "5H"
+        ],
+        "conditions": "without H sword"
+      },
+      {
+        "name": "5H",
+        "inputs": [
+          "5H"
+        ],
+        "conditions": "with H sword"
+      },
+      "5D",
+      {
+        "name": "2P",
+        "inputs": [
+          "2P"
+        ],
+        "follow_ups": [
+          {
+            "name": "2P",
+            "inputs": [
+              "2P"
+            ],
+            "follow_ups": [
+              {
+                "name": "2K",
+                "inputs": [
+                  "2K"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "2K",
+            "inputs": [
+              "2K"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2K",
+        "inputs": [
+          "2K"
+        ],
+        "follow_ups": [
+          {
+            "name": "2K",
+            "inputs": [
+              "2K"
+            ]
+          },
+          {
+            "name": "2P",
+            "inputs": [
+              "2P"
+            ],
+            "follow_ups": [
+              {
+                "name": "2P",
+                "inputs": [
+                  "2P"
+                ]
+              },
+              {
+                "name": "2K",
+                "inputs": [
+                  "2K"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "2S",
+        "inputs": [
+          "2S"
+        ],
+        "conditions": "with S sword"
+      },
+      {
+        "name": "2H",
+        "inputs": [
+          "2H"
+        ],
+        "conditions": "with H sword"
+      },
+      "2D",
+      "3K",
+      "6P",
+      "6K",
+      "j.P",
+      "j.K",
+      {
+        "name": "j.S",
+        "inputs": [
+          "j.S"
+        ],
+        "conditions": "without S sword"
+      },
+      {
+        "name": "j.S",
+        "inputs": [
+          "j.S"
+        ],
+        "conditions": "with S sword"
+      },
+      {
+        "name": "j.H",
+        "inputs": [
+          "j.H"
+        ],
+        "conditions": "without H sword"
+      },
+      {
+        "name": "j.H",
+        "inputs": [
+          "j.H"
+        ],
+        "conditions": "with H sword"
+      },
+      "j.D"
+    ],
+    [
+      {
+        "name": "Deploy Giant Sword",
+        "inputs": [
+          "6S",
+          "j.6S",
+          "6H",
+          "j.6H",
+          "2S",
+          "j.2S",
+          "2H",
+          "j.2H"
+        ]
+      },
+      {
+        "name": "Retrieve Giant Sword",
+        "inputs": [
+          "4S",
+          "4H"
+        ]
+      },
+      {
+        "name": "Daruo",
+        "inputs": [
+          "623P"
+        ]
+      },
+      {
+        "name": "Flama Kargo",
+        "inputs": [
+          "236K"
+        ]
+      },
+      {
+        "name": "Silda Detruo",
+        "inputs": [
+          "214K",
+          "j.214K"
+        ]
+      },
+      {
+        "name": "Cassius",
+        "inputs": [
+          "214P"
+        ]
+      },
+      {
+        "name": "Marteli",
+        "inputs": [
+          "214S",
+          "j.214S"
+        ]
+      },
+      {
+        "name": "Forpeli",
+        "inputs": [
+          "214H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Calvados",
+        "inputs": [
+          "632146H"
+        ],
+        "conditions": "with both swords equipped"
+      },
+      {
+        "name": "Trance",
+        "inputs": [
+          "632146H"
+        ],
+        "conditions": "with both swords deployed"
+      },
+      {
+        "name": "Explode",
+        "inputs": [
+          "2363214K"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Animo Estingi",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

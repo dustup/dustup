@@ -1,0 +1,166 @@
+{
+  "name": "Leo Whitefang",
+  "shortName": "Leo",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "f.S~P",
+      "5H",
+      "5H~P",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Graviert Wurde",
+        "inputs": [
+          "[4]6S",
+          "[4]6H"
+        ]
+      },
+      {
+        "name": "Eisen Sturm",
+        "inputs": [
+          "[2]8S",
+          "[2]8H"
+        ]
+      },
+      {
+        "name": "Kaltes Gestöber Erst",
+        "inputs": [
+          "236S"
+        ],
+        "follow_ups": [
+          {
+            "name": "Zweit",
+            "inputs": [
+              "236H"
+            ],
+            "follow_ups": [
+              {
+                "name": "Dritt",
+                "inputs": [
+                  "214S"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Kaltes Gestöber Zweit",
+        "inputs": [
+          "236H"
+        ]
+      },
+      {
+        "name": "Siegesparade",
+        "inputs": [
+          "j.236H"
+        ]
+      },
+      {
+        "name": "Brynhildr Stance",
+        "inputs": [
+          "[H]",
+          "6[H]"
+        ]
+      },
+      {
+        "name": "bt.P",
+        "inputs": [
+          "P"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "bt.K",
+        "inputs": [
+          "K"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "bt.S",
+        "inputs": [
+          "S"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "bt.H",
+        "inputs": [
+          "H"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "Kahn Schild",
+        "inputs": [
+          "D"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "Kaltes Gestöber Zweit",
+        "inputs": [
+          "236H"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "Kaltes Gestöber Dritt",
+        "inputs": [
+          "214S"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "Blitzschlag",
+        "inputs": [
+          "214H"
+        ],
+        "conditions": "during Brynhildr Stance"
+      }
+    ],
+    [
+      {
+        "name": "Stahl Wirbel",
+        "inputs": [
+          "643216S"
+        ],
+        "conditions": "during Brynhildr Stance"
+      },
+      {
+        "name": "Leidenschaft Dirigen",
+        "inputs": [
+          "643216H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Windrad des Weltraum",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

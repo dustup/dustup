@@ -1,0 +1,121 @@
+{
+  "name": "Bedman",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "2P",
+      "2K",
+      "2S",
+      "1H",
+      "2H",
+      "3H",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D",
+      "6P",
+      "6H",
+      "6HH",
+      "2D",
+      "5D"
+    ],
+    [
+      {
+        "name": "Task A",
+        "inputs": [
+          "236P",
+          "j.236P"
+        ]
+      },
+      {
+        "name": "Task A'",
+        "inputs": [
+          "236K",
+          "j.236K"
+        ]
+      },
+      {
+        "name": "Task B",
+        "inputs": [
+          "236S",
+          "j.236S"
+        ]
+      },
+      {
+        "name": "Task C",
+        "inputs": [
+          "236H",
+          "j.236H"
+        ]
+      },
+      {
+        "name": "Déjà Vu",
+        "inputs": [
+          "214P",
+          "j.214P",
+          "214K",
+          "j.214K",
+          "214S",
+          "j.214S",
+          "214H",
+          "j.214H"
+        ]
+      },
+      {
+        "name": "Air Hang",
+        "inputs": [
+          "88"
+        ],
+        "follow_ups": [
+          {
+            "name": "Air Movement",
+            "inputs": [
+              "direction"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Crouch Walk",
+        "inputs": [
+          "1",
+          "3"
+        ]
+      },
+      {
+        "name": "Dash",
+        "inputs": [
+          "66"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Sinusoidal Helios",
+        "inputs": [
+          "632146H"
+        ]
+      },
+      {
+        "name": "Hemi Jack",
+        "inputs": [
+          "632146S"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Theatre of Pain",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

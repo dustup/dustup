@@ -1,0 +1,203 @@
+{
+  "name": "Faust",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "6P",
+      "6K",
+      "6H",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "3P",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D",
+      "j.6P",
+      "j.6K",
+      "j.2S"
+    ],
+    [
+      {
+        "name": "Rerere Thrust",
+        "inputs": [
+          "41236K"
+        ],
+        "follow_ups": [
+          {
+            "name": "Pull Back",
+            "inputs": [
+              "4"
+            ],
+            "follow_ups": [
+              {
+                "name": "Hello!",
+                "inputs": [
+                  "236P"
+                ],
+                "follow_ups": [
+                  {
+                    "name": "Can't Hear You!",
+                    "inputs": [
+                      "236P"
+                    ],
+                    "follow_ups": [
+                      {
+                        "name": "Hello Again!",
+                        "inputs": [
+                          "236P"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Hack n' Slash",
+        "inputs": [
+          "214H"
+        ]
+      },
+      {
+        "name": "Going My Way",
+        "inputs": [
+          "j.236H"
+        ]
+      },
+      {
+        "name": "From the Front / Behind / Above",
+        "inputs": [
+          "214P",
+          "214K",
+          "214S"
+        ]
+      },
+      {
+        "name": "Spear Point Centripetal Dance",
+        "inputs": [
+          "236S"
+        ]
+      },
+      {
+        "name": "Pogo Forward",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "66"
+        ]
+      },
+      {
+        "name": "Pogo Backward",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "44"
+        ]
+      },
+      {
+        "name": "Pogo Small Jump",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "9"
+        ]
+      },
+      {
+        "name": "Doctor-Coptor",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "8"
+        ]
+      },
+      {
+        "name": "Pogo Cancel",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "2"
+        ]
+      },
+      {
+        "name": "Just a Taste!",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "P"
+        ]
+      },
+      {
+        "name": "Growing Flower",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "[K]"
+        ]
+      },
+      {
+        "name": "See? I'm a Flower!",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "[S]"
+        ]
+      },
+      {
+        "name": "Going My Way",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "H"
+        ]
+      },
+      {
+        "name": "What Could This Be?",
+        "conditions": "in Pogo stance",
+        "inputs": [
+          "D"
+        ]
+      },
+      {
+        "name": "Love",
+        "inputs": [
+          "j.236P"
+        ]
+      },
+      {
+        "name": "What Could This Be?",
+        "inputs": [
+          "236P"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Stimulating Fists of Annihilation",
+        "inputs": [
+          "236236S",
+          "236236D"
+        ]
+      },
+      {
+        "name": "W-W-What Could This Be?",
+        "inputs": [
+          "236236P",
+          "236236236P"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "This is... Me?",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

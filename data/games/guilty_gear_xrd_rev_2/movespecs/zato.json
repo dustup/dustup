@@ -1,0 +1,153 @@
+{
+  "name": "Zato-1",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "6P",
+      "6H",
+      "5D",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D",
+      "j.2K"
+    ],
+    [
+      {
+        "name": "Invite Hell",
+        "inputs": [
+          "22S",
+          "22H"
+        ]
+      },
+      {
+        "name": "Break the Law",
+        "inputs": [
+          "214[K]"
+        ]
+      },
+      {
+        "name": "Summon Eddie (Recall)",
+        "inputs": [
+          "236P",
+          "236K",
+          "236S",
+          "236H"
+        ]
+      },
+      {
+        "name": "Shadow Puddle Shadow Summon",
+        "inputs": [
+          "214H"
+        ]
+      },
+      {
+        "name": "Small Attack",
+        "inputs": [
+          "]P["
+        ],
+        "conditions": "with shadow"
+      },
+      {
+        "name": "Traversing Attack",
+        "inputs": [
+          "]K["
+        ],
+        "conditions": "with shadow"
+      },
+      {
+        "name": "Anti-Air Attack",
+        "inputs": [
+          "]S["
+        ],
+        "conditions": "with shadow"
+      },
+      {
+        "name": "Shadow Puddle",
+        "inputs": [
+          "]H["
+        ],
+        "conditions": "with shadow"
+      },
+      {
+        "name": "Drill Special",
+        "inputs": [
+          "]D["
+        ],
+        "conditions": "with shadow"
+      },
+      {
+        "name": "Dead Man's Hand",
+        "inputs": [
+          "214D"
+        ],
+        "conditions": "with shadow"
+      },
+      {
+        "name": "Damned Fang",
+        "inputs": [
+          "623S"
+        ]
+      },
+      {
+        "name": "Drunkard Shade",
+        "inputs": [
+          "214S"
+        ]
+      },
+      {
+        "name": "Shadow Gallery",
+        "inputs": [
+          "j.41236S"
+        ]
+      },
+      {
+        "name": "Flight",
+        "inputs": [
+          "88"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Amorphous",
+        "inputs": [
+          "632146H",
+          "632146D"
+        ]
+      },
+      {
+        "name": "Executor",
+        "inputs": [
+          "j.236236S"
+        ]
+      },
+      {
+        "name": "Great White",
+        "inputs": [
+          "632156S"
+        ],
+        "conditions": "with shadow"
+      }
+    ],
+    [
+      {
+        "name": "Guatemala Magnifica",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

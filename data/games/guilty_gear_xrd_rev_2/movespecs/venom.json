@@ -1,0 +1,112 @@
+{
+  "name": "Venom",
+  "movelists": [
+    [
+      "5P",
+      "5K",
+      "c.S",
+      "f.S",
+      "5H",
+      "5D",
+      "2P",
+      "2K",
+      "2S",
+      "2H",
+      "2D",
+      "6P",
+      "6H",
+      "j.P",
+      "j.K",
+      "j.S",
+      "j.H",
+      "j.D"
+    ],
+    [
+      {
+        "name": "Ball Set",
+        "inputs": [
+          "214P",
+          "214K",
+          "214S",
+          "214H",
+          "j.214P",
+          "j.214K",
+          "j.214S",
+          "j.214H"
+        ]
+      },
+      {
+        "name": "QV",
+        "inputs": [
+          "41236P",
+          "41236K",
+          "41236S",
+          "41236H"
+        ]
+      },
+      {
+        "name": "Teleport",
+        "inputs": [
+          "623K"
+        ]
+      },
+      {
+        "name": "Stinger Aim",
+        "inputs": [
+          "[4]6S",
+          "[4]6H"
+        ]
+      },
+      {
+        "name": "Carcass Raid",
+        "inputs": [
+          "[2]8S",
+          "[2]8H"
+        ]
+      },
+      {
+        "name": "Double Head Morbid",
+        "inputs": [
+          "623S",
+          "623H"
+        ]
+      },
+      {
+        "name": "Mad Struggle",
+        "inputs": [
+          "j.236S",
+          "j.236H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Dark Angel",
+        "inputs": [
+          "2363214S"
+        ]
+      },
+      {
+        "name": "Red Hail",
+        "inputs": [
+          "j.236236HS"
+        ]
+      },
+      {
+        "name": "Bishop Runout",
+        "inputs": [
+          "2363214H"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Giga Machine System",
+        "inputs": [
+          "236236H"
+        ],
+        "conditions": "during Instant Kill"
+      }
+    ]
+  ]
+}

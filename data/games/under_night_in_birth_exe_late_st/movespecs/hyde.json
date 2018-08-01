@@ -1,0 +1,141 @@
+{
+  "name": "Hyde",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "5[C]",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C",
+      "j.[C]"
+    ],
+    [
+      "6B",
+      "3B",
+      "3C",
+      "j.6C",
+      "j.2C"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Dead-Set Daze",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Dead-Set Daze (charged)",
+        "inputs": [
+          "[B+C]"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Black Orbiter",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ],
+        "follow_ups": [
+          {
+            "name": "Sinistry",
+            "inputs": [
+              "236B",
+              "236C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Dark Lotus",
+        "inputs": [
+          "236A"
+        ],
+        "conditions": "after Dark Orbiter"
+      },
+      {
+        "name": "Red Craver",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "Vacant Shift",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ]
+      },
+      {
+        "name": "Shadow Shock",
+        "inputs": [
+          "22A",
+          "22B",
+          "22C"
+        ]
+      },
+      {
+        "name": "Dark Lotus",
+        "inputs": [
+          "j.236A",
+          "j.236B",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Veil Effect",
+        "inputs": [
+          "41236C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Gyro Vortex",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Rage",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
