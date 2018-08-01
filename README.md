@@ -1,4 +1,4 @@
-# Dustup
+# Dustup [![Build Status](https://travis-ci.org/dustup/dustup.svg?branch=master)](https://travis-ci.org/dustup/dustup)
 
 Reference fighting game moves from your phone!
 
