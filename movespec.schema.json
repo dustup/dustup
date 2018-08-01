@@ -41,6 +41,7 @@
         }
       },
       "required": [
+        "name",
         "inputs"
       ],
       "additionalProperties": false
