@@ -21,7 +21,7 @@ export default class GameListItem extends React.Component {
             <Image source={game.images.logo} style={{flex: 1, resizeMode: 'contain', height: 150}}/>
           </CardItem>
           <CardItem>
-            <Text>{game.name}</Text>
+            <Text style={{textAlign: 'center', width: '100%'}}>{game.name}</Text>
           </CardItem>
         </Card>
       </ListItem>
