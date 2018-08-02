@@ -13,20 +13,8 @@
       "j.C"
     ],
     [
-      {
-        "name": "5BB",
-        "inputs": [
-          "B"
-        ],
-        "conditions": "after 5B"
-      },
-      {
-        "name": "5CC",
-        "inputs": [
-          "C"
-        ],
-        "conditions": "after 5C"
-      },
+      "5BB",
+      "5CC",
       {
         "name": "Cold Reflection",
         "inputs": [
