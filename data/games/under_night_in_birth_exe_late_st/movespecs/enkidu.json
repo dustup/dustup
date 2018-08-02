@@ -61,6 +61,7 @@
     [
       {
         "name": "First Prohibition",
+        "shortName": "1st Pro…",
         "inputs": [
           "236A",
           "236B",
@@ -69,6 +70,7 @@
         "follow_ups": [
           {
             "name": "Second Prohibition: Crush",
+            "shortName": "2nd Pro…",
             "inputs": [
               "6A"
             ],
@@ -83,6 +85,7 @@
           },
           {
             "name": "Second Prohibition (Secret): Sever",
+            "shortName": "2nd Pro…",
             "inputs": [
               "6B",
               "6C"
