@@ -1,0 +1,147 @@
+{
+  "name": "Byakuya",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C"
+    ],
+    [
+      "3C",
+      "3[C]",
+      "j.2C",
+      "j.2[C]"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "I'll Plant It Somewhere Over Here",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "I'll Plant It Somewhere Over Here (charged)",
+        "inputs": [
+          "[B+C]"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "How Shall I Cook You?",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ],
+        "followUps": [
+          {
+            "name": "Minced?",
+            "inputs": [
+              "6A",
+              "6B"
+            ],
+            "followUps": [
+              {
+                "name": "Or… Shredded?",
+                "inputs": [
+                  "6A",
+                  "6B"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "I'll Plant It Somewhere Over Here",
+        "shortName": "I'll Plant It…",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ],
+        "followUps": [
+          {
+            "name": "No Point In Running",
+            "inputs": [
+              "A",
+              "B",
+              "C"
+            ],
+            "followUps": [
+              {
+                "name": "Caught You",
+                "inputs": [
+                  "A",
+                  "B",
+                  "C",
+                  "D"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "You're Almost Ready to Eat",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "You're Almost Ready to Eaty (feint)",
+        "inputs": [
+          "623[A]",
+          "623[B]"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Become a Part of Me",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Endless Nightmare",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}

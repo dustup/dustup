@@ -12,7 +12,7 @@ export default {
   ],
   characters: [
     require('./movespecs/akatsuki'),
-    // require('./movespecs/byakuya'),
+    require('./movespecs/byakuya'),
     require('./movespecs/carmine'),
     // require('./movespecs/chaos'),
     require('./movespecs/eltnum'),
