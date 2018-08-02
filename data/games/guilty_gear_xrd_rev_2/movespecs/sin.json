@@ -37,7 +37,7 @@
           "236H",
           "j.236H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "I'm Sure I'll Hit Something",
             "inputs": [
@@ -85,7 +85,7 @@
           "632146H",
           "j.632146H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Ground Followups",
             "inputs": [

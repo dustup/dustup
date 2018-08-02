@@ -104,7 +104,7 @@
         "inputs": [
           "22H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Recover All",
             "inputs": [

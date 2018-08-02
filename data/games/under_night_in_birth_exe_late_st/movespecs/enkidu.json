@@ -67,14 +67,14 @@
           "236B",
           "236C"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Second Prohibition: Crush",
             "shortName": "2nd Pro…",
             "inputs": [
               "6A"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "Third Prohibition: Pierce",
                 "inputs": [
@@ -90,7 +90,7 @@
               "6B",
               "6C"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "Third Prohibition (Secret): Fierce",
                 "inputs": [

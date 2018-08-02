@@ -29,13 +29,13 @@
         "inputs": [
           "546"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Zekkei",
             "inputs": [
               "P"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "Goushao",
                 "inputs": [
@@ -63,7 +63,7 @@
         "inputs": [
           "236S"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Mawarikomi",
             "inputs": [
@@ -148,7 +148,7 @@
         "inputs": [
           "236236H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Kaorinkuen",
             "inputs": [

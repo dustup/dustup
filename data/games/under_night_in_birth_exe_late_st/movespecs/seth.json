@@ -25,7 +25,7 @@
           "j.22",
           "j.2A+B"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "6A",
             "inputs": [
@@ -108,7 +108,7 @@
           "214B",
           "214C"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "A",
             "inputs": [

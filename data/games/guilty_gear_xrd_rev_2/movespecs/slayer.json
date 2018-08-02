@@ -44,7 +44,7 @@
           "214P",
           "214K"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Pilebunker",
             "inputs": [
@@ -62,7 +62,7 @@
             "inputs": [
               "S"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "It's Late",
                 "inputs": [

@@ -12,7 +12,7 @@ import {SimpleMoveListItem} from 'dustup/components';
 
 export default class MoveSectionItem extends React.Component {
   renderFollowUps(move) {
-    const renderedFollowUps = move.follow_ups.map((followUp) => {
+    const renderedFollowUps = move.followUps.map((followUp) => {
       const parentName = move.shortName || move.name;
       followUp.inputs = followUp.inputs.map((input) => `${parentName} > ${input}`);
 
@@ -58,7 +58,7 @@ export default class MoveSectionItem extends React.Component {
         </CardItem>
         {inputs}
         {move.hasOwnProperty('conditions') ? this.renderConditions(move) : null}
-        {move.hasOwnProperty('follow_ups') ? this.renderFollowUps(move) : null}
+        {move.hasOwnProperty('followUps') ? this.renderFollowUps(move) : null}
       </Card>
     );
   }

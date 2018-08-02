@@ -45,13 +45,13 @@
         "inputs": [
           "236S"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Zweit",
             "inputs": [
               "236H"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "Dritt",
                 "inputs": [

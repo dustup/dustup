@@ -28,7 +28,7 @@
         "inputs": [
           "623H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Heat Extend",
             "inputs": [
@@ -55,7 +55,7 @@
         "inputs": [
           "[4]6H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Brake",
             "inputs": [
@@ -102,7 +102,7 @@
         "inputs": [
           "632146H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Gigantic Blid EX",
             "inputs": [

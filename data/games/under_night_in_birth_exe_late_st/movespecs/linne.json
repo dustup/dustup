@@ -25,13 +25,13 @@
         "inputs": [
           "6C"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "6C",
             "inputs": [
               "6C"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "6C",
                 "inputs": [

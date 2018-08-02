@@ -8,13 +8,13 @@
         "inputs": [
           "5P"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "5P",
             "inputs": [
               "5P"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "5P",
                 "inputs": [
@@ -28,7 +28,7 @@
             "inputs": [
               "5K"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "4K",
                 "inputs": [
@@ -44,13 +44,13 @@
         "inputs": [
           "5K"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "5K",
             "inputs": [
               "5K"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "5K",
                 "inputs": [
@@ -76,7 +76,7 @@
             "inputs": [
               "5P"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "5P",
                 "inputs": [
@@ -128,13 +128,13 @@
         "inputs": [
           "2P"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "2P",
             "inputs": [
               "2P"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "2K",
                 "inputs": [
@@ -156,7 +156,7 @@
         "inputs": [
           "2K"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "2K",
             "inputs": [
@@ -168,7 +168,7 @@
             "inputs": [
               "2P"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "2P",
                 "inputs": [

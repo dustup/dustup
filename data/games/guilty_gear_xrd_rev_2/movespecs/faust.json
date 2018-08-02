@@ -32,25 +32,25 @@
         "inputs": [
           "41236K"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Pull Back",
             "inputs": [
               "4"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "Hello!",
                 "inputs": [
                   "236P"
                 ],
-                "follow_ups": [
+                "followUps": [
                   {
                     "name": "Can't Hear You!",
                     "inputs": [
                       "236P"
                     ],
-                    "follow_ups": [
+                    "followUps": [
                       {
                         "name": "Hello Again!",
                         "inputs": [
