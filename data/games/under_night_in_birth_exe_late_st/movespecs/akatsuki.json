@@ -90,7 +90,7 @@
         ]
       },
       {
-        "name": "Blitz Shot (Air Version)",
+        "name": "Blitz Shot (air)",
         "inputs": [
           "j.236A",
           "j.236B",
@@ -106,7 +106,7 @@
         ]
       },
       {
-        "name": "Armor Pierce Kick (Air Version)",
+        "name": "Armor Pierce Kick (air)",
         "inputs": [
           "j.214A",
           "j.214B",
