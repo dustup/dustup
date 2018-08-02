@@ -54,7 +54,7 @@
         "inputs": [
           "214K"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Roll Again",
             "inputs": [

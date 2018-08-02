@@ -31,7 +31,7 @@
           "236P",
           "j.236P"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Followup",
             "inputs": [
@@ -79,7 +79,7 @@
         "inputs": [
           "236S"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Senshuu",
             "inputs": [
@@ -91,7 +91,7 @@
             "inputs": [
               "236S"
             ],
-            "follow_ups": [
+            "followUps": [
               {
                 "name": "Senshuu",
                 "inputs": [
@@ -120,7 +120,7 @@
           "64"
         ],
         "conditions": "near wall",
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Up and Down Movement",
             "inputs": [

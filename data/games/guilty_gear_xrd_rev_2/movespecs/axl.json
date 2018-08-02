@@ -33,7 +33,7 @@
         "inputs": [
           "[4]6S"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Melody Chain",
             "inputs": [
@@ -87,7 +87,7 @@
         "inputs": [
           "214H"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "High",
             "inputs": [

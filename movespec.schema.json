@@ -32,7 +32,7 @@
           "description": "sentence or phrase describing any conditions necessary for the move to trigger",
           "type": "string"
         },
-        "follow_ups": {
+        "followUps": {
           "description": "array of follow up moves for this move",
           "type": "array",
           "items": {

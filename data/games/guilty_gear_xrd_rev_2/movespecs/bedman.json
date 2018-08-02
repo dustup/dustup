@@ -71,7 +71,7 @@
         "inputs": [
           "88"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Air Movement",
             "inputs": [

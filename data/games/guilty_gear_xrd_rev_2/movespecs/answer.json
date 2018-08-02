@@ -65,7 +65,7 @@
           "5"
         ],
         "conditions": "Near Seal",
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Cancel Stance",
             "inputs": [
@@ -136,7 +136,7 @@
           "j.632146S",
           "j.632146D"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Ground Normal",
             "inputs": [

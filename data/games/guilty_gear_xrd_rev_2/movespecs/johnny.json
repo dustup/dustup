@@ -108,7 +108,7 @@
         "inputs": [
           "623K"
         ],
-        "follow_ups": [
+        "followUps": [
           {
             "name": "Attack",
             "inputs": [
