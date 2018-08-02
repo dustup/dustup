@@ -11,7 +11,7 @@ export default {
     'Infinite Worth EXS',
   ],
   characters: [
-    // require('./movespecs/akatsuki'),
+    require('./movespecs/akatsuki'),
     // require('./movespecs/byakuya'),
     require('./movespecs/carmine'),
     // require('./movespecs/chaos'),

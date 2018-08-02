@@ -1,0 +1,144 @@
+{
+  "name": "Akatsuki",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "c.B",
+      "f.B",
+      "2B",
+      "c.C",
+      "f.C",
+      "2C",
+      "j.A",
+      "j.7B",
+      "j.9B",
+      "j.7C",
+      "j.9C"
+    ],
+    [
+      "5AA",
+      "2AA",
+      {
+        "name": "Helm Crusher",
+        "inputs": [
+          "6B"
+        ]
+      },
+      {
+        "name": "Jaw Crusher",
+        "inputs": [
+          "6C"
+        ]
+      },
+      "j.8B",
+      {
+        "name": "Tile Crusher",
+        "inputs": [
+          "j.2C"
+        ]
+      },
+      "j.8C",
+      {
+        "name": "Skull Crusher",
+        "inputs": [
+          "j.6C"
+        ]
+      }
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Reflector",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Air Throw",
+        "inputs": [
+          "j.A+D"
+        ]
+      },
+      {
+        "name": "Guard Thrust",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Blitz Shot",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Blitz Shot (air)",
+        "inputs": [
+          "j.236A",
+          "j.236B",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Armor Pierce Kick",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ]
+      },
+      {
+        "name": "Armor Pierce Kick (air)",
+        "inputs": [
+          "j.214A",
+          "j.214B",
+          "j.214C"
+        ]
+      },
+      {
+        "name": "Human Cannon",
+        "inputs": [
+          "22A",
+          "22B",
+          "22C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Kamikaze",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Outa-Kai",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
