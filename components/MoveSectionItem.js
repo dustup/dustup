@@ -14,7 +14,7 @@ export default class MoveSectionItem extends React.Component {
   renderFollowUps(move) {
     const renderedFollowUps = move.followUps.map((followUp) => {
       const parentName = move.shortName || move.name;
-      followUp.inputs = followUp.inputs.map((input) => `${parentName} > ${input}`);
+      followUp.inputs = followUp.inputs.map((input) => `${parentName} -> ${input}`);
 
       return (
         <CardItem
