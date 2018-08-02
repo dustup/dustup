@@ -1,0 +1,172 @@
+{
+  "name": "Seth",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C"
+    ],
+    [
+      "3B",
+      "5CC",
+      "6C",
+      "3C",
+      "j.6C",
+      "j.2C",
+      {
+        "name": "Fast Fall",
+        "inputs": [
+          "j.22",
+          "j.2A+B"
+        ],
+        "follow_ups": [
+          {
+            "name": "6A",
+            "inputs": [
+              "6A"
+            ]
+          },
+          {
+            "name": "6B",
+            "inputs": [
+              "6B"
+            ]
+          },
+          {
+            "name": "6C",
+            "inputs": [
+              "6C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Air backdash",
+        "inputs": [
+          "j.44",
+          "j.4A+B"
+        ]
+      }
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Abyssal Geometry",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Captive Segment",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Dual Piercing Vengeance",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "Vanishing Doubt",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ],
+        "follow_ups": [
+          {
+            "name": "A",
+            "inputs": [
+              "A"
+            ]
+          },
+          {
+            "name": "B",
+            "inputs": [
+              "B"
+            ]
+          },
+          {
+            "name": "C",
+            "inputs": [
+              "C"
+            ]
+          },
+          {
+            "name": "8",
+            "inputs": [
+              "8"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Penetrate",
+        "inputs": [
+          "j.214A",
+          "j.214B",
+          "j.214C"
+        ]
+      },
+      {
+        "name": "Convict",
+        "inputs": [
+          "632146A",
+          "632146B",
+          "632146C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Chained Nefarity",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Distant Frontier",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
