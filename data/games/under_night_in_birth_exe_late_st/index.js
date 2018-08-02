@@ -26,7 +26,7 @@ export default {
     // require('./movespecs/nanase'),
     require('./movespecs/orie'),
     // require('./movespecs/phonon'),
-    // require('./movespecs/seth'),
+    require('./movespecs/seth'),
     // require('./movespecs/vatista'),
     require('./movespecs/wagner'),
     require('./movespecs/waldstein'),
