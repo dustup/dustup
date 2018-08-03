@@ -1,0 +1,140 @@
+{
+  "name": "Gordeau",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "5[C]",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C",
+      "j.[C]"
+    ],
+    [
+      "6B",
+      "4B",
+      "3C",
+      "3[C]"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Rusty Nail",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Mortal Slide",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ],
+        "followUps": [
+          {
+            "name": "Shaded Harvest",
+            "inputs": [
+              "6A",
+              "6B",
+              "6C"
+            ],
+            "followUps": [
+              {
+                "name": "Assimilation",
+                "inputs": [
+                  "6A",
+                  "6B",
+                  "6C"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mortal Glide",
+        "inputs": [
+          "j.236A",
+          "j.236B",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Grim Reaper",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ]
+      },
+      {
+        "name": "Assimilation",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ]
+      },
+      {
+        "name": "Precise Aim",
+        "inputs": [
+          "22A",
+          "22B",
+          "22C"
+        ]
+      },
+      {
+        "name": "Precise Aim (air)",
+        "inputs": [
+          "j.214A",
+          "j.214B",
+          "j.214C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Turbulence",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Soul Exodus",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
