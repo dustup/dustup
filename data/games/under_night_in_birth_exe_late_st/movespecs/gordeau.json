@@ -108,7 +108,12 @@
         "inputs": [
           "22A",
           "22B",
-          "22C",
+          "22C"
+        ]
+      },
+      {
+        "name": "Precise Aim (air)",
+        "inputs": [
           "j.214A",
           "j.214B",
           "j.214C"
