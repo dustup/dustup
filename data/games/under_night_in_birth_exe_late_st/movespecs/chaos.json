@@ -49,7 +49,7 @@
       {
         "name": "Veil Off",
         "inputs": [
-          "A+B+C+D"
+          "A+B+C"
         ]
       }
     ],
