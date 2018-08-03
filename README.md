@@ -45,7 +45,7 @@ Exceptions and gimmicks rule. :smiley:
 
 ### Normal Move
 
-A Normal Move is categorized as containing a single directional input of one of the following: **a)** a neutral joystick position (`5`), **b)** a downward joystick position with no lateral motion (`2`), **c)** a neutral joystick position while in mid-air (`j.`), **d)** or a downward joystick position with no lateral motion while in mid-air (`j.2`) followed by single action-button press.
+A Normal Move is categorized as containing a single directional input of one of the following: **a)** a neutral joystick position (`5`), **b)** a downward joystick position with no lateral motion (`2`), **c)** or a neutral joystick position while in mid-air (`j.`) followed by single action-button press.
 
 ```
 5A
