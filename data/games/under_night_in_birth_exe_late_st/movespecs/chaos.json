@@ -1,0 +1,133 @@
+{
+  "name": "Chaos",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C"
+    ],
+    [
+      "5BB",
+      "5CC",
+      {
+        "name": "Cold Reflection",
+        "inputs": [
+          "6C"
+        ]
+      },
+      "j.2C"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Ophidian",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Cancel",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Prey in Sight",
+        "inputs": [
+          "236A",
+          "236B",
+          "236[B]",
+          "236C",
+          "j.236A",
+          "j.236B",
+          "j.236[B]",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Touch of Death",
+        "inputs": [
+          "214A",
+          "214[A]",
+          "214B",
+          "214[B]",
+          "214C",
+          "j.214A",
+          "j.214[A]",
+          "j.214B",
+          "j.214[B]",
+          "j.214C"
+        ]
+      },
+      {
+        "name": "Repel",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C",
+          "j.623A",
+          "j.623B",
+          "j.623C"
+        ]
+      },
+      {
+        "name": "Concealment",
+        "inputs": [
+          "22A",
+          "22B",
+          "22C",
+          "j.22A",
+          "j.22B",
+          "j.22C"
+        ]
+      },
+      {
+        "name": "Slither",
+        "inputs": [
+          "[A]",
+          "[B]",
+          "[C]"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Barrage",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Profound Revenance",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}

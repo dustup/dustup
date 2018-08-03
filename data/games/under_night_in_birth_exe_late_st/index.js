@@ -14,7 +14,7 @@ export default {
     require('./movespecs/akatsuki'),
     // require('./movespecs/byakuya'),
     require('./movespecs/carmine'),
-    // require('./movespecs/chaos'),
+    require('./movespecs/chaos'),
     require('./movespecs/eltnum'),
      require('./movespecs/enkidu'),
     // require('./movespecs/gordeau'),
