@@ -21,7 +21,7 @@ export default {
     require('./movespecs/hilda'),
     require('./movespecs/hyde'),
     require('./movespecs/linne'),
-    // require('./movespecs/merkava'),
+    require('./movespecs/merkava'),
     // require('./movespecs/mika'),
     // require('./movespecs/nanase'),
     require('./movespecs/orie'),
