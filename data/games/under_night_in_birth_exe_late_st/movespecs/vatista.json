@@ -1,0 +1,121 @@
+{
+  "name": "Vatista",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C"
+    ],
+    [
+      "5BB",
+      "2BB",
+      {
+        "name": "Leviosa",
+        "inputs": [
+          "j.A+B"
+        ]
+      }
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Armabellum",
+        "inputs": [
+          "B+C",
+          "[B+C]"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Thrust",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Stella Lumen",
+        "inputs": [
+          "[4]6A",
+          "[4]6B",
+          "[4]6C"
+        ]
+      },
+      {
+        "name": "Luvel Angelus",
+        "inputs": [
+          "[2]8A",
+          "[2]8B",
+          "[2]8C"
+        ]
+      },
+      {
+        "name": "Mikoruseo",
+        "inputs": [
+          "[6]4A",
+          "[6]4B",
+          "[6]4C"
+        ]
+      },
+      {
+        "name": "Deus Fragmentum",
+        "inputs": [
+          "]A[",
+          "]B[",
+          "]C[",
+          "2]A[",
+          "2]B[",
+          "2]C[",
+          "j.]A[",
+          "j.]B[",
+          "j.]C["
+        ]
+      },
+      {
+        "name": "Transvoranse",
+        "inputs": [
+          "j.[8]2A",
+          "j.[8]2B",
+          "j.[8]2C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Lateus Orbis",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Zahhisio",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
