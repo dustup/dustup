@@ -23,7 +23,7 @@ export default {
     require('./movespecs/linne'),
     // require('./movespecs/merkava'),
     // require('./movespecs/mika'),
-    // require('./movespecs/nanase'),
+    require('./movespecs/nanase'),
     require('./movespecs/orie'),
     // require('./movespecs/phonon'),
     require('./movespecs/seth'),
