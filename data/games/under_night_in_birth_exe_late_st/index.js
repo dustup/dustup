@@ -30,7 +30,7 @@ export default {
     // require('./movespecs/vatista'),
     require('./movespecs/wagner'),
     require('./movespecs/waldstein'),
-    // require('./movespecs/yuzuriha'),
+    require('./movespecs/yuzuriha'),
   ],
   images: {
     logo: require('./images/UNIST-logo.png')
