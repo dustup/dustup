@@ -100,7 +100,7 @@ Inputs for Ultra Moves are essentially anything goes.
 A+B+C+D
 ```
 
-## Universal Mechanics
+### Universal Mechanics
 
 Universal Mechanics are moves that all characters in a fighting game share.
 These moves almost always have the same input for every character in the same game, but their characteristics and animations may differ anywhere from slightly to entirely.
