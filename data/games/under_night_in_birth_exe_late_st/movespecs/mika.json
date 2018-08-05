@@ -1,0 +1,144 @@
+{
+  "name": "Mika",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "5[C]",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C",
+      "j.[C]"
+    ],
+    [
+      "5BB",
+      "3B",
+      "3C",
+      "j.AA"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Mika's Crash",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Mika's Crash (charged)",
+        "inputs": [
+          "[B+C]"
+        ]
+      },
+      {
+        "name": "Mika's Crash (air)",
+        "inputs": [
+          "j.B+C"
+        ]
+      },
+      {
+        "name": "Mika's Crash (charged) (air)",
+        "inputs": [
+          "j.[B+C]"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Thrust",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Mika's Missile",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Mika's Missile (air)",
+        "inputs": [
+          "j.236A",
+          "j.236B",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Mika's Tornado",
+        "inputs": [
+          "623A",
+          "623B",
+          "623C"
+        ],
+        "followUps": [
+          {
+            "name": "Mika's Twister",
+            "inputs": [
+              "A",
+              "B",
+              "C"
+            ]
+          },
+          {
+            "name": "Mika's Twister EX",
+            "inputs": [
+              "623C"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Mika's Cannon",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ]
+      },
+      {
+        "name": "Mika's Hip Attack",
+        "inputs": [
+          "360C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Mika's Revolution",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Mika's Galaxy",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
