@@ -135,6 +135,8 @@
         "name": "Iki Seishin no Kamae",
         "shortName": "Iki Seishin",
         "inputs": [
+        ],
+        "conditions": [
           "Use a move marked with ★, or hold down any button when using a move marked with ★"
         ],
         "followUps": [
