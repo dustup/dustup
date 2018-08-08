@@ -18,7 +18,7 @@ export default class MoveList extends React.Component {
         movelist={movelist}
         sectionTitle={inputCategories[index]}
         key={JSON.stringify(movelist)}/>
-    ).splice(-1, 0, 
+    ).splice(-1, 0,
       <Notes notes={notes}/>
     ));
 
