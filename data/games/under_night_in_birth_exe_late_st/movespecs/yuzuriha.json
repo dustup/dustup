@@ -1,5 +1,6 @@
 {
   "name": "Yuzuriha",
+  "notes": "Use a move marked with ★, or hold down any button when using a move marked with ★ to enter Iki Seishin no Kamae",
   "movelists": [
     [
       "5A",
@@ -132,70 +133,67 @@
         ]
       },
       {
-        "name": "Iki Seishin no Kamae",
-        "shortName": "Iki Seishin",
+        "name": "Togiri",
         "inputs": [
+          "D"
         ],
-        "conditions": [
-          "Use a move marked with ★, or hold down any button when using a move marked with ★"
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Shijima",
+        "inputs": [
+          "4",
+          "6"
         ],
-        "followUps": [
-          {
-            "name": "Togiri",
-            "inputs": [
-              "D"
-            ]
-          },
-          {
-            "name": "Shijima",
-            "inputs": [
-              "4",
-              "6"
-            ]
-          },
-          {
-            "name": "Watamashi",
-            "inputs": [
-              "44",
-              "66"
-            ]
-          },
-          {
-            "name": "Watamashi (air)",
-            "inputs": [
-              "j.44",
-              "j.66"
-            ]
-          },
-          {
-            "name": "Hazumi",
-            "inputs": [
-              "7",
-              "8",
-              "9"
-            ]
-          },
-          {
-            "name": "Hazumi (air)",
-            "inputs": [
-              "j.7",
-              "j.8",
-              "j.9"
-            ]
-          },
-          {
-            "name": "Sazanami",
-            "inputs": [
-              "22"
-            ]
-          },
-          {
-            "name": "Sazanami (air)",
-            "inputs": [
-              "j.22"
-            ]
-          }
-        ]
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Watamashi",
+        "inputs": [
+          "44",
+          "66"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Watamashi (air)",
+        "inputs": [
+          "j.44",
+          "j.66"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Hazumi",
+        "inputs": [
+          "7",
+          "8",
+          "9"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Hazumi (air)",
+        "inputs": [
+          "j.7",
+          "j.8",
+          "j.9"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Sazanami",
+        "inputs": [
+          "22"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Sazanami (air)",
+        "inputs": [
+          "j.22"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
       }
     ],
     [
