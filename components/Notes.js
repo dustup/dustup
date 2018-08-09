@@ -1,12 +1,32 @@
 import React from 'react';
-
-import Text from 'native-base';
+import {
+  Body,
+  Card,
+  CardItem,
+  Separator,
+  Text,
+} from 'native-base';
 
 export default class Notes extends React.Component {
   render() {
-    const {notes} = this.props;
+    const {
+      notesTitle,
+      notes,
+    } = this.props;
+
     return (
-      <Text>{notes}</Text>
-    )
+      <React.Fragment>
+        <Separator bordered>
+          <Text>{notesTitle}</Text>
+        </Separator>
+        <Card>
+          <CardItem>
+            <Body>
+              <Text style={{fontFamily: 'SourceCodePro'}}>{notes}</Text>
+            </Body>
+          </CardItem>
+        </Card>
+      </React.Fragment>
+    );
   }
 }

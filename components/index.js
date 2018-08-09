@@ -5,4 +5,5 @@ export GameListItem from './GameListItem';
 export MoveList from './MoveList';
 export MoveSection from './MoveSection';
 export MoveSectionItem from './MoveSectionItem';
+export Notes from './Notes';
 export SimpleMoveListItem from './SimpleMoveListItem';
