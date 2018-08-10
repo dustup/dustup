@@ -7,22 +7,22 @@ import {
   Text,
 } from 'native-base';
 
-export default class Notes extends React.Component {
+export default class Mechanics extends React.Component {
   render() {
     const {
-      notesTitle,
-      notes,
+      mechanicsTitle,
+      mechanics,
     } = this.props;
 
     return (
       <React.Fragment>
         <Separator bordered>
-          <Text>{notesTitle}</Text>
+          <Text>{mechanicsTitle}</Text>
         </Separator>
         <Card>
           <CardItem>
             <Body>
-              <Text style={{fontFamily: 'SourceCodePro'}}>{notes}</Text>
+              <Text style={{fontFamily: 'SourceCodePro'}}>{mechanics}</Text>
             </Body>
           </CardItem>
         </Card>

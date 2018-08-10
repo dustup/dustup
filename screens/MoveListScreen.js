@@ -35,7 +35,7 @@ export default class MoveListScreen extends React.Component {
           <Right/>
         </Header>
         <Content>
-          <MoveList movelists={character.movelists} notes={character.notes} inputCategories={inputCategories} navigation={navigation}/>
+          <MoveList movelists={character.movelists} mechanics={character.mechanics} inputCategories={inputCategories} navigation={navigation}/>
         </Content>
       </Container>
     );

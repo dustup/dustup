@@ -2,13 +2,13 @@ import React from 'react';
 import {List} from 'native-base';
 
 import {MoveSection} from 'dustup/components';
-import {Notes} from 'dustup/components';
+import {Mechanics} from 'dustup/components';
 
 export default class MoveList extends React.Component {
   render() {
     const {
       movelists,
-      notes,
+      mechanics,
       inputCategories,
       navigation,
     } = this.props;
@@ -20,11 +20,11 @@ export default class MoveList extends React.Component {
         key={JSON.stringify(movelist)}/>
     ));
 
-    const renderedNotes = !!notes && <Notes notesTitle="Notes" notes={notes}/>
+    const renderedMechanics = !!mechanics && <Mechanics mechanicsTitle="Mechanics" mechanics={mechanics}/>
 
     return (
       <List>
-        {renderedNotes}
+        {renderedMechanics}
         {renderedSections}
       </List>
     );
