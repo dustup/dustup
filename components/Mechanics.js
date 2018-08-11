@@ -9,15 +9,12 @@ import {
 
 export default class Mechanics extends React.Component {
   render() {
-    const {
-      mechanicsTitle,
-      mechanics,
-    } = this.props;
+    const {mechanics} = this.props;
 
     return (
       <React.Fragment>
         <Separator bordered>
-          <Text>{mechanicsTitle}</Text>
+          <Text>Mechanics</Text>
         </Separator>
         <Card>
           <CardItem>

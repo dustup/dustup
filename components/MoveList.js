@@ -20,7 +20,7 @@ export default class MoveList extends React.Component {
         key={JSON.stringify(movelist)}/>
     ));
 
-    const renderedMechanics = !!mechanics && <Mechanics mechanicsTitle="Mechanics" mechanics={mechanics}/>
+    const renderedMechanics = !!mechanics && <Mechanics mechanics={mechanics}/>
 
     return (
       <List>
