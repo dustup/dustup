@@ -26,8 +26,8 @@ export default class MoveList extends React.Component {
 
     return (
       <List>
-        {renderedMechanics}
         {renderedSections}
+        {renderedMechanics}
       </List>
     );
   }
