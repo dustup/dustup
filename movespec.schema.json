@@ -5,8 +5,11 @@
   "description": "this schema exists to ensure dustup's movespecs all adhere to the same structure",
 
   "definitions": {
-    "simpleMoveDef": {
-      "description": "numpad notation describing how to trigger the move",
+    "simpleMoveString": {
+      "type": "string",
+      "pattern": "^(?:[jcf]\\.[12346789]?|[1-9]|66)(?:[ABCDPKSH]|[ABCDPKSH](?:\\+[ABCDPKSH])*|\\[[ABCDPKSH]\\]|\\[[ABCDPKSH](?:\\+[ABCDPKSH])*]\\])+(?:~[ABCDPKSH])?$"
+    },
+    "complexMoveString": {
       "type": "string"
     },
     "complexMoveDef": {
@@ -24,7 +27,7 @@
           "description": "array of inputs in numpad notation describing how to trigger the move",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/simpleMoveDef"
+            "$ref": "#/definitions/complexMoveString"
           },
           "minItems": 1
         },
@@ -73,7 +76,7 @@
               "$ref": "#/definitions/complexMoveDef"
             },
             {
-              "$ref": "#/definitions/simpleMoveDef"
+              "$ref": "#/definitions/simpleMoveString"
             }
           ]
         }
