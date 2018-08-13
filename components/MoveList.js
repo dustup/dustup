@@ -1,12 +1,16 @@
 import React from 'react';
 import {List} from 'native-base';
 
-import {MoveSection} from 'dustup/components';
+import {
+    Mechanics,
+    MoveSection,
+} from 'dustup/components';
 
 export default class MoveList extends React.Component {
   render() {
     const {
       movelists,
+      mechanics,
       inputCategories,
       navigation,
     } = this.props;
@@ -18,9 +22,12 @@ export default class MoveList extends React.Component {
         key={JSON.stringify(movelist)}/>
     ));
 
+    const renderedMechanics = !!mechanics && <Mechanics mechanics={mechanics}/>
+
     return (
       <List>
         {renderedSections}
+        {renderedMechanics}
       </List>
     );
   }

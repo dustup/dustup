@@ -58,6 +58,10 @@
       "description": "short character name for small spaces (optional)",
       "type": "string"
     },
+    "mechanics": {
+      "description": "character-specific mechanics",
+      "type": "string"
+    },
     "movelists": {
       "description": "container for move categories",
       "type": "array",
