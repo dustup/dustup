@@ -79,24 +79,6 @@
         ]
       },
       {
-        "name": "Deus Fragmentum",
-        "inputs": [
-          "]A[",
-          "]B[",
-          "]C[",
-          "2]A[",
-          "2]B[",
-          "2]C[",
-          "j.]A[",
-          "j.]B[",
-          "j.]C["
-        ]
-      },
-      {
-        "name": "Satelus Trianglum",
-        "inputs": []
-      },
-      {
         "name": "Transvoranse",
         "inputs": [
           "j.[8]2A",
@@ -121,5 +103,6 @@
         ]
       }
     ]
-  ]
+  ],
+  "mechanics": "Vatista sets a bit on the field by holding any button and then releasing it. The bit will explode on contact with any of her moves. She sets the bits at different angles based on whether she's standing, crouching or airborne."
 }
