@@ -11,7 +11,7 @@
     },
     "complexMoveString": {
       "type": "string",
-      "pattern": "^(?:[jcf]\\.)?(?:\\[4\\]6|\\[2\\]8|\\[6\\]4|\\[8\\]2|360|[12346789]+|5|\\*)?(?:[ABCDPKSH](?:\\(x[1-9N]\\))?|[ABCDPKSH](?:\\+[ABCDPKSH])*|\\[[ABCDPKSH]\\]|\\[[ABCDPKSH](?:\\+[ABCDPKSH])*\\]|\\][ABCDPKSH]\\[)?(?:~[12346789]|~[ABCDPKSH]|~[12346789][ABCDPKSH])?$"
+      "pattern": "^(?:[jcf]\\.)?(?:\\[4\\]6|\\[2\\]8|\\[6\\]4|\\[8\\]2|360|[12346789]+|5|\\*)?(?:[ABCDPKSH](?:\\(×[1-9N]\\))?|[ABCDPKSH](?:\\+[ABCDPKSH])*|\\[[ABCDPKSH]\\]|\\[[ABCDPKSH](?:\\+[ABCDPKSH])*\\]|\\][ABCDPKSH]\\[)?(?:~[12346789]|~[ABCDPKSH]|~[12346789][ABCDPKSH])?$"
     },
     "complexMoveDef": {
       "type": "object",
