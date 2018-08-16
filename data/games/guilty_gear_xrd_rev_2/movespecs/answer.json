@@ -169,5 +169,6 @@
         "conditions": "during Instant Kill"
       }
     ]
-  ]
+  ],
+  "mechanics": "Answer can attach himself to summoned seals for a short period of time by being in the air near them. This is called Savvy Ninpo: Seal of Approval. Once Answer has become attached to a seal he can execute any of the moves with the condition `during Savvy Ninpo: Seal of Approval`."
 }
