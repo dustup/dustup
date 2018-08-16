@@ -85,7 +85,7 @@
         "name": "Lust Shaker",
         "inputs": [
           "214S",
-          "SSSS..."
+          "S(xN)"
         ]
       },
       {
@@ -98,7 +98,15 @@
       {
         "name": "Secret Garden",
         "inputs": [
-          "214H > direction + H"
+          "214H"
+        ],
+        "followUps": [
+          {
+            "name": "Move Orb",
+            "inputs": [
+              "*H"
+            ]
+          }
         ]
       }
     ],

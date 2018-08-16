@@ -41,7 +41,7 @@
           {
             "name": "I'm Sure I'll Hit Something",
             "inputs": [
-              "HHH..."
+              "H(xN)"
             ]
           }
         ]
@@ -89,13 +89,13 @@
           {
             "name": "Ground Followups",
             "inputs": [
-              "direction + H"
+              "*H"
             ]
           },
           {
             "name": "Air Followups",
             "inputs": [
-              "j.(direction + H)"
+              "j.*H"
             ]
           }
         ]

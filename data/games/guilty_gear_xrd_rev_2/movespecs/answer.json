@@ -59,51 +59,47 @@
         ]
       },
       {
-        "name": "Savvy Ninpo: Seal of Approval",
-        "shortName": "Seal",
+        "name": "Cancel Stance",
         "inputs": [
-          "5"
+          "22"
         ],
-        "conditions": "Near Seal",
-        "followUps": [
-          {
-            "name": "Cancel Stance",
-            "inputs": [
-              "22"
-            ]
-          },
-          {
-            "name": "Savvy Ninpo: Data Logging",
-            "inputs": [
-              "P"
-            ]
-          },
-          {
-            "name": "Savvy Ninpo: Down the Ladder",
-            "inputs": [
-              "K"
-            ]
-          },
-          {
-            "name": "Savvy Ninpo: Stepping Down",
-            "inputs": [
-              "S"
-            ]
-          },
-          {
-            "name": "Savvy Ninpo: Into My Office",
-            "inputs": [
-              "H"
-            ]
-          },
-          {
-            "name": "Savvy Ninpo: Safety Net",
-            "inputs": [
-              "direction + D",
-              "D"
-            ]
-          }
-        ]
+        "conditions": "during Savvy Ninpo: Seal of Approval"
+      },
+      {
+        "name": "Savvy Ninpo: Data Logging",
+        "inputs": [
+          "P"
+        ],
+        "conditions": "during Savvy Ninpo: Seal of Approval"
+      },
+      {
+        "name": "Savvy Ninpo: Down the Ladder",
+        "inputs": [
+          "K"
+        ],
+        "conditions": "during Savvy Ninpo: Seal of Approval"
+      },
+      {
+        "name": "Savvy Ninpo: Stepping Down",
+        "inputs": [
+          "S"
+        ],
+        "conditions": "during Savvy Ninpo: Seal of Approval"
+      },
+      {
+        "name": "Savvy Ninpo: Into My Office",
+        "inputs": [
+          "H"
+        ],
+        "conditions": "during Savvy Ninpo: Seal of Approval"
+      },
+      {
+        "name": "Savvy Ninpo: Safety Net",
+        "inputs": [
+          "D",
+          "*D"
+        ],
+        "conditions": "during Savvy Ninpo: Seal of Approval"
       },
       {
         "name": "Savvy Ninpo: Tax Write-Off",
