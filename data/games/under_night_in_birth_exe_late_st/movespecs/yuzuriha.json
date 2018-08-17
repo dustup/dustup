@@ -1,6 +1,6 @@
 {
   "name": "Yuzuriha",
-  "notes": "Use a move marked with ★, or hold down any button when using a move marked with ★ to enter Iki Seishin no Kamae",
+  "mechanics": "Use a move marked with ★, or hold down any button when using a move marked with ★ to enter Iki Seishin no Kamae",
   "movelists": [
     [
       "5A",
