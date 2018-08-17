@@ -1,0 +1,216 @@
+{
+  "name": "Yuzuriha",
+  "mechanics": "Use a move marked with ★, or hold down any button when using a move marked with ★ to enter Iki Seishin no Kamae",
+  "movelists": [
+    [
+      "5A",
+      "2A",
+      "5B",
+      "2B",
+      "5C",
+      "2C",
+      "j.A",
+      "j.B",
+      "j.C"
+    ],
+    [
+      {
+        "name": "Battoujutsu Ichi no Kata: Kiri ★",
+        "inputs": [
+          "6A",
+          "6B",
+          "6C"
+        ]
+      },
+      {
+        "name": "Battoujutsu Ichi no Kata: Kiri (air) ★",
+        "inputs": [
+          "6A",
+          "6B",
+          "6C"
+        ]
+      },
+      "4B",
+      "4C",
+      "j.2C",
+      "j.2[C]"
+    ],
+    [
+      "66B",
+      "66C"
+    ],
+    [
+      {
+        "name": "Battoujutsu San no Kata: Tachi ★",
+        "inputs": [
+          "B+C"
+        ]
+      },
+      {
+        "name": "Battoujutsu San no Kata: Tachi (air) ★",
+        "inputs": [
+          "j.B+C"
+        ]
+      },
+      {
+        "name": "Battoujutsu San no Kata: Tachi (charged) ★",
+        "inputs": [
+          "[B+C]"
+        ]
+      },
+      {
+        "name": "Battoujutsu San no Kata: Tachi (air) (charged) ★",
+        "inputs": [
+          "j.[B+C]"
+        ]
+      },
+      {
+        "name": "Throw",
+        "inputs": [
+          "A+D"
+        ]
+      },
+      {
+        "name": "Guard Thrust",
+        "inputs": [
+          "214D"
+        ]
+      },
+      {
+        "name": "Veil Off",
+        "inputs": [
+          "A+B+C"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Battoujutsu Ni no Kata: Saki ★",
+        "inputs": [
+          "236A",
+          "236B",
+          "236C"
+        ]
+      },
+      {
+        "name": "Battoujutsu Ni no Kata: Saki (air) ★",
+        "inputs": [
+          "j.236A",
+          "j.236B",
+          "j.236C"
+        ]
+      },
+      {
+        "name": "Igai Ryuka! Yae Ichirin ★",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ]
+      },
+      {
+        "name": "Igai Ryuka! Yae Ichirin (air) ★",
+        "inputs": [
+          "j.214A",
+          "j.214B",
+          "j.214C"
+        ]
+      },
+      {
+        "name": "Over Here! ★",
+        "inputs": [
+          "421A",
+          "421B",
+          "421C"
+        ]
+      },
+      {
+        "name": "Over Here! (air) ★",
+        "inputs": [
+          "j.421A",
+          "j.421B",
+          "j.421C"
+        ]
+      },
+      {
+        "name": "Togiri",
+        "inputs": [
+          "D"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Shijima",
+        "inputs": [
+          "4",
+          "6"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Watamashi",
+        "inputs": [
+          "44",
+          "66"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Watamashi (air)",
+        "inputs": [
+          "j.44",
+          "j.66"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Hazumi",
+        "inputs": [
+          "7",
+          "8",
+          "9"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Hazumi (air)",
+        "inputs": [
+          "j.7",
+          "j.8",
+          "j.9"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Sazanami",
+        "inputs": [
+          "22"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      },
+      {
+        "name": "Sazanami (air)",
+        "inputs": [
+          "j.22"
+        ],
+        "conditions": "in Iki Seishin no Kamae"
+      }
+    ],
+    [
+      {
+        "name": "Soutsuki Ittou-Ryuu Ougi: Kashou",
+        "inputs": [
+          "41236D"
+        ]
+      }
+    ],
+    [
+      {
+        "name": "Zero no Kata Hi-ougi: Inochi Kurenai",
+        "inputs": [
+          "A+B+C+D"
+        ]
+      }
+    ]
+  ]
+}
