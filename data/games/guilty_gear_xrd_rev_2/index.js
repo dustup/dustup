@@ -61,7 +61,7 @@ export default {
     require('./movespecs/zato'),
   ],
   images: {
-    logo: require('./images/GGXRD-R2_Logo.png'),
+    logo: require('./images/GGXRD-R2_logo.png'),
     answer: answer_images,
     axl: axl_images,
     baiken: baiken_images,
