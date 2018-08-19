@@ -1,7 +1,7 @@
 import React from 'react';
+import {Image} from 'react-native';
 
 import {
-  ListItem,
   Card,
   CardItem,
   Body,
@@ -36,10 +36,16 @@ export default class MoveSectionItem extends React.Component {
   }
 
   render() {
-    const {move} = this.props;
+    const {
+      move,
+      image,
+    } = this.props;
+
+    // variables can't start with numbers, so 5A is invalid
+    // maybe just make the image data an array, expecting the order to match the movelist?
 
     if (!move.hasOwnProperty('name')) {
-      return <SimpleMoveListItem move={move}/>;
+      return <SimpleMoveListItem move={move} image={image}/>;
     }
 
     const inputs = move.inputs.map((input) => (
@@ -51,8 +57,17 @@ export default class MoveSectionItem extends React.Component {
       </CardItem>
     ));
 
+    const renderedImage = !!image &&
+      <Image
+        source={image}
+        style={{flex: 1, resizeMode: 'contain', height: 150}}
+      />
+
     return (
       <Card>
+        <CardItem>
+          {renderedImage}
+        </CardItem>
         <CardItem header bordered>
           <Text>{move.name}</Text>
         </CardItem>

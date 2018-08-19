@@ -62,6 +62,10 @@
       "description": "short character name for small spaces (optional)",
       "type": "string"
     },
+    "simpleName": {
+      "description": "a simplified name for use as a variable",
+      "pattern": "^[a-z]+[a-z0-9]*$"
+    },
     "mechanics": {
       "description": "character-specific mechanics",
       "type": "string"
@@ -88,7 +92,8 @@
   },
   "required": [
     "name",
-    "movelists"
+    "movelists",
+    "simpleName"
   ],
   "additionalProperties": false
 }

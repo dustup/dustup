@@ -1,6 +1,7 @@
 {
   "name": "Sol Badguy",
   "shortName": "Sol",
+  "simpleName": "sol",
   "movelists": [
     [
       "5P",

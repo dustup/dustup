@@ -8,12 +8,13 @@ export default class CharacterListItem extends React.Component {
   render() {
     const {
       character,
+      images,
       inputCategories,
       navigation,
     } = this.props;
 
     return (
-      <ListItem onPress={() => navigation.navigate('MoveListScreen', {character: character, inputCategories: inputCategories})}>
+      <ListItem onPress={() => navigation.navigate('MoveListScreen', {character: character, images: images, inputCategories: inputCategories})}>
         <Text>{character.name}</Text>
       </ListItem>
     );
