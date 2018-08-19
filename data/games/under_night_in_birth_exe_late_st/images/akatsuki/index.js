@@ -1,8 +1,5 @@
 export default [
   [
-    require('./5A.png')
-  ],
-  [
 
   ],
   [
@@ -12,7 +9,10 @@ export default [
 
   ],
   [
-    require('./Blitz_Shot.png')
+
+  ],
+  [
+
   ],
   [
 
