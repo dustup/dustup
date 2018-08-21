@@ -37,7 +37,7 @@ export default class CharacterListScreen extends React.Component {
         <Content>
           <FlatList
             data={ game.characters }
-            renderItem={({item}) => <CharacterListItem character={item} images={game.images[item.simpleName]} inputCategories={game.inputCategories} navigation={navigation}/>}
+            renderItem={({item}) => <CharacterListItem character={item} images={game.images[item.characterId]} inputCategories={game.inputCategories} navigation={navigation}/>}
             keyExtractor={(game) => game.name}/>
         </Content>
       </Container>

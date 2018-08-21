@@ -1,7 +1,7 @@
 {
   "name": "Millia Rage",
   "shortName": "Millia",
-  "simpleName": "millia",
+  "characterId": "millia",
   "movelists": [
     [
       "5P",

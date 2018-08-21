@@ -1,6 +1,6 @@
 {
   "name": "Slayer",
-  "simpleName": "slayer",
+  "characterId": "slayer",
   "movelists": [
     [
       "5P",

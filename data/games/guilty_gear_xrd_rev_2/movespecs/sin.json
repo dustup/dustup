@@ -1,7 +1,7 @@
 {
   "name": "Sin Kiske",
   "shortName": "Sin",
-  "simpleName": "sin",
+  "characterId": "sin",
   "movelists": [
     [
       "5P",

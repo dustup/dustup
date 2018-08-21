@@ -1,7 +1,7 @@
 {
   "name": "Sol Badguy",
   "shortName": "Sol",
-  "simpleName": "sol",
+  "characterId": "sol",
   "movelists": [
     [
       "5P",
