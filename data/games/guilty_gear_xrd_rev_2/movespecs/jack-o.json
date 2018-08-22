@@ -3,16 +3,56 @@
   "characterId": "jacko",
   "movelists": [
     [
-      "5P",
-      "5K",
-      "c.S",
-      "f.S",
-      "5H",
-      "6P",
-      "6K",
-      "6H",
-      "3H",
-      "5D",
+      {
+        "inputs": [
+          "5P"
+        ]
+      },
+      {
+        "inputs": [
+          "5K"
+        ]
+      },
+      {
+        "inputs": [
+          "c.S"
+        ]
+      },
+      {
+        "inputs": [
+          "f.S"
+        ]
+      },
+      {
+        "inputs": [
+          "5H"
+        ]
+      },
+      {
+        "inputs": [
+          "6P"
+        ]
+      },
+      {
+        "inputs": [
+          "6K"
+        ]
+      },
+      {
+        "inputs": [
+          "6H"
+        ]
+      },
+      {
+        "inputs": [
+          "3H"
+        ]
+      },
+      {
+        "inputs": [
+          "5D"
+        ]
+      },
       {
         "name": "Hunger of Dopoulos",
         "inputs": [
@@ -27,20 +67,52 @@
           "j.6D"
         ]
       },
-      "2P",
-      "2K",
-      "2S",
-      "2H",
+      {
+        "inputs": [
+          "2P"
+        ]
+      },
+      {
+        "inputs": [
+          "2K"
+        ]
+      },
+      {
+        "inputs": [
+          "2S"
+        ]
+      },
+      {
+        "inputs": [
+          "2H"
+        ]
+      },
       {
         "name": "Zest",
         "inputs": [
           "2D"
         ]
       },
-      "j.P",
-      "j.K",
-      "j.S",
-      "j.H",
+      {
+        "inputs": [
+          "j.P"
+        ]
+      },
+      {
+        "inputs": [
+          "j.K"
+        ]
+      },
+      {
+        "inputs": [
+          "j.S"
+        ]
+      },
+      {
+        "inputs": [
+          "j.H"
+        ]
+      },
       {
         "name": "Remove the Chain of Chiron",
         "inputs": [

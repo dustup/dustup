@@ -3,24 +3,88 @@
   "characterId": "linne",
   "movelists": [
     [
-      "5A",
-      "2A",
-      "5B",
-      "2B",
-      "5C",
-      "2C",
-      "j.A",
-      "j.B",
-      "j.C"
+      {
+        "inputs": [
+          "5A"
+        ]
+      },
+      {
+        "inputs": [
+          "2A"
+        ]
+      },
+      {
+        "inputs": [
+          "5B"
+        ]
+      },
+      {
+        "inputs": [
+          "2B"
+        ]
+      },
+      {
+        "inputs": [
+          "5C"
+        ]
+      },
+      {
+        "inputs": [
+          "2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.A"
+        ]
+      },
+      {
+        "inputs": [
+          "j.B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.C"
+        ]
+      }
     ],
     [
-      "2AA",
-      "6B",
-      "5CC",
-      "5C[C]",
-      "j.6B",
-      "j.6[B]",
-      "j.2B",
+      {
+        "inputs": [
+          "2AA"
+        ]
+      },
+      {
+        "inputs": [
+          "6B"
+        ]
+      },
+      {
+        "inputs": [
+          "5CC"
+        ]
+      },
+      {
+        "inputs": [
+          "5C[C]"
+        ]
+      },
+      {
+        "inputs": [
+          "j.6B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.6[B]"
+        ]
+      },
+      {
+        "inputs": [
+          "j.2B"
+        ]
+      },
       {
         "name": "6C",
         "inputs": [
@@ -45,8 +109,16 @@
       }
     ],
     [
-      "66B",
-      "66C"
+      {
+        "inputs": [
+          "66B"
+        ]
+      },
+      {
+        "inputs": [
+          "66C"
+        ]
+      }
     ],
     [
       {

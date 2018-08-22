@@ -3,25 +3,101 @@
   "characterId": "dizzy",
   "movelists": [
     [
-      "5P",
-      "5K",
-      "c.S",
-      "f.S",
-      "5S",
-      "5D",
-      "4S",
-      "6P",
-      "6H",
-      "2P",
-      "2K",
-      "2S",
-      "2H",
-      "2D",
-      "j.P",
-      "j.K",
-      "j.S",
-      "j.H",
-      "j.D"
+      {
+        "inputs": [
+          "5P"
+        ]
+      },
+      {
+        "inputs": [
+          "5K"
+        ]
+      },
+      {
+        "inputs": [
+          "c.S"
+        ]
+      },
+      {
+        "inputs": [
+          "f.S"
+        ]
+      },
+      {
+        "inputs": [
+          "5S"
+        ]
+      },
+      {
+        "inputs": [
+          "5D"
+        ]
+      },
+      {
+        "inputs": [
+          "4S"
+        ]
+      },
+      {
+        "inputs": [
+          "6P"
+        ]
+      },
+      {
+        "inputs": [
+          "6H"
+        ]
+      },
+      {
+        "inputs": [
+          "2P"
+        ]
+      },
+      {
+        "inputs": [
+          "2K"
+        ]
+      },
+      {
+        "inputs": [
+          "2S"
+        ]
+      },
+      {
+        "inputs": [
+          "2H"
+        ]
+      },
+      {
+        "inputs": [
+          "2D"
+        ]
+      },
+      {
+        "inputs": [
+          "j.P"
+        ]
+      },
+      {
+        "inputs": [
+          "j.K"
+        ]
+      },
+      {
+        "inputs": [
+          "j.S"
+        ]
+      },
+      {
+        "inputs": [
+          "j.H"
+        ]
+      },
+      {
+        "inputs": [
+          "j.D"
+        ]
+      }
     ],
     [
       {

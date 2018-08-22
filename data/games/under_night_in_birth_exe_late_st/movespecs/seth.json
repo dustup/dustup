@@ -3,23 +3,83 @@
   "characterId": "seth",
   "movelists": [
     [
-      "5A",
-      "2A",
-      "5B",
-      "2B",
-      "5C",
-      "2C",
-      "j.A",
-      "j.B",
-      "j.C"
+      {
+        "inputs": [
+          "5A"
+        ]
+      },
+      {
+        "inputs": [
+          "2A"
+        ]
+      },
+      {
+        "inputs": [
+          "5B"
+        ]
+      },
+      {
+        "inputs": [
+          "2B"
+        ]
+      },
+      {
+        "inputs": [
+          "5C"
+        ]
+      },
+      {
+        "inputs": [
+          "2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.A"
+        ]
+      },
+      {
+        "inputs": [
+          "j.B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.C"
+        ]
+      }
     ],
     [
-      "3B",
-      "5CC",
-      "6C",
-      "3C",
-      "j.6C",
-      "j.2C",
+      {
+        "inputs": [
+          "3B"
+        ]
+      },
+      {
+        "inputs": [
+          "5CC"
+        ]
+      },
+      {
+        "inputs": [
+          "6C"
+        ]
+      },
+      {
+        "inputs": [
+          "3C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.6C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.2C"
+        ]
+      },
       {
         "name": "Fast Fall",
         "inputs": [
@@ -56,8 +116,16 @@
       }
     ],
     [
-      "66B",
-      "66C"
+      {
+        "inputs": [
+          "66B"
+        ]
+      },
+      {
+        "inputs": [
+          "66C"
+        ]
+      }
     ],
     [
       {
