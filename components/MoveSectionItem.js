@@ -8,8 +8,6 @@ import {
   Text,
 } from 'native-base';
 
-import {SimpleMoveListItem} from 'dustup/components';
-
 export default class MoveSectionItem extends React.Component {
   renderFollowUps(move) {
     const renderedFollowUps = move.followUps.map((followUp) => {
@@ -44,10 +42,6 @@ export default class MoveSectionItem extends React.Component {
     // variables can't start with numbers, so 5A is invalid
     // maybe just make the image data an array, expecting the order to match the movelist?
 
-    if (!move.hasOwnProperty('name')) {
-      return <SimpleMoveListItem move={move} image={image}/>;
-    }
-
     const inputs = move.inputs.map((input) => (
       <CardItem
         key={input}>
@@ -57,20 +51,23 @@ export default class MoveSectionItem extends React.Component {
       </CardItem>
     ));
 
-    const renderedImage = !!image &&
-      <Image
-        source={image}
-        style={{flex: 1, resizeMode: 'contain', height: 150}}
-      />
+    const renderedName = !!move.name &&
+      <CardItem header bordered>
+        <Text>{move.name}</Text>
+      </CardItem>
+
+    const renderedImage = !!image && image.imageId &&
+      <CardItem>
+        <Image
+          source={image.image}
+          style={{flex: 1, resizeMode: 'contain', height: 150}}
+        />
+      </CardItem>
 
     return (
       <Card>
-        <CardItem>
-          {renderedImage}
-        </CardItem>
-        <CardItem header bordered>
-          <Text>{move.name}</Text>
-        </CardItem>
+        {renderedImage}
+        {renderedName}
         {inputs}
         {move.hasOwnProperty('conditions') ? this.renderConditions(move) : null}
         {move.hasOwnProperty('followUps') ? this.renderFollowUps(move) : null}

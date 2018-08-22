@@ -15,10 +15,12 @@ export default class MoveSection extends React.Component {
       sectionTitle,
     } = this.props;
 
-    const renderedMoves = movelist.map((move, index) => (
+    const renderedMoves = movelist.map((move) => (
       <MoveSectionItem
         move={move}
-        image={images[index]}
+        image={images.find((i) => (
+         i.imageId == move['imageId']
+        ))}
         key={JSON.stringify(move)}/>
     ));
 
