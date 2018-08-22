@@ -13,10 +13,10 @@
       "type": "string",
       "pattern": "^(?:[jcf]\\.)?(?:\\[4\\]6|\\[2\\]8|\\[6\\]4|\\[8\\]2|360|[12346789]+|5|\\*)?(?:[ABCDPKSH](?:\\(×[1-9N]\\))?|[ABCDPKSH](?:\\+[ABCDPKSH])*|\\[[ABCDPKSH]\\]|\\[[ABCDPKSH](?:\\+[ABCDPKSH])*\\]|\\][ABCDPKSH]\\[)?(?:~[12346789]|~[ABCDPKSH]|~[12346789][ABCDPKSH])?$"
     },
-    "complexMoveDef": {
+    "moveDef": {
       "type": "object",
       "properties": {
-        "name":{
+        "name": {
           "description": "name of the given move",
           "type": "string"
         },
@@ -24,11 +24,22 @@
           "description": "short name of the move for small spaces (optional)",
           "type": "string"
         },
+        "imageId": {
+          "description": "an ID to reference images",
+          "pattern": "^[a-z][a-z0-9]*$"
+        },
         "inputs": {
           "description": "array of inputs in numpad notation describing how to trigger the move",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/complexMoveString"
+            "anyOf": [
+              {
+                "$ref": "#/definitions/simpleMoveString"
+              },
+              {
+                "$ref": "#/definitions/complexMoveString"
+              }
+            ]
           },
           "minItems": 1
         },
@@ -40,12 +51,11 @@
           "description": "array of follow up moves for this move",
           "type": "array",
           "items": {
-            "$ref": "#/definitions/complexMoveDef"
+            "$ref": "#/definitions/moveDef"
           }
         }
       },
       "required": [
-        "name",
         "inputs"
       ],
       "additionalProperties": false
@@ -63,8 +73,8 @@
       "type": "string"
     },
     "characterId": {
-      "description": "a simplified name for use as a variable",
-      "pattern": "^[a-z]+[a-z0-9]*$"
+      "description": "an ID used to reference character data",
+      "pattern": "^[a-z][a-z0-9]*$"
     },
     "mechanics": {
       "description": "character-specific mechanics",
@@ -76,14 +86,7 @@
       "items": {
         "type": "array",
         "items": {
-          "oneOf": [
-            {
-              "$ref": "#/definitions/complexMoveDef"
-            },
-            {
-              "$ref": "#/definitions/simpleMoveString"
-            }
-          ]
+          "$ref": "#/definitions/moveDef"
         }
       },
       "minItems": 1,
