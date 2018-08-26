@@ -39,9 +39,6 @@ export default class MoveSectionItem extends React.Component {
       image,
     } = this.props;
 
-    // variables can't start with numbers, so 5A is invalid
-    // maybe just make the image data an array, expecting the order to match the movelist?
-
     const inputs = move.inputs.map((input) => (
       <CardItem
         key={input}>
