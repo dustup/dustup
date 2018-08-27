@@ -6,67 +6,70 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "c.B"
-        ]
+        ],
+        "imageId": "c_B"
       },
       {
         "inputs": [
           "f.B"
-        ]
+        ],
+        "imageId": "f_B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "c.C"
-        ]
+        ],
+        "imageId": "c_C"
       },
       {
         "inputs": [
           "f.C"
-        ]
+        ],
+        "imageId": "f_C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
-          "j.7B"
-        ]
-      },
-      {
-        "inputs": [
+          "j.7B",
           "j.9B"
-        ]
+        ],
+        "imageId": "j_9B"
       },
       {
         "inputs": [
-          "j.7C"
-        ]
-      },
-      {
-        "inputs": [
+          "j.7C",
           "j.9C"
-        ]
+        ],
+        "imageId": "j_9C"
       }
     ],
     [
