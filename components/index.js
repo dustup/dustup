@@ -6,4 +6,3 @@ export Mechanics from './Mechanics';
 export MoveList from './MoveList';
 export MoveSection from './MoveSection';
 export MoveSectionItem from './MoveSectionItem';
-export SimpleMoveListItem from './SimpleMoveListItem';

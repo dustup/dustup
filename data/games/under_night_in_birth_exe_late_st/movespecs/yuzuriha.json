@@ -1,17 +1,54 @@
 {
   "name": "Yuzuriha",
+  "characterId": "yuzuriha",
   "mechanics": "Use a move marked with ★, or hold down any button when using a move marked with ★ to enter Iki Seishin no Kamae",
   "movelists": [
     [
-      "5A",
-      "2A",
-      "5B",
-      "2B",
-      "5C",
-      "2C",
-      "j.A",
-      "j.B",
-      "j.C"
+      {
+        "inputs": [
+          "5A"
+        ]
+      },
+      {
+        "inputs": [
+          "2A"
+        ]
+      },
+      {
+        "inputs": [
+          "5B"
+        ]
+      },
+      {
+        "inputs": [
+          "2B"
+        ]
+      },
+      {
+        "inputs": [
+          "5C"
+        ]
+      },
+      {
+        "inputs": [
+          "2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.A"
+        ]
+      },
+      {
+        "inputs": [
+          "j.B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.C"
+        ]
+      }
     ],
     [
       {
@@ -30,14 +67,38 @@
           "6C"
         ]
       },
-      "4B",
-      "4C",
-      "j.2C",
-      "j.2[C]"
+      {
+        "inputs": [
+          "4B"
+        ]
+      },
+      {
+        "inputs": [
+          "4C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.2[C]"
+        ]
+      }
     ],
     [
-      "66B",
-      "66C"
+      {
+        "inputs": [
+          "66B"
+        ]
+      },
+      {
+        "inputs": [
+          "66C"
+        ]
+      }
     ],
     [
       {

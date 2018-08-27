@@ -1,14 +1,12 @@
 import React from 'react';
+import {Image} from 'react-native';
 
 import {
-  ListItem,
   Card,
   CardItem,
   Body,
   Text,
 } from 'native-base';
-
-import {SimpleMoveListItem} from 'dustup/components';
 
 export default class MoveSectionItem extends React.Component {
   renderFollowUps(move) {
@@ -36,11 +34,10 @@ export default class MoveSectionItem extends React.Component {
   }
 
   render() {
-    const {move} = this.props;
-
-    if (!move.hasOwnProperty('name')) {
-      return <SimpleMoveListItem move={move}/>;
-    }
+    const {
+      move,
+      image,
+    } = this.props;
 
     const inputs = move.inputs.map((input) => (
       <CardItem
@@ -51,11 +48,23 @@ export default class MoveSectionItem extends React.Component {
       </CardItem>
     ));
 
+    const renderedName = !!move.name &&
+      <CardItem header bordered>
+        <Text>{move.name}</Text>
+      </CardItem>
+
+    const renderedImage = !!image && image.imageId &&
+      <CardItem>
+        <Image
+          source={image.image}
+          style={{flex: 1, resizeMode: 'contain', height: 150}}
+        />
+      </CardItem>
+
     return (
       <Card>
-        <CardItem header bordered>
-          <Text>{move.name}</Text>
-        </CardItem>
+        {renderedImage}
+        {renderedName}
         {inputs}
         {move.hasOwnProperty('conditions') ? this.renderConditions(move) : null}
         {move.hasOwnProperty('followUps') ? this.renderFollowUps(move) : null}

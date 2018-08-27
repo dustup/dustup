@@ -1,31 +1,124 @@
 {
   "name": "Axl Low",
   "shortName": "Axl",
+  "characterId": "axl",
   "movelists": [
     [
-      "5P",
-      "5K",
-      "c.S",
-      "f.S",
-      "5H",
-      "5D",
-      "6P",
-      "6K",
-      "6H",
-      "2P",
-      "2K",
-      "2S",
-      "2H",
-      "2D",
-      "3P",
-      "j.P",
-      "j.K",
-      "j.S",
-      "j.H",
-      "j.D",
-      "j.6P",
-      "j.6K",
-      "j.2S"
+      {
+        "inputs": [
+          "5P"
+        ]
+      },
+      {
+        "inputs": [
+          "5K"
+        ]
+      },
+      {
+        "inputs": [
+          "c.S"
+        ]
+      },
+      {
+        "inputs": [
+          "f.S"
+        ]
+      },
+      {
+        "inputs": [
+          "5H"
+        ]
+      },
+      {
+        "inputs": [
+          "5D"
+        ]
+      },
+      {
+        "inputs": [
+          "6P"
+        ]
+      },
+      {
+        "inputs": [
+          "6K"
+        ]
+      },
+      {
+        "inputs": [
+          "6H"
+        ]
+      },
+      {
+        "inputs": [
+          "2P"
+        ]
+      },
+      {
+        "inputs": [
+          "2K"
+        ]
+      },
+      {
+        "inputs": [
+          "2S"
+        ]
+      },
+      {
+        "inputs": [
+          "2H"
+        ]
+      },
+      {
+        "inputs": [
+          "2D"
+        ]
+      },
+      {
+        "inputs": [
+          "3P"
+        ]
+      },
+      {
+        "inputs": [
+          "j.P"
+        ]
+      },
+      {
+        "inputs": [
+          "j.K"
+        ]
+      },
+      {
+        "inputs": [
+          "j.S"
+        ]
+      },
+      {
+        "inputs": [
+          "j.H"
+        ]
+      },
+      {
+        "inputs": [
+          "j.D"
+        ]
+      },
+      {
+        "inputs": [
+          "j.6P"
+        ]
+      },
+      {
+        "inputs": [
+          "j.6K"
+        ]
+      },
+      {
+        "inputs": [
+          "j.2S"
+        ]
+      }
     ],
     [
       {

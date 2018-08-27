@@ -1,28 +1,97 @@
 {
   "name": "Mika",
+  "characterId": "mika",
   "movelists": [
     [
-      "5A",
-      "2A",
-      "5B",
-      "2B",
-      "5C",
-      "5[C]",
-      "2C",
-      "j.A",
-      "j.B",
-      "j.C",
-      "j.[C]"
+      {
+        "inputs": [
+          "5A"
+        ]
+      },
+      {
+        "inputs": [
+          "2A"
+        ]
+      },
+      {
+        "inputs": [
+          "5B"
+        ]
+      },
+      {
+        "inputs": [
+          "2B"
+        ]
+      },
+      {
+        "inputs": [
+          "5C"
+        ]
+      },
+      {
+        "inputs": [
+          "5[C]"
+        ]
+      },
+      {
+        "inputs": [
+          "2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.A"
+        ]
+      },
+      {
+        "inputs": [
+          "j.B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.[C]"
+        ]
+      }
     ],
     [
-      "5BB",
-      "3B",
-      "3C",
-      "j.AA"
+      {
+        "inputs": [
+          "5BB"
+        ]
+      },
+      {
+        "inputs": [
+          "3B"
+        ]
+      },
+      {
+        "inputs": [
+          "3C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.AA"
+        ]
+      }
     ],
     [
-      "66B",
-      "66C"
+      {
+        "inputs": [
+          "66B"
+        ]
+      },
+      {
+        "inputs": [
+          "66C"
+        ]
+      }
     ],
     [
       {

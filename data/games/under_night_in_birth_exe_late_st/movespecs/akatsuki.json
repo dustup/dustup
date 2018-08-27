@@ -1,24 +1,85 @@
 {
   "name": "Akatsuki",
+  "characterId": "akatsuki",
   "movelists": [
     [
-      "5A",
-      "2A",
-      "c.B",
-      "f.B",
-      "2B",
-      "c.C",
-      "f.C",
-      "2C",
-      "j.A",
-      "j.7B",
-      "j.9B",
-      "j.7C",
-      "j.9C"
+      {
+        "inputs": [
+          "5A"
+        ]
+      },
+      {
+        "inputs": [
+          "2A"
+        ]
+      },
+      {
+        "inputs": [
+          "c.B"
+        ]
+      },
+      {
+        "inputs": [
+          "f.B"
+        ]
+      },
+      {
+        "inputs": [
+          "2B"
+        ]
+      },
+      {
+        "inputs": [
+          "c.C"
+        ]
+      },
+      {
+        "inputs": [
+          "f.C"
+        ]
+      },
+      {
+        "inputs": [
+          "2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.A"
+        ]
+      },
+      {
+        "inputs": [
+          "j.7B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.9B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.7C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.9C"
+        ]
+      }
     ],
     [
-      "5AA",
-      "2AA",
+      {
+        "inputs": [
+          "5AA"
+        ]
+      },
+      {
+        "inputs": [
+          "2AA"
+        ]
+      },
       {
         "name": "Helm Crusher",
         "inputs": [
@@ -31,14 +92,22 @@
           "6C"
         ]
       },
-      "j.8B",
+      {
+        "inputs": [
+          "j.8B"
+        ]
+      },
       {
         "name": "Tile Crusher",
         "inputs": [
           "j.2C"
         ]
       },
-      "j.8C",
+      {
+        "inputs": [
+          "j.8C"
+        ]
+      },
       {
         "name": "Skull Crusher",
         "inputs": [
@@ -47,8 +116,16 @@
       }
     ],
     [
-      "66B",
-      "66C"
+      {
+        "inputs": [
+          "66B"
+        ]
+      },
+      {
+        "inputs": [
+          "66C"
+        ]
+      }
     ],
     [
       {

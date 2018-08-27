@@ -1,26 +1,87 @@
 {
   "name": "Byakuya",
+  "characterId": "byukuya",
   "movelists": [
     [
-      "5A",
-      "2A",
-      "5B",
-      "2B",
-      "5C",
-      "2C",
-      "j.A",
-      "j.B",
-      "j.C"
+      {
+        "inputs": [
+          "5A"
+        ]
+      },
+      {
+        "inputs": [
+          "2A"
+        ]
+      },
+      {
+        "inputs": [
+          "5B"
+        ]
+      },
+      {
+        "inputs": [
+          "2B"
+        ]
+      },
+      {
+        "inputs": [
+          "5C"
+        ]
+      },
+      {
+        "inputs": [
+          "2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.A"
+        ]
+      },
+      {
+        "inputs": [
+          "j.B"
+        ]
+      },
+      {
+        "inputs": [
+          "j.C"
+        ]
+      }
     ],
     [
-      "3C",
-      "3[C]",
-      "j.2C",
-      "j.2[C]"
+      {
+        "inputs": [
+          "3C"
+        ]
+      },
+      {
+        "inputs": [
+          "3[C]"
+        ]
+      },
+      {
+        "inputs": [
+          "j.2C"
+        ]
+      },
+      {
+        "inputs": [
+          "j.2[C]"
+        ]
+      }
     ],
     [
-      "66B",
-      "66C"
+      {
+        "inputs": [
+          "66B"
+        ]
+      },
+      {
+        "inputs": [
+          "66C"
+        ]
+      }
     ],
     [
       {

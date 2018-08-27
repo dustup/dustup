@@ -18,6 +18,7 @@ export default class MoveListScreen extends React.Component {
   render() {
     const {navigation} = this.props;
     const character = navigation.getParam('character', 'NO CHARACTER');
+    const images = navigation.getParam('images', 'NO IMAGES');
     const inputCategories = navigation.getParam('inputCategories', 'NO INPUT CATEGORIES');
 
     return (
@@ -35,7 +36,7 @@ export default class MoveListScreen extends React.Component {
           <Right/>
         </Header>
         <Content>
-          <MoveList movelists={character.movelists} mechanics={character.mechanics} inputCategories={inputCategories} navigation={navigation}/>
+          <MoveList movelists={character.movelists} images={images} mechanics={character.mechanics} inputCategories={inputCategories} navigation={navigation}/>
         </Content>
       </Container>
     );

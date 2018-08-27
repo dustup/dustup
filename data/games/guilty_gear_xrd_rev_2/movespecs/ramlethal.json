@@ -1,6 +1,7 @@
 {
   "name": "Ramlethal Valentine",
   "shortName": "Ramlethal",
+  "characterId": "ramlethal",
   "movelists": [
     [
       {
@@ -93,7 +94,11 @@
           }
         ]
       },
-      "c.S",
+      {
+        "inputs": [
+          "c.S"
+        ]
+      },
       {
         "name": "f.S",
         "inputs": [
@@ -122,7 +127,11 @@
         ],
         "conditions": "with H sword"
       },
-      "5D",
+      {
+        "inputs": [
+          "5D"
+        ]
+      },
       {
         "name": "2P",
         "inputs": [
@@ -199,12 +208,36 @@
         ],
         "conditions": "with H sword"
       },
-      "2D",
-      "3K",
-      "6P",
-      "6K",
-      "j.P",
-      "j.K",
+      {
+        "inputs": [
+          "2D"
+        ]
+      },
+      {
+        "inputs": [
+          "3K"
+        ]
+      },
+      {
+        "inputs": [
+          "6P"
+        ]
+      },
+      {
+        "inputs": [
+          "6K"
+        ]
+      },
+      {
+        "inputs": [
+          "j.P"
+        ]
+      },
+      {
+        "inputs": [
+          "j.K"
+        ]
+      },
       {
         "name": "j.S",
         "inputs": [
@@ -233,7 +266,11 @@
         ],
         "conditions": "with H sword"
       },
-      "j.D"
+      {
+        "inputs": [
+          "j.D"
+        ]
+      }
     ],
     [
       {

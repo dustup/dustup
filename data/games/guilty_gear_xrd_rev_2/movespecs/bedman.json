@@ -1,28 +1,113 @@
 {
   "name": "Bedman",
+  "characterId": "bedman",
   "movelists": [
     [
-      "5P",
-      "5K",
-      "c.S",
-      "f.S",
-      "5H",
-      "2P",
-      "2K",
-      "2S",
-      "1H",
-      "2H",
-      "3H",
-      "j.P",
-      "j.K",
-      "j.S",
-      "j.H",
-      "j.D",
-      "6P",
-      "6H",
-      "6HH",
-      "2D",
-      "5D"
+      {
+        "inputs": [
+          "5P"
+        ]
+      },
+      {
+        "inputs": [
+          "5K"
+        ]
+      },
+      {
+        "inputs": [
+          "c.S"
+        ]
+      },
+      {
+        "inputs": [
+          "f.S"
+        ]
+      },
+      {
+        "inputs": [
+          "5H"
+        ]
+      },
+      {
+        "inputs": [
+          "2P"
+        ]
+      },
+      {
+        "inputs": [
+          "2K"
+        ]
+      },
+      {
+        "inputs": [
+          "2S"
+        ]
+      },
+      {
+        "inputs": [
+          "1H"
+        ]
+      },
+      {
+        "inputs": [
+          "2H"
+        ]
+      },
+      {
+        "inputs": [
+          "3H"
+        ]
+      },
+      {
+        "inputs": [
+          "j.P"
+        ]
+      },
+      {
+        "inputs": [
+          "j.K"
+        ]
+      },
+      {
+        "inputs": [
+          "j.S"
+        ]
+      },
+      {
+        "inputs": [
+          "j.H"
+        ]
+      },
+      {
+        "inputs": [
+          "j.D"
+        ]
+      },
+      {
+        "inputs": [
+          "6P"
+        ]
+      },
+      {
+        "inputs": [
+          "6H"
+        ]
+      },
+      {
+        "inputs": [
+          "6HH"
+        ]
+      },
+      {
+        "inputs": [
+          "2D"
+        ]
+      },
+      {
+        "inputs": [
+          "5D"
+        ]
+      }
     ],
     [
       {

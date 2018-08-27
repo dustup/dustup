@@ -10,14 +10,15 @@ export default class MoveList extends React.Component {
   render() {
     const {
       movelists,
+      images,
       mechanics,
       inputCategories,
-      navigation,
     } = this.props;
 
     const renderedSections = movelists.map((movelist, index) => (
       <MoveSection
         movelist={movelist}
+        images={images}
         sectionTitle={inputCategories[index]}
         key={JSON.stringify(movelist)}/>
     ));
