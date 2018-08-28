@@ -76,46 +76,54 @@
       {
         "inputs": [
           "5AA"
-        ]
+        ],
+        "imageId": "5AA"
       },
       {
         "inputs": [
           "2AA"
-        ]
+        ],
+        "imageId": "2AA"
       },
       {
         "name": "Helm Crusher",
         "inputs": [
           "6B"
-        ]
+        ],
+        "imageId": "helm_crusher"
       },
       {
         "name": "Jaw Crusher",
         "inputs": [
           "6C"
-        ]
+        ],
+        "imageId": "jaw_crusher"
       },
       {
         "inputs": [
           "j.8B"
-        ]
+        ],
+        "imageId": "j_8B"
       },
       {
         "name": "Tile Crusher",
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "tile_crusher"
       },
       {
         "inputs": [
           "j.8C"
-        ]
+        ],
+        "imageId": "j_8C"
       },
       {
         "name": "Skull Crusher",
         "inputs": [
           "j.6C"
-        ]
+        ],
+        "imageId": "skull_crusher"
       }
     ],
     [
