@@ -145,31 +145,36 @@
         "name": "Reflector",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "throw"
       },
       {
         "name": "Air Throw",
         "inputs": [
           "j.A+D"
-        ]
+        ],
+        "imageId": "air_throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "f_C"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "veil_off"
       }
     ],
     [
@@ -179,7 +184,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "blitz_shot"
       },
       {
         "name": "Blitz Shot (air)",
@@ -187,7 +193,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "blitz_shot_air"
       },
       {
         "name": "Armor Pierce Kick",
@@ -195,7 +202,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "armor_pierce_kick"
       },
       {
         "name": "Armor Pierce Kick (air)",
@@ -203,7 +211,8 @@
           "j.214A",
           "j.214B",
           "j.214C"
-        ]
+        ],
+        "imageId": "armor_pierce_kick"
       },
       {
         "name": "Human Cannon",
@@ -211,7 +220,8 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "human_cannon"
       }
     ],
     [
@@ -219,7 +229,8 @@
         "name": "Kamikaze",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "infinite_worth"
       }
     ],
     [
@@ -227,7 +238,8 @@
         "name": "Outa-Kai",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "infinite_worth_exs"
       }
     ]
   ]

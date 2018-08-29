@@ -83,4 +83,44 @@ export default [
     imageId: '66C',
     image: require('./66C.png'),
   },
+  {
+    imageId: 'force_function',
+    image: require('./force_function.png'),
+  },
+  {
+    imageId: 'throw',
+    image: require('./throw.png'),
+  },
+  {
+    imageId: 'air_throw',
+    image: require('./air_throw.png'),
+  },
+  {
+    imageId: 'veil_off',
+    image: require('./veil_off.png'),
+  },
+  {
+    imageId: 'blitz_shot',
+    image: require('./blitz_shot.png'),
+  },
+  {
+    imageId: 'blitz_shot_air',
+    image: require('./blitz_shot_air.png'),
+  },
+  {
+    imageId: 'armor_pierce_kick',
+    image: require('./armor_pierce_kick.png'),
+  },
+  {
+    imageId: 'human_cannon',
+    image: require('./human_cannon.png'),
+  },
+  {
+    imageId: 'infinite_worth',
+    image: require('./infinite_worth.png'),
+  },
+  {
+    imageId: 'infinite_worth_exs',
+    image: require('./infinite_worth_exs.png'),
+  },
 ]
