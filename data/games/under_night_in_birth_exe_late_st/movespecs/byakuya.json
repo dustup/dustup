@@ -6,47 +6,56 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "j_B"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "j_C"
       }
     ],
     [
