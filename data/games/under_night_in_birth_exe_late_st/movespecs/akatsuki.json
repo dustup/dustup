@@ -130,12 +130,14 @@
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "c_C"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [

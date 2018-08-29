@@ -79,4 +79,8 @@ export default [
     imageId: 'skull_crusher',
     image: require('./skull_crusher.png'),
   },
+  {
+    imageId: '66C',
+    image: require('./66C.png'),
+  },
 ]
