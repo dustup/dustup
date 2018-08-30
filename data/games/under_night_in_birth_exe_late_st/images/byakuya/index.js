@@ -55,4 +55,12 @@ export default [
     imageId: 'j_2C_charge',
     image: require('./j_2C_charge.png'),
   },
+  {
+    imageId: '66B',
+    image: require('./66B.png'),
+  },
+  {
+    imageId: '66C',
+    image: require('./66C.png'),
+  },
 ]
