@@ -62,22 +62,26 @@
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "3[C]"
-        ]
+        ],
+        "imageId": "3C_charge"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j_2C"
       },
       {
         "inputs": [
           "j.2[C]"
-        ]
+        ],
+        "imageId": "j_2C_charge"
       }
     ],
     [

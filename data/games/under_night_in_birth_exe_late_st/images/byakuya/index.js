@@ -39,4 +39,20 @@ export default [
     imageId: 'j_C',
     image: require('./j_C.png'),
   },
+  {
+    imageId: '3C',
+    image: require('./3C.png'),
+  },
+  {
+    imageId: '3C_charge',
+    image: require('./3C_charge.png'),
+  },
+  {
+    imageId: 'j_2C',
+    image: require('./j_2C.png'),
+  },
+  {
+    imageId: 'j_2C_charge',
+    image: require('./j_2C_charge.png'),
+  },
 ]
