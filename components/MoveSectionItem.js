@@ -9,7 +9,7 @@ import {
 } from 'native-base';
 
 export default class MoveSectionItem extends React.Component {
-  renderFollowUps(move) {
+  renderFollowUps(move, images) {
     const renderedFollowUps = move.followUps.map((followUp) => {
       const parentName = move.shortName || move.name;
       followUp.inputs = followUp.inputs.map((input) => `${parentName} -> ${input}`);
@@ -17,7 +17,7 @@ export default class MoveSectionItem extends React.Component {
       return (
         <CardItem
           key={JSON.stringify(followUp)}>
-          <MoveSectionItem move={followUp}/>
+          <MoveSectionItem move={followUp} images={images}/>
         </CardItem>
       );
     });
@@ -36,7 +36,7 @@ export default class MoveSectionItem extends React.Component {
   render() {
     const {
       move,
-      image,
+      images,
     } = this.props;
 
     const inputs = move.inputs.map((input) => (
@@ -53,10 +53,12 @@ export default class MoveSectionItem extends React.Component {
         <Text>{move.name}</Text>
       </CardItem>
 
-    const renderedImage = !!image && image.imageId &&
+    const renderedImage = !!move.imageId &&
       <CardItem>
         <Image
-          source={image.image}
+          source={images.find((i) => (
+            i.imageId == move['imageId']
+          )).image}
           style={{flex: 1, resizeMode: 'contain', height: 150}}
         />
       </CardItem>
@@ -67,7 +69,7 @@ export default class MoveSectionItem extends React.Component {
         {renderedName}
         {inputs}
         {move.hasOwnProperty('conditions') ? this.renderConditions(move) : null}
-        {move.hasOwnProperty('followUps') ? this.renderFollowUps(move) : null}
+        {move.hasOwnProperty('followUps') ? this.renderFollowUps(move, images) : null}
       </Card>
     );
   }

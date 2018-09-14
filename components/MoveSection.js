@@ -18,9 +18,7 @@ export default class MoveSection extends React.Component {
     const renderedMoves = movelist.map((move) => (
       <MoveSectionItem
         move={move}
-        image={images.find((i) => (
-         i.imageId == move['imageId']
-        ))}
+        images={images}
         key={JSON.stringify(move)}/>
     ));
 
