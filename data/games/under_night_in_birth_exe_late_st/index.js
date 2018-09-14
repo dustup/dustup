@@ -54,7 +54,7 @@ export default {
     require('./movespecs/yuzuriha'),
   ],
   images: {
-    logo: require('./images/UNIST-logo.png'),
+    logo: require('./images/UNIST_logo.png'),
     akatsuki: akatsuki_images,
     byakuya: byakuya_images,
     carmine: carmine_images,
