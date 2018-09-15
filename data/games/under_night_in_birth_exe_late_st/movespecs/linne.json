@@ -6,102 +6,121 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
       }
     ],
     [
       {
         "inputs": [
           "2AA"
-        ]
+        ],
+        "imageId": "2AA"
       },
       {
         "inputs": [
           "6B"
-        ]
+        ],
+        "imageId": "6B"
       },
       {
         "inputs": [
           "5CC"
-        ]
+        ],
+        "imageId": "5CC"
       },
       {
         "inputs": [
           "5C[C]"
-        ]
+        ],
+        "imageId": "5CC"
       },
       {
         "inputs": [
           "j.6B"
-        ]
+        ],
+        "imageId": "j6B"
       },
       {
         "inputs": [
           "j.6[B]"
-        ]
+        ],
+        "imageId": "j6B"
       },
       {
         "inputs": [
           "j.2B"
-        ]
+        ],
+        "imageId": "j2B"
       },
       {
         "name": "6C",
         "inputs": [
           "6C"
         ],
+        "imageId": "Wolf_Howl_1",
         "followUps": [
           {
             "name": "6C",
             "inputs": [
               "6C"
             ],
+            "imageId": "Wolf_Howl_2",
             "followUps": [
               {
                 "name": "6C",
                 "inputs": [
                   "6C"
-                ]
+                ],
+                "imageId": "Wolf_Howl_3"
               }
             ]
           }
@@ -117,7 +136,8 @@
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -125,25 +145,29 @@
         "name": "Elusive Flash",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "Elusive_Flash"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "66C"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -156,7 +180,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "Sky_Fangs"
       },
       {
         "name": "Moon Gyre",
@@ -164,7 +189,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "Moon_Gyre"
       },
       {
         "name": "Tenacious Mist",
@@ -172,7 +198,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "Tenacious_Mist"
       },
       {
         "name": "Flying Swallow",
@@ -181,7 +208,8 @@
           "63214B",
           "63214[B]",
           "63214C"
-        ]
+        ],
+        "imageId": "Flying_Swallow"
       }
     ],
     [
@@ -189,7 +217,8 @@
         "name": "The Diviner",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "The_Diviner"
       }
     ],
     [
@@ -197,7 +226,8 @@
         "name": "Divine Blaze",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Divine_Blaze"
       }
     ]
   ]
