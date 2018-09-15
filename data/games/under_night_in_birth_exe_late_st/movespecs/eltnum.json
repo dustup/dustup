@@ -6,106 +6,126 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C_1"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "j_B"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "j_C"
       },
       {
         "inputs": [
           "j.[C]"
-        ]
+        ],
+        "imageId": "j_C"
       }
     ],
     [
       {
         "inputs": [
           "6B"
-        ]
+        ],
+        "imageId": "6B"
       },
       {
         "inputs": [
           "6[B]"
-        ]
+        ],
+        "imageId": "6B"
       },
       {
         "inputs": [
           "5CC"
-        ]
+        ],
+        "imageId": "5CC"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "3[C]"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "j.2B"
-        ]
+        ],
+        "imageId": "j_2B"
       },
       {
         "inputs": [
           "j.2[B]"
-        ]
+        ],
+        "imageId": "j_2B"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -113,37 +133,43 @@
         "name": "Force Function",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Force Function (charged)",
         "inputs": [
           "[B+C]"
-        ]
+        ],
+        "imageId": "force_function_charge"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "throw"
       },
       {
         "name": "Air Throw",
         "inputs": [
           "j.A+D"
-        ]
+        ],
+        "imageId": "throw_air"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "veil_off"
       }
     ],
     [
@@ -153,7 +179,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "hollow_point"
       },
       {
         "name": "Hollow Point (charged)",
@@ -167,13 +194,15 @@
         "inputs": [
           "22A",
           "22B"
-        ]
+        ],
+        "imageId": "warning_shot"
       },
       {
         "name": "Reload",
         "inputs": [
           "22C"
-        ]
+        ],
+        "imageId": "reload"
       },
       {
         "name": "Etherlite Air",
@@ -181,7 +210,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "etherite_air"
       },
       {
         "name": "Etherlite Ground",
@@ -189,7 +219,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "etherite_ground"
       },
       {
         "name": "Cutting Sync",
@@ -197,7 +228,8 @@
           "421A",
           "421B",
           "421C"
-        ]
+        ],
+        "imageId": "cutting_sync_1"
       },
       {
         "name": "Slide Air",
@@ -205,7 +237,8 @@
           "j.214A",
           "j.214B",
           "j.214C"
-        ]
+        ],
+        "imageId": "slide_air"
       }
     ],
     [
@@ -213,7 +246,8 @@
         "name": "Barrel Replica",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "infinite_worth"
       }
     ],
     [
@@ -221,7 +255,8 @@
         "name": "Tri Hermes Blackland",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "infinite_worth_exs"
       }
     ]
   ]
