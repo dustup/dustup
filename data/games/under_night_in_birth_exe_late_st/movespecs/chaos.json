@@ -6,82 +6,97 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "j_B"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "j_C"
       }
     ],
     [
       {
         "inputs": [
           "5BB"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "5CC"
-        ]
+        ],
+        "imageId": "5CC"
       },
       {
         "name": "Cold Reflection",
         "inputs": [
           "6C"
-        ]
+        ],
+        "imageId": "cold_reflection"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j_2C"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -89,25 +104,29 @@
         "name": "Ophidian",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "veil_off"
       }
     ],
     [
@@ -122,7 +141,8 @@
           "j.236B",
           "j.236[B]",
           "j.236C"
-        ]
+        ],
+        "imageId": "prey_in_sight_a"
       },
       {
         "name": "Touch of Death",
@@ -137,7 +157,8 @@
           "j.214B",
           "j.214[B]",
           "j.214C"
-        ]
+        ],
+        "imageId": "touch_of_death"
       },
       {
         "name": "Repel",
@@ -148,7 +169,8 @@
           "j.623A",
           "j.623B",
           "j.623C"
-        ]
+        ],
+        "imageId": "repel"
       },
       {
         "name": "Concealment",
@@ -159,7 +181,8 @@
           "j.22A",
           "j.22B",
           "j.22C"
-        ]
+        ],
+        "imageId": "concealment"
       },
       {
         "name": "Slither",
@@ -167,7 +190,8 @@
           "[A]",
           "[B]",
           "[C]"
-        ]
+        ],
+        "imageId": "slither"
       }
     ],
     [
@@ -175,7 +199,8 @@
         "name": "Barrage",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "infinite_worth"
       }
     ],
     [
@@ -183,7 +208,8 @@
         "name": "Profound Revenance",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "infinite_worth_exs"
       }
     ]
   ]
