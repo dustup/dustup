@@ -40,10 +40,6 @@ export default [
     "image": require('./jC.png')
   },
   {
-    "imageId": "jC_charge",
-    "image": require('./jC_charge.png')
-  },
-  {
     "imageId": "6B",
     "image": require('./6B.png')
   },
