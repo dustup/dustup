@@ -6,97 +6,116 @@
       {
         "inputs": [
           "5P"
-        ]
+        ],
+        "imageId": "5P"
       },
       {
         "inputs": [
           "5K"
-        ]
+        ],
+        "imageId": "5K"
       },
       {
         "inputs": [
           "c.S"
-        ]
+        ],
+        "imageId": "cS"
       },
       {
         "inputs": [
           "f.S"
-        ]
+        ],
+        "imageId": "fS"
       },
       {
         "inputs": [
           "5H"
-        ]
+        ],
+        "imageId": "5H"
       },
       {
         "inputs": [
           "5D"
-        ]
+        ],
+        "imageId": "5D"
       },
       {
         "inputs": [
           "6P"
-        ]
+        ],
+        "imageId": "6P"
       },
       {
         "inputs": [
           "6K"
-        ]
+        ],
+        "imageId": "6K"
       },
       {
         "inputs": [
           "6H"
-        ]
+        ],
+        "imageId": "6H"
       },
       {
         "inputs": [
           "2P"
-        ]
+        ],
+        "imageId": "2P"
       },
       {
         "inputs": [
           "2K"
-        ]
+        ],
+        "imageId": "2K"
       },
       {
         "inputs": [
           "2S"
-        ]
+        ],
+        "imageId": "2S"
       },
       {
         "inputs": [
           "2H"
-        ]
+        ],
+        "imageId": "2H"
       },
       {
         "inputs": [
           "2D"
-        ]
+        ],
+        "imageId": "2D"
       },
       {
         "inputs": [
           "j.P"
-        ]
+        ],
+        "imageId": "jP"
       },
       {
         "inputs": [
           "j.K"
-        ]
+        ],
+        "imageId": "jK"
       },
       {
         "inputs": [
           "j.S"
-        ]
+        ],
+        "imageId": "jS"
       },
       {
         "inputs": [
           "j.H"
-        ]
+        ],
+        "imageId": "jH"
       },
       {
         "inputs": [
           "j.D"
-        ]
+        ],
+        "imageId": "jD"
       }
     ],
     [
@@ -105,10 +124,12 @@
         "inputs": [
           "236K",
           "j.236K"
-        ]
+        ],
+        "imageId": "Tatami_Gaeshi"
       },
       {
         "name": "Ground Azami",
+        "imageId": "Azami",
         "inputs": [
           "S+H",
           "4S+H",
@@ -118,30 +139,35 @@
         "followUps": [
           {
             "name": "Kuchinashi",
+            "imageId": "Kuchinashi",
             "inputs": [
               "P"
             ]
           },
           {
             "name": "Mawarikomi",
+            "imageId": "Mawarikomi",
             "inputs": [
               "K"
             ]
           },
           {
             "name": "Sakura",
+            "imageId": "Sakura",
             "inputs": [
               "S"
             ]
           },
           {
             "name": "Rokkonsogi",
+            "imageId": "Rokkonsogi",
             "inputs": [
               "H"
             ]
           },
           {
             "name": "Yashagatana",
+            "imageId": "Yashagatana",
             "inputs": [
               "D"
             ]
@@ -150,6 +176,7 @@
       },
       {
         "name": "Air Azami",
+        "imageId": "Air_Azami",
         "inputs": [
           "j.S+H",
           "j.4S+H"
@@ -157,6 +184,7 @@
         "followUps": [
           {
             "name": "Tsubaki",
+            "imageId": "Tsubaki",
             "inputs": [
               "P",
               "K"
@@ -164,6 +192,7 @@
           },
           {
             "name": "Kikyou",
+            "imageId": "Kikyou",
             "inputs": [
               "S",
               "H"
@@ -173,30 +202,35 @@
       },
       {
         "name": "Suzuran",
+        "imageId": "Suzuran",
         "inputs": [
           "63214K"
         ],
         "followUps": [
           {
             "name": "Kuchinashi",
+            "imageId": "Kuchinashi",
             "inputs": [
               "P"
             ]
           },
           {
             "name": "Mawarikomi",
+            "imageId": "Mawarikomi",
             "inputs": [
               "K"
             ]
           },
           {
             "name": "Sakura",
+            "imageId": "Sakura",
             "inputs": [
               "S"
             ]
           },
           {
             "name": "Rokkonsogi",
+            "imageId": "Rokkonsogi",
             "inputs": [
               "H"
             ]
@@ -205,6 +239,7 @@
       },
       {
         "name": "Kabari",
+        "imageId": "Kabari",
         "inputs": [
           "41236S",
           "41236H"
@@ -212,18 +247,21 @@
         "followUps": [
           {
             "name": "Himarawi",
+            "imageId": "Himarawi",
             "inputs": [
               "P"
             ]
           },
           {
             "name": "Tetsuzansen",
+            "imageId": "Tetsuzansen",
             "inputs": [
               "S"
             ]
           },
           {
             "name": "Rokkonsogi",
+            "imageId": "Rokkonsogi",
             "inputs": [
               "H"
             ]
@@ -232,6 +270,7 @@
       },
       {
         "name": "Youzansen",
+        "imageId": "Youzansen",
         "inputs": [
           "j.623S"
         ]
@@ -240,6 +279,7 @@
     [
       {
         "name": "Tsurane Zanzuwatashi",
+        "imageId": "Tsurane_Zanzuwatashi",
         "inputs": [
           "236236S",
           "236236D"
@@ -256,6 +296,7 @@
         "followUps": [
           {
             "name": "Metsudo Kushoudou",
+            "imageId": "Metsudo_Kushoudou",
             "inputs": [
               "236236H"
             ]
@@ -271,6 +312,7 @@
         "followUps": [
           {
             "name": "Metsudo Kushoudou",
+            "imageId": "Metsudo_Kushoudou",
             "inputs": [
               "236236H"
             ]
@@ -285,6 +327,7 @@
         "followUps": [
           {
             "name": "Metsudo Kushoudou",
+            "imageId": "Metsudo_Kushoudou",
             "inputs": [
               "236236H"
             ]
@@ -295,6 +338,7 @@
     [
       {
         "name": "Garyo Tensei",
+        "imageId": "Garyo_Tensei",
         "inputs": [
           "236236H"
         ],
