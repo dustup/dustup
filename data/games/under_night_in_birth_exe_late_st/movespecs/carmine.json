@@ -6,116 +6,138 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "j_B"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "j_C"
       },
       {
         "inputs": [
           "j.[C]"
-        ]
+        ],
+        "imageId": "j_C"
       }
     ],
     [
       {
         "inputs": [
           "5BB"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "6B"
-        ]
+        ],
+        "imageId": "6B"
       },
       {
         "inputs": [
           "6BB"
-        ]
+        ],
+        "imageId": "6BB"
       },
       {
         "inputs": [
           "j.6B"
-        ]
+        ],
+        "imageId": "j_6B"
       },
       {
         "inputs": [
           "j.6BB"
-        ]
+        ],
+        "imageId": "j_6BB"
       },
       {
         "inputs": [
           "3B"
-        ]
+        ],
+        "imageId": "3B"
       },
       {
         "inputs": [
           "6C"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "inputs": [
           "6[C]"
-        ]
+        ],
+        "imageId": "6C_charge"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "3[C]"
-        ]
+        ],
+        "imageId": "3C_charge"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "3B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "6C"
       }
     ],
     [
@@ -124,25 +146,29 @@
         "inputs": [
           "B+C",
           "4B+C"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "veil_off"
       }
     ],
     [
@@ -152,7 +178,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "spin"
       },
       {
         "name": "Spin! (air)",
@@ -160,7 +187,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "spin_air"
       },
       {
         "name": "Pulverize!",
@@ -169,6 +197,7 @@
           "623B",
           "623C"
         ],
+        "imageId": "pulverize",
         "followUps": [
           {
             "name": "]A[",
@@ -185,18 +214,29 @@
         ]
       },
       {
+        "name": "Thrust!",
+        "inputs": [
+          "214A",
+          "214B",
+          "214C"
+        ],
+        "imageId": "thrust"
+      },
+      {
         "name": "Launch!",
         "inputs": [
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "launch"
       },
       {
         "name": "Give Me That!",
         "inputs": [
           "63214C"
-        ]
+        ],
+        "imageId": "give_me_that"
       }
     ],
     [
@@ -204,7 +244,8 @@
         "name": "Hahahaha! Be Devoured!",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "infinite_worth"
       }
     ],
     [
@@ -212,7 +253,8 @@
         "name": "You Shit! This is the END!",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "infinite_worth_exs"
       }
     ]
   ]
