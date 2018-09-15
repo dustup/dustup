@@ -6,91 +6,108 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C_charge"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "j_B"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "j_C"
       },
       {
         "inputs": [
           "j.[C]"
-        ]
+        ],
+        "imageId": "j_C"
       }
     ],
     [
       {
         "inputs": [
           "6B"
-        ]
+        ],
+        "imageId": "6B"
       },
       {
         "inputs": [
           "4B"
-        ]
+        ],
+        "imageId": "4B"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "3[C]"
-        ]
+        ],
+        "imageId": "3C"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "4B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -98,25 +115,29 @@
         "name": "Rusty Nail",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "guard_thrust"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "veil_off"
       }
     ],
     [
@@ -127,6 +148,7 @@
           "236B",
           "236C"
         ],
+        "imageId": "mortal_slide",
         "followUps": [
           {
             "name": "Shaded Harvest",
@@ -135,6 +157,7 @@
               "6B",
               "6C"
             ],
+            "imageId": "shaded_harvest",
             "followUps": [
               {
                 "name": "Assimilation",
@@ -142,7 +165,8 @@
                   "6A",
                   "6B",
                   "6C"
-                ]
+                ],
+                "imageId": "assimilation_a"
               }
             ]
           }
@@ -154,7 +178,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "mortal_glide"
       },
       {
         "name": "Grim Reaper",
@@ -162,7 +187,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "grim_reaper"
       },
       {
         "name": "Assimilation",
@@ -170,7 +196,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "assimilation_a"
       },
       {
         "name": "Precise Aim",
@@ -178,7 +205,8 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "precise_aim_1"
       },
       {
         "name": "Precise Aim (air)",
@@ -186,7 +214,8 @@
           "j.214A",
           "j.214B",
           "j.214C"
-        ]
+        ],
+        "imageId": "precise_aim_2"
       }
     ],
     [
@@ -194,7 +223,8 @@
         "name": "Turbulence",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "infinite_worth"
       }
     ],
     [
@@ -202,7 +232,8 @@
         "name": "Soul Exodus",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "infinite_worth_exs"
       }
     ]
   ]
