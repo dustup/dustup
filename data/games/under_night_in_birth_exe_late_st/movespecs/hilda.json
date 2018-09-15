@@ -6,99 +6,118 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C_charge"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
       },
       {
         "inputs": [
           "j.[C]"
-        ]
+        ],
+        "imageId": "jC_charge"
       }
     ],
     [
       {
         "inputs": [
           "3B"
-        ]
+        ],
+        "imageId": "3B"
       },
       {
         "inputs": [
           "5CC"
-        ]
+        ],
+        "imageId": "5CC"
       },
       {
         "inputs": [
           "5BB"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "3CC"
-        ]
+        ],
+        "imageId": "3CC"
       },
       {
         "inputs": [
           "2CC"
-        ]
+        ],
+        "imageId": "2CC"
       },
       {
         "inputs": [
           "j.CC"
-        ]
+        ],
+        "imageId": "jCC"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j2C"
       }
     ],
     [
@@ -110,7 +129,8 @@
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -118,43 +138,50 @@
         "name": "Memory Slip",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "Memory_Slip"
       },
       {
         "name": "Memory Slip (charged)",
         "inputs": [
           "[B+C]"
-        ]
+        ],
+        "imageId": "Memory_Slip_charge"
       },
       {
         "name": "Memory Slip (variant)",
         "inputs": [
           "B+C~A"
-        ]
+        ],
+        "imageId": "Memory_Slip_variant_1"
       },
       {
         "name": "Memory Slip (variant)",
         "inputs": [
           "B+C~2A"
-        ]
+        ],
+        "imageId": "Memory_Slip_variant_2"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "Guard_Thrust"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -164,7 +191,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "Skewer"
       },
       {
         "name": "Interference",
@@ -172,7 +200,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "Interference"
       },
       {
         "name": "Condensity Gloom",
@@ -180,7 +209,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "Condensity_Gloom"
       },
       {
         "name": "Dismal Sign",
@@ -188,7 +218,8 @@
           "421A",
           "421B",
           "421C"
-        ]
+        ],
+        "imageId": "Dismal_Sign"
       },
       {
         "name": "Fallen Pain",
@@ -196,7 +227,8 @@
           "[A]",
           "[B]",
           "[C]"
-        ]
+        ],
+        "imageId": "Fallen_Pain"
       },
       {
         "name": "Pillar of Revenance",
@@ -204,19 +236,22 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "Pillar_of_Revenance"
       },
       {
         "name": "Aspersivity",
         "inputs": [
           "41236C"
-        ]
+        ],
+        "imageId": "Aspersivity"
       },
       {
         "name": "Nail Torrent",
         "inputs": [
           "j.41236C"
-        ]
+        ],
+        "imageId": "Nail_Torrent"
       }
     ],
     [
@@ -224,7 +259,8 @@
         "name": "Impalement",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "Impalement"
       }
     ],
     [
@@ -232,7 +268,8 @@
         "name": "Darkness",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Darkness"
       }
     ]
   ]
