@@ -176,6 +176,7 @@
       },
       {
         "name": "Air Azami",
+        "imageId": "Air_Azami",
         "inputs": [
           "j.S+H",
           "j.4S+H"

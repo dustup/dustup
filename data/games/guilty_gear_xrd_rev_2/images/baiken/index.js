@@ -108,6 +108,10 @@ export default [
     "image": require('./Yashagatana.png')
   },
   {
+    "imageId": "Air_Azami",
+    "image": require('./Air_Azami.png')
+  },
+  {
     "imageId": "Tsubaki",
     "image": require('./Tsubaki.png')
   },
