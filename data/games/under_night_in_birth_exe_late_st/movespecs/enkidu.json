@@ -6,131 +6,156 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A_1"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "2[C]"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
       }
     ],
     [
       {
         "inputs": [
           "5BB"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "5BBB"
-        ]
+        ],
+        "imageId": "5BBB"
       },
       {
         "inputs": [
           "5CC"
-        ]
+        ],
+        "imageId": "5CC"
       },
       {
         "inputs": [
           "5CCC"
-        ]
+        ],
+        "imageId": "5CCC"
       },
       {
         "inputs": [
           "2CC"
-        ]
+        ],
+        "imageId": "2CC"
       },
       {
         "inputs": [
           "2CCC"
-        ]
+        ],
+        "imageId": "2CCC"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "3[C]"
-        ]
+        ],
+        "imageId": "3C_charge"
       },
       {
         "inputs": [
           "4C"
-        ]
+        ],
+        "imageId": "4C"
       },
       {
         "inputs": [
           "6C"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "inputs": [
           "6[C]"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "inputs": [
           "j.CC"
-        ]
+        ],
+        "imageId": "jCC"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -138,25 +163,29 @@
         "name": "Tidal Spin",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "Tidal_Spin"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -168,6 +197,7 @@
           "236B",
           "236C"
         ],
+        "imageId": "First_Prohibition",
         "followUps": [
           {
             "name": "Second Prohibition: Crush",
@@ -175,12 +205,14 @@
             "inputs": [
               "6A"
             ],
+            "imageId": "Second_Prohibition_Crush",
             "followUps": [
               {
                 "name": "Third Prohibition: Pierce",
                 "inputs": [
                   "6A"
-                ]
+                ],
+                "imageId": "Third_Prohibition_Pierce"
               }
             ]
           },
@@ -191,13 +223,15 @@
               "6B",
               "6C"
             ],
+            "imageId": "Second_Prohibition_Secret_Sever",
             "followUps": [
               {
                 "name": "Third Prohibition (Secret): Fierce",
                 "inputs": [
                   "6B",
                   "6C"
-                ]
+                ],
+                "imageId": "Third_Prohibition_Secret_Fierce"
               }
             ]
           }
@@ -209,7 +243,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "Chained_Limbs"
       },
       {
         "name": "Stomp",
@@ -217,7 +252,8 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "Stomp"
       },
       {
         "name": "Counter Pose",
@@ -225,7 +261,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "Counter_Pose"
       },
       {
         "name": "Wind Blade",
@@ -233,7 +270,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "Wind_Blade"
       }
     ],
     [
@@ -241,7 +279,8 @@
         "name": "Spiral Palm Strike",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "Spiral_Palm_Strike"
       }
     ],
     [
@@ -249,7 +288,8 @@
         "name": "Demon Seal: Abyssal Force",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Demon_Seal_Abyssal_Force"
       }
     ]
   ]
