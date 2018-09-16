@@ -102,23 +102,20 @@
         "imageId": "j2B"
       },
       {
-        "name": "6C",
         "inputs": [
           "6C"
         ],
-        "imageId": "Wolf_Howl_1",
+        "imageId": "Wolf_Howl_1"
       },
       {
-        "name": "6CC",
         "inputs": [
-          "6C"
+          "6CC"
         ],
         "imageId": "Wolf_Howl_2"
       },
       {
-        "name": "6CC",
         "inputs": [
-          "6C"
+          "6CCC"
         ],
         "imageId": "Wolf_Howl_3"
       }
