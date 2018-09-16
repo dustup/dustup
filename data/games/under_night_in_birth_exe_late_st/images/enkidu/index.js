@@ -60,6 +60,10 @@ export default [
     "image": require('./2CC.png')
   },
   {
+    "imageId": "2CCC",
+    "image": require('./2CCC.png')
+  },
+  {
     "imageId": "3C",
     "image": require('./3C.png')
   },
