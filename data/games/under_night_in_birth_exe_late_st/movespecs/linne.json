@@ -102,29 +102,22 @@
         "imageId": "j2B"
       },
       {
-        "name": "6C",
         "inputs": [
           "6C"
         ],
-        "imageId": "Wolf_Howl_1",
-        "followUps": [
-          {
-            "name": "6C",
-            "inputs": [
-              "6C"
-            ],
-            "imageId": "Wolf_Howl_2",
-            "followUps": [
-              {
-                "name": "6C",
-                "inputs": [
-                  "6C"
-                ],
-                "imageId": "Wolf_Howl_3"
-              }
-            ]
-          }
-        ]
+        "imageId": "Wolf_Howl_1"
+      },
+      {
+        "inputs": [
+          "6CC"
+        ],
+        "imageId": "Wolf_Howl_2"
+      },
+      {
+        "inputs": [
+          "6CCC"
+        ],
+        "imageId": "Wolf_Howl_3"
       }
     ],
     [
