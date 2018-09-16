@@ -107,24 +107,20 @@
           "6C"
         ],
         "imageId": "Wolf_Howl_1",
-        "followUps": [
-          {
-            "name": "6C",
-            "inputs": [
-              "6C"
-            ],
-            "imageId": "Wolf_Howl_2",
-            "followUps": [
-              {
-                "name": "6C",
-                "inputs": [
-                  "6C"
-                ],
-                "imageId": "Wolf_Howl_3"
-              }
-            ]
-          }
-        ]
+      },
+      {
+        "name": "6CC",
+        "inputs": [
+          "6C"
+        ],
+        "imageId": "Wolf_Howl_2"
+      },
+      {
+        "name": "6CC",
+        "inputs": [
+          "6C"
+        ],
+        "imageId": "Wolf_Howl_3"
       }
     ],
     [
