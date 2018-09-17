@@ -6,79 +6,94 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
       }
     ],
     [
       {
         "inputs": [
           "3B"
-        ]
+        ],
+        "imageId": "3B"
       },
       {
         "inputs": [
           "5CC"
-        ]
+        ],
+        "imageId": "66C"
       },
       {
         "inputs": [
           "6C"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "j.6C"
-        ]
+        ],
+        "imageId": "j6C"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j2C"
       },
       {
         "name": "Fast Fall",
@@ -86,24 +101,15 @@
           "j.22",
           "j.2A+B"
         ],
+        "imageId": "j22",
         "followUps": [
           {
-            "name": "6A",
             "inputs": [
-              "6A"
-            ]
-          },
-          {
-            "name": "6B",
-            "inputs": [
-              "6B"
-            ]
-          },
-          {
-            "name": "6C",
-            "inputs": [
+              "6A",
+              "6B",
               "6C"
-            ]
+            ],
+            "imageId": "j22_6A"
           }
         ]
       },
@@ -112,19 +118,22 @@
         "inputs": [
           "j.44",
           "j.4A+B"
-        ]
+        ],
+        "imageId": "j44"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -132,25 +141,29 @@
         "name": "Abyssal Geometry",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "Abyssal_Geometry"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -160,7 +173,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "Captive_Segment"
       },
       {
         "name": "Dual Piercing Vengeance",
@@ -168,7 +182,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "Dual_Piercing_Vengeance"
       },
       {
         "name": "Vanishing Doubt",
@@ -177,6 +192,7 @@
           "214B",
           "214C"
         ],
+        "imageId": "Vanishing_Doubt",
         "followUps": [
           {
             "name": "A",
@@ -210,7 +226,8 @@
           "j.214A",
           "j.214B",
           "j.214C"
-        ]
+        ],
+        "imageId": "Penetrate"
       },
       {
         "name": "Convict",
@@ -218,7 +235,8 @@
           "632146A",
           "632146B",
           "632146C"
-        ]
+        ],
+        "imageId": "Convict"
       }
     ],
     [
@@ -226,7 +244,8 @@
         "name": "Chained Nefarity",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "Chained_Nefarity"
       }
     ],
     [
@@ -234,7 +253,8 @@
         "name": "Distant Frontier",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Distant_Frontier"
       }
     ]
   ]
