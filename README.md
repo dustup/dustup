@@ -2,6 +2,13 @@
 
 Reference fighting game moves from your phone!
 
+![game list screen grab](https://media.githubusercontent.com/media/dustup/dustup/master/screengrabs/gamelist.png)
+![character list screen grab](https://media.githubusercontent.com/media/dustup/dustup/master/screengrabs/characterlist.png)
+![move list screen grab](https://media.githubusercontent.com/media/dustup/dustup/master/screengrabs/movelist.png)
+
+Please note that Dustup is still under development.
+As such, the above screenshots may not necessarily represent what the application will look like upon release.
+
 ## Development
 
 Dustup is powered by [React Native](https://facebook.github.io/react-native/).
