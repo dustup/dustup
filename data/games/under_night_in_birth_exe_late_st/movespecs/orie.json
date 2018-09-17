@@ -6,86 +6,102 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
       }
     ],
     [
       {
         "inputs": [
           "6B"
-        ]
+        ],
+        "imageId": "6B"
       },
       {
         "inputs": [
           "3B"
-        ]
+        ],
+        "imageId": "3B"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "4C"
-        ]
+        ],
+        "imageId": "4C"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j2C"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -93,25 +109,29 @@
         "name": "Aerial Leap",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "Aerial_Leap"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -121,7 +141,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "Divine_Thrust"
       },
       {
         "name": "Sacred Arrow",
@@ -129,7 +150,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "Sacred_Arrow"
       },
       {
         "name": "Command Order",
@@ -138,19 +160,22 @@
           "214B",
           "214C"
         ],
+        "imageId": "Command_Order_A",
         "followUps": [
           {
             "name": "Thick and Quick",
             "inputs": [
               "4A"
-            ]
+            ],
+            "imageId": "Thick_and_Quick"
           },
           {
             "name": "Succession",
             "inputs": [
               "4B",
               "4C"
-            ]
+            ],
+            "imageId": "Succession"
           }
         ]
       },
@@ -160,7 +185,8 @@
           "j.214A",
           "j.214B",
           "j.214C"
-        ]
+        ],
+        "imageId": "Command_Order_A_air"
       },
       {
         "name": "Sealing Hoplon",
@@ -168,13 +194,15 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "Sealing_Hoplon"
       },
       {
         "name": "Sacred Spire",
         "inputs": [
           "41236C"
-        ]
+        ],
+        "imageId": "Sacred_Spire"
       }
     ],
     [
@@ -182,7 +210,8 @@
         "name": "Luminous Embrace",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "Luminous_Embrace"
       }
     ],
     [
@@ -190,7 +219,8 @@
         "name": "Rest In Peace",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Rest_In_Peace"
       }
     ]
   ]
