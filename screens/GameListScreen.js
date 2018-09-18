@@ -1,4 +1,5 @@
 import React from 'react';
+import {StatusBar} from 'react-native';
 import {
   Body,
   Container,
@@ -32,6 +33,7 @@ export default class GameListScreen extends React.Component {
 
     return (
       <Container>
+        <StatusBar hidden/>
         <Header>
           <Left/>
           <Body>

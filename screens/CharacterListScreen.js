@@ -1,5 +1,8 @@
 import React from 'react';
-import {FlatList} from 'react-native';
+import {
+  FlatList,
+  StatusBar,
+} from 'react-native';
 import {
   Body,
   Button,
@@ -22,6 +25,7 @@ export default class CharacterListScreen extends React.Component {
 
     return (
       <Container>
+        <StatusBar hidden/>
         <Header>
           <Left>
             <Button transparent onPress={() => navigation.goBack()}>
