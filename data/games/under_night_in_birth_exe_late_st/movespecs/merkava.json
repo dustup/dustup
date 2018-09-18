@@ -6,111 +6,132 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "j_B"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "j_C"
       }
     ],
     [
       {
         "inputs": [
           "5BB"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "4B"
-        ]
+        ],
+        "imageId": "4B"
       },
       {
         "inputs": [
           "6C"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "inputs": [
           "6[C]"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "inputs": [
           "2CC"
-        ]
+        ],
+        "imageId": "2CC"
       },
       {
         "inputs": [
           "4C"
-        ]
+        ],
+        "imageId": "4C"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "3[C]"
-        ]
+        ],
+        "imageId": "3C_charge"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j_2C"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "3C"
       }
     ],
     [
@@ -118,25 +139,29 @@
         "name": "Execute Action",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "4B"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "veil_off"
       }
     ],
     [
@@ -145,7 +170,8 @@
         "inputs": [
           "66"
         ],
-        "conditions": "during flight"
+        "conditions": "during flight",
+        "imageId": "flying_attack"
       },
       {
         "name": "Execute Drill",
@@ -153,7 +179,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "execute_drill"
       },
       {
         "name": "Execute Pierce",
@@ -161,15 +188,17 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "execute_pierce"
       },
       {
-        "name": "Execute Sieze and Devour",
+        "name": "Execute Seize and Devour",
         "inputs": [
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "execute_seize_and_devour"
       },
       {
         "name": "Execute Breathe",
@@ -177,7 +206,8 @@
           "j.214A",
           "j.214B",
           "j.214C"
-        ]
+        ],
+        "imageId": "execute_breathe"
       },
       {
         "name": "Execute Coil",
@@ -185,13 +215,15 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "execute_coil"
       },
       {
         "name": "Execute Domination",
         "inputs": [
           "41236C"
-        ]
+        ],
+        "imageId": "execute_domination"
       }
     ],
     [
@@ -199,7 +231,8 @@
         "name": "Execute Rage",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "infinite_worth"
       }
     ],
     [
@@ -207,7 +240,8 @@
         "name": "Execute Trample",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "infinite_worth_exs"
       }
     ]
   ]
