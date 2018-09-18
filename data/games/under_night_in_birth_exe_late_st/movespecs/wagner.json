@@ -6,91 +6,115 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C_charge"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
+      },
+      {
+        "inputs": [
+          "j.[C]"
+        ],
+        "imageId": "jC_charge"
       }
     ],
     [
       {
+        "name": "Filthy Dog!",
         "inputs": [
           "2A+D"
-        ]
+        ],
+        "imageId": "Filthy_Dog"
       },
       {
         "inputs": [
           "6B"
-        ]
+        ],
+        "imageId": "6B"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "6C"
-        ]
+        ],
+        "imageId": "6C"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j2C"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -98,31 +122,36 @@
         "name": "Schild",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "Schild"
       },
       {
         "name": "Schild (charged)",
         "inputs": [
           "[B+C]"
-        ]
+        ],
+        "imageId": "Schild_charge"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -132,7 +161,8 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "Kugel_Blitz"
       },
       {
         "name": "Wackenroder",
@@ -140,7 +170,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "Wackenroder"
       },
       {
         "name": "Sturm Brecher",
@@ -148,7 +179,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "Sturm_Brecher"
       },
       {
         "name": "Sturm Brecher (charged)",
@@ -156,7 +188,8 @@
           "214[A]",
           "214[B]",
           "214[C]"
-        ]
+        ],
+        "imageId": "Sturm_Brecher_charge"
       },
       {
         "name": "Sturm Brecher (with buff)",
@@ -165,6 +198,7 @@
           "214B",
           "214C"
         ],
+        "imageId": "Sturm_Brecher_buff",
         "conditions": "after Lohe Garde"
       },
       {
@@ -174,6 +208,7 @@
           "214[B]",
           "214[C]"
         ],
+        "imageId": "Sturm_Brecher_buff_charge",
         "conditions": "after Lohe Garde"
       },
       {
@@ -182,7 +217,8 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "Lohen_Schneide"
       },
       {
         "name": "Sturm Schlag",
@@ -190,7 +226,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "Sturm_Schlag"
       },
       {
         "name": "Sturm Schlag (charged)",
@@ -198,7 +235,8 @@
           "j.236[A]",
           "j.236[B]",
           "j.236[C]"
-        ]
+        ],
+        "imageId": "Sturm_Schlag_charge"
       }
     ],
     [
@@ -206,7 +244,8 @@
         "name": "Hitze Falke",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "Hitze_Falke"
       }
     ],
     [
@@ -214,7 +253,8 @@
         "name": "Megiddo Ausserst Groesse",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Megiddo_Ausserst_Groesse"
       }
     ]
   ]
