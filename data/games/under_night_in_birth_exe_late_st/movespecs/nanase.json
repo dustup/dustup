@@ -6,122 +6,144 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C_charge"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
       },
       {
         "inputs": [
           "j.[C]"
-        ]
+        ],
+        "imageId": "jC_charge"
       }
     ],
     [
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "j.BB"
-        ]
+        ],
+        "imageId": "jBB"
       },
       {
         "inputs": [
           "j.2C"
-        ]
+        ],
+        "imageId": "j2C"
       },
       {
         "inputs": [
           "j.2[C]"
-        ]
+        ],
+        "imageId": "j2C_charge"
       },
       {
         "inputs": [
           "j.8C"
-        ]
+        ],
+        "imageId": "j8C"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
       {
-        "name": "Breeze's Liberte",
+        "name": "Breez's Liberte",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "Breezs_Liberte"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -132,24 +154,28 @@
           "236B",
           "236C"
         ],
+        "imageId": "Chasing_le_Reve",
         "followUps": [
           {
             "name": "Advancer With You",
             "inputs": [
               "A"
-            ]
+            ],
+            "imageId": "Advancer_With_You"
           },
           {
             "name": "Aureole of the Starry Sky",
             "inputs": [
               "B"
-            ]
+            ],
+            "imageId": "Aureole_of_the_Starry_Sky"
           },
           {
             "name": "Halte Once in a While",
             "inputs": [
               "C"
-            ]
+            ],
+            "imageId": "Halte_Once_in_a_While"
           }
         ]
       },
@@ -160,14 +186,16 @@
           "214B",
           "214C"
         ],
+        "imageId": "Agnes_Invitation",
         "followUps": [
           {
-            "name": "Conveying My Vrai Coeur",
+            "name": "Conveying my Vrai Coeur",
             "inputs": [
               "A",
               "B",
               "C"
-            ]
+            ],
+            "imageId": "Conveying_my_Vrai_Coeur"
           }
         ]
       },
@@ -177,7 +205,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "Plumage_Dancing_in_the_Wind"
       },
       {
         "name": "Let the Fleur Carry your Feelings",
@@ -185,7 +214,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "Let_the_Fleur_Carry_your_Feelings"
       }
     ],
     [
@@ -193,7 +223,8 @@
         "name": "Atmosphère of the Aether",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "Atmosphere_of_the_Aether"
       }
     ],
     [
@@ -201,7 +232,8 @@
         "name": "Lumière of the Dawn",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Lumiere_of_the_Dawn"
       }
     ]
   ]
