@@ -6,77 +6,91 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "jA"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "jB"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "jC"
       }
     ],
     [
       {
         "inputs": [
           "5BB"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "2BB"
-        ]
+        ],
+        "imageId": "2BB"
       },
       {
         "name": "Leviosa",
         "inputs": [
           "j.A+B"
-        ]
+        ],
+        "imageId": "Leviosa"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "jC"
       }
     ],
     [
@@ -85,25 +99,29 @@
         "inputs": [
           "B+C",
           "[B+C]"
-        ]
+        ],
+        "imageId": "Armabellum"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "Throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "Guard_Thrust"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "Veil_Off"
       }
     ],
     [
@@ -113,7 +131,8 @@
           "[4]6A",
           "[4]6B",
           "[4]6C"
-        ]
+        ],
+        "imageId": "Stella_Lumen"
       },
       {
         "name": "Luvel Angelus",
@@ -121,7 +140,8 @@
           "[2]8A",
           "[2]8B",
           "[2]8C"
-        ]
+        ],
+        "imageId": "Luvel_Angelus"
       },
       {
         "name": "Mikoruseo",
@@ -129,7 +149,8 @@
           "[6]4A",
           "[6]4B",
           "[6]4C"
-        ]
+        ],
+        "imageId": "Mikoruseo"
       },
       {
         "name": "Transvoranse",
@@ -137,7 +158,8 @@
           "j.[8]2A",
           "j.[8]2B",
           "j.[8]2C"
-        ]
+        ],
+        "imageId": "Transvoranse"
       }
     ],
     [
@@ -145,15 +167,17 @@
         "name": "Lateus Orbis",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "Lateus_Orbis"
       }
     ],
     [
       {
-        "name": "Zahhisio",
+        "name": "Zahhishio",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "Zahhishio"
       }
     ]
   ],
