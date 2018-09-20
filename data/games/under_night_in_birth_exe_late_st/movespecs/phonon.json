@@ -6,106 +6,126 @@
       {
         "inputs": [
           "5A"
-        ]
+        ],
+        "imageId": "5A"
       },
       {
         "inputs": [
           "2A"
-        ]
+        ],
+        "imageId": "2A"
       },
       {
         "inputs": [
           "5B"
-        ]
+        ],
+        "imageId": "5B"
       },
       {
         "inputs": [
           "2B"
-        ]
+        ],
+        "imageId": "2B"
       },
       {
         "inputs": [
           "5C"
-        ]
+        ],
+        "imageId": "5C_1"
       },
       {
         "inputs": [
           "5[C]"
-        ]
+        ],
+        "imageId": "5C_2"
       },
       {
         "inputs": [
           "2C"
-        ]
+        ],
+        "imageId": "2C"
       },
       {
         "inputs": [
           "j.A"
-        ]
+        ],
+        "imageId": "j_A"
       },
       {
         "inputs": [
           "j.B"
-        ]
+        ],
+        "imageId": "j_B"
       },
       {
         "inputs": [
           "j.C"
-        ]
+        ],
+        "imageId": "j_C"
       },
       {
         "inputs": [
           "j.[C]"
-        ]
+        ],
+        "imageId": "j_C_charge"
       }
     ],
     [
       {
         "inputs": [
           "5BB"
-        ]
+        ],
+        "imageId": "5BB"
       },
       {
         "inputs": [
           "4B"
-        ]
+        ],
+        "imageId": "4B"
       },
       {
         "inputs": [
           "3C"
-        ]
+        ],
+        "imageId": "3C"
       },
       {
         "inputs": [
           "j.2B"
-        ]
+        ],
+        "imageId": "j_2B"
       },
       {
         "inputs": [
           "j.2[B]"
-        ]
+        ],
+        "imageId": "j_2B_charge"
       },
       {
         "inputs": [
           "j.4B"
-        ]
+        ],
+        "imageId": "j_4B"
       }
     ],
     [
       {
         "inputs": [
           "66B"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66[B]"
-        ]
+        ],
+        "imageId": "66B"
       },
       {
         "inputs": [
           "66C"
-        ]
+        ],
+        "imageId": "66C"
       }
     ],
     [
@@ -113,31 +133,36 @@
         "name": "Impulse",
         "inputs": [
           "B+C"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Impulse (charged)",
         "inputs": [
           "[B+C]"
-        ]
+        ],
+        "imageId": "force_function"
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
-        ]
+        ],
+        "imageId": "throw"
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
-        ]
+        ],
+        "imageId": "guard_thrust"
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
-        ]
+        ],
+        "imageId": "veil_off"
       }
     ],
     [
@@ -147,14 +172,16 @@
           "236A",
           "236B",
           "236C"
-        ]
+        ],
+        "imageId": "affliction"
       },
       {
         "name": "Affliction (charged)",
         "inputs": [
           "236[A]",
           "236[B]"
-        ]
+        ],
+        "imageId": "affliction"
       },
       {
         "name": "Affliction (air)",
@@ -162,7 +189,8 @@
           "j.236A",
           "j.236B",
           "j.236C"
-        ]
+        ],
+        "imageId": "affliction_air"
       },
       {
         "name": "Guidance Ascension",
@@ -170,7 +198,8 @@
           "623A",
           "623B",
           "623C"
-        ]
+        ],
+        "imageId": "guidance_ascension_a"
       },
       {
         "name": "Rhythmic Satisfaction",
@@ -178,7 +207,8 @@
           "214A",
           "214B",
           "214C"
-        ]
+        ],
+        "imageId": "rhythmic_satisfaction_1"
       },
       {
         "name": "Restraint",
@@ -186,7 +216,8 @@
           "22A",
           "22B",
           "22C"
-        ]
+        ],
+        "imageId": "restraint_a"
       }
     ],
     [
@@ -194,7 +225,8 @@
         "name": "Binding Beatitude",
         "inputs": [
           "41236D"
-        ]
+        ],
+        "imageId": "infinite_worth"
       }
     ],
     [
@@ -202,7 +234,8 @@
         "name": "Utter Servitude",
         "inputs": [
           "A+B+C+D"
-        ]
+        ],
+        "imageId": "infinite_worth_exs"
       }
     ]
   ]
