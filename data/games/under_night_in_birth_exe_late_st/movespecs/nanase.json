@@ -157,11 +157,11 @@
         "imageId": "Chasing_le_Reve",
         "followUps": [
           {
-            "name": "Advancer With You",
+            "name": "Avancer With You",
             "inputs": [
               "A"
             ],
-            "imageId": "Advancer_With_You"
+            "imageId": "Avancer_With_You"
           },
           {
             "name": "Aureole of the Starry Sky",

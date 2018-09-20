@@ -72,8 +72,8 @@ export default [
     "image": require('./5B.png')
   },
   {
-    "imageId": "Advancer_With_You",
-    "image": require('./Advancer_With_You.png')
+    "imageId": "Avancer_With_You",
+    "image": require('./Avancer_With_You.png')
   },
   {
     "imageId": "Aureole_of_the_Starry_Sky",
