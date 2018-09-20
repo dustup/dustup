@@ -6,92 +6,110 @@
       {
         "inputs": [
           "5P"
-        ]
+        ],
+        "imageId": "5P"
       },
       {
         "inputs": [
           "5K"
-        ]
+        ],
+        "imageId": "5K"
       },
       {
         "inputs": [
           "c.S"
-        ]
+        ],
+        "imageId": "c_S"
       },
       {
         "inputs": [
           "f.S"
-        ]
+        ],
+        "imageId": "f_S"
       },
       {
         "inputs": [
           "5H"
-        ]
+        ],
+        "imageId": "5H"
       },
       {
         "inputs": [
           "5D"
-        ]
+        ],
+        "imageId": "5D"
       },
       {
         "inputs": [
           "2P"
-        ]
+        ],
+        "imageId": "2P"
       },
       {
         "inputs": [
           "2K"
-        ]
+        ],
+        "imageId": "2K"
       },
       {
         "inputs": [
           "2S"
-        ]
+        ],
+        "imageId": "2S"
       },
       {
         "inputs": [
           "2H"
-        ]
+        ],
+        "imageId": "2H"
       },
       {
         "inputs": [
           "2D"
-        ]
+        ],
+        "imageId": "2D"
       },
       {
         "inputs": [
           "6P"
-        ]
+        ],
+        "imageId": "6P"
       },
       {
         "inputs": [
           "6H"
-        ]
+        ],
+        "imageId": "6H"
       },
       {
         "inputs": [
           "j.P"
-        ]
+        ],
+        "imageId": "j_P"
       },
       {
         "inputs": [
           "j.K"
-        ]
+        ],
+        "imageId": "j_K"
       },
       {
         "inputs": [
           "j.S"
-        ]
+        ],
+        "imageId": "j_S"
       },
       {
         "inputs": [
           "j.H"
-        ]
+        ],
+        "imageId": "j_H"
       },
       {
         "inputs": [
           "j.D"
-        ]
+        ],
+        "imageId": "j_D"
       }
     ],
     [
@@ -106,7 +124,8 @@
           "j.214K",
           "j.214S",
           "j.214H"
-        ]
+        ],
+        "imageId": "ball_set"
       },
       {
         "name": "QV",
@@ -115,41 +134,47 @@
           "41236K",
           "41236S",
           "41236H"
-        ]
+        ],
+        "imageId": "qv"
       },
       {
         "name": "Teleport",
         "inputs": [
           "623K"
-        ]
+        ],
+        "imageId": "teleport"
       },
       {
         "name": "Stinger Aim",
         "inputs": [
           "[4]6S",
           "[4]6H"
-        ]
+        ],
+        "imageId": "stinger_aim"
       },
       {
         "name": "Carcass Raid",
         "inputs": [
           "[2]8S",
           "[2]8H"
-        ]
+        ],
+        "imageId": "carcass_raid"
       },
       {
         "name": "Double Head Morbid",
         "inputs": [
           "623S",
           "623H"
-        ]
+        ],
+        "imageId": "double_head_morbid"
       },
       {
         "name": "Mad Struggle",
         "inputs": [
           "j.236S",
           "j.236H"
-        ]
+        ],
+        "imageId": "mad_struggle"
       }
     ],
     [
@@ -157,28 +182,32 @@
         "name": "Dark Angel",
         "inputs": [
           "2363214S"
-        ]
+        ],
+        "imageId": "dark_angel"
       },
       {
         "name": "Red Hail",
         "inputs": [
           "j.236236H"
-        ]
+        ],
+        "imageId": "red_hail"
       },
       {
         "name": "Bishop Runout",
         "inputs": [
           "2363214H"
-        ]
+        ],
+        "imageId": "bishop_runout"
       }
     ],
     [
       {
-        "name": "Giga Machine System",
+        "name": "Giga Machina System",
         "inputs": [
           "236236H"
         ],
-        "conditions": "during Instant Kill"
+        "conditions": "during Instant Kill",
+        "imageId": "stinger_aim"
       }
     ]
   ]
