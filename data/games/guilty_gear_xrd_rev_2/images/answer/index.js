@@ -91,10 +91,10 @@ export default [
     imageId: 'savvy_ninpo_request_for_approval',
     image: require('./savvy_ninpo_request_for_approval.png'),
   },
-  {
-    imageId: 'savvy_ninpo_seal_of_approval', // FIXME: this one isn't matched quite right to the proper move, but we'll fix it
-    image: require('./savvy_ninpo_seal_of_approval.png'),
-  },
+//  {
+//    imageId: 'savvy_ninpo_seal_of_approval',
+//    image: require('./savvy_ninpo_seal_of_approval.png'),
+//  },
   {
     imageId: 'savvy_ninpo_data_logging',
     image: require('./savvy_ninpo_data_logging.png'),
@@ -141,6 +141,6 @@ export default [
 //  },
   {
     imageId: 'summoner_the_basilisk',
-    image: require('summoner_the_basilisk.png'),
+    image: require('./summoner_the_basilisk.png'),
   },
 ]
