@@ -6,42 +6,50 @@
       {
         "inputs": [
           "5P"
-        ]
+        ],
+        "imageId": "5P"
       },
       {
         "inputs": [
           "5K"
-        ]
+        ],
+        "imageId": "5K"
       },
       {
         "inputs": [
           "c.S"
-        ]
+        ],
+        "imageId": "c_S"
       },
       {
         "inputs": [
           "f.S"
-        ]
+        ],
+        "imageId": "f_S"
       },
       {
         "inputs": [
           "5H"
-        ]
+        ],
+        "imageId": "5H"
       },
       {
         "inputs": [
           "5D"
-        ]
+        ],
+        "imageId": "5D"
       },
       {
         "inputs": [
           "6P"
-        ]
+        ],
+        "imageId": "6P"
       },
       {
         "inputs": [
           "6K"
-        ]
+        ],
+        "imageId": "6K"
       },
       {
         "inputs": [
@@ -51,57 +59,68 @@
       {
         "inputs": [
           "6H"
-        ]
+        ],
+        "imageId": "6H"
       },
       {
         "inputs": [
           "2P"
-        ]
+        ],
+        "imageId": "2P"
       },
       {
         "inputs": [
           "2K"
-        ]
+        ],
+        "imageId": "2K"
       },
       {
         "inputs": [
           "2S"
-        ]
+        ],
+        "imageId": "2S"
       },
       {
         "inputs": [
           "2H"
-        ]
+        ],
+        "imageId": "2H"
       },
       {
         "inputs": [
           "2D"
-        ]
+        ],
+        "imageId": "2D"
       },
       {
         "inputs": [
           "j.P"
-        ]
+        ],
+        "imageId": "j_P"
       },
       {
         "inputs": [
           "j.K"
-        ]
+        ],
+        "imageId": "j_K"
       },
       {
         "inputs": [
           "j.S"
-        ]
+        ],
+        "imageId": "j_S"
       },
       {
         "inputs": [
           "j.H"
-        ]
+        ],
+        "imageId": "j_H"
       },
       {
         "inputs": [
           "j.D"
-        ]
+        ],
+        "imageId": "j_D"
       }
     ],
     [
@@ -110,21 +129,24 @@
         "inputs": [
           "236S",
           "236H"
-        ]
+        ],
+        "imageId": "business_ninpo_caltrops"
       },
       {
         "name": "Business Ninpo: Under the Rug",
         "inputs": [
           "22S",
           "22H"
-        ]
+        ],
+        "imageId": "business_ninpo_under_the_rug"
       },
       {
         "name": "Business Ninpo: Under the Bus",
         "inputs": [
           "421S",
           "421H"
-        ]
+        ],
+        "imageId": "business_ninpo_under_the_bus"
       },
       {
         "name": "Savvy Ninpo: Request for Approval",
@@ -137,13 +159,15 @@
           "j.214K",
           "j.214S",
           "j.214H"
-        ]
+        ],
+        "imageId": "savvy_ninpo_request_for_approval"
       },
       {
         "name": "Cancel Stance",
         "inputs": [
           "22"
         ],
+        "imageId": "savvy_ninpo_seal_of_approval",
         "conditions": "during Savvy Ninpo: Seal of Approval"
       },
       {
@@ -151,6 +175,7 @@
         "inputs": [
           "P"
         ],
+        "imageId": "savvy_ninpo_data_logging",
         "conditions": "during Savvy Ninpo: Seal of Approval"
       },
       {
@@ -158,6 +183,7 @@
         "inputs": [
           "K"
         ],
+        "imageId": "savvy_ninpo_down_the_ladder",
         "conditions": "during Savvy Ninpo: Seal of Approval"
       },
       {
@@ -165,6 +191,7 @@
         "inputs": [
           "S"
         ],
+        "imageId": "savvy_ninpo_stepping_down",
         "conditions": "during Savvy Ninpo: Seal of Approval"
       },
       {
@@ -172,6 +199,7 @@
         "inputs": [
           "H"
         ],
+        "imageId": "savvy_ninpo_into_my_office",
         "conditions": "during Savvy Ninpo: Seal of Approval"
       },
       {
@@ -180,6 +208,7 @@
           "D",
           "*D"
         ],
+        "imageId": "savvy_ninpo_safety_net",
         "conditions": "during Savvy Ninpo: Seal of Approval"
       },
       {
@@ -187,20 +216,23 @@
         "inputs": [
           "623K",
           "j.623K"
-        ]
+        ],
+        "imageId": "savvy_ninpo_tax_write_off"
       },
       {
         "name": "Savvy Ninpo: Data Logging",
         "inputs": [
           "22P",
           "j.22P"
-        ]
+        ],
+        "imageId": "savvy_ninpo_data_logging"
       },
       {
         "name": "Resshou",
         "inputs": [
           "46P"
-        ]
+        ],
+        "imageId": "resshou"
       }
     ],
     [
@@ -213,6 +245,7 @@
           "j.632146S",
           "j.632146D"
         ],
+        "imageId": "dead_stock_ninpo_firesale_1",
         "followUps": [
           {
             "name": "Ground Normal",
@@ -238,7 +271,8 @@
         "name": "Business Ultimate Ninpo: All Hands",
         "inputs": [
           "236236K"
-        ]
+        ],
+        "imageId": "business_ultimate_ninpo_all_hands_1"
       }
     ],
     [
@@ -247,6 +281,7 @@
         "inputs": [
           "236236H"
         ],
+        "imageId": "summoner_the_basilisk",
         "conditions": "during Instant Kill"
       }
     ]
