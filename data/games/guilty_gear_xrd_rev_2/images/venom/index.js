@@ -112,15 +112,15 @@ export default [
     image: require('./bishop_runout.png'),
   },
   {
-    imageId: 'Ground_Throw',
-    image: require('./Ground_Throw.png'),
+    "imageId": "Ground_Throw",
+    "image": require('./Ground_Throw.png')
   },
   {
-    imageId: 'Air_Throw',
-    image: require('./Air_Throw.png'),
+    "imageId": "Air_Throw",
+    "image": require('./Air_Throw.png')
   },
   {
-    imageId: 'Blitz_Attack',
-    image: require('./Blitz_Attack.png'),
-  },
+    "imageId": "Blitz_Attack",
+    "image": require('./Blitz_Attack.png')
+  }
 ]
