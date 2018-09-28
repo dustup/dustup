@@ -154,5 +154,17 @@ export default [
   {
     "imageId": "business_ninpo_caltrops",
     "image": require('./business_ninpo_caltrops.png')
+  },
+  {
+    "imageId": "Ground_Throw",
+    "image": require('./Ground_Throw.png')
+  },
+  {
+    "imageId": "Air_Throw",
+    "image": require('./Air_Throw.png')
+  },
+  {
+    "imageId": "Blitz_Attack",
+    "image": require('./Blitz_Attack.png')
   }
 ]

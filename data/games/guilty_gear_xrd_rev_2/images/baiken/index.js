@@ -158,5 +158,17 @@ export default [
   {
     "imageId": "Air_Azami",
     "image": require('./Air_Azami.png')
+  },
+  {
+    "imageId": "Ground_Throw",
+    "image": require('./Ground_Throw.png')
+  },
+  {
+    "imageId": "Air_Throw",
+    "image": require('./Air_Throw.png')
+  },
+  {
+    "imageId": "Blitz_Attack",
+    "image": require('./Blitz_Attack.png')
   }
 ]
