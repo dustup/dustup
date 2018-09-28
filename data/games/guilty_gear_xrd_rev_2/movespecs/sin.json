@@ -107,6 +107,45 @@
     ],
     [
       {
+        "name": "Ground Throw",
+        "inputs": [
+          "4H",
+          "6H"
+        ],
+        "conditions": "While next to the opponent"
+      },
+      {
+        "name": "Air Throw",
+        "inputs": [
+          "j.4H",
+          "j.6H"
+        ],
+        "conditions": "While next to the opponent"
+      },
+      {
+        "name": "Dead Angle Attack",
+        "inputs": [
+          "6P+K",
+          "6P+S",
+          "6P+H",
+          "6K+S",
+          "6K+H",
+          "6S+H"
+        ],
+        "conditions": "While in blockstun with 50% tension"
+      },
+      {
+        "name": "Blitz Attack",
+        "inputs": [
+          "P+H",
+          "K+H",
+          "S+H"
+        ],
+        "conditions": "With 25% tension"
+      }
+    ],
+    [
+      {
         "name": "Hawk Baker",
         "inputs": [
           "623S"
