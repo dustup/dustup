@@ -29,6 +29,7 @@ export default {
   shortName: 'GGXrd-R2',
   inputCategories: [
     'Normal Moves',
+    'Universal Mechanics',
     'Special Moves',
     'Overdrives',
     'Instant Kills'

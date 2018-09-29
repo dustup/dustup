@@ -146,5 +146,17 @@ export default [
   {
     "imageId": "Garyo_Tensei",
     "image": require('./Garyo_Tensei.png')
+  },
+  {
+    "imageId": "Ground_Throw",
+    "image": require('./Ground_Throw.png')
+  },
+  {
+    "imageId": "Air_Throw",
+    "image": require('./Air_Throw.png')
+  },
+  {
+    "imageId": "Blitz_Attack",
+    "image": require('./Blitz_Attack.png')
   }
 ]
