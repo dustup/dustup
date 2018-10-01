@@ -27,10 +27,10 @@ export default [
     imageId: '2C_1',
     image: require('./2C_1.png'),
   },
-//  {
-//    imageId: '2C_2",
-//    image: require('./2C_2.png'),
-//  },
+  {
+    imageId: '2C_2',
+    image: require('./2C_2.png'),
+  },
   {
     imageId: 'j_A',
     image: require('./j_A.png'),
@@ -111,10 +111,10 @@ export default [
     imageId: 'cutting_sync_1',
     image: require('./cutting_sync_1.png'),
   },
-//  {
-//    imageId: 'cutting_sync_2',
-//    image: require('./cutting_sync_2.png'),
-//  },
+  {
+    imageId: 'cutting_sync_2',
+    image: require('./cutting_sync_2.png'),
+  },
   {
     imageId: 'slide_air',
     image: require('./slide_air.png'),

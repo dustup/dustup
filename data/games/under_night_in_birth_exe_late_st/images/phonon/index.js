@@ -107,34 +107,34 @@ export default [
     imageId: 'guidance_ascension_a',
     image: require('./guidance_ascension_a.png'),
   },
-//  {
-//    imageId: 'guidance_ascension_b',
-//    image: require('./guidance_ascension_b.png'),
-//  },
-//  {
-//    imageId: 'guidance_ascension_c',
-//    image: require('./guidance_ascension_c.png'),
-//  },
+  {
+    imageId: 'guidance_ascension_b',
+    image: require('./guidance_ascension_b.png'),
+  },
+  {
+    imageId: 'guidance_ascension_c',
+    image: require('./guidance_ascension_c.png'),
+  },
   {
     imageId: 'rhythmic_satisfaction_1',
     image: require('./rhythmic_satisfaction_1.png'),
   },
-//  {
-//    imageId: 'rhythmic_satisfaction_2',
-//    image: require('./rhythmic_satisfaction_2.png'),
-//  },
-//  {
-//    imageId: 'rhythmic_satisfaction_3',
-//    image: require('./rhythmic_satisfaction_3.png'),
-//  },
+  {
+    imageId: 'rhythmic_satisfaction_2',
+    image: require('./rhythmic_satisfaction_2.png'),
+  },
+  {
+    imageId: 'rhythmic_satisfaction_3',
+    image: require('./rhythmic_satisfaction_3.png'),
+  },
   {
     imageId: 'restraint_a',
     image: require('./restraint_a.png'),
   },
-//  {
-//    imageId: 'restraint_b',
-//    image: require('./restraint_b.png'),
-//  },
+  {
+    imageId: 'restraint_b',
+    image: require('./restraint_b.png'),
+  },
   {
     imageId: 'infinite_worth',
     image: require('./infinite_worth.png'),

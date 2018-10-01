@@ -103,18 +103,18 @@ export default [
     imageId: 'no_point_in_running',
     image: require('./no_point_in_running.png'),
   },
-//  {
-//    imageId: 'caught_you_b',
-//    image: require('./caught_you_b.png'),
-//  },
-//  {
-//    imageId: 'caught_you_c',
-//    image: require('./caught_you_c.png'),
-//  },
-//  {
-//    imageId: 'caught_you_d',
-//    image: require('./caught_you_d.png'),
-//  },
+  {
+    imageId: 'caught_you_b',
+    image: require('./caught_you_b.png'),
+  },
+  {
+    imageId: 'caught_you_c',
+    image: require('./caught_you_c.png'),
+  },
+  {
+    imageId: 'caught_you_d',
+    image: require('./caught_you_d.png'),
+  },
   {
     imageId: 'you_re_almost_ready_to_eat',
     image: require('./you_re_almost_ready_to_eat.png'),

@@ -95,14 +95,14 @@ export default [
     imageId: 'assimilation_a',
     image: require('./assimilation_a.png'),
   },
-//  {
-//    imageId: 'assimilation_b',
-//    image: require('./assimilation_b.png'),
-//  },
-//  {
-//    imageId: 'assimilation_c',
-//    image: require('./assimilation_c.png'),
-//  },
+  {
+    imageId: 'assimilation_b',
+    image: require('./assimilation_b.png'),
+  },
+  {
+    imageId: 'assimilation_c',
+    image: require('./assimilation_c.png'),
+  },
   {
     imageId: 'precise_aim_1',
     image: require('./precise_aim_1.png'),

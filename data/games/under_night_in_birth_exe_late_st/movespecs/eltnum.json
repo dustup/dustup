@@ -7,67 +7,90 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "5[C]"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C_1"
+        "imageIds": [
+          "2C_1",
+          "2C_2"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "j_A"
+        "imageIds": [
+          "j_A"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "j_B"
+        "imageIds": [
+          "j_B"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "j_C"
+        "imageIds": [
+          "j_C"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "j_C"
+        "imageIds": [
+          "j_C"
+        ]
       }
     ],
     [
@@ -75,43 +98,57 @@
         "inputs": [
           "6B"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "6[B]"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "5CC"
         ],
-        "imageId": "5CC"
+        "imageIds": [
+          "5CC"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "3[C]"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "j.2B"
         ],
-        "imageId": "j_2B"
+        "imageIds": [
+          "j_2B"
+        ]
       },
       {
         "inputs": [
           "j.2[B]"
         ],
-        "imageId": "j_2B"
+        "imageIds": [
+          "j_2B"
+        ]
       }
     ],
     [
@@ -119,13 +156,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -134,42 +175,54 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "force_function"
+        "imageIds": [
+          "force_function"
+        ]
       },
       {
         "name": "Force Function (charged)",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "force_function_charge"
+        "imageIds": [
+          "force_function_charge"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "throw"
+        "imageIds": [
+          "throw"
+        ]
       },
       {
         "name": "Air Throw",
         "inputs": [
           "j.A+D"
         ],
-        "imageId": "throw_air"
+        "imageIds": [
+          "throw_air"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "veil_off"
+        "imageIds": [
+          "veil_off"
+        ]
       }
     ],
     [
@@ -180,7 +233,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "hollow_point"
+        "imageIds": [
+          "hollow_point"
+        ]
       },
       {
         "name": "Hollow Point (charged)",
@@ -195,14 +250,18 @@
           "22A",
           "22B"
         ],
-        "imageId": "warning_shot"
+        "imageIds": [
+          "warning_shot"
+        ]
       },
       {
         "name": "Reload",
         "inputs": [
           "22C"
         ],
-        "imageId": "reload"
+        "imageIds": [
+          "reload"
+        ]
       },
       {
         "name": "Etherlite Air",
@@ -211,7 +270,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "etherite_air"
+        "imageIds": [
+          "etherite_air"
+        ]
       },
       {
         "name": "Etherlite Ground",
@@ -220,7 +281,9 @@
           "214B",
           "214C"
         ],
-        "imageId": "etherite_ground"
+        "imageIds": [
+          "etherite_ground"
+        ]
       },
       {
         "name": "Cutting Sync",
@@ -229,7 +292,10 @@
           "421B",
           "421C"
         ],
-        "imageId": "cutting_sync_1"
+        "imageIds": [
+          "cutting_sync_1",
+          "cutting_sync_2"
+        ]
       },
       {
         "name": "Slide Air",
@@ -238,7 +304,9 @@
           "j.214B",
           "j.214C"
         ],
-        "imageId": "slide_air"
+        "imageIds": [
+          "slide_air"
+        ]
       }
     ],
     [
@@ -247,7 +315,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "infinite_worth"
+        "imageIds": [
+          "infinite_worth"
+        ]
       }
     ],
     [
@@ -256,7 +326,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "infinite_worth_exs"
+        "imageIds": [
+          "infinite_worth_exs"
+        ]
       }
     ]
   ]

@@ -7,67 +7,89 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "5[C]"
         ],
-        "imageId": "5C_charge"
+        "imageIds": [
+          "5C_charge"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "jC_charge"
+        "imageIds": [
+          "jC_charge"
+        ]
       }
     ],
     [
@@ -75,31 +97,41 @@
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "j.BB"
         ],
-        "imageId": "jBB"
+        "imageIds": [
+          "jBB"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       },
       {
         "inputs": [
           "j.2[C]"
         ],
-        "imageId": "j2C_charge"
+        "imageIds": [
+          "j2C_charge"
+        ]
       },
       {
         "inputs": [
           "j.8C"
         ],
-        "imageId": "j8C"
+        "imageIds": [
+          "j8C"
+        ]
       }
     ],
     [
@@ -107,13 +139,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -122,28 +158,36 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Breezs_Liberte"
+        "imageIds": [
+          "Breezs_Liberte"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -154,29 +198,37 @@
           "236B",
           "236C"
         ],
-        "imageId": "Chasing_le_Reve",
         "followUps": [
           {
             "name": "Avancer With You",
             "inputs": [
               "A"
             ],
-            "imageId": "Avancer_With_You"
+            "imageIds": [
+              "Avancer_With_You"
+            ]
           },
           {
             "name": "Aureole of the Starry Sky",
             "inputs": [
               "B"
             ],
-            "imageId": "Aureole_of_the_Starry_Sky"
+            "imageIds": [
+              "Aureole_of_the_Starry_Sky"
+            ]
           },
           {
             "name": "Halte Once in a While",
             "inputs": [
               "C"
             ],
-            "imageId": "Halte_Once_in_a_While"
+            "imageIds": [
+              "Halte_Once_in_a_While"
+            ]
           }
+        ],
+        "imageIds": [
+          "Chasing_le_Reve"
         ]
       },
       {
@@ -186,7 +238,6 @@
           "214B",
           "214C"
         ],
-        "imageId": "Agnes_Invitation",
         "followUps": [
           {
             "name": "Conveying my Vrai Coeur",
@@ -195,8 +246,13 @@
               "B",
               "C"
             ],
-            "imageId": "Conveying_my_Vrai_Coeur"
+            "imageIds": [
+              "Conveying_my_Vrai_Coeur"
+            ]
           }
+        ],
+        "imageIds": [
+          "Agnes_Invitation"
         ]
       },
       {
@@ -206,7 +262,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Plumage_Dancing_in_the_Wind"
+        "imageIds": [
+          "Plumage_Dancing_in_the_Wind"
+        ]
       },
       {
         "name": "Let the Fleur Carry your Feelings",
@@ -215,7 +273,9 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "Let_the_Fleur_Carry_your_Feelings"
+        "imageIds": [
+          "Let_the_Fleur_Carry_your_Feelings"
+        ]
       }
     ],
     [
@@ -224,7 +284,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Atmosphere_of_the_Aether"
+        "imageIds": [
+          "Atmosphere_of_the_Aether"
+        ]
       }
     ],
     [
@@ -233,7 +295,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Lumiere_of_the_Dawn"
+        "imageIds": [
+          "Lumiere_of_the_Dawn"
+        ]
       }
     ]
   ]

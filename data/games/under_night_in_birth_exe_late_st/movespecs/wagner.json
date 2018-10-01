@@ -7,67 +7,89 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "5[C]"
         ],
-        "imageId": "5C_charge"
+        "imageIds": [
+          "5C_charge"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "jC_charge"
+        "imageIds": [
+          "jC_charge"
+        ]
       }
     ],
     [
@@ -76,31 +98,41 @@
         "inputs": [
           "2A+D"
         ],
-        "imageId": "Filthy_Dog"
+        "imageIds": [
+          "Filthy_Dog"
+        ]
       },
       {
         "inputs": [
           "6B"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "6C"
         ],
-        "imageId": "6C"
+        "imageIds": [
+          "6C"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       }
     ],
     [
@@ -108,13 +140,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -123,35 +159,45 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Schild"
+        "imageIds": [
+          "Schild"
+        ]
       },
       {
         "name": "Schild (charged)",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "Schild_charge"
+        "imageIds": [
+          "Schild_charge"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -162,7 +208,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "Kugel_Blitz"
+        "imageIds": [
+          "Kugel_Blitz"
+        ]
       },
       {
         "name": "Wackenroder",
@@ -171,7 +219,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Wackenroder"
+        "imageIds": [
+          "Wackenroder"
+        ]
       },
       {
         "name": "Sturm Brecher",
@@ -180,7 +230,9 @@
           "214B",
           "214C"
         ],
-        "imageId": "Sturm_Brecher"
+        "imageIds": [
+          "Sturm_Brecher"
+        ]
       },
       {
         "name": "Sturm Brecher (charged)",
@@ -189,7 +241,9 @@
           "214[B]",
           "214[C]"
         ],
-        "imageId": "Sturm_Brecher_charge"
+        "imageIds": [
+          "Sturm_Brecher_charge"
+        ]
       },
       {
         "name": "Sturm Brecher (with buff)",
@@ -198,8 +252,10 @@
           "214B",
           "214C"
         ],
-        "imageId": "Sturm_Brecher_buff",
-        "conditions": "after Lohe Garde"
+        "conditions": "after Lohe Garde",
+        "imageIds": [
+          "Sturm_Brecher_buff"
+        ]
       },
       {
         "name": "Sturm Brecher (charged) (with buff)",
@@ -208,8 +264,10 @@
           "214[B]",
           "214[C]"
         ],
-        "imageId": "Sturm_Brecher_buff_charge",
-        "conditions": "after Lohe Garde"
+        "conditions": "after Lohe Garde",
+        "imageIds": [
+          "Sturm_Brecher_buff_charge"
+        ]
       },
       {
         "name": "Lohen Schneide / Lohe Garde",
@@ -218,7 +276,9 @@
           "22B",
           "22C"
         ],
-        "imageId": "Lohen_Schneide"
+        "imageIds": [
+          "Lohen_Schneide"
+        ]
       },
       {
         "name": "Sturm Schlag",
@@ -227,7 +287,9 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "Sturm_Schlag"
+        "imageIds": [
+          "Sturm_Schlag"
+        ]
       },
       {
         "name": "Sturm Schlag (charged)",
@@ -236,7 +298,9 @@
           "j.236[B]",
           "j.236[C]"
         ],
-        "imageId": "Sturm_Schlag_charge"
+        "imageIds": [
+          "Sturm_Schlag_charge"
+        ]
       }
     ],
     [
@@ -245,7 +309,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Hitze_Falke"
+        "imageIds": [
+          "Hitze_Falke"
+        ]
       }
     ],
     [
@@ -254,7 +320,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Megiddo_Ausserst_Groesse"
+        "imageIds": [
+          "Megiddo_Ausserst_Groesse"
+        ]
       }
     ]
   ]

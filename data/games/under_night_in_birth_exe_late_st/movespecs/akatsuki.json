@@ -7,69 +7,91 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "c.B"
         ],
-        "imageId": "c_B"
+        "imageIds": [
+          "c_B"
+        ]
       },
       {
         "inputs": [
           "f.B"
         ],
-        "imageId": "f_B"
+        "imageIds": [
+          "f_B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "c.C"
         ],
-        "imageId": "c_C"
+        "imageIds": [
+          "c_C"
+        ]
       },
       {
         "inputs": [
           "f.C"
         ],
-        "imageId": "f_C"
+        "imageIds": [
+          "f_C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "j_A"
+        "imageIds": [
+          "j_A"
+        ]
       },
       {
         "inputs": [
           "j.7B",
           "j.9B"
         ],
-        "imageId": "j_9B"
+        "imageIds": [
+          "j_9B"
+        ]
       },
       {
         "inputs": [
           "j.7C",
           "j.9C"
         ],
-        "imageId": "j_9C"
+        "imageIds": [
+          "j_9C"
+        ]
       }
     ],
     [
@@ -77,53 +99,69 @@
         "inputs": [
           "5AA"
         ],
-        "imageId": "5AA"
+        "imageIds": [
+          "5AA"
+        ]
       },
       {
         "inputs": [
           "2AA"
         ],
-        "imageId": "2AA"
+        "imageIds": [
+          "2AA"
+        ]
       },
       {
         "name": "Helm Crusher",
         "inputs": [
           "6B"
         ],
-        "imageId": "helm_crusher"
+        "imageIds": [
+          "helm_crusher"
+        ]
       },
       {
         "name": "Jaw Crusher",
         "inputs": [
           "6C"
         ],
-        "imageId": "jaw_crusher"
+        "imageIds": [
+          "jaw_crusher"
+        ]
       },
       {
         "inputs": [
           "j.8B"
         ],
-        "imageId": "j_8B"
+        "imageIds": [
+          "j_8B"
+        ]
       },
       {
         "name": "Tile Crusher",
         "inputs": [
           "j.2C"
         ],
-        "imageId": "tile_crusher"
+        "imageIds": [
+          "tile_crusher"
+        ]
       },
       {
         "inputs": [
           "j.8C"
         ],
-        "imageId": "j_8C"
+        "imageIds": [
+          "j_8C"
+        ]
       },
       {
         "name": "Skull Crusher",
         "inputs": [
           "j.6C"
         ],
-        "imageId": "skull_crusher"
+        "imageIds": [
+          "skull_crusher"
+        ]
       }
     ],
     [
@@ -131,13 +169,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "c_C"
+        "imageIds": [
+          "c_C"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -146,35 +188,45 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "force_function"
+        "imageIds": [
+          "force_function"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "throw"
+        "imageIds": [
+          "throw"
+        ]
       },
       {
         "name": "Air Throw",
         "inputs": [
           "j.A+D"
         ],
-        "imageId": "air_throw"
+        "imageIds": [
+          "air_throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "f_C"
+        "imageIds": [
+          "f_C"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "veil_off"
+        "imageIds": [
+          "veil_off"
+        ]
       }
     ],
     [
@@ -185,7 +237,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "blitz_shot"
+        "imageIds": [
+          "blitz_shot"
+        ]
       },
       {
         "name": "Blitz Shot (air)",
@@ -194,7 +248,9 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "blitz_shot_air"
+        "imageIds": [
+          "blitz_shot_air"
+        ]
       },
       {
         "name": "Armor Pierce Kick",
@@ -203,7 +259,9 @@
           "214B",
           "214C"
         ],
-        "imageId": "armor_pierce_kick"
+        "imageIds": [
+          "armor_pierce_kick"
+        ]
       },
       {
         "name": "Armor Pierce Kick (air)",
@@ -212,7 +270,9 @@
           "j.214B",
           "j.214C"
         ],
-        "imageId": "armor_pierce_kick"
+        "imageIds": [
+          "armor_pierce_kick"
+        ]
       },
       {
         "name": "Human Cannon",
@@ -221,7 +281,9 @@
           "22B",
           "22C"
         ],
-        "imageId": "human_cannon"
+        "imageIds": [
+          "human_cannon"
+        ]
       }
     ],
     [
@@ -230,7 +292,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "infinite_worth"
+        "imageIds": [
+          "infinite_worth"
+        ]
       }
     ],
     [
@@ -239,7 +303,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "infinite_worth_exs"
+        "imageIds": [
+          "infinite_worth_exs"
+        ]
       }
     ]
   ]

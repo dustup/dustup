@@ -103,18 +103,18 @@ export default [
     imageId: 'pulverize',
     image: require('./pulverize.png'),
   },
-//  {
-//    imageId: 'pulverize_c',
-//    image: require('./pulverize_c.png'),
-//  },
+  {
+    imageId: 'pulverize_c',
+    image: require('./pulverize_c.png'),
+  },
   {
     imageId: 'thrust',
     image: require('./thrust.png'),
   },
-//  {
-//    imageId: 'thrust_c',
-//    image: require('./thrust_c.png'),
-//  },
+  {
+    imageId: 'thrust_c',
+    image: require('./thrust_c.png'),
+  },
   {
     imageId: 'launch',
     image: require('./launch.png'),

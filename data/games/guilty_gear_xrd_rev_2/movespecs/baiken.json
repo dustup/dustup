@@ -7,115 +7,153 @@
         "inputs": [
           "5P"
         ],
-        "imageId": "5P"
+        "imageIds": [
+          "5P"
+        ]
       },
       {
         "inputs": [
           "5K"
         ],
-        "imageId": "5K"
+        "imageIds": [
+          "5K"
+        ]
       },
       {
         "inputs": [
           "c.S"
         ],
-        "imageId": "cS"
+        "imageIds": [
+          "cS"
+        ]
       },
       {
         "inputs": [
           "f.S"
         ],
-        "imageId": "fS"
+        "imageIds": [
+          "fS"
+        ]
       },
       {
         "inputs": [
           "5H"
         ],
-        "imageId": "5H"
+        "imageIds": [
+          "5H"
+        ]
       },
       {
         "inputs": [
           "5D"
         ],
-        "imageId": "5D"
+        "imageIds": [
+          "5D"
+        ]
       },
       {
         "inputs": [
           "6P"
         ],
-        "imageId": "6P"
+        "imageIds": [
+          "6P"
+        ]
       },
       {
         "inputs": [
           "6K"
         ],
-        "imageId": "6K"
+        "imageIds": [
+          "6K"
+        ]
       },
       {
         "inputs": [
           "6H"
         ],
-        "imageId": "6H"
+        "imageIds": [
+          "6H"
+        ]
       },
       {
         "inputs": [
           "2P"
         ],
-        "imageId": "2P"
+        "imageIds": [
+          "2P"
+        ]
       },
       {
         "inputs": [
           "2K"
         ],
-        "imageId": "2K"
+        "imageIds": [
+          "2K"
+        ]
       },
       {
         "inputs": [
           "2S"
         ],
-        "imageId": "2S"
+        "imageIds": [
+          "2S"
+        ]
       },
       {
         "inputs": [
           "2H"
         ],
-        "imageId": "2H"
+        "imageIds": [
+          "2H"
+        ]
       },
       {
         "inputs": [
           "2D"
         ],
-        "imageId": "2D"
+        "imageIds": [
+          "2D"
+        ]
       },
       {
         "inputs": [
           "j.P"
         ],
-        "imageId": "jP"
+        "imageIds": [
+          "jP"
+        ]
       },
       {
         "inputs": [
           "j.K"
         ],
-        "imageId": "jK"
+        "imageIds": [
+          "jK"
+        ]
       },
       {
         "inputs": [
           "j.S"
         ],
-        "imageId": "jS"
+        "imageIds": [
+          "jS"
+        ]
       },
       {
         "inputs": [
           "j.H"
         ],
-        "imageId": "jH"
+        "imageIds": [
+          "jH"
+        ]
       },
       {
         "inputs": [
           "j.D"
         ],
-        "imageId": "jD"
+        "imageIds": [
+          "jD"
+        ]
       }
     ],
     [
@@ -125,8 +163,10 @@
           "4H",
           "6H"
         ],
-        "imageId": "Ground_Throw",
-        "conditions": "While next to the opponent"
+        "conditions": "While next to the opponent",
+        "imageIds": [
+          "Ground_Throw"
+        ]
       },
       {
         "name": "Air Throw",
@@ -134,8 +174,10 @@
           "j.4H",
           "j.6H"
         ],
-        "imageId": "Air_Throw",
-        "conditions": "While next to the opponent"
+        "conditions": "While next to the opponent",
+        "imageIds": [
+          "Air_Throw"
+        ]
       },
       {
         "name": "Dead Angle Attack",
@@ -147,8 +189,10 @@
           "6K+H",
           "6S+H"
         ],
-        "imageId": "6P",
-        "conditions": "While in blockstun with 50% tension"
+        "conditions": "While in blockstun with 50% tension",
+        "imageIds": [
+          "6P"
+        ]
       },
       {
         "name": "Blitz Attack",
@@ -156,8 +200,10 @@
           "P+H",
           "K+H"
         ],
-        "imageId": "Blitz_Attack",
-        "conditions": "With 25% tension"
+        "conditions": "With 25% tension",
+        "imageIds": [
+          "Blitz_Attack"
+        ]
       }
     ],
     [
@@ -167,11 +213,12 @@
           "236K",
           "j.236K"
         ],
-        "imageId": "Tatami_Gaeshi"
+        "imageIds": [
+          "Tatami_Gaeshi"
+        ]
       },
       {
         "name": "Ground Azami",
-        "imageId": "Azami",
         "inputs": [
           "S+H",
           "4S+H",
@@ -181,44 +228,56 @@
         "followUps": [
           {
             "name": "Kuchinashi",
-            "imageId": "Kuchinashi",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Kuchinashi"
             ]
           },
           {
             "name": "Mawarikomi",
-            "imageId": "Mawarikomi",
             "inputs": [
               "K"
+            ],
+            "imageIds": [
+              "Mawarikomi"
             ]
           },
           {
             "name": "Sakura",
-            "imageId": "Sakura",
             "inputs": [
               "S"
+            ],
+            "imageIds": [
+              "Sakura"
             ]
           },
           {
             "name": "Rokkonsogi",
-            "imageId": "Rokkonsogi",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "Rokkonsogi"
             ]
           },
           {
             "name": "Yashagatana",
-            "imageId": "Yashagatana",
             "inputs": [
               "D"
+            ],
+            "imageIds": [
+              "Yashagatana"
             ]
           }
+        ],
+        "imageIds": [
+          "Azami"
         ]
       },
       {
         "name": "Air Azami",
-        "imageId": "Air_Azami",
         "inputs": [
           "j.S+H",
           "j.4S+H"
@@ -226,62 +285,78 @@
         "followUps": [
           {
             "name": "Tsubaki",
-            "imageId": "Tsubaki",
             "inputs": [
               "P",
               "K"
+            ],
+            "imageIds": [
+              "Tsubaki"
             ]
           },
           {
             "name": "Kikyou",
-            "imageId": "Kikyou",
             "inputs": [
               "S",
               "H"
+            ],
+            "imageIds": [
+              "Kikyou"
             ]
           }
+        ],
+        "imageIds": [
+          "Air_Azami"
         ]
       },
       {
         "name": "Suzuran",
-        "imageId": "Suzuran",
         "inputs": [
           "63214K"
         ],
         "followUps": [
           {
             "name": "Kuchinashi",
-            "imageId": "Kuchinashi",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Kuchinashi"
             ]
           },
           {
             "name": "Mawarikomi",
-            "imageId": "Mawarikomi",
             "inputs": [
               "K"
+            ],
+            "imageIds": [
+              "Mawarikomi"
             ]
           },
           {
             "name": "Sakura",
-            "imageId": "Sakura",
             "inputs": [
               "S"
+            ],
+            "imageIds": [
+              "Sakura"
             ]
           },
           {
             "name": "Rokkonsogi",
-            "imageId": "Rokkonsogi",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "Rokkonsogi"
             ]
           }
+        ],
+        "imageIds": [
+          "Suzuran"
         ]
       },
       {
         "name": "Kabari",
-        "imageId": "Kabari",
         "inputs": [
           "41236S",
           "41236H"
@@ -289,42 +364,57 @@
         "followUps": [
           {
             "name": "Himarawi",
-            "imageId": "Himarawi",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Himarawi"
             ]
           },
           {
             "name": "Tetsuzansen",
-            "imageId": "Tetsuzansen",
             "inputs": [
               "S"
+            ],
+            "imageIds": [
+              "Tetsuzansen"
             ]
           },
           {
             "name": "Rokkonsogi",
-            "imageId": "Rokkonsogi",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "Rokkonsogi"
             ]
           }
+        ],
+        "imageIds": [
+          "Kabari",
+          "Kabari_S"
         ]
       },
       {
         "name": "Youzansen",
-        "imageId": "Youzansen",
         "inputs": [
           "j.623S"
+        ],
+        "imageIds": [
+          "Youzansen"
         ]
       }
     ],
     [
       {
         "name": "Tsurane Zanzuwatashi",
-        "imageId": "Tsurane_Zanzuwatashi",
         "inputs": [
           "236236S",
           "236236D"
+        ],
+        "imageIds": [
+          "Tsurane_Zanzuwatashi_1",
+          "Tsurane_Zanzuwatashi_2"
         ]
       },
       {
@@ -338,9 +428,11 @@
         "followUps": [
           {
             "name": "Metsudo Kushoudou",
-            "imageId": "Metsudo_Kushoudou",
             "inputs": [
               "236236H"
+            ],
+            "imageIds": [
+              "Metsudo_Kushoudou"
             ]
           }
         ]
@@ -354,9 +446,11 @@
         "followUps": [
           {
             "name": "Metsudo Kushoudou",
-            "imageId": "Metsudo_Kushoudou",
             "inputs": [
               "236236H"
+            ],
+            "imageIds": [
+              "Metsudo_Kushoudou"
             ]
           }
         ]
@@ -369,9 +463,11 @@
         "followUps": [
           {
             "name": "Metsudo Kushoudou",
-            "imageId": "Metsudo_Kushoudou",
             "inputs": [
               "236236H"
+            ],
+            "imageIds": [
+              "Metsudo_Kushoudou"
             ]
           }
         ]
@@ -380,11 +476,14 @@
     [
       {
         "name": "Garyo Tensei",
-        "imageId": "Garyo_Tensei",
         "inputs": [
           "236236H"
         ],
-        "conditions": "during Instant Kill"
+        "conditions": "during Instant Kill",
+        "imageIds": [
+          "Garyo_Tensei_1",
+          "Garyo_Tensei_2"
+        ]
       }
     ]
   ]

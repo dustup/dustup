@@ -7,49 +7,65 @@
         "inputs": [
           "5P"
         ],
-        "imageId": "5P"
+        "imageIds": [
+          "5P"
+        ]
       },
       {
         "inputs": [
           "5K"
         ],
-        "imageId": "5K"
+        "imageIds": [
+          "5K"
+        ]
       },
       {
         "inputs": [
           "c.S"
         ],
-        "imageId": "c_S"
+        "imageIds": [
+          "c_S"
+        ]
       },
       {
         "inputs": [
           "f.S"
         ],
-        "imageId": "f_S"
+        "imageIds": [
+          "f_S"
+        ]
       },
       {
         "inputs": [
           "5H"
         ],
-        "imageId": "5H"
+        "imageIds": [
+          "5H"
+        ]
       },
       {
         "inputs": [
           "5D"
         ],
-        "imageId": "5D"
+        "imageIds": [
+          "5D"
+        ]
       },
       {
         "inputs": [
           "6P"
         ],
-        "imageId": "6P"
+        "imageIds": [
+          "6P"
+        ]
       },
       {
         "inputs": [
           "6K"
         ],
-        "imageId": "6K"
+        "imageIds": [
+          "6K"
+        ]
       },
       {
         "inputs": [
@@ -60,67 +76,89 @@
         "inputs": [
           "6H"
         ],
-        "imageId": "6H"
+        "imageIds": [
+          "6H"
+        ]
       },
       {
         "inputs": [
           "2P"
         ],
-        "imageId": "2P"
+        "imageIds": [
+          "2P"
+        ]
       },
       {
         "inputs": [
           "2K"
         ],
-        "imageId": "2K"
+        "imageIds": [
+          "2K"
+        ]
       },
       {
         "inputs": [
           "2S"
         ],
-        "imageId": "2S"
+        "imageIds": [
+          "2S"
+        ]
       },
       {
         "inputs": [
           "2H"
         ],
-        "imageId": "2H"
+        "imageIds": [
+          "2H"
+        ]
       },
       {
         "inputs": [
           "2D"
         ],
-        "imageId": "2D"
+        "imageIds": [
+          "2D"
+        ]
       },
       {
         "inputs": [
           "j.P"
         ],
-        "imageId": "j_P"
+        "imageIds": [
+          "j_P"
+        ]
       },
       {
         "inputs": [
           "j.K"
         ],
-        "imageId": "j_K"
+        "imageIds": [
+          "j_K"
+        ]
       },
       {
         "inputs": [
           "j.S"
         ],
-        "imageId": "j_S"
+        "imageIds": [
+          "j_S"
+        ]
       },
       {
         "inputs": [
           "j.H"
         ],
-        "imageId": "j_H"
+        "imageIds": [
+          "j_H"
+        ]
       },
       {
         "inputs": [
           "j.D"
         ],
-        "imageId": "j_D"
+        "imageIds": [
+          "j_D"
+        ]
       }
     ],
     [
@@ -130,8 +168,10 @@
           "4H",
           "6H"
         ],
-        "imageId": "Ground_Throw",
-        "conditions": "While next to the opponent"
+        "conditions": "While next to the opponent",
+        "imageIds": [
+          "Ground_Throw"
+        ]
       },
       {
         "name": "Air Throw",
@@ -139,8 +179,10 @@
           "j.4H",
           "j.6H"
         ],
-        "imageId": "Air_Throw",
-        "conditions": "While next to the opponent"
+        "conditions": "While next to the opponent",
+        "imageIds": [
+          "Air_Throw"
+        ]
       },
       {
         "name": "Dead Angle Attack",
@@ -152,8 +194,10 @@
           "6K+H",
           "6S+H"
         ],
-        "imageId": "6P",
-        "conditions": "While in blockstun with 50% tension"
+        "conditions": "While in blockstun with 50% tension",
+        "imageIds": [
+          "6P"
+        ]
       },
       {
         "name": "Blitz Attack",
@@ -162,8 +206,10 @@
           "K+H",
           "S+H"
         ],
-        "imageId": "Blitz_Attack",
-        "conditions": "With 25% tension"
+        "conditions": "With 25% tension",
+        "imageIds": [
+          "Blitz_Attack"
+        ]
       }
     ],
     [
@@ -173,7 +219,9 @@
           "236S",
           "236H"
         ],
-        "imageId": "business_ninpo_caltrops"
+        "imageIds": [
+          "business_ninpo_caltrops"
+        ]
       },
       {
         "name": "Business Ninpo: Under the Rug",
@@ -181,7 +229,9 @@
           "22S",
           "22H"
         ],
-        "imageId": "business_ninpo_under_the_rug"
+        "imageIds": [
+          "business_ninpo_under_the_rug"
+        ]
       },
       {
         "name": "Business Ninpo: Under the Bus",
@@ -189,7 +239,9 @@
           "421S",
           "421H"
         ],
-        "imageId": "business_ninpo_under_the_bus"
+        "imageIds": [
+          "business_ninpo_under_the_bus"
+        ]
       },
       {
         "name": "Savvy Ninpo: Request for Approval",
@@ -203,7 +255,9 @@
           "j.214S",
           "j.214H"
         ],
-        "imageId": "savvy_ninpo_request_for_approval"
+        "imageIds": [
+          "savvy_ninpo_request_for_approval"
+        ]
       },
       {
         "name": "Cancel Stance",
@@ -217,32 +271,40 @@
         "inputs": [
           "P"
         ],
-        "imageId": "savvy_ninpo_data_logging",
-        "conditions": "during Savvy Ninpo: Seal of Approval"
+        "conditions": "during Savvy Ninpo: Seal of Approval",
+        "imageIds": [
+          "savvy_ninpo_data_logging"
+        ]
       },
       {
         "name": "Savvy Ninpo: Down the Ladder",
         "inputs": [
           "K"
         ],
-        "imageId": "savvy_ninpo_down_the_ladder",
-        "conditions": "during Savvy Ninpo: Seal of Approval"
+        "conditions": "during Savvy Ninpo: Seal of Approval",
+        "imageIds": [
+          "savvy_ninpo_down_the_ladder"
+        ]
       },
       {
         "name": "Savvy Ninpo: Stepping Down",
         "inputs": [
           "S"
         ],
-        "imageId": "savvy_ninpo_stepping_down",
-        "conditions": "during Savvy Ninpo: Seal of Approval"
+        "conditions": "during Savvy Ninpo: Seal of Approval",
+        "imageIds": [
+          "savvy_ninpo_stepping_down"
+        ]
       },
       {
         "name": "Savvy Ninpo: Into My Office",
         "inputs": [
           "H"
         ],
-        "imageId": "savvy_ninpo_into_my_office",
-        "conditions": "during Savvy Ninpo: Seal of Approval"
+        "conditions": "during Savvy Ninpo: Seal of Approval",
+        "imageIds": [
+          "savvy_ninpo_into_my_office"
+        ]
       },
       {
         "name": "Savvy Ninpo: Safety Net",
@@ -250,8 +312,10 @@
           "D",
           "*D"
         ],
-        "imageId": "savvy_ninpo_safety_net",
-        "conditions": "during Savvy Ninpo: Seal of Approval"
+        "conditions": "during Savvy Ninpo: Seal of Approval",
+        "imageIds": [
+          "savvy_ninpo_safety_net"
+        ]
       },
       {
         "name": "Savvy Ninpo: Tax Write-Off",
@@ -259,7 +323,9 @@
           "623K",
           "j.623K"
         ],
-        "imageId": "savvy_ninpo_tax_write_off"
+        "imageIds": [
+          "savvy_ninpo_tax_write_off"
+        ]
       },
       {
         "name": "Savvy Ninpo: Data Logging",
@@ -267,14 +333,18 @@
           "22P",
           "j.22P"
         ],
-        "imageId": "savvy_ninpo_data_logging"
+        "imageIds": [
+          "savvy_ninpo_data_logging"
+        ]
       },
       {
         "name": "Resshou",
         "inputs": [
           "46P"
         ],
-        "imageId": "resshou"
+        "imageIds": [
+          "resshou"
+        ]
       }
     ],
     [
@@ -287,7 +357,6 @@
           "j.632146S",
           "j.632146D"
         ],
-        "imageId": "dead_stock_ninpo_firesale_1",
         "followUps": [
           {
             "name": "Ground Normal",
@@ -307,6 +376,10 @@
               "j.236236S"
             ]
           }
+        ],
+        "imageIds": [
+          "dead_stock_ninpo_firesale_1",
+          "dead_stock_ninpo_firesale_2"
         ]
       },
       {
@@ -314,7 +387,10 @@
         "inputs": [
           "236236K"
         ],
-        "imageId": "business_ultimate_ninpo_all_hands_1"
+        "imageIds": [
+          "business_ultimate_ninpo_all_hands_1",
+          "business_ultimate_ninpo_all_hands_2"
+        ]
       }
     ],
     [
@@ -323,8 +399,10 @@
         "inputs": [
           "236236H"
         ],
-        "imageId": "summoner_the_basilisk",
-        "conditions": "during Instant Kill"
+        "conditions": "during Instant Kill",
+        "imageIds": [
+          "summoner_the_basilisk"
+        ]
       }
     ]
   ],

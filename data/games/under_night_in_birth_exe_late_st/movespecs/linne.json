@@ -7,55 +7,73 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       }
     ],
     [
@@ -63,61 +81,81 @@
         "inputs": [
           "2AA"
         ],
-        "imageId": "2AA"
+        "imageIds": [
+          "2AA"
+        ]
       },
       {
         "inputs": [
           "6B"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "5CC"
         ],
-        "imageId": "5CC"
+        "imageIds": [
+          "5CC"
+        ]
       },
       {
         "inputs": [
           "5C[C]"
         ],
-        "imageId": "5CC"
+        "imageIds": [
+          "5CC"
+        ]
       },
       {
         "inputs": [
           "j.6B"
         ],
-        "imageId": "j6B"
+        "imageIds": [
+          "j6B"
+        ]
       },
       {
         "inputs": [
           "j.6[B]"
         ],
-        "imageId": "j6B"
+        "imageIds": [
+          "j6B"
+        ]
       },
       {
         "inputs": [
           "j.2B"
         ],
-        "imageId": "j2B"
+        "imageIds": [
+          "j2B"
+        ]
       },
       {
         "inputs": [
           "6C"
         ],
-        "imageId": "Wolf_Howl_1"
+        "imageIds": [
+          "Wolf_Howl_1"
+        ]
       },
       {
         "inputs": [
           "6CC"
         ],
-        "imageId": "Wolf_Howl_2"
+        "imageIds": [
+          "Wolf_Howl_2"
+        ]
       },
       {
         "inputs": [
           "6CCC"
         ],
-        "imageId": "Wolf_Howl_3"
+        "imageIds": [
+          "Wolf_Howl_3"
+        ]
       }
     ],
     [
@@ -125,13 +163,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -140,28 +182,36 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Elusive_Flash"
+        "imageIds": [
+          "Elusive_Flash"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -175,7 +225,9 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "Sky_Fangs"
+        "imageIds": [
+          "Sky_Fangs"
+        ]
       },
       {
         "name": "Moon Gyre",
@@ -184,7 +236,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Moon_Gyre"
+        "imageIds": [
+          "Moon_Gyre"
+        ]
       },
       {
         "name": "Tenacious Mist",
@@ -193,7 +247,9 @@
           "214B",
           "214C"
         ],
-        "imageId": "Tenacious_Mist"
+        "imageIds": [
+          "Tenacious_Mist"
+        ]
       },
       {
         "name": "Flying Swallow",
@@ -203,7 +259,9 @@
           "63214[B]",
           "63214C"
         ],
-        "imageId": "Flying_Swallow"
+        "imageIds": [
+          "Flying_Swallow"
+        ]
       }
     ],
     [
@@ -212,7 +270,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "The_Diviner"
+        "imageIds": [
+          "The_Diviner"
+        ]
       }
     ],
     [
@@ -221,7 +281,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Divine_Blaze"
+        "imageIds": [
+          "Divine_Blaze"
+        ]
       }
     ]
   ]

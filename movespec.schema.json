@@ -24,9 +24,12 @@
           "description": "short name of the move for small spaces (optional)",
           "type": "string"
         },
-        "imageId": {
+        "imageIds": {
           "description": "an ID to reference images",
-          "pattern": "^[a-zA-Z0-9-_]*$"
+          "type": "array",
+          "items": {
+            "pattern": "^[a-zA-Z0-9-_]*$"
+          }
         },
         "inputs": {
           "description": "array of inputs in numpad notation describing how to trigger the move",

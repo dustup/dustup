@@ -99,10 +99,10 @@ export default [
     imageId: 'execute_seize_and_devour',
     image: require('./execute_seize_and_devour.png'),
   },
-//  {
-//    imageId: 'execute_seize_and_devour_b',
-//    image: require('./execute_seize_and_devour_b.png'),
-//  },
+  {
+    imageId: 'execute_seize_and_devour_b',
+    image: require('./execute_seize_and_devour_b.png'),
+  },
   {
     imageId: 'execute_breathe',
     image: require('./execute_breathe.png'),
