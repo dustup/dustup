@@ -18,7 +18,7 @@ fi
 cd $(dirname $0)
 pushd ../data/games/${GAME}/ > /dev/null
 
-REQUIRED_IMAGE_IDS=$(grep imageId movespecs/${CHARACTER}.json | awk -F\" '{print $4}')
+REQUIRED_IMAGE_IDS=$(cat movespecs/${CHARACTER}.json | jq .movelists[][].imageIds | grep -v -e "\[" -e "\]" | awk -F\" '{print $2}')
 
 for i in $REQUIRED_IMAGE_IDS; do
   ID_PRESENT=$(grep imageId images/${CHARACTER}/index.js | grep \"${i}\" | wc -l)
