@@ -48,7 +48,7 @@
           "5[C]"
         ],
         "imageIds": [
-          "5C_charge"
+          "5C"
         ]
       },
       {
@@ -88,7 +88,7 @@
           "j.[C]"
         ],
         "imageIds": [
-          "jC_charge"
+          "jC"
         ]
       }
     ],
@@ -169,7 +169,7 @@
           "[B+C]"
         ],
         "imageIds": [
-          "Schild_charge"
+          "Schild"
         ]
       },
       {
@@ -209,7 +209,8 @@
           "236C"
         ],
         "imageIds": [
-          "Kugel_Blitz"
+          "Kugel_Blitz",
+          "Kugel_Blitz_b"
         ]
       },
       {
@@ -242,7 +243,7 @@
           "214[C]"
         ],
         "imageIds": [
-          "Sturm_Brecher_charge"
+          "Sturm_Brecher"
         ]
       },
       {
@@ -254,7 +255,7 @@
         ],
         "conditions": "after Lohe Garde",
         "imageIds": [
-          "Sturm_Brecher_buff"
+          "Sturm_Brecher"
         ]
       },
       {
@@ -266,7 +267,7 @@
         ],
         "conditions": "after Lohe Garde",
         "imageIds": [
-          "Sturm_Brecher_buff_charge"
+          "Sturm_Brecher"
         ]
       },
       {
@@ -277,7 +278,8 @@
           "22C"
         ],
         "imageIds": [
-          "Lohen_Schneide"
+          "Lohen_Schneide",
+          "Lohe_Garde"
         ]
       },
       {
@@ -299,7 +301,7 @@
           "j.236[C]"
         ],
         "imageIds": [
-          "Sturm_Schlag_charge"
+          "Sturm_Schlag"
         ]
       }
     ],
