@@ -7,55 +7,73 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "j_A"
+        "imageIds": [
+          "j_A"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "j_B"
+        "imageIds": [
+          "j_B"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "j_C"
+        "imageIds": [
+          "j_C"
+        ]
       }
     ],
     [
@@ -63,26 +81,34 @@
         "inputs": [
           "5BB"
         ],
-        "imageId": "5BB"
+        "imageIds": [
+          "5BB"
+        ]
       },
       {
         "inputs": [
           "5CC"
         ],
-        "imageId": "5CC"
+        "imageIds": [
+          "5CC"
+        ]
       },
       {
         "name": "Cold Reflection",
         "inputs": [
           "6C"
         ],
-        "imageId": "cold_reflection"
+        "imageIds": [
+          "cold_reflection"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j_2C"
+        "imageIds": [
+          "j_2C"
+        ]
       }
     ],
     [
@@ -90,13 +116,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "5BB"
+        "imageIds": [
+          "5BB"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -105,28 +135,36 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "force_function"
+        "imageIds": [
+          "force_function"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "throw"
+        "imageIds": [
+          "throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "veil_off"
+        "imageIds": [
+          "veil_off"
+        ]
       }
     ],
     [
@@ -142,7 +180,11 @@
           "j.236[B]",
           "j.236C"
         ],
-        "imageId": "prey_in_sight_a"
+        "imageIds": [
+          "prey_in_sight_a",
+          "prey_in_sight_b",
+          "prey_in_sight_c"
+        ]
       },
       {
         "name": "Touch of Death",
@@ -158,7 +200,9 @@
           "j.214[B]",
           "j.214C"
         ],
-        "imageId": "touch_of_death"
+        "imageIds": [
+          "touch_of_death"
+        ]
       },
       {
         "name": "Repel",
@@ -170,7 +214,9 @@
           "j.623B",
           "j.623C"
         ],
-        "imageId": "repel"
+        "imageIds": [
+          "repel"
+        ]
       },
       {
         "name": "Concealment",
@@ -182,7 +228,9 @@
           "j.22B",
           "j.22C"
         ],
-        "imageId": "concealment"
+        "imageIds": [
+          "concealment"
+        ]
       },
       {
         "name": "Slither",
@@ -191,7 +239,9 @@
           "[B]",
           "[C]"
         ],
-        "imageId": "slither"
+        "imageIds": [
+          "slither"
+        ]
       }
     ],
     [
@@ -200,7 +250,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "infinite_worth"
+        "imageIds": [
+          "infinite_worth"
+        ]
       }
     ],
     [
@@ -209,7 +261,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "infinite_worth_exs"
+        "imageIds": [
+          "infinite_worth_exs"
+        ]
       }
     ]
   ]

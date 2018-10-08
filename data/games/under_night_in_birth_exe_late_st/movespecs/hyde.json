@@ -7,67 +7,89 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "5[C]"
         ],
-        "imageId": "5C_charge"
+        "imageIds": [
+          "5C_charge"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       }
     ],
     [
@@ -75,31 +97,41 @@
         "inputs": [
           "6B"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "3B"
         ],
-        "imageId": "3B"
+        "imageIds": [
+          "3B"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "j.6C"
         ],
-        "imageId": "j6C"
+        "imageIds": [
+          "j6C"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       }
     ],
     [
@@ -107,13 +139,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -122,35 +158,45 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Dead-Set_Daze"
+        "imageIds": [
+          "Dead-Set_Daze"
+        ]
       },
       {
         "name": "Dead-Set Daze (charged)",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "Dead-Set_Daze_charged"
+        "imageIds": [
+          "Dead-Set_Daze_charged"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "Guard_Thrust"
+        "imageIds": [
+          "Guard_Thrust"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -161,7 +207,6 @@
           "236B",
           "236C"
         ],
-        "imageId": "Black_Orbiter",
         "followUps": [
           {
             "name": "Sinistry",
@@ -169,8 +214,13 @@
               "236B",
               "236C"
             ],
-            "imageId": "Sinistry"
+            "imageIds": [
+              "Sinistry"
+            ]
           }
+        ],
+        "imageIds": [
+          "Black_Orbiter"
         ]
       },
       {
@@ -178,8 +228,10 @@
         "inputs": [
           "236A"
         ],
-        "imageId": "Dark_Lotus",
-        "conditions": "after Dark Orbiter"
+        "conditions": "after Dark Orbiter",
+        "imageIds": [
+          "Dark_Lotus"
+        ]
       },
       {
         "name": "Red Craver",
@@ -188,7 +240,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Red_Craver"
+        "imageIds": [
+          "Red_Craver"
+        ]
       },
       {
         "name": "Vacant Shift",
@@ -197,7 +251,9 @@
           "214B",
           "214C"
         ],
-        "imageId": "Vacant_Shift"
+        "imageIds": [
+          "Vacant_Shift"
+        ]
       },
       {
         "name": "Shadow Shock",
@@ -206,7 +262,9 @@
           "22B",
           "22C"
         ],
-        "imageId": "Shadow_Shock"
+        "imageIds": [
+          "Shadow_Shock"
+        ]
       },
       {
         "name": "Dark Lotus (air)",
@@ -215,14 +273,18 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "Dark_Lotus_air"
+        "imageIds": [
+          "Dark_Lotus_air"
+        ]
       },
       {
         "name": "Veil Effect",
         "inputs": [
           "41236C"
         ],
-        "imageId": "Veil_Effect"
+        "imageIds": [
+          "Veil_Effect"
+        ]
       }
     ],
     [
@@ -231,7 +293,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Gyro_Vortex"
+        "imageIds": [
+          "Gyro_Vortex"
+        ]
       }
     ],
     [
@@ -240,7 +304,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Rage"
+        "imageIds": [
+          "Rage"
+        ]
       }
     ]
   ]

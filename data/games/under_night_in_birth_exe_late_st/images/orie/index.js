@@ -87,14 +87,14 @@ export default [
     "imageId": "Command_Order_A",
     "image": require('./Command_Order_A.png')
   },
-  //{
-  //  "imageId": "Command_Order_B",
-  //  "image": require('./Command_Order_B.png')
-  //},
-  //{
-  //  "imageId": "Command_Order_C",
-  //  "image": require('./Command_Order_C.png')
-  //},
+  {
+    "imageId": "Command_Order_B",
+    "image": require('./Command_Order_B.png')
+  },
+  {
+    "imageId": "Command_Order_C",
+    "image": require('./Command_Order_C.png')
+  },
   {
     "imageId": "Thick_and_Quick",
     "image": require('./Thick_and_Quick.png')
@@ -107,14 +107,14 @@ export default [
     "imageId": "Command_Order_A_air",
     "image": require('./Command_Order_A_air.png')
   },
-  //{
-  //  "imageId": "Command_Order_B_air",
-  //  "image": require('./Command_Order_B_air.png')
-  //},
-  //{
-  //  "imageId": "Command_Order_C_air",
-  //  "image": require('./Command_Order_C_air.png')
-  //},
+  {
+    "imageId": "Command_Order_B_air",
+    "image": require('./Command_Order_B_air.png')
+  },
+  {
+    "imageId": "Command_Order_C_air",
+    "image": require('./Command_Order_C_air.png')
+  },
   {
     "imageId": "Sealing_Hoplon",
     "image": require('./Sealing_Hoplon.png')

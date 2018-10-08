@@ -8,55 +8,73 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       }
     ],
     [
@@ -67,7 +85,11 @@
           "6B",
           "6C"
         ],
-        "imageId": "Kiri_A"
+        "imageIds": [
+          "Kiri_A",
+          "Kiri_B",
+          "Kiri_C"
+        ]
       },
       {
         "name": "Battoujutsu Ichi no Kata: Kiri (air) ★",
@@ -76,31 +98,43 @@
           "6B",
           "6C"
         ],
-        "imageId": "Kiri_A"
+        "imageIds": [
+          "Kiri_A",
+          "Kiri_B",
+          "Kiri_C"
+        ]
       },
       {
         "inputs": [
           "4B"
         ],
-        "imageId": "4B"
+        "imageIds": [
+          "4B"
+        ]
       },
       {
         "inputs": [
           "4C"
         ],
-        "imageId": "4C"
+        "imageIds": [
+          "4C"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       },
       {
         "inputs": [
           "j.2[C]"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       }
     ],
     [
@@ -108,13 +142,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -123,49 +161,63 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Tachi"
+        "imageIds": [
+          "Tachi"
+        ]
       },
       {
         "name": "Battoujutsu San no Kata: Tachi (air) ★",
         "inputs": [
           "j.B+C"
         ],
-        "imageId": "Tachi"
+        "imageIds": [
+          "Tachi"
+        ]
       },
       {
         "name": "Battoujutsu San no Kata: Tachi (charged) ★",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "Tachi_charge"
+        "imageIds": [
+          "Tachi_charge"
+        ]
       },
       {
         "name": "Battoujutsu San no Kata: Tachi (air) (charged) ★",
         "inputs": [
           "j.[B+C]"
         ],
-        "imageId": "Tachi_charge"
+        "imageIds": [
+          "Tachi_charge"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "Guard_Thrust"
+        "imageIds": [
+          "Guard_Thrust"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -176,7 +228,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "Saki"
+        "imageIds": [
+          "Saki"
+        ]
       },
       {
         "name": "Battoujutsu Ni no Kata: Saki (air) ★",
@@ -185,7 +239,9 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "Saki"
+        "imageIds": [
+          "Saki"
+        ]
       },
       {
         "name": "Igai Ryuka! Yae Ichirin ★",
@@ -194,7 +250,9 @@
           "214B",
           "214C"
         ],
-        "imageId": "Yae_Ichirin"
+        "imageIds": [
+          "Yae_Ichirin"
+        ]
       },
       {
         "name": "Igai Ryuka! Yae Ichirin (air) ★",
@@ -203,7 +261,9 @@
           "j.214B",
           "j.214C"
         ],
-        "imageId": "Yae_Ichirin"
+        "imageIds": [
+          "Yae_Ichirin"
+        ]
       },
       {
         "name": "Over Here! ★",
@@ -212,7 +272,9 @@
           "421B",
           "421C"
         ],
-        "imageId": "Over_Here"
+        "imageIds": [
+          "Over_Here"
+        ]
       },
       {
         "name": "Over Here! (air) ★",
@@ -221,15 +283,19 @@
           "j.421B",
           "j.421C"
         ],
-        "imageId": "Over_Here"
+        "imageIds": [
+          "Over_Here"
+        ]
       },
       {
         "name": "Togiri",
         "inputs": [
           "D"
         ],
-        "imageId": "Togiri",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Togiri"
+        ]
       },
       {
         "name": "Shijima",
@@ -237,8 +303,10 @@
           "4",
           "6"
         ],
-        "imageId": "Shijima",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Shijima"
+        ]
       },
       {
         "name": "Watamashi",
@@ -246,8 +314,10 @@
           "44",
           "66"
         ],
-        "imageId": "Watamashi",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Watamashi"
+        ]
       },
       {
         "name": "Watamashi (air)",
@@ -255,8 +325,10 @@
           "j.44",
           "j.66"
         ],
-        "imageId": "Watamashi",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Watamashi"
+        ]
       },
       {
         "name": "Hazumi",
@@ -265,8 +337,10 @@
           "8",
           "9"
         ],
-        "imageId": "Hazumi",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Hazumi"
+        ]
       },
       {
         "name": "Hazumi (air)",
@@ -275,24 +349,30 @@
           "j.8",
           "j.9"
         ],
-        "imageId": "Hazumi",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Hazumi"
+        ]
       },
       {
         "name": "Sazanami",
         "inputs": [
           "22"
         ],
-        "imageId": "Sazanami",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Sazanami"
+        ]
       },
       {
         "name": "Sazanami (air)",
         "inputs": [
           "j.22"
         ],
-        "imageId": "Sazanami",
-        "conditions": "in Iki Seishin no Kamae"
+        "conditions": "in Iki Seishin no Kamae",
+        "imageIds": [
+          "Sazanami"
+        ]
       }
     ],
     [
@@ -301,7 +381,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Kashou"
+        "imageIds": [
+          "Kashou"
+        ]
       }
     ],
     [
@@ -310,7 +392,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Inochi_Kurenai"
+        "imageIds": [
+          "Inochi_Kurenai"
+        ]
       }
     ]
   ]

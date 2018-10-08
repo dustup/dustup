@@ -7,67 +7,89 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "5[C]"
         ],
-        "imageId": "5C_charge"
+        "imageIds": [
+          "5C_charge"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "jC_charge"
+        "imageIds": [
+          "jC_charge"
+        ]
       }
     ],
     [
@@ -75,49 +97,65 @@
         "inputs": [
           "3B"
         ],
-        "imageId": "3B"
+        "imageIds": [
+          "3B"
+        ]
       },
       {
         "inputs": [
           "5CC"
         ],
-        "imageId": "5CC"
+        "imageIds": [
+          "5CC"
+        ]
       },
       {
         "inputs": [
           "5BB"
         ],
-        "imageId": "5BB"
+        "imageIds": [
+          "5BB"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "3CC"
         ],
-        "imageId": "3CC"
+        "imageIds": [
+          "3CC"
+        ]
       },
       {
         "inputs": [
           "2CC"
         ],
-        "imageId": "2CC"
+        "imageIds": [
+          "2CC"
+        ]
       },
       {
         "inputs": [
           "j.CC"
         ],
-        "imageId": "jCC"
+        "imageIds": [
+          "jCC"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       }
     ],
     [
@@ -125,13 +163,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "5BB"
+        "imageIds": [
+          "5BB"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -140,49 +182,63 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Memory_Slip"
+        "imageIds": [
+          "Memory_Slip"
+        ]
       },
       {
         "name": "Memory Slip (charged)",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "Memory_Slip_charge"
+        "imageIds": [
+          "Memory_Slip_charge"
+        ]
       },
       {
         "name": "Memory Slip (variant)",
         "inputs": [
           "B+C~A"
         ],
-        "imageId": "Memory_Slip_variant_1"
+        "imageIds": [
+          "Memory_Slip_variant_1"
+        ]
       },
       {
         "name": "Memory Slip (variant)",
         "inputs": [
           "B+C~2A"
         ],
-        "imageId": "Memory_Slip_variant_2"
+        "imageIds": [
+          "Memory_Slip_variant_2"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "Guard_Thrust"
+        "imageIds": [
+          "Guard_Thrust"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -193,7 +249,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "Skewer"
+        "imageIds": [
+          "Skewer"
+        ]
       },
       {
         "name": "Interference",
@@ -202,7 +260,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Interference"
+        "imageIds": [
+          "Interference"
+        ]
       },
       {
         "name": "Condensity Gloom",
@@ -211,7 +271,9 @@
           "214B",
           "214C"
         ],
-        "imageId": "Condensity_Gloom"
+        "imageIds": [
+          "Condensity_Gloom"
+        ]
       },
       {
         "name": "Dismal Sign",
@@ -220,7 +282,9 @@
           "421B",
           "421C"
         ],
-        "imageId": "Dismal_Sign"
+        "imageIds": [
+          "Dismal_Sign"
+        ]
       },
       {
         "name": "Fallen Pain",
@@ -229,7 +293,9 @@
           "[B]",
           "[C]"
         ],
-        "imageId": "Fallen_Pain"
+        "imageIds": [
+          "Fallen_Pain"
+        ]
       },
       {
         "name": "Pillar of Revenance",
@@ -238,21 +304,27 @@
           "22B",
           "22C"
         ],
-        "imageId": "Pillar_of_Revenance"
+        "imageIds": [
+          "Pillar_of_Revenance"
+        ]
       },
       {
         "name": "Aspersivity",
         "inputs": [
           "41236C"
         ],
-        "imageId": "Aspersivity"
+        "imageIds": [
+          "Aspersivity"
+        ]
       },
       {
         "name": "Nail Torrent",
         "inputs": [
           "j.41236C"
         ],
-        "imageId": "Nail_Torrent"
+        "imageIds": [
+          "Nail_Torrent"
+        ]
       }
     ],
     [
@@ -261,7 +333,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Impalement"
+        "imageIds": [
+          "Impalement"
+        ]
       }
     ],
     [
@@ -270,7 +344,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Darkness"
+        "imageIds": [
+          "Darkness"
+        ]
       }
     ]
   ]

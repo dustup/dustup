@@ -7,55 +7,73 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "j_A"
+        "imageIds": [
+          "j_A"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "j_B"
+        "imageIds": [
+          "j_B"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "j_C"
+        "imageIds": [
+          "j_C"
+        ]
       }
     ],
     [
@@ -63,25 +81,33 @@
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "3[C]"
         ],
-        "imageId": "3C_charge"
+        "imageIds": [
+          "3C_charge"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j_2C"
+        "imageIds": [
+          "j_2C"
+        ]
       },
       {
         "inputs": [
           "j.2[C]"
         ],
-        "imageId": "j_2C_charge"
+        "imageIds": [
+          "j_2C_charge"
+        ]
       }
     ],
     [
@@ -89,13 +115,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -104,35 +134,45 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "force_function"
+        "imageIds": [
+          "force_function"
+        ]
       },
       {
         "name": "I'll Plant It Somewhere Over Here (charged)",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "force_function_charge"
+        "imageIds": [
+          "force_function_charge"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "throw"
+        "imageIds": [
+          "throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "veil_off"
+        "imageIds": [
+          "veil_off"
+        ]
       }
     ],
     [
@@ -143,7 +183,6 @@
           "236B",
           "236C"
         ],
-        "imageId": "how_shall_i_cook_you",
         "followUps": [
           {
             "name": "Minced?",
@@ -151,7 +190,6 @@
               "6A",
               "6B"
             ],
-            "imageId": "minced",
             "followUps": [
               {
                 "name": "Or… Shredded?",
@@ -159,10 +197,18 @@
                   "6A",
                   "6B"
                 ],
-                "imageId": "or_shredded"
+                "imageIds": [
+                  "or_shredded"
+                ]
               }
+            ],
+            "imageIds": [
+              "minced"
             ]
           }
+        ],
+        "imageIds": [
+          "how_shall_i_cook_you"
         ]
       },
       {
@@ -173,7 +219,6 @@
           "214B",
           "214C"
         ],
-        "imageId": "i_ll_plant_it_somewhere_over_here",
         "followUps": [
           {
             "name": "No Point In Running",
@@ -182,7 +227,6 @@
               "B",
               "C"
             ],
-            "imageId": "no_point_in_running",
             "followUps": [
               {
                 "name": "Caught You",
@@ -192,10 +236,21 @@
                   "C",
                   "D"
                 ],
-                "imageId": "j_C"
+                "imageIds": [
+                  "j_C",
+                  "caught_you_b",
+                  "caught_you_c",
+                  "caught_you_d"
+                ]
               }
+            ],
+            "imageIds": [
+              "no_point_in_running"
             ]
           }
+        ],
+        "imageIds": [
+          "i_ll_plant_it_somewhere_over_here"
         ]
       },
       {
@@ -206,7 +261,6 @@
           "j.214B",
           "j.214C"
         ],
-        "imageId": "i_ll_plant_it_somewhere_over_here_air",
         "followUps": [
           {
             "name": "No Point In Running",
@@ -215,7 +269,6 @@
               "B",
               "C"
             ],
-            "imageId": "no_point_in_running",
             "followUps": [
               {
                 "name": "Caught You",
@@ -225,10 +278,18 @@
                   "C",
                   "D"
                 ],
-                "imageId": "j_C"
+                "imageIds": [
+                  "j_C"
+                ]
               }
+            ],
+            "imageIds": [
+              "no_point_in_running"
             ]
           }
+        ],
+        "imageIds": [
+          "i_ll_plant_it_somewhere_over_here_air"
         ]
       },
       {
@@ -238,7 +299,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "you_re_almost_ready_to_eat"
+        "imageIds": [
+          "you_re_almost_ready_to_eat"
+        ]
       },
       {
         "name": "You're Almost Ready to Eat (feint)",
@@ -246,7 +309,9 @@
           "623[A]",
           "623[B]"
         ],
-        "imageId": "you_re_almost_ready_to_eat_feint"
+        "imageIds": [
+          "you_re_almost_ready_to_eat_feint"
+        ]
       }
     ],
     [
@@ -255,7 +320,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "become_a_part_of_me"
+        "imageIds": [
+          "become_a_part_of_me"
+        ]
       }
     ],
     [
@@ -264,7 +331,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "endless_nightmare"
+        "imageIds": [
+          "endless_nightmare"
+        ]
       }
     ]
   ]

@@ -7,55 +7,73 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       }
     ],
     [
@@ -63,37 +81,49 @@
         "inputs": [
           "3B"
         ],
-        "imageId": "3B"
+        "imageIds": [
+          "3B"
+        ]
       },
       {
         "inputs": [
           "5CC"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       },
       {
         "inputs": [
           "6C"
         ],
-        "imageId": "6C"
+        "imageIds": [
+          "6C"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "j.6C"
         ],
-        "imageId": "j6C"
+        "imageIds": [
+          "j6C"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       },
       {
         "name": "Fast Fall",
@@ -101,7 +131,6 @@
           "j.22",
           "j.2A+B"
         ],
-        "imageId": "j22",
         "followUps": [
           {
             "inputs": [
@@ -109,8 +138,13 @@
               "6B",
               "6C"
             ],
-            "imageId": "j22_6A"
+            "imageIds": [
+              "j22_6A"
+            ]
           }
+        ],
+        "imageIds": [
+          "j22"
         ]
       },
       {
@@ -119,7 +153,9 @@
           "j.44",
           "j.4A+B"
         ],
-        "imageId": "j44"
+        "imageIds": [
+          "j44"
+        ]
       }
     ],
     [
@@ -127,13 +163,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -142,28 +182,36 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Abyssal_Geometry"
+        "imageIds": [
+          "Abyssal_Geometry"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -174,7 +222,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "Captive_Segment"
+        "imageIds": [
+          "Captive_Segment"
+        ]
       },
       {
         "name": "Dual Piercing Vengeance",
@@ -183,7 +233,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Dual_Piercing_Vengeance"
+        "imageIds": [
+          "Dual_Piercing_Vengeance"
+        ]
       },
       {
         "name": "Vanishing Doubt",
@@ -192,7 +244,6 @@
           "214B",
           "214C"
         ],
-        "imageId": "Vanishing_Doubt",
         "followUps": [
           {
             "name": "A",
@@ -218,6 +269,9 @@
               "8"
             ]
           }
+        ],
+        "imageIds": [
+          "Vanishing_Doubt"
         ]
       },
       {
@@ -227,7 +281,9 @@
           "j.214B",
           "j.214C"
         ],
-        "imageId": "Penetrate"
+        "imageIds": [
+          "Penetrate"
+        ]
       },
       {
         "name": "Convict",
@@ -236,7 +292,9 @@
           "632146B",
           "632146C"
         ],
-        "imageId": "Convict"
+        "imageIds": [
+          "Convict"
+        ]
       }
     ],
     [
@@ -245,7 +303,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Chained_Nefarity"
+        "imageIds": [
+          "Chained_Nefarity"
+        ]
       }
     ],
     [
@@ -254,7 +314,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Distant_Frontier"
+        "imageIds": [
+          "Distant_Frontier"
+        ]
       }
     ]
   ]

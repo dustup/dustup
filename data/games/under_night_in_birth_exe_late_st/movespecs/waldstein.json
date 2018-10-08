@@ -7,61 +7,81 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       }
     ],
     [
@@ -69,37 +89,49 @@
         "inputs": [
           "1A"
         ],
-        "imageId": "1A"
+        "imageIds": [
+          "1A"
+        ]
       },
       {
         "inputs": [
           "4B"
         ],
-        "imageId": "4B"
+        "imageIds": [
+          "4B"
+        ]
       },
       {
         "inputs": [
           "6C"
         ],
-        "imageId": "6C"
+        "imageIds": [
+          "6C"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "j.6C"
         ],
-        "imageId": "j6C"
+        "imageIds": [
+          "j6C"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       }
     ],
     [
@@ -107,13 +139,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "j6C"
+        "imageIds": [
+          "j6C"
+        ]
       }
     ],
     [
@@ -122,28 +158,36 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Ferzen_Volf"
+        "imageIds": [
+          "Ferzen_Volf"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "Guard_Thrust"
+        "imageIds": [
+          "Guard_Thrust"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -154,7 +198,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "Eisen_Nagel"
+        "imageIds": [
+          "Eisen_Nagel"
+        ]
       },
       {
         "name": "Wirbelwind",
@@ -163,7 +209,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Wirbelwind"
+        "imageIds": [
+          "Wirbelwind"
+        ]
       },
       {
         "name": "Durchbohren",
@@ -172,7 +220,9 @@
           "360B",
           "360C"
         ],
-        "imageId": "Durchbohren_A"
+        "imageIds": [
+          "Durchbohren_A"
+        ]
       },
       {
         "name": "Verderben",
@@ -184,7 +234,9 @@
           "j.214B",
           "j.214C"
         ],
-        "imageId": "Verderben"
+        "imageIds": [
+          "Verderben"
+        ]
       },
       {
         "name": "Sturmangriff",
@@ -193,7 +245,9 @@
           "[4]6B",
           "[4]6C"
         ],
-        "imageId": "Sturmangriff"
+        "imageIds": [
+          "Sturmangriff"
+        ]
       }
     ],
     [
@@ -202,7 +256,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Werfen_Erschlagen"
+        "imageIds": [
+          "Werfen_Erschlagen"
+        ]
       }
     ],
     [
@@ -211,7 +267,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Katastrophe"
+        "imageIds": [
+          "Katastrophe"
+        ]
       }
     ]
   ]

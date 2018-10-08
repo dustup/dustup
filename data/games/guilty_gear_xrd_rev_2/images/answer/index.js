@@ -127,18 +127,18 @@ export default [
     imageId: 'dead_stock_ninpo_firesale_1',
     image: require('./dead_stock_ninpo_firesale_1.png'),
   },
-//  {
-//    imageId: 'dead_stock_ninpo_firesale_2',
-//    image: require('./dead_stock_ninpo_firesale_2.png'),
-//  },
+  {
+    imageId: 'dead_stock_ninpo_firesale_2',
+    image: require('./dead_stock_ninpo_firesale_2.png'),
+  },
   {
     imageId: 'business_ultimate_ninpo_all_hands_1',
     image: require('./business_ultimate_ninpo_all_hands_1.png'),
   },
-//  {
-//    imageId: 'business_ultimate_ninpo_all_hands_2',
-//    image: require('./business_ultimate_ninpo_all_hands_2.png'),
-//  },
+  {
+    imageId: 'business_ultimate_ninpo_all_hands_2',
+    image: require('./business_ultimate_ninpo_all_hands_2.png'),
+  },
   {
     imageId: 'summoner_the_basilisk',
     image: require('./summoner_the_basilisk.png'),

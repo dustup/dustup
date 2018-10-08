@@ -7,61 +7,81 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "j_A"
+        "imageIds": [
+          "j_A"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "j_B"
+        "imageIds": [
+          "j_B"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "j_C"
+        "imageIds": [
+          "j_C"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "j_C"
+        "imageIds": [
+          "j_C"
+        ]
       }
     ],
     [
@@ -69,61 +89,81 @@
         "inputs": [
           "5BB"
         ],
-        "imageId": "5BB"
+        "imageIds": [
+          "5BB"
+        ]
       },
       {
         "inputs": [
           "6B"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "6BB"
         ],
-        "imageId": "6BB"
+        "imageIds": [
+          "6BB"
+        ]
       },
       {
         "inputs": [
           "j.6B"
         ],
-        "imageId": "j_6B"
+        "imageIds": [
+          "j_6B"
+        ]
       },
       {
         "inputs": [
           "j.6BB"
         ],
-        "imageId": "j_6BB"
+        "imageIds": [
+          "j_6BB"
+        ]
       },
       {
         "inputs": [
           "3B"
         ],
-        "imageId": "3B"
+        "imageIds": [
+          "3B"
+        ]
       },
       {
         "inputs": [
           "6C"
         ],
-        "imageId": "6C"
+        "imageIds": [
+          "6C"
+        ]
       },
       {
         "inputs": [
           "6[C]"
         ],
-        "imageId": "6C_charge"
+        "imageIds": [
+          "6C_charge"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "3[C]"
         ],
-        "imageId": "3C_charge"
+        "imageIds": [
+          "3C_charge"
+        ]
       }
     ],
     [
@@ -131,13 +171,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "3B"
+        "imageIds": [
+          "3B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "6C"
+        "imageIds": [
+          "6C"
+        ]
       }
     ],
     [
@@ -147,28 +191,36 @@
           "B+C",
           "4B+C"
         ],
-        "imageId": "force_function"
+        "imageIds": [
+          "force_function"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "throw"
+        "imageIds": [
+          "throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "6C"
+        "imageIds": [
+          "6C"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "veil_off"
+        "imageIds": [
+          "veil_off"
+        ]
       }
     ],
     [
@@ -179,7 +231,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "spin"
+        "imageIds": [
+          "spin"
+        ]
       },
       {
         "name": "Spin! (air)",
@@ -188,7 +242,9 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "spin_air"
+        "imageIds": [
+          "spin_air"
+        ]
       },
       {
         "name": "Pulverize!",
@@ -197,7 +253,6 @@
           "623B",
           "623C"
         ],
-        "imageId": "pulverize",
         "followUps": [
           {
             "name": "]A[",
@@ -211,6 +266,10 @@
               "]B["
             ]
           }
+        ],
+        "imageIds": [
+          "pulverize",
+          "pulverize_c"
         ]
       },
       {
@@ -220,7 +279,10 @@
           "214B",
           "214C"
         ],
-        "imageId": "thrust"
+        "imageIds": [
+          "thrust",
+          "thrust_c"
+        ]
       },
       {
         "name": "Launch!",
@@ -229,14 +291,18 @@
           "22B",
           "22C"
         ],
-        "imageId": "launch"
+        "imageIds": [
+          "launch"
+        ]
       },
       {
         "name": "Give Me That!",
         "inputs": [
           "63214C"
         ],
-        "imageId": "give_me_that"
+        "imageIds": [
+          "give_me_that"
+        ]
       }
     ],
     [
@@ -245,7 +311,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "infinite_worth"
+        "imageIds": [
+          "infinite_worth"
+        ]
       }
     ],
     [
@@ -254,7 +322,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "infinite_worth_exs"
+        "imageIds": [
+          "infinite_worth_exs"
+        ]
       }
     ]
   ]

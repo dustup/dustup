@@ -75,14 +75,14 @@ export default [
     imageId: 'prey_in_sight_a',
     image: require('./prey_in_sight_a.png'),
   },
-//  {
-//    imageId: 'prey_in_sight_b',
-//    image: require('./prey_in_sight_b.png'),
-//  },
-//  {
-//    imageId: 'prey_in_sight_c',
-//    image: require('./prey_in_sight_c.png'),
-//  },
+  {
+    imageId: 'prey_in_sight_b',
+    image: require('./prey_in_sight_b.png'),
+  },
+  {
+    imageId: 'prey_in_sight_c',
+    image: require('./prey_in_sight_c.png'),
+  },
   {
     imageId: 'touch_of_death',
     image: require('./touch_of_death.png'),

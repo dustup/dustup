@@ -83,14 +83,14 @@ export default [
     "imageId": "Mikas_Missile_A",
     "image": require('./Mikas_Missile_A.png')
   },
-  // {
-  //   "imageId": "Mikas_Missile_B",
-  //   "image": require('./Mikas_Missile_B.png')
-  // },
-  // {
-  //   "imageId": "Mikas_Missile_B_air",
-  //   "image": require('./Mikas_Missile_B_air.png')
-  // },
+  {
+    "imageId": "Mikas_Missile_B",
+    "image": require('./Mikas_Missile_B.png')
+  },
+  {
+    "imageId": "Mikas_Missile_B_air",
+    "image": require('./Mikas_Missile_B_air.png')
+  },
   {
     "imageId": "Mikas_Tornado",
     "image": require('./Mikas_Tornado.png')

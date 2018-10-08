@@ -7,67 +7,89 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "5[C]"
         ],
-        "imageId": "5C_charge"
+        "imageIds": [
+          "5C_charge"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "jC_charge"
+        "imageIds": [
+          "jC_charge"
+        ]
       }
     ],
     [
@@ -75,25 +97,33 @@
         "inputs": [
           "5BB"
         ],
-        "imageId": "5BB"
+        "imageIds": [
+          "5BB"
+        ]
       },
       {
         "inputs": [
           "3B"
         ],
-        "imageId": "3B"
+        "imageIds": [
+          "3B"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "j.AA"
         ],
-        "imageId": "jAA"
+        "imageIds": [
+          "jAA"
+        ]
       }
     ],
     [
@@ -101,13 +131,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -116,49 +150,63 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Mikas_Crash"
+        "imageIds": [
+          "Mikas_Crash"
+        ]
       },
       {
         "name": "Mika's Crash (charged)",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "Mikas_Crash"
+        "imageIds": [
+          "Mikas_Crash"
+        ]
       },
       {
         "name": "Mika's Crash (air)",
         "inputs": [
           "j.B+C"
         ],
-        "imageId": "Mikas_Crash"
+        "imageIds": [
+          "Mikas_Crash"
+        ]
       },
       {
         "name": "Mika's Crash (charged) (air)",
         "inputs": [
           "j.[B+C]"
         ],
-        "imageId": "Mikas_Crash"
+        "imageIds": [
+          "Mikas_Crash"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -169,7 +217,10 @@
           "236B",
           "236C"
         ],
-        "imageId": "Mikas_Missile_A"
+        "imageIds": [
+          "Mikas_Missile_A",
+          "Mikas_Missile_B"
+        ]
       },
       {
         "name": "Mika's Missile (air)",
@@ -178,7 +229,10 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "Mikas_Missile_A"
+        "imageIds": [
+          "Mikas_Missile_A",
+          "Mikas_Missile_B_air"
+        ]
       },
       {
         "name": "Mika's Tornado",
@@ -187,7 +241,6 @@
           "623B",
           "623C"
         ],
-        "imageId": "Mikas_Tornado",
         "followUps": [
           {
             "name": "Mika's Twister",
@@ -196,15 +249,22 @@
               "B",
               "C"
             ],
-            "imageId": "Mikas_Twister"
+            "imageIds": [
+              "Mikas_Twister"
+            ]
           },
           {
             "name": "Mika's Twister EX",
             "inputs": [
               "623C"
             ],
-            "imageId": "Mikas_Twister"
+            "imageIds": [
+              "Mikas_Twister"
+            ]
           }
+        ],
+        "imageIds": [
+          "Mikas_Tornado"
         ]
       },
       {
@@ -214,14 +274,18 @@
           "214B",
           "214C"
         ],
-        "imageId": "Mikas_Cannon"
+        "imageIds": [
+          "Mikas_Cannon"
+        ]
       },
       {
         "name": "Mika's Hip Attack",
         "inputs": [
           "360C"
         ],
-        "imageId": "Mikas_Hip_Attack"
+        "imageIds": [
+          "Mikas_Hip_Attack"
+        ]
       }
     ],
     [
@@ -230,7 +294,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Mikas_Revolution"
+        "imageIds": [
+          "Mikas_Revolution"
+        ]
       }
     ],
     [
@@ -239,7 +305,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Mikas_Galaxy"
+        "imageIds": [
+          "Mikas_Galaxy"
+        ]
       }
     ]
   ]

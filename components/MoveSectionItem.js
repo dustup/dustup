@@ -53,19 +53,21 @@ export default class MoveSectionItem extends React.Component {
         <Text>{move.name}</Text>
       </CardItem>
 
-    const renderedImage = !!move.imageId &&
-      <CardItem>
-        <Image
-          source={images.find((i) => (
-            i.imageId == move['imageId']
-          )).image}
-          style={{flex: 1, resizeMode: 'contain', height: 150}}
-        />
-      </CardItem>
+    const renderedImages = !!move.imageIds &&
+      move.imageIds.map((imageId) => (
+        <CardItem key={JSON.stringify(imageId)}>
+          <Image
+            source={images.find((i) => (
+              i.imageId == imageId
+            )).image}
+            style={{flex: 1, resizeMode: 'contain', height: 150}}
+          />
+        </CardItem>
+      ));
 
     return (
       <Card>
-        {renderedImage}
+        {renderedImages}
         {renderedName}
         {inputs}
         {move.hasOwnProperty('conditions') ? this.renderConditions(move) : null}

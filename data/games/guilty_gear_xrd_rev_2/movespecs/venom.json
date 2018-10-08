@@ -7,109 +7,145 @@
         "inputs": [
           "5P"
         ],
-        "imageId": "5P"
+        "imageIds": [
+          "5P"
+        ]
       },
       {
         "inputs": [
           "5K"
         ],
-        "imageId": "5K"
+        "imageIds": [
+          "5K"
+        ]
       },
       {
         "inputs": [
           "c.S"
         ],
-        "imageId": "c_S"
+        "imageIds": [
+          "c_S"
+        ]
       },
       {
         "inputs": [
           "f.S"
         ],
-        "imageId": "f_S"
+        "imageIds": [
+          "f_S"
+        ]
       },
       {
         "inputs": [
           "5H"
         ],
-        "imageId": "5H"
+        "imageIds": [
+          "5H"
+        ]
       },
       {
         "inputs": [
           "5D"
         ],
-        "imageId": "5D"
+        "imageIds": [
+          "5D"
+        ]
       },
       {
         "inputs": [
           "2P"
         ],
-        "imageId": "2P"
+        "imageIds": [
+          "2P"
+        ]
       },
       {
         "inputs": [
           "2K"
         ],
-        "imageId": "2K"
+        "imageIds": [
+          "2K"
+        ]
       },
       {
         "inputs": [
           "2S"
         ],
-        "imageId": "2S"
+        "imageIds": [
+          "2S"
+        ]
       },
       {
         "inputs": [
           "2H"
         ],
-        "imageId": "2H"
+        "imageIds": [
+          "2H"
+        ]
       },
       {
         "inputs": [
           "2D"
         ],
-        "imageId": "2D"
+        "imageIds": [
+          "2D"
+        ]
       },
       {
         "inputs": [
           "6P"
         ],
-        "imageId": "6P"
+        "imageIds": [
+          "6P"
+        ]
       },
       {
         "inputs": [
           "6H"
         ],
-        "imageId": "6H"
+        "imageIds": [
+          "6H"
+        ]
       },
       {
         "inputs": [
           "j.P"
         ],
-        "imageId": "j_P"
+        "imageIds": [
+          "j_P"
+        ]
       },
       {
         "inputs": [
           "j.K"
         ],
-        "imageId": "j_K"
+        "imageIds": [
+          "j_K"
+        ]
       },
       {
         "inputs": [
           "j.S"
         ],
-        "imageId": "j_S"
+        "imageIds": [
+          "j_S"
+        ]
       },
       {
         "inputs": [
           "j.H"
         ],
-        "imageId": "j_H"
+        "imageIds": [
+          "j_H"
+        ]
       },
       {
         "inputs": [
           "j.D"
         ],
-        "imageId": "j_D"
+        "imageIds": [
+          "j_D"
+        ]
       }
     ],
     [
@@ -119,8 +155,10 @@
           "4H",
           "6H"
         ],
-        "imageId": "Ground_Throw",
-        "conditions": "While next to the opponent"
+        "conditions": "While next to the opponent",
+        "imageIds": [
+          "Ground_Throw"
+        ]
       },
       {
         "name": "Air Throw",
@@ -128,8 +166,10 @@
           "j.4H",
           "j.6H"
         ],
-        "imageId": "Air_Throw",
-        "conditions": "While next to the opponent"
+        "conditions": "While next to the opponent",
+        "imageIds": [
+          "Air_Throw"
+        ]
       },
       {
         "name": "Dead Angle Attack",
@@ -141,8 +181,10 @@
           "6K+H",
           "6S+H"
         ],
-        "imageId": "5K",
-        "conditions": "While in blockstun with 50% tension"
+        "conditions": "While in blockstun with 50% tension",
+        "imageIds": [
+          "5K"
+        ]
       },
       {
         "name": "Blitz Attack",
@@ -151,8 +193,10 @@
           "K+H",
           "S+H"
         ],
-        "imageId": "Blitz_Attack",
-        "conditions": "With 25% tension"
+        "conditions": "With 25% tension",
+        "imageIds": [
+          "Blitz_Attack"
+        ]
       }
     ],
     [
@@ -168,7 +212,9 @@
           "j.214S",
           "j.214H"
         ],
-        "imageId": "ball_set"
+        "imageIds": [
+          "ball_set"
+        ]
       },
       {
         "name": "QV",
@@ -178,14 +224,18 @@
           "41236S",
           "41236H"
         ],
-        "imageId": "qv"
+        "imageIds": [
+          "qv"
+        ]
       },
       {
         "name": "Teleport",
         "inputs": [
           "623K"
         ],
-        "imageId": "teleport"
+        "imageIds": [
+          "teleport"
+        ]
       },
       {
         "name": "Stinger Aim",
@@ -193,7 +243,9 @@
           "[4]6S",
           "[4]6H"
         ],
-        "imageId": "stinger_aim"
+        "imageIds": [
+          "stinger_aim"
+        ]
       },
       {
         "name": "Carcass Raid",
@@ -201,7 +253,9 @@
           "[2]8S",
           "[2]8H"
         ],
-        "imageId": "carcass_raid"
+        "imageIds": [
+          "carcass_raid"
+        ]
       },
       {
         "name": "Double Head Morbid",
@@ -209,7 +263,9 @@
           "623S",
           "623H"
         ],
-        "imageId": "double_head_morbid"
+        "imageIds": [
+          "double_head_morbid"
+        ]
       },
       {
         "name": "Mad Struggle",
@@ -217,7 +273,9 @@
           "j.236S",
           "j.236H"
         ],
-        "imageId": "mad_struggle"
+        "imageIds": [
+          "mad_struggle"
+        ]
       }
     ],
     [
@@ -226,21 +284,27 @@
         "inputs": [
           "2363214S"
         ],
-        "imageId": "dark_angel"
+        "imageIds": [
+          "dark_angel"
+        ]
       },
       {
         "name": "Red Hail",
         "inputs": [
           "j.236236H"
         ],
-        "imageId": "red_hail"
+        "imageIds": [
+          "red_hail"
+        ]
       },
       {
         "name": "Bishop Runout",
         "inputs": [
           "2363214H"
         ],
-        "imageId": "bishop_runout"
+        "imageIds": [
+          "bishop_runout"
+        ]
       }
     ],
     [
@@ -250,7 +314,9 @@
           "236236H"
         ],
         "conditions": "during Instant Kill",
-        "imageId": "stinger_aim"
+        "imageIds": [
+          "stinger_aim"
+        ]
       }
     ]
   ]

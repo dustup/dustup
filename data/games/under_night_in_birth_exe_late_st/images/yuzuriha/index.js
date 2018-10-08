@@ -39,14 +39,14 @@ export default [
     "imageId": "Kiri_A",
     "image": require('./Kiri_A.png')
   },
-  // {
-  //   "imageId": "Kiri_B",
-  //   "image": require('./Kiri_C.png')
-  // },
-  // {
-  //   "imageId": "Kiri_C",
-  //   "image": require('./Kiri_C.png')
-  // },
+  {
+    "imageId": "Kiri_B",
+    "image": require('./Kiri_C.png')
+  },
+  {
+    "imageId": "Kiri_C",
+    "image": require('./Kiri_C.png')
+  },
   {
     "imageId": "4B",
     "image": require('./4B.png')

@@ -7,55 +7,73 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "jA"
+        "imageIds": [
+          "jA"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "jB"
+        "imageIds": [
+          "jB"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "jC"
+        "imageIds": [
+          "jC"
+        ]
       }
     ],
     [
@@ -63,31 +81,41 @@
         "inputs": [
           "6B"
         ],
-        "imageId": "6B"
+        "imageIds": [
+          "6B"
+        ]
       },
       {
         "inputs": [
           "3B"
         ],
-        "imageId": "3B"
+        "imageIds": [
+          "3B"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "4C"
         ],
-        "imageId": "4C"
+        "imageIds": [
+          "4C"
+        ]
       },
       {
         "inputs": [
           "j.2C"
         ],
-        "imageId": "j2C"
+        "imageIds": [
+          "j2C"
+        ]
       }
     ],
     [
@@ -95,13 +123,17 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -110,28 +142,36 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "Aerial_Leap"
+        "imageIds": [
+          "Aerial_Leap"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "Throw"
+        "imageIds": [
+          "Throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "5C"
+        "imageIds": [
+          "5C"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "Veil_Off"
+        "imageIds": [
+          "Veil_Off"
+        ]
       }
     ],
     [
@@ -142,7 +182,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "Divine_Thrust"
+        "imageIds": [
+          "Divine_Thrust"
+        ]
       },
       {
         "name": "Sacred Arrow",
@@ -151,7 +193,9 @@
           "623B",
           "623C"
         ],
-        "imageId": "Sacred_Arrow"
+        "imageIds": [
+          "Sacred_Arrow"
+        ]
       },
       {
         "name": "Command Order",
@@ -160,14 +204,15 @@
           "214B",
           "214C"
         ],
-        "imageId": "Command_Order_A",
         "followUps": [
           {
             "name": "Thick and Quick",
             "inputs": [
               "4A"
             ],
-            "imageId": "Thick_and_Quick"
+            "imageIds": [
+              "Thick_and_Quick"
+            ]
           },
           {
             "name": "Succession",
@@ -175,8 +220,15 @@
               "4B",
               "4C"
             ],
-            "imageId": "Succession"
+            "imageIds": [
+              "Succession"
+            ]
           }
+        ],
+        "imageIds": [
+          "Command_Order_A",
+          "Command_Order_B",
+          "Command_Order_C"
         ]
       },
       {
@@ -186,7 +238,11 @@
           "j.214B",
           "j.214C"
         ],
-        "imageId": "Command_Order_A_air"
+        "imageIds": [
+          "Command_Order_A_air",
+          "Command_Order_B_air",
+          "Command_Order_C_air"
+        ]
       },
       {
         "name": "Sealing Hoplon",
@@ -195,14 +251,18 @@
           "22B",
           "22C"
         ],
-        "imageId": "Sealing_Hoplon"
+        "imageIds": [
+          "Sealing_Hoplon"
+        ]
       },
       {
         "name": "Sacred Spire",
         "inputs": [
           "41236C"
         ],
-        "imageId": "Sacred_Spire"
+        "imageIds": [
+          "Sacred_Spire"
+        ]
       }
     ],
     [
@@ -211,7 +271,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "Luminous_Embrace"
+        "imageIds": [
+          "Luminous_Embrace"
+        ]
       }
     ],
     [
@@ -220,7 +282,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "Rest_In_Peace"
+        "imageIds": [
+          "Rest_In_Peace"
+        ]
       }
     ]
   ]

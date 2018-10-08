@@ -7,67 +7,89 @@
         "inputs": [
           "5A"
         ],
-        "imageId": "5A"
+        "imageIds": [
+          "5A"
+        ]
       },
       {
         "inputs": [
           "2A"
         ],
-        "imageId": "2A"
+        "imageIds": [
+          "2A"
+        ]
       },
       {
         "inputs": [
           "5B"
         ],
-        "imageId": "5B"
+        "imageIds": [
+          "5B"
+        ]
       },
       {
         "inputs": [
           "2B"
         ],
-        "imageId": "2B"
+        "imageIds": [
+          "2B"
+        ]
       },
       {
         "inputs": [
           "5C"
         ],
-        "imageId": "5C_1"
+        "imageIds": [
+          "5C_1"
+        ]
       },
       {
         "inputs": [
           "5[C]"
         ],
-        "imageId": "5C_2"
+        "imageIds": [
+          "5C_2"
+        ]
       },
       {
         "inputs": [
           "2C"
         ],
-        "imageId": "2C"
+        "imageIds": [
+          "2C"
+        ]
       },
       {
         "inputs": [
           "j.A"
         ],
-        "imageId": "j_A"
+        "imageIds": [
+          "j_A"
+        ]
       },
       {
         "inputs": [
           "j.B"
         ],
-        "imageId": "j_B"
+        "imageIds": [
+          "j_B"
+        ]
       },
       {
         "inputs": [
           "j.C"
         ],
-        "imageId": "j_C"
+        "imageIds": [
+          "j_C"
+        ]
       },
       {
         "inputs": [
           "j.[C]"
         ],
-        "imageId": "j_C_charge"
+        "imageIds": [
+          "j_C_charge"
+        ]
       }
     ],
     [
@@ -75,37 +97,49 @@
         "inputs": [
           "5BB"
         ],
-        "imageId": "5BB"
+        "imageIds": [
+          "5BB"
+        ]
       },
       {
         "inputs": [
           "4B"
         ],
-        "imageId": "4B"
+        "imageIds": [
+          "4B"
+        ]
       },
       {
         "inputs": [
           "3C"
         ],
-        "imageId": "3C"
+        "imageIds": [
+          "3C"
+        ]
       },
       {
         "inputs": [
           "j.2B"
         ],
-        "imageId": "j_2B"
+        "imageIds": [
+          "j_2B"
+        ]
       },
       {
         "inputs": [
           "j.2[B]"
         ],
-        "imageId": "j_2B_charge"
+        "imageIds": [
+          "j_2B_charge"
+        ]
       },
       {
         "inputs": [
           "j.4B"
         ],
-        "imageId": "j_4B"
+        "imageIds": [
+          "j_4B"
+        ]
       }
     ],
     [
@@ -113,19 +147,25 @@
         "inputs": [
           "66B"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66[B]"
         ],
-        "imageId": "66B"
+        "imageIds": [
+          "66B"
+        ]
       },
       {
         "inputs": [
           "66C"
         ],
-        "imageId": "66C"
+        "imageIds": [
+          "66C"
+        ]
       }
     ],
     [
@@ -134,35 +174,45 @@
         "inputs": [
           "B+C"
         ],
-        "imageId": "force_function"
+        "imageIds": [
+          "force_function"
+        ]
       },
       {
         "name": "Impulse (charged)",
         "inputs": [
           "[B+C]"
         ],
-        "imageId": "force_function"
+        "imageIds": [
+          "force_function"
+        ]
       },
       {
         "name": "Throw",
         "inputs": [
           "A+D"
         ],
-        "imageId": "throw"
+        "imageIds": [
+          "throw"
+        ]
       },
       {
         "name": "Guard Thrust",
         "inputs": [
           "214D"
         ],
-        "imageId": "guard_thrust"
+        "imageIds": [
+          "guard_thrust"
+        ]
       },
       {
         "name": "Veil Off",
         "inputs": [
           "A+B+C"
         ],
-        "imageId": "veil_off"
+        "imageIds": [
+          "veil_off"
+        ]
       }
     ],
     [
@@ -173,7 +223,9 @@
           "236B",
           "236C"
         ],
-        "imageId": "affliction"
+        "imageIds": [
+          "affliction"
+        ]
       },
       {
         "name": "Affliction (charged)",
@@ -181,7 +233,9 @@
           "236[A]",
           "236[B]"
         ],
-        "imageId": "affliction"
+        "imageIds": [
+          "affliction"
+        ]
       },
       {
         "name": "Affliction (air)",
@@ -190,7 +244,9 @@
           "j.236B",
           "j.236C"
         ],
-        "imageId": "affliction_air"
+        "imageIds": [
+          "affliction_air"
+        ]
       },
       {
         "name": "Guidance Ascension",
@@ -199,7 +255,11 @@
           "623B",
           "623C"
         ],
-        "imageId": "guidance_ascension_a"
+        "imageIds": [
+          "guidance_ascension_a",
+          "guidance_ascension_b",
+          "guidance_ascension_c"
+        ]
       },
       {
         "name": "Rhythmic Satisfaction",
@@ -208,7 +268,11 @@
           "214B",
           "214C"
         ],
-        "imageId": "rhythmic_satisfaction_1"
+        "imageIds": [
+          "rhythmic_satisfaction_1",
+          "rhythmic_satisfaction_2",
+          "rhythmic_satisfaction_3"
+        ]
       },
       {
         "name": "Restraint",
@@ -217,7 +281,10 @@
           "22B",
           "22C"
         ],
-        "imageId": "restraint_a"
+        "imageIds": [
+          "restraint_a",
+          "restraint_b"
+        ]
       }
     ],
     [
@@ -226,7 +293,9 @@
         "inputs": [
           "41236D"
         ],
-        "imageId": "infinite_worth"
+        "imageIds": [
+          "infinite_worth"
+        ]
       }
     ],
     [
@@ -235,7 +304,9 @@
         "inputs": [
           "A+B+C+D"
         ],
-        "imageId": "infinite_worth_exs"
+        "imageIds": [
+          "infinite_worth_exs"
+        ]
       }
     ]
   ]
