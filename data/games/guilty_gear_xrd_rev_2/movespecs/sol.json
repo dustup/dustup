@@ -7,91 +7,145 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "6P"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       },
       {
@@ -107,6 +161,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -114,6 +171,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -127,6 +187,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -136,20 +199,29 @@
           "K+H",
           "S+H"
         ],
+        "imageIds": [
+          "blitz_attack"
+        ],
         "conditions": "With 25% tension"
       }
     ],
     [
       {
-        "name": "Gunflame",
+        "name": "Gun Flame",
         "inputs": [
           "236P"
+        ],
+        "imageIds": [
+          "gun_flame"
         ]
       },
       {
-        "name": "Gunflame (Feint)",
+        "name": "Gun Flame (Feint)",
         "inputs": [
           "214P"
+        ],
+        "imageIds": [
+          "gun_flame_feint"
         ]
       },
       {
@@ -160,11 +232,17 @@
           "j.623S",
           "j.623H"
         ],
+        "imageIds": [
+          "volcanic_viper"
+        ],
         "followUps": [
           {
             "name": "Knockdown",
             "inputs": [
               "214K"
+            ],
+            "imageIds": [
+              "knockdown"
             ]
           }
         ]
@@ -173,48 +251,77 @@
         "name": "Bandit Revolver",
         "inputs": [
           "236K"
+        ],
+        "imageIds": [
+          "bandit_revolver"
         ]
       },
       {
         "name": "Bandit Bringer",
         "inputs": [
           "236[K]"
+        ],
+        "imageIds": [
+          "bandit_bringer"
         ]
       },
       {
         "name": "Break",
         "inputs": [
           "j.214K"
+        ],
+        "imageIds": [
+          "break_1",
+          "break_2"
         ]
       },
       {
         "name": "Wild Throw",
         "inputs": [
           "623K"
+        ],
+        "imageIds": [
+          "wild_throw_1",
+          "wild_throw_2"
         ]
       },
       {
         "name": "Riot Stamp",
         "inputs": [
           "214K"
+        ],
+        "imageIds": [
+          "riot_stamp_1",
+          "riot_stamp_2"
         ]
       },
       {
         "name": "Ground Viper",
         "inputs": [
           "214S"
+        ],
+        "imageIds": [
+          "ground_viper_1",
+          "ground_viper_2"
         ]
       },
       {
         "name": "Fafnir",
         "inputs": [
           "41236H"
+        ],
+        "imageIds": [
+          "fafnir"
         ]
       },
       {
         "name": "P.B.B.",
         "inputs": [
           "j.623K"
+        ],
+        "imageIds": [
+          "p_b_b_1",
+          "p_b_b_2"
         ],
         "conditions": "during Dragon Install"
       }
@@ -225,6 +332,10 @@
         "inputs": [
           "632146H",
           "632146D"
+        ],
+        "imageIds": [
+          "tyrant_rave_ver_beta_1",
+          "tyrant_rave_ver_beta_2"
         ]
       },
       {
@@ -232,6 +343,10 @@
         "inputs": [
           "214214H",
           "j.214214H"
+        ],
+        "imageIds": [
+          "dragon_install_1",
+          "dragon_install_2"
         ]
       }
     ],
@@ -240,6 +355,10 @@
         "name": "Branding Breach",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "branding_breach_1",
+          "branding_breach_2"
         ],
         "conditions": "during Instant Kill"
       }
