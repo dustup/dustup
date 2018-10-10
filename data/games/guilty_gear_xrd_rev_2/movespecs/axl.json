@@ -7,116 +7,185 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6K"
+        ],
+        "imageIds": [
+          "6K"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "2P"
+        ],
+        "imageIds": [
+          "2P"
         ]
       },
       {
         "inputs": [
+          "2K"
+        ],
+        "imageIds": [
           "2K"
         ]
       },
       {
         "inputs": [
           "2S"
+        ],
+        "imageIds": [
+          "2S"
         ]
       },
       {
         "inputs": [
+          "2H"
+        ],
+        "imageIds": [
           "2H"
         ]
       },
       {
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "2D"
         ]
       },
       {
         "inputs": [
+          "3P"
+        ],
+        "imageIds": [
           "3P"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       },
       {
         "inputs": [
           "j.6P"
+        ],
+        "imageIds": [
+          "j_6P"
         ]
       },
       {
         "inputs": [
           "j.6K"
+        ],
+        "imageIds": [
+          "j_6K"
         ]
       },
       {
         "inputs": [
           "j.2S"
+        ],
+        "imageIds": [
+          "j_2S"
         ]
       }
     ],
@@ -127,6 +196,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -134,6 +206,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -147,6 +222,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -155,6 +233,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "blitz_attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -165,12 +246,18 @@
         "inputs": [
           "[4]6S"
         ],
+        "imageIds": [
+          "sickle_flash"
+        ],
         "followUps": [
           {
             "name": "Melody Chain",
             "inputs": [
               "8",
               "9"
+            ],
+            "imageIds": [
+              "melody_chain"
             ]
           },
           {
@@ -178,6 +265,9 @@
             "inputs": [
               "2",
               "3"
+            ],
+            "imageIds": [
+              "spinning_chain_strike"
             ]
           }
         ]
@@ -186,18 +276,28 @@
         "name": "Artemis Hunter",
         "inputs": [
           "623S"
+        ],
+        "imageIds": [
+          "artemis_hunter"
         ]
       },
       {
         "name": "Thunder Shadow Chain",
         "inputs": [
           "623K"
+        ],
+        "imageIds": [
+          "thunder_shadow_chain"
         ]
       },
       {
         "name": "Spindle Spinner",
         "inputs": [
           "41236H"
+        ],
+        "imageIds": [
+          "spindle_spinner_1",
+          "spindle_spinner_2"
         ]
       },
       {
@@ -205,12 +305,19 @@
         "inputs": [
           "214P",
           "214K"
+        ],
+        "imageIds": [
+          "heaven_can_wait_1",
+          "heaven_can_wait_2"
         ]
       },
       {
         "name": "Axl Bomber",
         "inputs": [
           "j.623H"
+        ],
+        "imageIds": [
+          "axl_bomber"
         ]
       },
       {
@@ -218,6 +325,10 @@
         "shortName": "Sparrowhawk",
         "inputs": [
           "214H"
+        ],
+        "imageIds": [
+          "sparrowhawk_stance_1",
+          "sparrowhawk_stance_2"
         ],
         "followUps": [
           {
@@ -253,12 +364,18 @@
         "inputs": [
           "2363214H",
           "2363214D"
+        ],
+        "imageIds": [
+          "sickle_storm"
         ]
       },
       {
         "name": "Shark Strike",
         "inputs": [
           "214214S"
+        ],
+        "imageIds": [
+          "shark_strike"
         ]
       }
     ],
@@ -267,6 +384,10 @@
         "name": "Amphora Conflagration",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "amphora_conflagration_1",
+          "amphora_conflagration_2"
         ],
         "conditions": "during Instant Kill"
       }
