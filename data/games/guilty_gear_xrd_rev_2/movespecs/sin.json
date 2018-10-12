@@ -2,106 +2,167 @@
   "name": "Sin Kiske",
   "shortName": "Sin",
   "characterId": "sin",
+  "mechanics": "Sin starts each round with 10,000 calories. Every time he uses a special move (other than Leap and Still Growing), he will burn 1,000 calories. You can cancel special moves into other special moves by burning an additional 1,000 calories. If you hit 0 calories when doing a special attack, you will be forced into a hunger animation for 95 frames after the special move. Still Growing restores calories.",
   "movelists": [
     [
       {
         "inputs": [
+          "5P"
+        ],
+        "imageIds": [
           "5P"
         ]
       },
       {
         "inputs": [
           "5K"
+        ],
+        "imageIds": [
+          "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "6P"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "3K"
+        ],
+        "imageIds": [
           "3K"
         ]
       },
       {
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jK"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH"
         ]
       },
       {
         "inputs": [
           "j.6H"
+        ],
+        "imageIds": [
+          "j6H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "jD"
         ]
       }
     ],
@@ -112,6 +173,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -119,6 +183,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Air_Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -132,6 +199,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "fS"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -141,6 +211,9 @@
           "K+H",
           "S+H"
         ],
+        "imageIds": [
+          "Blitz_Attack"
+        ],
         "conditions": "With 25% tension"
       }
     ],
@@ -149,6 +222,9 @@
         "name": "Hawk Baker",
         "inputs": [
           "623S"
+        ],
+        "imageIds": [
+          "Hawk_Baker"
         ]
       },
       {
@@ -157,11 +233,18 @@
           "236H",
           "j.236H"
         ],
+        "imageIds": [
+          "Beak_Driver",
+          "Beak_Driver_air"
+        ],
         "followUps": [
           {
             "name": "I'm Sure I'll Hit Something",
             "inputs": [
               "H(×N)"
+            ],
+            "imageIds": [
+              "Im_Sure_Ill_Hit_Something"
             ]
           }
         ]
@@ -170,12 +253,18 @@
         "name": "Bull Bash",
         "inputs": [
           "214S"
+        ],
+        "imageIds": [
+          "Bull_Bash"
         ]
       },
       {
         "name": "Elk Hunt",
         "inputs": [
           "236K"
+        ],
+        "imageIds": [
+          "Elk_Hunt"
         ]
       },
       {
@@ -183,18 +272,27 @@
         "inputs": [
           "214P",
           "214K"
+        ],
+        "imageIds": [
+          "Leap"
         ]
       },
       {
         "name": "Still Growing",
         "inputs": [
           "214H"
+        ],
+        "imageIds": [
+          "Still_Growing"
         ]
       },
       {
         "name": "Vulture Seize",
         "inputs": [
           "j.214S"
+        ],
+        "imageIds": [
+          "Vulture_Seize"
         ]
       }
     ],
@@ -204,6 +302,9 @@
         "inputs": [
           "632146H",
           "j.632146H"
+        ],
+        "imageIds": [
+          "RTL"
         ],
         "followUps": [
           {
@@ -225,6 +326,9 @@
         "inputs": [
           "236236P",
           "j.236236P"
+        ],
+        "imageIds": [
+          "Voltic_Deign"
         ]
       }
     ],
@@ -233,6 +337,10 @@
         "name": "Raiden",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "Raiden_1",
+          "Raiden_2"
         ],
         "conditions": "during Instant Kill"
       }
