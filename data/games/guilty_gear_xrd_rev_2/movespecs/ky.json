@@ -7,101 +7,161 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "6P"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
+          "6K"
+        ],
+        "imageIds": [
           "6K"
         ]
       },
       {
         "inputs": [
           "6H"
+        ],
+        "imageIds": [
+          "6H"
         ]
       },
       {
         "inputs": [
+          "3H"
+        ],
+        "imageIds": [
           "3H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       }
     ],
@@ -112,6 +172,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -119,6 +182,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -132,6 +198,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -141,6 +210,9 @@
           "K+H",
           "S+H"
         ],
+        "imageIds": [
+          "blitz_attack"
+        ],
         "conditions": "With 25% tension"
       }
     ],
@@ -149,12 +221,20 @@
         "name": "Stun Edge",
         "inputs": [
           "236S"
+        ],
+        "imageIds": [
+          "stun_edge",
+          "stun_edge_fortified"
         ]
       },
       {
         "name": "Charged Stun Edge",
         "inputs": [
           "236H"
+        ],
+        "imageIds": [
+          "charged_stun_edge",
+          "charged_stun_edge_fortified"
         ]
       },
       {
@@ -162,6 +242,10 @@
         "inputs": [
           "j.236S",
           "j.236H"
+        ],
+        "imageIds": [
+          "air_stun_edge",
+          "air_stun_edge_fortified"
         ]
       },
       {
@@ -171,24 +255,36 @@
           "623H",
           "j.623S",
           "j.623H"
+        ],
+        "imageIds": [
+          "vapor_thrust"
         ]
       },
       {
         "name": "Stun Dipper",
         "inputs": [
           "236K"
+        ],
+        "imageIds": [
+          "stun_dipper"
         ]
       },
       {
         "name": "Greed Sever",
         "inputs": [
           "214K"
+        ],
+        "imageIds": [
+          "greed_sever"
         ]
       },
       {
         "name": "Split Ciel",
         "inputs": [
           "236D"
+        ],
+        "imageIds": [
+          "split_ciel"
         ]
       }
     ],
@@ -198,12 +294,19 @@
         "inputs": [
           "632146H",
           "j.632146H"
+        ],
+        "imageIds": [
+          "ride_the_lightning"
         ]
       },
       {
         "name": "Sacred Edge",
         "inputs": [
           "236236P"
+        ],
+        "imageIds": [
+          "sacred_edge",
+          "sacred_edge_fortified"
         ]
       }
     ],
@@ -212,6 +315,10 @@
         "name": "Rising Force",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "rising_force_1",
+          "rising_force_2"
         ],
         "conditions": "during Instant Kill"
       }
