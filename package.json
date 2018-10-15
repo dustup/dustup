@@ -14,7 +14,7 @@
   "scripts": {
     "start": "./scripts/startup_reqs.sh && react-native-scripts start",
     "test": "jest && npm run data",
-    "exp": "./node_modules/.bin/exp start",
+    "exp": "./scripts/startup_reqs.sh && ./node_modules/.bin/exp start",
     "validate-schema": "./node_modules/.bin/ajv compile -s movespec.schema.json",
     "validate-movespecs": "./node_modules/.bin/ajv validate -s movespec.schema.json -d \"data/games/**/movespecs/*.json\"",
     "data": "npm run validate-schema && npm run validate-movespecs"
