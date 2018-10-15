@@ -6,96 +6,153 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6K"
+        ],
+        "imageIds": [
+          "6K"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "2P"
+        ],
+        "imageIds": [
+          "2P"
         ]
       },
       {
         "inputs": [
+          "2K"
+        ],
+        "imageIds": [
           "2K"
         ]
       },
       {
         "inputs": [
           "2S"
+        ],
+        "imageIds": [
+          "2S"
         ]
       },
       {
         "inputs": [
+          "2H"
+        ],
+        "imageIds": [
           "2H"
         ]
       },
       {
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       }
     ],
@@ -106,6 +163,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -113,6 +173,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -126,6 +189,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -135,6 +201,9 @@
           "K+H",
           "S+H"
         ],
+        "imageIds": [
+          "blitz_attack"
+        ],
         "conditions": "With 25% tension"
       }
     ],
@@ -143,12 +212,18 @@
         "name": "Glitter is Gold",
         "inputs": [
           "236H"
+        ],
+        "imageIds": [
+          "glitter_is_gold"
         ]
       },
       {
         "name": "Baccus Sigh",
         "inputs": [
           "41236P"
+        ],
+        "imageIds": [
+          "baccus_sigh"
         ]
       },
       {
@@ -160,6 +235,10 @@
           "j.214[P]",
           "j.214[K]",
           "j.214[S]"
+        ],
+        "imageIds": [
+          "mist_stance",
+          "air_mist_stance"
         ]
       },
       {
@@ -182,12 +261,18 @@
         "inputs": [
           "]P["
         ],
+        "imageIds": [
+          "high_mist_finer"
+        ],
         "conditions": "during Mist Stance"
       },
       {
         "name": "Mid Mist Finer",
         "inputs": [
           "]K["
+        ],
+        "imageIds": [
+          "mid_mist_finer"
         ],
         "conditions": "during Mist Stance"
       },
@@ -196,12 +281,18 @@
         "inputs": [
           "]S["
         ],
+        "imageIds": [
+          "low_mist_finer"
+        ],
         "conditions": "during Mist Stance"
       },
       {
         "name": "Air High Mist Finer",
         "inputs": [
           "j.]P["
+        ],
+        "imageIds": [
+          "air_high_mist_finer"
         ],
         "conditions": "during Air Mist Stance"
       },
@@ -210,12 +301,18 @@
         "inputs": [
           "j.]K["
         ],
+        "imageIds": [
+          "air_mid_mist_finer"
+        ],
         "conditions": "during Air Mist Stance"
       },
       {
         "name": "Air Low Mist Finer",
         "inputs": [
           "j.]S["
+        ],
+        "imageIds": [
+          "air_low_mist_finer"
         ],
         "conditions": "during Air Mist Stance"
       },
@@ -224,11 +321,17 @@
         "inputs": [
           "623K"
         ],
+        "imageIds": [
+          "zweihander"
+        ],
         "followUps": [
           {
             "name": "Attack",
             "inputs": [
               "K"
+            ],
+            "imageIds": [
+              "zweihander_attack"
             ]
           }
         ]
@@ -237,6 +340,9 @@
         "name": "Air Zweihander",
         "inputs": [
           "j.623K"
+        ],
+        "imageIds": [
+          "zweihander_attack"
         ]
       }
     ],
@@ -246,12 +352,20 @@
         "inputs": [
           "2363214H",
           "2363214D"
+        ],
+        "imageIds": [
+          "thats_my_name_1",
+          "thats_my_name_2"
         ]
       },
       {
         "name": "Treasure Hunt",
         "inputs": [
           "632146S"
+        ],
+        "imageIds": [
+          "treasure_hunt_1",
+          "treasure_hunt_2"
         ]
       }
     ],
@@ -260,6 +374,12 @@
         "name": "Joker Trick",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "joker_trick_1",
+          "joker_trick_2",
+          "joker_trick_3",
+          "joker_trick_4"
         ],
         "conditions": "during Instant Kill"
       }
