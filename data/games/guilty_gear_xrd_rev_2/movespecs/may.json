@@ -1,116 +1,191 @@
 {
   "name": "May",
   "characterId": "may",
+  "mechanics": "May can ride Mr. Dolphin by connecting to him while jumping. May can also do an extra jump by inputting 1, 2 or 3 while near a beach ball during a jump.",
   "movelists": [
     [
       {
         "inputs": [
+          "5P"
+        ],
+        "imageIds": [
           "5P"
         ]
       },
       {
         "inputs": [
           "5K"
+        ],
+        "imageIds": [
+          "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6[P]"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
+          "6K"
+        ],
+        "imageIds": [
           "6K"
         ]
       },
       {
         "inputs": [
           "6H"
+        ],
+        "imageIds": [
+          "6H"
         ]
       },
       {
         "inputs": [
           "6[H]"
+        ],
+        "imageIds": [
+          "6H"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "2D"
+        ]
+      },
+      {
+        "inputs": [
+          "3K"
+        ],
+        "imageIds": [
+          "3K"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH"
         ]
       },
       {
         "inputs": [
           "j.2H"
+        ],
+        "imageIds": [
+          "j2H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "jP"
         ]
       }
     ],
@@ -121,6 +196,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -128,6 +206,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Air_Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -141,6 +222,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -149,6 +233,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "Blitz_Attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -159,6 +246,9 @@
         "inputs": [
           "[4]6S",
           "[4]6H"
+        ],
+        "imageIds": [
+          "Mr_Dolphin_Horizontal"
         ]
       },
       {
@@ -166,6 +256,9 @@
         "inputs": [
           "[2]8S",
           "[2]8H"
+        ],
+        "imageIds": [
+          "Mr_Dolphin_Vertical"
         ]
       },
       {
@@ -179,6 +272,9 @@
           "41236[S]",
           "41236H",
           "41236[H]"
+        ],
+        "imageIds": [
+          "Applause_for_the_Victim"
         ]
       },
       {
@@ -186,18 +282,29 @@
         "inputs": [
           "214P",
           "214K"
+        ],
+        "imageIds": [
+          "Dont_Miss_It_1",
+          "Dont_Miss_It_2"
         ]
       },
       {
         "name": "Ensenga?",
         "inputs": [
           "j.41236H"
+        ],
+        "imageIds": [
+          "Ensenga"
         ]
       },
       {
         "name": "Overhead Kiss",
         "inputs": [
           "623K"
+        ],
+        "imageIds": [
+          "Overhead_Kiss_1",
+          "Overhead_Kiss_2"
         ]
       }
     ],
@@ -206,6 +313,9 @@
         "name": "Ultimate Whiner",
         "inputs": [
           "63214H"
+        ],
+        "imageIds": [
+          "Ultimate_Whiner"
         ]
       },
       {
@@ -213,6 +323,10 @@
         "inputs": [
           "236236S",
           "236236D"
+        ],
+        "imageIds": [
+          "Great_Yamada_Attack_1",
+          "Great_Yamada_Attack_2"
         ]
       },
       {
@@ -220,11 +334,18 @@
         "inputs": [
           "63214S"
         ],
+        "imageIds": [
+          "Ultimate_Spinning_Whirlwind_1",
+          "Ultimate_Spinning_Whirlwind_2"
+        ],
         "followUps": [
           {
             "name": "Deluxe Goshogawara Bomber",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Deluxe_Goshogawara_Bomber"
             ]
           }
         ]
@@ -235,6 +356,11 @@
         "name": "And Then She Said... Farewell",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "Farewell_1",
+          "Farewell_2",
+          "Farewell_3"
         ],
         "conditions": "during Instant Kill"
       }
