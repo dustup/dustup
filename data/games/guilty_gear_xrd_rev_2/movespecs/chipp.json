@@ -7,100 +7,160 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "2P"
+        ],
+        "imageIds": [
+          "2P"
         ]
       },
       {
         "inputs": [
+          "2K"
+        ],
+        "imageIds": [
           "2K"
         ]
       },
       {
         "inputs": [
           "2S"
+        ],
+        "imageIds": [
+          "2S"
         ]
       },
       {
         "inputs": [
+          "2H"
+        ],
+        "imageIds": [
           "2H"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jK"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "jD"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6K"
+        ],
+        "imageIds": [
+          "6K"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "j.2K"
+        ],
+        "imageIds": [
+          "j2K"
         ]
       },
       {
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "2D"
         ]
       },
       {
         "inputs": [
+          "5D"
+        ],
+        "imageIds": [
           "5D"
         ]
       }
@@ -112,6 +172,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -119,6 +182,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Air_Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -132,6 +198,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "5H"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -140,6 +209,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "Blitz_Attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -151,11 +223,17 @@
           "236P",
           "j.236P"
         ],
+        "imageIds": [
+          "Alpha_Blade"
+        ],
         "followUps": [
           {
             "name": "Followup",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "Alpha_Blade_Plus"
             ]
           }
         ]
@@ -165,18 +243,28 @@
         "inputs": [
           "623S",
           "j.623S"
+        ],
+        "imageIds": [
+          "Beta_Blade"
         ]
       },
       {
         "name": "Gamma Blade",
         "inputs": [
           "41236H"
+        ],
+        "imageIds": [
+          "Gamma_Blade_1",
+          "Gamma_Blade_2"
         ]
       },
       {
         "name": "Tsuyoshishiki Meisei",
         "inputs": [
           "214K"
+        ],
+        "imageIds": [
+          "Tsuyoshishiki_Meisei"
         ]
       },
       {
@@ -186,12 +274,19 @@
           "22K",
           "22S",
           "22H"
+        ],
+        "imageIds": [
+          "Tsuyoshishiki_Teni"
         ]
       },
       {
         "name": "Genrouzan",
         "inputs": [
           "63214S"
+        ],
+        "imageIds": [
+          "Genrouzan_1",
+          "Genrouzan_2"
         ]
       },
       {
@@ -199,11 +294,17 @@
         "inputs": [
           "236S"
         ],
+        "imageIds": [
+          "Resshou"
+        ],
         "followUps": [
           {
             "name": "Senshuu",
             "inputs": [
               "236K"
+            ],
+            "imageIds": [
+              "Senshuu"
             ]
           },
           {
@@ -211,11 +312,17 @@
             "inputs": [
               "236S"
             ],
+            "imageIds": [
+              "Rokusai"
+            ],
             "followUps": [
               {
                 "name": "Senshuu",
                 "inputs": [
                   "236K"
+                ],
+                "imageIds": [
+                  "Senshuu"
                 ]
               }
             ]
@@ -226,18 +333,27 @@
         "name": "Shinkirou",
         "inputs": [
           "623H"
+        ],
+        "imageIds": [
+          "Shinkirou"
         ]
       },
       {
         "name": "Shuriken",
         "inputs": [
           "j.214P"
+        ],
+        "imageIds": [
+          "Shuriken"
         ]
       },
       {
         "name": "Wall Cling",
         "inputs": [
           "64"
+        ],
+        "imageIds": [
+          "Wall_Cling"
         ],
         "conditions": "near wall",
         "followUps": [
@@ -266,24 +382,36 @@
             "name": "Alpha Blade",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Wall_Alpha"
             ]
           },
           {
             "name": "Kunai",
             "inputs": [
               "K"
+            ],
+            "imageIds": [
+              "Wall_Kunai"
             ]
           },
           {
             "name": "Ground Genrouzan",
             "inputs": [
               "S"
+            ],
+            "imageIds": [
+              "Wall_Ground_Throw"
             ]
           },
           {
             "name": "Air Genouzan",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "Wall_Air_Throw"
             ]
           }
         ]
@@ -294,18 +422,28 @@
         "name": "Zansei Rouga",
         "inputs": [
           "632146H"
+        ],
+        "imageIds": [
+          "Zansei_Rouga_1",
+          "Zansei_Rouga_2"
         ]
       },
       {
         "name": "Ryuu Yanagi",
         "inputs": [
           "j.214214K"
+        ],
+        "imageIds": [
+          "Ryuu_Yanagi"
         ]
       },
       {
         "name": "Banki Mesai",
         "inputs": [
           "236236K"
+        ],
+        "imageIds": [
+          "Banki_Mesai"
         ]
       }
     ],
@@ -314,6 +452,10 @@
         "name": "Raisetsudan",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "Raisetsudan_1",
+          "Raisetsudan_2"
         ],
         "conditions": "during Instant Kill"
       }
