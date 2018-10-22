@@ -6,96 +6,153 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
-          "5S"
+          "5H"
+        ],
+        "imageIds": [
+          "5H"
         ]
       },
       {
         "inputs": [
+          "5D"
+        ],
+        "imageIds": [
           "5D"
         ]
       },
       {
         "inputs": [
           "4S"
+        ],
+        "imageIds": [
+          "4S"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6H"
+        ],
+        "imageIds": [
+          "6H"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       }
     ],
@@ -106,6 +163,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -113,6 +173,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -126,6 +189,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -135,6 +201,9 @@
           "K+H",
           "S+H"
         ],
+        "imageIds": [
+          "blitz_attack"
+        ],
         "conditions": "With 25% tension"
       }
     ],
@@ -143,24 +212,38 @@
         "name": "I used this to catch fish",
         "inputs": [
           "236S"
+        ],
+        "imageIds": [
+          "i_used_this_to_catch_fish"
         ]
       },
       {
         "name": "For searing cod...",
         "inputs": [
           "236H"
+        ],
+        "imageIds": [
+          "for_searing_cod"
         ]
       },
       {
         "name": "I used this to pick fruit",
         "inputs": [
           "421S"
+        ],
+        "imageIds": [
+          "i_used_this_to_pick_fruit_1",
+          "i_used_this_to_pick_fruit_2"
         ]
       },
       {
         "name": "For roasting chestnuts...",
         "inputs": [
           "421H"
+        ],
+        "imageIds": [
+          "for_roasting_chestnuts_1",
+          "for_roasting_chestnuts_2"
         ]
       },
       {
@@ -168,6 +251,9 @@
         "inputs": [
           "214P",
           "214K"
+        ],
+        "imageIds": [
+          "we_talked_a_lot_together"
         ]
       },
       {
@@ -176,30 +262,46 @@
           "214S",
           "214H",
           "214D"
+        ],
+        "imageIds": [
+          "we_fought_a_lot_together_1",
+          "we_fought_a_lot_together_2"
         ]
       },
       {
         "name": "For putting out the light...",
         "inputs": [
           "236P"
+        ],
+        "imageIds": [
+          "for_putting_out_the_light"
         ]
       },
       {
         "name": "The light was so small in the beginning",
         "inputs": [
           "236K"
+        ],
+        "imageIds": [
+          "the_light_was_so_small_in_the_beginning"
         ]
       },
       {
         "name": "Please, leave me alone",
         "inputs": [
           "j.236P"
+        ],
+        "imageIds": [
+          "please_leave_me_alone"
         ]
       },
       {
         "name": "What happens when I'm TOO alone",
         "inputs": [
           "j.236K"
+        ],
+        "imageIds": [
+          "what_happens_when_im_too_alone"
         ]
       }
     ],
@@ -209,18 +311,27 @@
         "inputs": [
           "63214S",
           "63214D"
+        ],
+        "imageIds": [
+          "imperial_ray"
         ]
       },
       {
         "name": "Don't be overprotective",
         "inputs": [
           "63214P"
+        ],
+        "imageIds": [
+          "dont_be_overprotective"
         ]
       },
       {
         "name": "Gamma Ray",
         "inputs": [
           "64641236H"
+        ],
+        "imageIds": [
+          "gamma_ray"
         ]
       }
     ],
@@ -229,6 +340,11 @@
         "name": "Emotional Gamma Ray",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "emotional_gamma_ray_1",
+          "emotional_gamma_ray_2",
+          "emotional_gamma_ray_3"
         ],
         "conditions": "during Instant Kill"
       }
