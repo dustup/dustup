@@ -48,6 +48,10 @@ export default [
     "image": require('./task_c.png')
   },
   {
+    "imageId": "theatre_of_pain_3",
+    "image": require('./theatre_of_pain_3.png')
+  },
+  {
     "imageId": "2H_diagram",
     "image": require('./2H_diagram.png')
   },
