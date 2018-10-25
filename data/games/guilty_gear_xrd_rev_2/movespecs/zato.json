@@ -1,101 +1,158 @@
 {
-  "name": "Zato-1",
+  "name": "Zato=1",
   "characterId": "zato",
   "movelists": [
     [
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
           "5H"
-        ]
-      },
-      {
-        "inputs": [
-          "6P"
-        ]
-      },
-      {
-        "inputs": [
-          "6H"
+        ],
+        "imageIds": [
+          "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
+          "6P"
+        ]
+      },
+      {
+        "inputs": [
+          "6K"
+        ],
+        "imageIds": [
+          "6K"
+        ]
+      },
+      {
+        "inputs": [
+          "6H"
+        ],
+        "imageIds": [
+          "6H"
+        ]
+      },
+      {
+        "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
-        ]
-      },
-      {
-        "inputs": [
-          "j.2K"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       }
     ],
@@ -106,6 +163,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -113,6 +173,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -126,6 +189,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "2H"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -134,6 +200,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "blitz_attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -144,12 +213,18 @@
         "inputs": [
           "22S",
           "22H"
+        ],
+        "imageIds": [
+          "invite_hell"
         ]
       },
       {
         "name": "Break the Law",
         "inputs": [
           "214[K]"
+        ],
+        "imageIds": [
+          "break_the_law"
         ]
       },
       {
@@ -159,18 +234,27 @@
           "236K",
           "236S",
           "236H"
+        ],
+        "imageIds": [
+          "summon_eddie"
         ]
       },
       {
         "name": "Shadow Puddle Shadow Summon",
         "inputs": [
           "214H"
+        ],
+        "imageIds": [
+          "shadow_puddle_shadow_summon"
         ]
       },
       {
         "name": "Small Attack",
         "inputs": [
           "]P["
+        ],
+        "imageIds": [
+          "small_attack"
         ],
         "conditions": "with shadow"
       },
@@ -179,12 +263,18 @@
         "inputs": [
           "]K["
         ],
+        "imageIds": [
+          "traversing_attack"
+        ],
         "conditions": "with shadow"
       },
       {
         "name": "Anti-Air Attack",
         "inputs": [
           "]S["
+        ],
+        "imageIds": [
+          "anti_air_attack"
         ],
         "conditions": "with shadow"
       },
@@ -193,12 +283,18 @@
         "inputs": [
           "]H["
         ],
+        "imageIds": [
+          "shadow_puddle"
+        ],
         "conditions": "with shadow"
       },
       {
         "name": "Drill Special",
         "inputs": [
           "]D["
+        ],
+        "imageIds": [
+          "drill_special"
         ],
         "conditions": "with shadow"
       },
@@ -207,30 +303,47 @@
         "inputs": [
           "214D"
         ],
+        "imageIds": [
+          "dead_mans_hand"
+        ],
         "conditions": "with shadow"
       },
       {
         "name": "Damned Fang",
         "inputs": [
           "623S"
+        ],
+        "imageIds": [
+          "damned_fang_1",
+          "damned_fang_2"
         ]
       },
       {
         "name": "Drunkard Shade",
         "inputs": [
           "214S"
+        ],
+        "imageIds": [
+          "drunkard_shade"
         ]
       },
       {
         "name": "Shadow Gallery",
         "inputs": [
           "j.41236S"
+        ],
+        "imageIds": [
+          "shadow_gallery_1",
+          "shadow_gallery_2"
         ]
       },
       {
         "name": "Flight",
         "inputs": [
           "88"
+        ],
+        "imageIds": [
+          "flight"
         ]
       }
     ],
@@ -240,18 +353,28 @@
         "inputs": [
           "632146H",
           "632146D"
+        ],
+        "imageIds": [
+          "amorphous"
         ]
       },
       {
         "name": "Executor",
         "inputs": [
           "j.236236S"
+        ],
+        "imageIds": [
+          "executor"
         ]
       },
       {
         "name": "Great White",
         "inputs": [
           "632146S"
+        ],
+        "imageIds": [
+          "great_white_1",
+          "great_white_2"
         ],
         "conditions": "with shadow"
       }
@@ -261,6 +384,11 @@
         "name": "Guatemala Magnifica",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "guatemala_magnifica_1",
+          "guatemala_magnifica_2",
+          "guatemala_magnifica_3"
         ],
         "conditions": "during Instant Kill"
       }
