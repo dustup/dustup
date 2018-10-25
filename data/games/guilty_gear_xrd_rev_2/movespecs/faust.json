@@ -6,116 +6,153 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
           "6P"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
-          "6K"
-        ]
-      },
-      {
-        "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "2P"
+        ],
+        "imageIds": [
+          "2P"
         ]
       },
       {
         "inputs": [
+          "2K"
+        ],
+        "imageIds": [
           "2K"
         ]
       },
       {
         "inputs": [
           "2S"
+        ],
+        "imageIds": [
+          "2S"
         ]
       },
       {
         "inputs": [
+          "2H"
+        ],
+        "imageIds": [
           "2H"
         ]
       },
       {
         "inputs": [
           "2D"
-        ]
-      },
-      {
-        "inputs": [
-          "3P"
+        ],
+        "imageIds": [
+          "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jK"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "jD"
         ]
       },
       {
         "inputs": [
-          "j.6P"
-        ]
-      },
-      {
-        "inputs": [
-          "j.6K"
-        ]
-      },
-      {
-        "inputs": [
-          "j.2S"
+          "j.2K"
+        ],
+        "imageIds": [
+          "j2K"
         ]
       }
     ],
@@ -126,6 +163,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -133,6 +173,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Air_Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -146,6 +189,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -155,6 +201,9 @@
           "K+H",
           "S+H"
         ],
+        "imageIds": [
+          "Blitz_Attack"
+        ],
         "conditions": "With 25% tension"
       }
     ],
@@ -163,6 +212,9 @@
         "name": "Rerere Thrust",
         "inputs": [
           "41236K"
+        ],
+        "imageIds": [
+          "Rerere_Thrust"
         ],
         "followUps": [
           {
@@ -176,6 +228,9 @@
                 "inputs": [
                   "236P"
                 ],
+                "imageIds": [
+                  "Hello"
+                ],
                 "followUps": [
                   {
                     "name": "Can't Hear You!",
@@ -187,6 +242,9 @@
                         "name": "Hello Again!",
                         "inputs": [
                           "236P"
+                        ],
+                        "imageIds": [
+                          "Hello_Again"
                         ]
                       }
                     ]
@@ -201,12 +259,18 @@
         "name": "Hack n' Slash",
         "inputs": [
           "214H"
+        ],
+        "imageIds": [
+          "Hack_n_Slash"
         ]
       },
       {
         "name": "Going My Way",
         "inputs": [
           "j.236H"
+        ],
+        "imageIds": [
+          "Going_My_Way"
         ]
       },
       {
@@ -215,12 +279,19 @@
           "214P",
           "214K",
           "214S"
+        ],
+        "imageIds": [
+          "From_The_1",
+          "From_The_2"
         ]
       },
       {
         "name": "Spear Point Centripetal Dance",
         "inputs": [
           "236S"
+        ],
+        "imageIds": [
+          "Spear_Point_Centripetal_Dance"
         ]
       },
       {
@@ -228,6 +299,9 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "66"
+        ],
+        "imageIds": [
+          "Pogo_Movement"
         ]
       },
       {
@@ -235,6 +309,9 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "44"
+        ],
+        "imageIds": [
+          "Pogo_Movement"
         ]
       },
       {
@@ -249,6 +326,9 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "8"
+        ],
+        "imageIds": [
+          "Doctor_Copter"
         ]
       },
       {
@@ -263,6 +343,9 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "P"
+        ],
+        "imageIds": [
+          "Pogo_Weird"
         ]
       },
       {
@@ -270,6 +353,9 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "[K]"
+        ],
+        "imageIds": [
+          "Pogo_Flowers"
         ]
       },
       {
@@ -277,6 +363,9 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "[S]"
+        ],
+        "imageIds": [
+          "Pogo_Flowers"
         ]
       },
       {
@@ -284,6 +373,9 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "H"
+        ],
+        "imageIds": [
+          "Going_My_Way"
         ]
       },
       {
@@ -291,18 +383,27 @@
         "conditions": "in Pogo stance",
         "inputs": [
           "D"
+        ],
+        "imageIds": [
+          "Pogo_Weird"
         ]
       },
       {
         "name": "Love",
         "inputs": [
           "j.236P"
+        ],
+        "imageIds": [
+          "Love"
         ]
       },
       {
         "name": "What Could This Be?",
         "inputs": [
           "236P"
+        ],
+        "imageIds": [
+          "What_Could_This_Be"
         ]
       }
     ],
@@ -312,6 +413,11 @@
         "inputs": [
           "236236S",
           "236236D"
+        ],
+        "imageIds": [
+          "Stimulating_Fists_1",
+          "Stimulating_Fists_2",
+          "Stimulating_Fists_3"
         ]
       },
       {
@@ -319,6 +425,9 @@
         "inputs": [
           "236236P",
           "236236236P"
+        ],
+        "imageIds": [
+          "W-W-What_Could_This_Be"
         ]
       }
     ],
@@ -327,6 +436,10 @@
         "name": "This is... Me?",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "This_Is_Me_1",
+          "This_Is_Me_2"
         ],
         "conditions": "during Instant Kill"
       }
