@@ -6,96 +6,153 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
           "6P"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
-          "6K"
+          "6S"
+        ],
+        "imageIds": [
+          "6S"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "2P"
+        ],
+        "imageIds": [
+          "2P"
         ]
       },
       {
         "inputs": [
+          "2K"
+        ],
+        "imageIds": [
           "2K"
         ]
       },
       {
         "inputs": [
           "2S"
+        ],
+        "imageIds": [
+          "2S"
         ]
       },
       {
         "inputs": [
+          "2H"
+        ],
+        "imageIds": [
           "2H"
         ]
       },
       {
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jK"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "jD"
         ]
       }
     ],
@@ -106,6 +163,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -113,6 +173,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Air_Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -126,6 +189,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -134,6 +200,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "Blitz_Attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -144,6 +213,9 @@
         "inputs": [
           "214P",
           "j.214P"
+        ],
+        "imageIds": [
+          "Antidepressant_Scale"
         ]
       },
       {
@@ -151,6 +223,9 @@
         "inputs": [
           "41236S",
           "41236H"
+        ],
+        "imageIds": [
+          "Stroke_the_Big_Tree"
         ]
       },
       {
@@ -160,6 +235,9 @@
           "j.236K",
           "j.236S",
           "j.236H"
+        ],
+        "imageIds": [
+          "Sultry_Performance"
         ]
       },
       {
@@ -167,11 +245,17 @@
         "inputs": [
           "214K"
         ],
+        "imageIds": [
+          "Horizontal_Chemical_Love"
+        ],
         "followUps": [
           {
             "name": "Chemical Love (Followup)",
             "inputs": [
               "214S"
+            ],
+            "imageIds": [
+              "Horizontal_Chemical_Love_followup"
             ]
           }
         ]
@@ -180,6 +264,9 @@
         "name": "Chemical Love (Vertical)",
         "inputs": [
           "214S"
+        ],
+        "imageIds": [
+          "Vertical_Chemical_Love"
         ]
       },
       {
@@ -187,6 +274,10 @@
         "inputs": [
           "214H",
           "j.214H"
+        ],
+        "imageIds": [
+          "Sterilization_Method_1",
+          "Sterilization_Method_2"
         ]
       }
     ],
@@ -195,12 +286,20 @@
         "name": "Longing Desperation",
         "inputs": [
           "632146H"
+        ],
+        "imageIds": [
+          "Longing_Desperation_1",
+          "Longing_Desperation_2"
         ]
       },
       {
         "name": "Ultimate Fortissimo",
         "inputs": [
           "j.2363214S"
+        ],
+        "imageIds": [
+          "Ultimate_Fortissimo_1",
+          "Ultimate_Fortissimo_2"
         ]
       }
     ],
@@ -209,6 +308,10 @@
         "name": "Megalomania",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "Megalomania_1",
+          "Megalomania_2"
         ],
         "conditions": "during Instant Kill"
       }
