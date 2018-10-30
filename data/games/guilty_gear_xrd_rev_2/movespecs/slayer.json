@@ -6,35 +6,64 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
           "5H"
+        ],
+        "imageIds": [
+          "5H"
+        ]
+      },
+      {
+        "inputs": [
+          "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
           "6P"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
+          "6K"
+        ],
+        "imageIds": [
           "6K"
         ]
       },
@@ -46,66 +75,97 @@
       {
         "inputs": [
           "6H"
+        ],
+        "imageIds": [
+          "6H"
         ]
       },
       {
         "inputs": [
-          "5D"
-        ]
-      },
-      {
-        "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       },
       {
         "inputs": [
           "j.2K"
+        ],
+        "imageIds": [
+          "j_2K"
         ]
       }
     ],
@@ -116,6 +176,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -123,6 +186,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -136,6 +202,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -144,6 +213,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "blitz_attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -154,12 +226,19 @@
         "inputs": [
           "236P",
           "236K"
+        ],
+        "imageIds": [
+          "mappa_punch"
         ]
       },
       {
         "name": "Bloodsucking Universe",
         "inputs": [
           "63214H"
+        ],
+        "imageIds": [
+          "bloodsucking_universe_1",
+          "bloodsucking_universe_2"
         ]
       },
       {
@@ -168,17 +247,26 @@
           "214P",
           "214K"
         ],
+        "imageIds": [
+          "dandy_step"
+        ],
         "followUps": [
           {
             "name": "Pilebunker",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "pilebunker"
             ]
           },
           {
             "name": "Crosswise Heel",
             "inputs": [
               "K"
+            ],
+            "imageIds": [
+              "crosswise_heel"
             ]
           },
           {
@@ -186,12 +274,18 @@
             "inputs": [
               "S"
             ],
+            "imageIds": [
+              "under_pressure"
+            ],
             "followUps": [
               {
                 "name": "It's Late",
                 "inputs": [
                   "S",
                   "H"
+                ],
+                "imageIds": [
+                  "its_late"
                 ]
               }
             ]
@@ -200,6 +294,9 @@
             "name": "Helter Skelter",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "helter_skelter"
             ]
           }
         ]
@@ -208,12 +305,18 @@
         "name": "Footloose Journey",
         "inputs": [
           "j.214K"
+        ],
+        "imageIds": [
+          "footloose_journey"
         ]
       },
       {
         "name": "Undertow",
         "inputs": [
           "632146P"
+        ],
+        "imageIds": [
+          "undertow"
         ]
       }
     ],
@@ -222,18 +325,27 @@
         "name": "Dead on Time",
         "inputs": [
           "632146S"
+        ],
+        "imageIds": [
+          "dead_on_time"
         ]
       },
       {
         "name": "Eternal Wings",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "eternal_wings"
         ]
       },
       {
         "name": "Up Close and Dandy",
         "inputs": [
           "j.214214S"
+        ],
+        "imageIds": [
+          "up_close_and_dandy"
         ]
       }
     ],
@@ -242,6 +354,10 @@
         "name": "All Dead",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "all_dead_1",
+          "all_dead_2"
         ],
         "conditions": "during Instant Kill"
       }
