@@ -6,50 +6,80 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "6P"
+        ],
+        "imageIds": [
+          "6P"
         ]
       },
       {
         "inputs": [
+          "6K"
+        ],
+        "imageIds": [
           "6K"
         ]
       },
       {
         "inputs": [
           "6H"
+        ],
+        "imageIds": [
+          "6H"
         ]
       },
       {
         "inputs": [
           "3H"
+        ],
+        "imageIds": [
+          "3H"
         ]
       },
       {
         "inputs": [
+          "5D"
+        ],
+        "imageIds": [
           "5D"
         ]
       },
@@ -58,6 +88,9 @@
         "inputs": [
           "4D",
           "j.4D"
+        ],
+        "imageIds": [
+          "Hunger_of_Dopoulos"
         ]
       },
       {
@@ -65,25 +98,41 @@
         "inputs": [
           "6D",
           "j.6D"
+        ],
+        "imageIds": [
+          "Elysion_Driver_1",
+          "Elysion_Driver_2"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
           "2S"
+        ],
+        "imageIds": [
+          "2S"
         ]
       },
       {
         "inputs": [
+          "2H"
+        ],
+        "imageIds": [
           "2H"
         ]
       },
@@ -91,38 +140,59 @@
         "name": "Zest",
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "Zest"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jK"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH"
         ]
       },
       {
         "name": "Remove the Chain of Chiron",
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "Remove_the_Chain_of_Chiron"
         ]
       },
       {
         "name": "Air Zest",
         "inputs": [
           "j.2D"
+        ],
+        "imageIds": [
+          "Air_Zest"
         ]
       }
     ],
@@ -133,6 +203,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -140,6 +213,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -153,6 +229,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -161,6 +240,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "Blitz_Attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -172,12 +254,18 @@
           "22P",
           "22K",
           "22S"
+        ],
+        "imageIds": [
+          "Ghost_Set"
         ]
       },
       {
         "name": "Ghost Pick Up",
         "inputs": [
           "2P"
+        ],
+        "imageIds": [
+          "Ghost_Pick_Up"
         ],
         "conditions": "near a Ghost"
       },
@@ -188,6 +276,9 @@
           "2K",
           "2S"
         ],
+        "imageIds": [
+          "Ghost_Place"
+        ],
         "conditions": "after Ghost Pick Up"
       },
       {
@@ -196,6 +287,9 @@
           "4P",
           "4K",
           "4S"
+        ],
+        "imageIds": [
+          "Ghost_Put_Away"
         ],
         "conditions": "after Ghost Pick Up"
       },
@@ -209,6 +303,9 @@
           "j.5K",
           "j.5S"
         ],
+        "imageIds": [
+          "Ghost_Throw"
+        ],
         "conditions": "after Ghost Pick Up"
       },
       {
@@ -216,29 +313,44 @@
         "inputs": [
           "22H"
         ],
+        "imageIds": [
+          "Organ_Deployment"
+        ],
         "followUps": [
           {
             "name": "Recover All",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Recover_All"
             ]
           },
           {
             "name": "Clock Up",
             "inputs": [
               "K"
+            ],
+            "imageIds": [
+              "Clock_Up"
             ]
           },
           {
             "name": "Explode",
             "inputs": [
               "S"
+            ],
+            "imageIds": [
+              "Explode"
             ]
           },
           {
             "name": "Aegis Field",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "Aegis_Field"
             ]
           },
           {
@@ -256,6 +368,10 @@
         "inputs": [
           "214S",
           "j.214S"
+        ],
+        "imageIds": [
+          "Calvados_1",
+          "Calvados_2"
         ]
       },
       {
@@ -263,6 +379,10 @@
         "inputs": [
           "360P",
           "j.360P"
+        ],
+        "imageIds": [
+          "Forever_Elysion_Driver_1",
+          "Forever_Elysion_Driver_2"
         ]
       }
     ],
@@ -271,6 +391,11 @@
         "name": "I Want Out",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "5H",
+          "I_Want_Out_2",
+          "I_Want_Out_3"
         ],
         "conditions": "during Instant Kill"
       }
