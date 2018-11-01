@@ -6,101 +6,161 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "4P"
+        ],
+        "imageIds": [
+          "4P"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "j.2K"
+        ],
+        "imageIds": [
+          "j_2K"
         ]
       }
     ],
@@ -111,6 +171,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -118,6 +181,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -131,6 +197,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "6P"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -140,6 +209,9 @@
           "K+H",
           "S+H"
         ],
+        "imageIds": [
+          "blitz_attack"
+        ],
         "conditions": "With 25% tension"
       }
     ],
@@ -148,12 +220,18 @@
         "name": "Glide",
         "inputs": [
           "j.66"
+        ],
+        "imageIds": [
+          "glide"
         ]
       },
       {
         "name": "Schmerz Berg",
         "inputs": [
           "236P"
+        ],
+        "imageIds": [
+          "schmerz_berg"
         ]
       },
       {
@@ -161,6 +239,9 @@
         "inputs": [
           "j.236P",
           "j.236K"
+        ],
+        "imageIds": [
+          "gebrechlich_licht"
         ]
       },
       {
@@ -168,6 +249,9 @@
         "inputs": [
           "236S",
           "j.236S"
+        ],
+        "imageIds": [
+          "grausam_impuls"
         ]
       },
       {
@@ -175,12 +259,19 @@
         "inputs": [
           "236H",
           "j.236H"
+        ],
+        "imageIds": [
+          "scharf_kugel"
         ]
       },
       {
         "name": "Give it to me HERE",
         "inputs": [
           "214[K]"
+        ],
+        "imageIds": [
+          "give_it_to_me_here_1",
+          "give_it_to_me_here_2"
         ]
       },
       {
@@ -188,6 +279,10 @@
         "inputs": [
           "63214S",
           "63214H"
+        ],
+        "imageIds": [
+          "wachen_zweig_1",
+          "wachen_zweig_2"
         ]
       }
     ],
@@ -197,6 +292,10 @@
         "inputs": [
           "214214H",
           "214214D"
+        ],
+        "imageIds": [
+          "getreuer_1",
+          "getreuer_2"
         ]
       },
       {
@@ -204,6 +303,10 @@
         "inputs": [
           "632146S",
           "j.632146S"
+        ],
+        "imageIds": [
+          "verzweifelt_1",
+          "verzweifelt_2"
         ]
       }
     ],
@@ -212,6 +315,11 @@
         "name": "Sehnsucht",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "sehnsucht_1",
+          "sehnsucht_2",
+          "sehnsucht_3"
         ],
         "conditions": "during Instant Kill"
       }
