@@ -7,96 +7,153 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6K"
+        ],
+        "imageIds": [
+          "6K"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "2P"
+        ],
+        "imageIds": [
+          "2P"
         ]
       },
       {
         "inputs": [
+          "2K"
+        ],
+        "imageIds": [
           "2K"
         ]
       },
       {
         "inputs": [
           "2S"
+        ],
+        "imageIds": [
+          "2S"
         ]
       },
       {
         "inputs": [
+          "2H"
+        ],
+        "imageIds": [
           "2H"
         ]
       },
       {
         "inputs": [
           "2D"
+        ],
+        "imageIds": [
+          "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jK"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "jD"
         ]
       }
     ],
@@ -107,6 +164,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -114,6 +174,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Air_Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -127,6 +190,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "fS"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -135,6 +201,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "Blitz_Attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -145,23 +214,35 @@
         "inputs": [
           "46"
         ],
+        "imageIds": [
+          "Hochifu"
+        ],
         "followUps": [
           {
             "name": "Zekkei",
             "inputs": [
               "P"
             ],
+            "imageIds": [
+              "Zekkei"
+            ],
             "followUps": [
               {
                 "name": "Goushao",
                 "inputs": [
                   "P"
+                ],
+                "imageIds": [
+                  "Goushao"
                 ]
               },
               {
                 "name": "Dowanga",
                 "inputs": [
                   "K"
+                ],
+                "imageIds": [
+                  "Dowanga"
                 ]
               }
             ]
@@ -172,6 +253,9 @@
         "name": "Youeikyaku",
         "inputs": [
           "j.2K"
+        ],
+        "imageIds": [
+          "Youeikyaku"
         ]
       },
       {
@@ -179,29 +263,44 @@
         "inputs": [
           "236S"
         ],
+        "imageIds": [
+          "Bakushuu"
+        ],
         "followUps": [
           {
             "name": "Mawarikomi",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Mawarikomi"
             ]
           },
           {
-            "name": "Ashibarai",
+            "name": "Hamonkyaku",
             "inputs": [
               "K"
+            ],
+            "imageIds": [
+              "Hamonkyaku"
             ]
           },
           {
             "name": "Hyappo Shinshou",
             "inputs": [
               "S"
+            ],
+            "imageIds": [
+              "Hyappo_Shinshou"
             ]
           },
           {
             "name": "Senri Shinshou",
             "inputs": [
               "H"
+            ],
+            "imageIds": [
+              "Senri_Shinshou"
             ]
           }
         ]
@@ -212,42 +311,64 @@
           "22K",
           "22S",
           "22H"
+        ],
+        "imageIds": [
+          "Asanagi_no_Kokyuu_1",
+          "Asanagi_no_Kokyuu_2"
         ]
       },
       {
         "name": "Ryuujin",
         "inputs": [
           "263K"
+        ],
+        "imageIds": [
+          "Ryuujin"
         ]
       },
       {
         "name": "Gekirin",
         "inputs": [
           "214K"
+        ],
+        "imageIds": [
+          "Gekirin"
         ]
       },
       {
         "name": "Kenroukaku",
         "inputs": [
           "623K"
+        ],
+        "imageIds": [
+          "Kenroukaku"
         ]
       },
       {
         "name": "Air Ryuujin",
         "inputs": [
           "j.236K"
+        ],
+        "imageIds": [
+          "Ryuujin"
         ]
       },
       {
         "name": "Air Gekirin",
         "inputs": [
           "j.214K"
+        ],
+        "imageIds": [
+          "Gekirin"
         ]
       },
       {
         "name": "Air Kenroukaku",
         "inputs": [
           "j.623K"
+        ],
+        "imageIds": [
+          "Kenroukaku"
         ]
       }
     ],
@@ -257,6 +378,10 @@
         "inputs": [
           "632146S",
           "632146D"
+        ],
+        "imageIds": [
+          "Phoenix_1",
+          "Phoenix_2"
         ]
       },
       {
@@ -264,11 +389,17 @@
         "inputs": [
           "236236H"
         ],
+        "imageIds": [
+          "Dragon_1"
+        ],
         "followUps": [
           {
             "name": "Kaorinkuen",
             "inputs": [
               "P"
+            ],
+            "imageIds": [
+              "Dragon_2"
             ]
           }
         ]
@@ -277,6 +408,9 @@
         "name": "Renhoukyaku",
         "inputs": [
           "632146H"
+        ],
+        "imageIds": [
+          "Renhoukyaku"
         ]
       }
     ],
@@ -285,6 +419,11 @@
         "name": "Gasenkotsu",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "Goushao",
+          "Gasenkotsu_2",
+          "Gasenkotsu_3"
         ],
         "conditions": "during Instant Kill"
       }
