@@ -7,101 +7,161 @@
       {
         "inputs": [
           "5P"
+        ],
+        "imageIds": [
+          "5P"
         ]
       },
       {
         "inputs": [
+          "5K"
+        ],
+        "imageIds": [
           "5K"
         ]
       },
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "c_S"
         ]
       },
       {
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "f_S"
         ]
       },
       {
         "inputs": [
+          "5H"
+        ],
+        "imageIds": [
           "5H"
         ]
       },
       {
         "inputs": [
           "5D"
+        ],
+        "imageIds": [
+          "5D"
         ]
       },
       {
         "inputs": [
+          "2P"
+        ],
+        "imageIds": [
           "2P"
         ]
       },
       {
         "inputs": [
           "2K"
+        ],
+        "imageIds": [
+          "2K"
         ]
       },
       {
         "inputs": [
+          "2S"
+        ],
+        "imageIds": [
           "2S"
         ]
       },
       {
         "inputs": [
           "2H"
+        ],
+        "imageIds": [
+          "2H"
         ]
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "j_P"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "j_K"
         ]
       },
       {
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "j_S"
         ]
       },
       {
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "j_H"
         ]
       },
       {
         "inputs": [
           "j.D"
+        ],
+        "imageIds": [
+          "j_D"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6K"
+        ],
+        "imageIds": [
+          "6K"
         ]
       },
       {
         "inputs": [
+          "6H"
+        ],
+        "imageIds": [
           "6H"
         ]
       },
       {
         "inputs": [
           "j.2K"
+        ],
+        "imageIds": [
+          "j_2K"
         ]
       }
     ],
@@ -112,6 +172,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "ground_throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -119,6 +182,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "air_throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -132,6 +198,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "5K"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -140,6 +209,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "blitz_attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -150,6 +222,9 @@
         "inputs": [
           "236S",
           "236H"
+        ],
+        "imageIds": [
+          "tuning_ball"
         ]
       },
       {
@@ -157,6 +232,10 @@
         "inputs": [
           "623K",
           "623[K]"
+        ],
+        "imageIds": [
+          "four_tigers_sword_1",
+          "four_tigers_sword_2"
         ]
       },
       {
@@ -165,6 +244,9 @@
           "623[K]~1",
           "623[K]~4",
           "623[K]~7"
+        ],
+        "imageIds": [
+          "four_tigers_sword_reverse"
         ]
       },
       {
@@ -172,6 +254,9 @@
         "inputs": [
           "214K",
           "214[K]"
+        ],
+        "imageIds": [
+          "falcon_dive"
         ]
       },
       {
@@ -180,12 +265,18 @@
           "214[K]~1",
           "214[K]~4",
           "214[K]~7"
+        ],
+        "imageIds": [
+          "falcon_dive_reverse"
         ]
       },
       {
         "name": "Air Falcon Dive",
         "inputs": [
           "j.214K"
+        ],
+        "imageIds": [
+          "air_falcon_dive"
         ]
       }
     ],
@@ -195,12 +286,18 @@
         "inputs": [
           "236236H",
           "236236D"
+        ],
+        "imageIds": [
+          "enlightened_3000_palm_strike"
         ]
       },
       {
         "name": "Celestial Tuning Ball",
         "inputs": [
           "236236S"
+        ],
+        "imageIds": [
+          "celestial_tuning_ball"
         ]
       }
     ],
@@ -209,6 +306,12 @@
         "name": "Sundering Chord",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "sundering_chord_1",
+          "sundering_chord_2",
+          "sundering_chord_3",
+          "sundering_chord_4"
         ],
         "conditions": "during Instant Kill"
       }
