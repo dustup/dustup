@@ -9,30 +9,54 @@
         "inputs": [
           "5P"
         ],
+        "imageIds": [
+          "5P"
+        ],
         "followUps": [
           {
-            "name": "5P",
+            "name": "5PP",
             "inputs": [
-              "5P"
+              "P"
+            ],
+            "imageIds": [
+              "5PP"
             ],
             "followUps": [
               {
-                "name": "5P",
+                "name": "5PPP",
                 "inputs": [
-                  "5P"
+                  "P"
+                ],
+                "imageIds": [
+                  "5PPP"
+                ]
+              },
+              {
+                "name": "5PPK",
+                "inputs": [
+                  "K"
+                ],
+                "imageIds": [
+                  "5PPK"
                 ]
               }
             ]
           },
           {
-            "name": "5K",
+            "name": "5PK",
             "inputs": [
-              "5K"
+              "K"
+            ],
+            "imageIds": [
+              "5PK"
             ],
             "followUps": [
               {
                 "name": "4K",
                 "inputs": [
+                  "4K"
+                ],
+                "imageIds": [
                   "4K"
                 ]
               }
@@ -45,22 +69,34 @@
         "inputs": [
           "5K"
         ],
+        "imageIds": [
+          "5K"
+        ],
         "followUps": [
           {
-            "name": "5K",
+            "name": "5KK",
             "inputs": [
-              "5K"
+              "K"
+            ],
+            "imageIds": [
+              "5PK"
             ],
             "followUps": [
               {
-                "name": "5K",
+                "name": "5KKK",
                 "inputs": [
-                  "5K"
+                  "K"
+                ],
+                "imageIds": [
+                  "5KKK"
                 ]
               },
               {
                 "name": "4K",
                 "inputs": [
+                  "4K"
+                ],
+                "imageIds": [
                   "4K"
                 ]
               }
@@ -70,24 +106,36 @@
             "name": "4K",
             "inputs": [
               "4K"
+            ],
+            "imageIds": [
+              "4K"
             ]
           },
           {
-            "name": "5P",
+            "name": "5KP",
             "inputs": [
-              "5P"
+              "P"
+            ],
+            "imageIds": [
+              "5PP"
             ],
             "followUps": [
               {
-                "name": "5P",
+                "name": "5KPP",
                 "inputs": [
-                  "5P"
+                  "P"
+                ],
+                "imageIds": [
+                  "5KPP"
                 ]
               },
               {
-                "name": "5K",
+                "name": "5KPK",
                 "inputs": [
-                  "5K"
+                  "K"
+                ],
+                "imageIds": [
+                  "2PPK"
                 ]
               }
             ]
@@ -97,12 +145,18 @@
       {
         "inputs": [
           "c.S"
+        ],
+        "imageIds": [
+          "cS"
         ]
       },
       {
         "name": "f.S",
         "inputs": [
           "f.S"
+        ],
+        "imageIds": [
+          "fS_no_sword"
         ],
         "conditions": "without S sword"
       },
@@ -111,12 +165,18 @@
         "inputs": [
           "f.S"
         ],
+        "imageIds": [
+          "fS_with_sword"
+        ],
         "conditions": "with S sword"
       },
       {
         "name": "5H",
         "inputs": [
           "5H"
+        ],
+        "imageIds": [
+          "5H_no_sword"
         ],
         "conditions": "without H sword"
       },
@@ -125,10 +185,16 @@
         "inputs": [
           "5H"
         ],
+        "imageIds": [
+          "5H_with_sword"
+        ],
         "conditions": "with H sword"
       },
       {
         "inputs": [
+          "5D"
+        ],
+        "imageIds": [
           "5D"
         ]
       },
@@ -137,17 +203,26 @@
         "inputs": [
           "2P"
         ],
+        "imageIds": [
+          "2P"
+        ],
         "followUps": [
           {
-            "name": "2P",
+            "name": "2PP",
             "inputs": [
-              "2P"
+              "P"
+            ],
+            "imageIds": [
+              "2PP"
             ],
             "followUps": [
               {
-                "name": "2K",
+                "name": "2PPK",
                 "inputs": [
-                  "2K"
+                  "K"
+                ],
+                "imageIds": [
+                  "2PPK"
                 ]
               }
             ]
@@ -156,6 +231,9 @@
             "name": "2K",
             "inputs": [
               "2K"
+            ],
+            "imageIds": [
+              "2PK"
             ]
           }
         ]
@@ -165,29 +243,44 @@
         "inputs": [
           "2K"
         ],
+        "imageIds": [
+          "2K"
+        ],
         "followUps": [
           {
-            "name": "2K",
+            "name": "2KK",
             "inputs": [
-              "2K"
+              "K"
+            ],
+            "imageIds": [
+              "2KK"
             ]
           },
           {
-            "name": "2P",
+            "name": "2KP",
             "inputs": [
-              "2P"
+              "P"
+            ],
+            "imageIds": [
+              "2PP"
             ],
             "followUps": [
               {
-                "name": "2P",
+                "name": "2KPP",
                 "inputs": [
-                  "2P"
+                  "P"
+                ],
+                "imageIds": [
+                  "5KPP"
                 ]
               },
               {
-                "name": "2K",
+                "name": "2KPK",
                 "inputs": [
-                  "2K"
+                  "K"
+                ],
+                "imageIds": [
+                  "2PPK"
                 ]
               }
             ]
@@ -199,6 +292,9 @@
         "inputs": [
           "2S"
         ],
+        "imageIds": [
+          "2S_with_sword"
+        ],
         "conditions": "with S sword"
       },
       {
@@ -206,42 +302,66 @@
         "inputs": [
           "2H"
         ],
+        "imageIds": [
+          "2H_with_sword"
+        ],
         "conditions": "with H sword"
       },
       {
         "inputs": [
+          "2D"
+        ],
+        "imageIds": [
           "2D"
         ]
       },
       {
         "inputs": [
           "3K"
+        ],
+        "imageIds": [
+          "3K"
         ]
       },
       {
         "inputs": [
+          "6P"
+        ],
+        "imageIds": [
           "6P"
         ]
       },
       {
         "inputs": [
           "6K"
+        ],
+        "imageIds": [
+          "6K"
         ]
       },
       {
         "inputs": [
           "j.P"
+        ],
+        "imageIds": [
+          "jP"
         ]
       },
       {
         "inputs": [
           "j.K"
+        ],
+        "imageIds": [
+          "jK"
         ]
       },
       {
         "name": "j.S",
         "inputs": [
           "j.S"
+        ],
+        "imageIds": [
+          "jS_no_sword"
         ],
         "conditions": "without S sword"
       },
@@ -250,12 +370,18 @@
         "inputs": [
           "j.S"
         ],
+        "imageIds": [
+          "jS_with_sword"
+        ],
         "conditions": "with S sword"
       },
       {
         "name": "j.H",
         "inputs": [
           "j.H"
+        ],
+        "imageIds": [
+          "jH_no_sword"
         ],
         "conditions": "without H sword"
       },
@@ -264,11 +390,21 @@
         "inputs": [
           "j.H"
         ],
+        "imageIds": [
+          "jH_with_sword"
+        ],
         "conditions": "with H sword"
       },
       {
         "inputs": [
-          "j.D"
+          "j.D",
+          "j.8D",
+          "j.2D"
+        ],
+        "imageIds": [
+          "jD",
+          "j8D",
+          "j2D"
         ]
       }
     ],
@@ -279,6 +415,9 @@
           "4H",
           "6H"
         ],
+        "imageIds": [
+          "Throw"
+        ],
         "conditions": "While next to the opponent"
       },
       {
@@ -286,6 +425,9 @@
         "inputs": [
           "j.4H",
           "j.6H"
+        ],
+        "imageIds": [
+          "Air_Throw"
         ],
         "conditions": "While next to the opponent"
       },
@@ -299,6 +441,9 @@
           "6K+H",
           "6S+H"
         ],
+        "imageIds": [
+          "5PP"
+        ],
         "conditions": "While in blockstun with 50% tension"
       },
       {
@@ -307,6 +452,9 @@
           "P+H",
           "K+H",
           "S+H"
+        ],
+        "imageIds": [
+          "Blitz_Attack"
         ],
         "conditions": "With 25% tension"
       }
@@ -323,6 +471,12 @@
           "j.2S",
           "2H",
           "j.2H"
+        ],
+        "imageIds": [
+          "6S",
+          "2S",
+          "6H",
+          "2H"
         ]
       },
       {
@@ -330,18 +484,28 @@
         "inputs": [
           "4S",
           "4H"
+        ],
+        "imageIds": [
+          "Retrieve_Giant_Sword"
         ]
       },
       {
         "name": "Daruo",
         "inputs": [
           "623P"
+        ],
+        "imageIds": [
+          "Daruo",
+          "Daruo_enhanced"
         ]
       },
       {
-        "name": "Flama Kargo",
+        "name": "Flama Cargo",
         "inputs": [
           "236K"
+        ],
+        "imageIds": [
+          "Flama_Cargo"
         ]
       },
       {
@@ -349,12 +513,18 @@
         "inputs": [
           "214K",
           "j.214K"
+        ],
+        "imageIds": [
+          "Silda_Detruo"
         ]
       },
       {
         "name": "Cassius",
         "inputs": [
           "214P"
+        ],
+        "imageIds": [
+          "Cassius"
         ]
       },
       {
@@ -362,12 +532,18 @@
         "inputs": [
           "214S",
           "j.214S"
+        ],
+        "imageIds": [
+          "Marteli"
         ]
       },
       {
         "name": "Forpeli",
         "inputs": [
           "214H"
+        ],
+        "imageIds": [
+          "Forpeli"
         ]
       }
     ],
@@ -377,6 +553,9 @@
         "inputs": [
           "632146H"
         ],
+        "imageIds": [
+          "Calvados"
+        ],
         "conditions": "with both swords equipped"
       },
       {
@@ -384,12 +563,19 @@
         "inputs": [
           "632146H"
         ],
+        "imageIds": [
+          "Trance"
+        ],
         "conditions": "with both swords deployed"
       },
       {
         "name": "Explode",
         "inputs": [
           "2363214K"
+        ],
+        "imageIds": [
+          "Explode_1",
+          "Explode_2"
         ]
       }
     ],
@@ -398,6 +584,11 @@
         "name": "Animo Estingi",
         "inputs": [
           "236236H"
+        ],
+        "imageIds": [
+          "Daruo",
+          "Animo_Estingi_2",
+          "Animo_Estingi_3"
         ],
         "conditions": "during Instant Kill"
       }
